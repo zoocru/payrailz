@@ -1,0 +1,18 @@
+<?php
+
+	require_once 'authorize.php';
+	require('../db.php');
+	
+	if(isset($_GET['id'])) {
+		
+		$id = $_GET['id'];
+		
+		$sql = "DELETE FROM news WHERE id='$id'";
+		$query = mysqli_query( $con, $sql );
+		
+		header("location: news.php");
+		
+	}
+	
+	mysqli_close($con);
+?>
