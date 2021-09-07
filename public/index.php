@@ -147,6 +147,7 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
 
             <!-- Carousel items -->
@@ -160,20 +161,23 @@
                   <!-- <img class="d-block w-100" src="images/c/download-1.svg" alt="First slide"> -->
                 </div>
                 <div class="carousel-item">
+                  <img src="images/team/Gereen-Langmeyer-II-e1571954839543.jpg" alt="">
+                  <img src="images/team/Horng-Tern-2.jpg" alt="">
                   <img src="images/team/Jim-Kern-web.jpg" alt="">
                   <img src="images/team/Katie-Headshot-iii-e1619541707871.jpg" alt="">
-                  <img src="images/team/Kavita-Singh-II-e1594149412865.jpg" alt="">
-                  <img src="images/team/Lena-Mitchell-2.jpg" alt="">
                   <!-- <img class="d-block w-100" src="images/c/download-2.svg" alt="Second slide"> -->
                 </div>
                 <div class="carousel-item">
+                  <img src="images/team/Kavita-Singh-II-e1594149412865.jpg" alt="">
+                  <img src="images/team/Lena-Mitchell-2.jpg" alt="">
                   <img src="images/team/mickeygoldwasser.jpg" alt="">
                   <img src="images/team/PaulFrankoII.jpg" alt="">
-                  <img src="images/team/RichPelikan.jpg" alt="">
-                  <img src="images/team/Song-Nunnallee-2.jpg" alt="">
+                  
                   <!-- <img class="d-block w-100" src="images/c/download.svg" alt="Third slide"> -->
                 </div>
                 <div class="carousel-item">
+                  <img src="images/team/RichPelikan.jpg" alt="">
+                  <img src="images/team/Song-Nunnallee-2.jpg" alt="">
                   <img src="images/team/TedChaney.jpg" alt="">
                   <!-- <img class="d-block w-100" src="images/c/download.svg" alt="Third slide"> -->
                 </div>
