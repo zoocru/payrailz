@@ -1,72 +1,85 @@
-<footer id="footer">
-        <div class="container">
-          <div class="row">
+<div id="footerTopBorder">
+        <div id="footerBorder"></div>
+      </div>
+      <footer id="footer">
+        <div id="footerContent" class="container">
+          <div class="row mb-5">
             <div class="col-md-3">
-                <a href="index.php">
-                    <img src="http://www.crystalengineering.com/images/logo-footer.svg" id="footerLogo" alt="Logo">
-                </a>
-                <div id="footerAddress">
-                  <p>2 Stanley Tucker Drive<br>
-                    Newburyport, MA 01950
-                  </p>
-                  <p>Ph: (978) 465-7007<br>
-                    Fax: (978) 465-9977
-                    <a href="mailto:info@crystalengineering.com">info@CrystalEngineering.com</a> 
-                  </p>
-                  <p id="socialIcons">
-                    Follow Us <br>
-                    <a href="https://www.facebook.com/289546064487150" target="_blank">
-                        <img src="images/facebook.svg" class="socialIcon" alt="facebook">
-                    </a>
-                    <a href="http://www.Twitter.com/CECNewburyport" target="_blank">
-                        <img src="images/twitter.svg" class="socialIcon" alt="facebook">
-                    </a>
-                    <a href="http://www.Instagram.com/CrystalEngineering" target="_blank">
-                        <img src="images/instagram.svg" class="socialIcon" alt="facebook">
-                    </a>
-                    <a href="https://www.linkedin.com/company/crystal-engineering-co" target="_blank">
-                        <img src="images/linked-in.svg" class="socialIcon" alt="facebook">
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCWqun4Yf5oZsLdgGLLKRTNw" target="_blank">
-                        <img src="images/youTube.svg" class="socialIcon" alt="YouTube">
-                    </a>
-                  </p>
-                </div>
-                <hr class="d-block d-md-none">
-            </div>
-            <div class="col-7 col-md-3 offset-md-1">
-              <ul class="list-unstyled">
-                <li><a href="engineering-services.php">Engineering Services</a></li>
-                <li><a href="precision-stamping.php">Precision Stamping</a></li>
-                <li><a href="cnc-machining.php">CNC Machining</a></li>
-                <li><a href="world-washer-stamping.php">World Washer & Stamping</a></li>
-                <li><a href="robotic-integration.php">Robotic Integration</a></li>
-                <li><a href="case-studies.php">Case Studies</a></li>
-              </ul>
-            </div>
-            <div class="col-5 col-md-2">
-              <ul class="list-unstyled">
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="testimonials.php">Testimonials</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="news.php">News</a></li>
-                <li><a href="careers.php">Careers</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
-              </ul>
-            </div>
-            <div class="col-md-3">
-              <hr class="d-block d-md-none mt-0">
-              <a href="http://www.crystalengineering.com/pdfs/3859_CrystalEngineering_AS9100_ISO9001_2020-2023.pdf" target="blank">
-                  <img src="http://www.crystalengineering.com/images/anab-logo.jpg" id="anabLogo" class="img-fluid" alt="ANAB Logo">
+              <a href="index.php">
+                  <img src="images/logo.svg"" id="footerLogo" alt="Payrailz">
               </a>
-              <!-- <br class="d-none d-lg-block d-xl-none"> -->
-              <a class="ml-xl-4" href="http://www.crystalengineering.com/pdfs/1830172-Crystal-Engineering-IATF-Certificate.pdf" target="blank">
-                <img src="http://www.crystalengineering.com/images/iatf-thumbnail.jpg" id="iatf" class="img-fluid" alt="IATF Certificate">
-              </a>
-              <br class="d-block d-md-none">
-              <img src="http://www.crystalengineering.com/images/ITAR-Certified-Logo.png" id="itarLogo" alt="ITAR Logo">
             </div>
           </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div id="footerAddress">
+                <p class="green">860.430.5200 <br>
+                  <a href="mailto:info@payrailz.com">info@payrailz.com</a> 
+                </p>
+                <p id="socialIcons">
+                  Follow Us <br>
+                  <a href="#" target="_blank">
+                      <img src="images/instagram.svg" class="socialIcon" alt="instagram">
+                  </a>
+                  <a href="#" target="_blank">
+                      <img src="images/twitter.svg" class="socialIcon" alt="twitter">
+                  </a>
+                  <a href="#" target="_blank">
+                      <img src="images/facebook.svg" class="socialIcon" alt="facebook">
+                  </a>
+                  <a href="#" target="_blank">
+                      <img src="images/youTube.svg" class="socialIcon" alt="YouTube">
+                  </a>
+                </p>
+              </div>
+              <hr class="d-block d-md-none">
+            </div>
+            <div class="col-md-8 offset-md-1 footerNav">
+              <div class="row">
+                <div class="col-md-4">
+                  <ul class="list-unstyled">
+                    <li><a href="payrailz_advantage.php">Payrailz Advantage</a></li>
+                    <li><a href="products.php">Products</a></li>
+                    <li><a href="smart_routing_hub.php">Paywayz Smart Routing Hub</a></li>
+                    <li><a href="action_insights.php">Action Insights</a></li>
+                    <li><a href="advanced-user-experience.php">Advanced User Experience</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="list-unstyled">
+                    <li><a href="about_us.php">About Us</a></li>
+                    <li><a href="team.php">Our Team</a></li>
+                    <li><a href="board_investors.php">Board & Investors</a></li>
+                    <li><a href="partners.php">Partners</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="list-unstyled">
+                    <li><a href="/news">News & Events</a></li>
+                    <li><a href="curailz.php">Curailz</a></li>
+                    <li><a href="faqs.php">FAQs</a></li>
+                    <li><a href="testimonials.php">Testimonials</a></li>
+                    <!-- <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="contact.php">Customer Support</a></li>
+                    <li><a href="careers.php">Careers</a></li> -->
+                  </ul>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-12">
+                  <p>Receive Updates, News & Information</p>
+                  <!-- Form will go here for email -->
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div id="footerLines">
+          <img src="images/footer-lines.png" alt="">
         </div>
     </footer>
 
@@ -74,7 +87,7 @@
       <div class="container">
         <div class="row">
         <div class="col-md-11">
-          <p>© <?php echo date("Y"); ?> Crystal Engineering. All Rights Reserved. Powered by&nbsp;ZooCru.</p>
+          <p>© <?php echo date("Y"); ?> &nbsp;Payrailz. All Rights Reserved. <a href="privacy.php">Privacy Policy</a> | <a href="Terms & Conditions">Terms & Conditions</a></p>
         </div>
       </div>
       </div>

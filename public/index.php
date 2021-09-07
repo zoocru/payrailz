@@ -5,192 +5,213 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="Metal Fabricator Newburyport, MA 01950. Robotic Integrator, Precision Stamping, System Integration, CNC Machining, Engineering Services, Manufacturing.">
+      <meta name="description" content="">
 
-      <title>Crystal Engineering</title>
+      <title>Payrailz</title>
 
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- For Gallery -->
-      <link rel="stylesheet" href="css/lightboxgallery.css">
-      <link rel="stylesheet" href="css/gallery-style.css">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173134071-1"></script>
-      <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-173134071-1');
-      </script>
+      <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>
 
   <body>
-    <!--Back to Top-->
-    <div id="backToTop"> 
-        <a href="#"><img src="images/back-to-top.svg" alt="back to top"></a> 
-    </div>
     
     <?php include("inc/header.php"); ?>
 
-    <div id="scrollDown">
-        <img src="images/go-down-arrow.svg" class="arrow"/> 
-    </div>
-
     <!-- The Hero -->
     <div id="heroWrapper">
-        <section id="hero">
-            <div class="wrapper">
-              <div class="container-fluid">
-                <div class="row">
-                  <!-- Main Copy -->
-                  <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-4">
-                    <h1>We Provide <br>Precision-Engineered Solutions</h1>
-                    <p>We are a group of passionate and experienced people seeking to transform the world of&nbsp;manufacturing.</p>
-                    <a id="button1" href="about.php">
-                        <button type="button" class="btn">Learn More</button>  
-                    </a>
-                  </div>
-                  <!-- Marketing Video -->
-                  <div class="col-xs-12 col-md-6 col-lg-6">
-                      <video id="hpVideo" controls width="100%" controlslist="nodownload" poster="videos/brand.jpg">
-                          <source src="videos/brand.mp4" type="video/mp4">
-                          Sorry, your browser doesn't support embedded videos.
-                      </video>
-                      <h6 id="videoTranscript">Video transcript</h5>
-                  </div>
-
+        <section id="hero" class="d-flex align-items-center">
+            <div class="container-fluid">
+              <div class="row">
+                <!-- Main Copy -->
+                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+                  <h1>Tomorrow’s payment  <br>innovations, today</h1>
+                  <h2>Payrailz is the only digital payments platform you’ll ever&nbsp;need.</h2>
+                  <p>Our all-in-one digital payments solution seamlessly navigates across existing payment platforms and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
+                  <p>In a society focused on “Do It For Me®”, smart makes the&nbsp;difference.</p>
+                  <a id="button1" href="about.php">
+                      <button type="button" class="btn">Learn More</button>  
+                  </a>
+                </div>
+                <!-- Marketing Video -->
+                <!-- <video id="hpVideo" controls width="100%" controlslist="nodownload" poster="videos/brand.jpg">
+                    <source src="videos/brand.mp4" type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+                </video> -->
+                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
+                    
                 </div>
               </div>
             </div>
         </section>
-    </div>
-    
-    <div id="transcriptOverlay">
-      <div id="transcript">
-        <button id="transcriptClose" type="button" class="btn">X</button>  
-         
-        <h3>Video Transcript</h3>
-        <p>It really comes down to one thing... One core value that informs our decision-making, and our customer’s success. Strengthening our community through world class manufacturing jobs. Not only because it’s a sustainable business strategy... But because it’s the right thing&nbsp;to&nbsp;do.</p>
-        
-        <p>It’s long time toolmakers passing their knowledge young apprentices. It’s using the industry’s best machines to get the job done. It’s taking an engineered approach to your needs - whether we are reshoring your current process, or taking you from prototype to mass&nbsp;production.</p>
-
-        <p>It’s about building a team of passionate people that will be your partner, not just your&nbsp;supplier.</p>
-
-        <p>Let our engineers be your&nbsp;engineers.</p>
-      </div>
+        <section id="heroLines">
+          <img src="images/hero-gray-lines.png" alt="">
+        </section>
+        <section id="hero2"></section>
     </div>
     
     <main>
-      <section id="services">
+      <section id="payRailzAdvantage">
         <div class="container">
           <div class="row">
-            <div class="col-8 offset-2">
-              <h2>From Prototype to Mass&nbsp;Production</h2>
-              <p>Our team of tooling engineers and die makers will work with you to design and manufacture a product that will meet or exceed your quality and pricing&nbsp;requirements.</p>
+            <div id="payRailzAdvantageContent" class="col-6 col-md-6 offset-md-1 d-flex justify-content-end flex-column align-items-end text-right">
+              <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
+              <p>By leveraging <span class="bold">AI and machine learning technologies</span>, we see a future where the consumer experience is intuitive, proactive, engaging and&nbsp;<span class="bold">smart</span>. </p>
+              <a href="#">
+                  <button type="button" class="btn">Learn More</button>  
+              </a>
             </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row no-gutters">
-            
-            <div id="engineering" class="col-12 col-md-4">
-              <img src="images/hero-engineering.jpg" class="img-fluid" alt="Engineering Services">
-              <div class="content">
-                <h2 class="serviceTitle">Engineering<br>Services</h2>
-                <a href="engineering-services.php">
-                  <button class="btn">Learn More</button>
-                </a>
-              </div>
+            <div class="col-6 col-md-5">
+              <img class="img-fluid purpleBorder shadow" src="images/phone-woman.png" alt="">
             </div>
-
-            <div id="stamping" class="col-12 col-md-4">
-              <img src="images/hero-precision-stamping.jpg" class="img-fluid" alt="Precision Stamping">
-              <div class="content">
-                <h2 class="serviceTitle">Precision<br>Stamping</h2>
-                <a href="precision-stamping.php">
-                  <button class="btn">Learn More</button>
-                </a>
-              </div>
-            </div>
-            <div id="machining" class="col-12 col-md-4">
-              <img src="images/hero-cnc.jpg" class="img-fluid" alt="CNC Machining">
-              <div class="content">
-                <h2 class="serviceTitle">CNC<br>Machining</h2>
-                <a href="cnc-machining.php">
-                  <button class="btn">Learn More</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="row no-gutters justify-content-center">
-            <div id="washer" class="col-12 col-md-4">
-                <img src="images/hero-world-washer.jpg" class="img-fluid" alt="World Washer Stamping">
-                <div class="content">
-                  <h2 class="serviceTitle">World&nbsp;Washer<br>&&nbsp;Stamping</h2>
-                  <a href="world-washer-stamping.php">
-                    <button class="btn">Learn More</button>
-                  </a>
-                </div>
-              </div>
-
-              <div id="robotic" class="col-12 col-md-4">
-                <img src="images/hero-robotic.jpg" class="img-fluid" alt="Robotic Integration">
-                <div class="content">
-                  <h2 class="serviceTitle">Robotic<br>Integration</h2>
-                  <a href="robotic-integration.php">
-                    <button class="btn">Learn More</button>
-                  </a>
-                </div>
-              </div>
-
           </div>
         </div>
       </section>
+
+      <section id="callOutBoxes">
+        <div class="container-fluid addPadding">
+          <div class="row">
+            <img id="threeLines" src="images/three-lines.png" alt="">
+            <!-- Smarter Payments -->
+            <div class="col-12 col-md-3 pb-T100">
+              <div class="coBoxes shadow border">
+                <img class="shadow" src="images/sp-icon.png" alt="Smarter Payments">
+                <h1>Smarter Payments</h1>
+                <p>By offering every payment solution you need, all on one digital platform, we go well beyond basic services to deliver the type of experience consumers are demanding in today’s digitally-focused&nbsp;world.</p>
+                <a href="#">
+                  <button type="button" class="btn">Learn More</button>  
+                </a>
+              </div>
+            </div>
+            <!-- PayWayz: Smart Payment Routing Hub -->
+            <div class="col-12 col-md-3 pb-B100">
+              <div class="coBoxes shadow border">
+                <img class="shadow" src="images/sprh-icon.png" alt="PayWayz: Smart Payment Routing Hub">
+                <h1>PayWayz: Smart Payment Routing&nbsp;Hub</h1>
+                <p>Paywayz intuitively finds the best path, identifies the best of each rail and forges new paths across rails, without the need for additional information, time or&nbsp;technology.</p>
+                <a href="#">
+                  <button type="button" class="btn">Learn More</button>  
+                </a>
+              </div>
+            </div>
+            <!-- Action Insights® -->
+            <div class="col-12 col-md-3 pb-T100">
+              <div class="coBoxes shadow border">
+                <img class="shadow" src="images/ai-icon.png" alt="Action Insights®">
+                <h1>Action Insights®</h1>
+                <p>AI technology studies and overlays consumer data and behavior to make personalized recommendations that simplify the lives of your&nbsp;consumers.</p>
+                <a href="#">
+                  <button type="button" class="btn">Learn More</button>  
+                </a>
+              </div>
+            </div>
+            <!-- Advanced User Interface -->
+            <div class="col-12 col-md-3 pb-B100">
+              <div class="coBoxes shadow border">
+                <img class="shadow" src="images/aui-icon.png" alt="Advanced User Interface">
+                <h1>Advanced User Interface</h1>
+                <p>Designed to integrate seamlessly with the technology you’re familiar with and to operate on the online and mobile platforms today’s consumers are already&nbsp;using.</p>
+                <a href="#">
+                  <button type="button" class="btn">Learn More</button>  
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- About teaser -->
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div id="HPaboutTeaser">
+                <h1>Smart people. Smart solutions. Smart&nbsp;service.</h1>
+                <p>Payrailz brings together a perfect combination of proven experience, innovation, technology and forward-thinking product&nbsp;development.</p>
+                <p>We’ll help you take the first step, the next step, and every step into the future, so you never feel like you’re going it&nbsp;alone.</p>
+                <a href="#">
+                  <button type="button" class="btn2">Learn More</button>  
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section id="teamModule"> 
+          <div class="container">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-end">
+                <h1>Our Team</h1>
+              </div>
+            </div>
+          </div>
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <!-- Carousel Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Carousel items -->
+            <div class="container">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/team/DaveFrench.jpg" alt="">
+                  <img src="images/team/Denise-Delisle-2.jpg" alt="">
+                  <img src="images/team/Fran-Chan-2.jpg" alt="">
+                  <img src="images/team/FranDuggan.jpg" alt="">
+                  <!-- <img class="d-block w-100" src="images/c/download-1.svg" alt="First slide"> -->
+                </div>
+                <div class="carousel-item">
+                  <img src="images/team/Jim-Kern-web.jpg" alt="">
+                  <img src="images/team/Katie-Headshot-iii-e1619541707871.jpg" alt="">
+                  <img src="images/team/Kavita-Singh-II-e1594149412865.jpg" alt="">
+                  <img src="images/team/Lena-Mitchell-2.jpg" alt="">
+                  <!-- <img class="d-block w-100" src="images/c/download-2.svg" alt="Second slide"> -->
+                </div>
+                <div class="carousel-item">
+                  <img src="images/team/mickeygoldwasser.jpg" alt="">
+                  <img src="images/team/PaulFrankoII.jpg" alt="">
+                  <img src="images/team/RichPelikan.jpg" alt="">
+                  <img src="images/team/Song-Nunnallee-2.jpg" alt="">
+                  <!-- <img class="d-block w-100" src="images/c/download.svg" alt="Third slide"> -->
+                </div>
+                <div class="carousel-item">
+                  <img src="images/team/TedChaney.jpg" alt="">
+                  <!-- <img class="d-block w-100" src="images/c/download.svg" alt="Third slide"> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Prev / Next -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </section>
+
+        <section id="teamText">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-8 offset-md-2">
+                <h1>Payments are our passion.</h1>
+                <p>Our founders, executive team, associates, board of directors and strategic partners are all well-established financial-industry professionals and technologists who are incredibly passionate about transforming the payments&nbsp;experience.</p>
+                <a href="#">
+                  <button type="button" class="btn">Learn More</button>  
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
         
-      <!--CASE STUDIES MODULE-->
-      <?php include("inc/case-studies-module.php"); ?>
-
-      <!--CTA-->
-      <?php include("inc/cta-module.php"); ?>
-
-      <!--ABOUT US MODULE-->
-      <?php include("inc/about-module.php"); ?>
-
-      <!--TESTIMONIALS MODULE-->
-      <?php include("inc/testimonials-module.php"); ?>
-
-      <!--GALLERY MODULE-->
-      <?php include("inc/gallery-module.php"); ?>
-
-      <!--NEWS MODULE-->
-      <?php /*include("inc/news-module.php");*/ ?>
-
-      <!--CLIENTS MODULE-->
-      <?php include("inc/clients-module.php"); ?>
+      </section>
 
     </main>
 
     <!--FOOTER-->
     <?php include("inc/footer.php"); ?>
-    <!-- For Gallery-->
-    <script src="http://www.crystalengineering.com/scripts/lightboxgallery-min.js"></script>
-    <script>
-        jQuery(function($) {
-          $(document).on('click', '.lightboxgallery-gallery-item', function(event) {
-            event.preventDefault();
-            $(this).lightboxgallery({
-                showCounter: true,
-                showTitle: true,
-                showDescription: true
-              })
-          })
-          var video = document.querySelector('video')    
-          video.addEventListener('ended', function() {
-            video.load()   
-          })
-        })
-    </script>
 
   </body>
 

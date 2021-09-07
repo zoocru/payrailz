@@ -1,50 +1,53 @@
-// Positioning 
-function positioning(){
-    var headerheight = (parseFloat($('header').height())) /2,
-        heroHeight = parseFloat($('#hero').height()),
-        heroContentHeight = parseFloat($('.wrapper').height()),
-        heroContentMargin = ((heroHeight - heroContentHeight) / 2) + headerheight /2
-    $('.wrapper').css( "margin-top", heroContentMargin + "px" ).fadeIn()
-}
-
-$(window).on("load resize", function() {
-    positioning()
-})
-
-
 $(document).ready(function(){
-    
-    // VIDEO TRANSCRIPT
-    $('#videoTranscript').on("click", function(){
-        $('#transcriptOverlay')
-            .css("display","block")
-            .animate({opacity: 10}, 300)
-    })
-    $('#transcriptClose').on("click", function(){
-        $('#transcriptOverlay')
-            .animate({opacity: 0}, 300, function(){
-                $('#transcriptOverlay').css("display","none")
-            })     
-    })
-
 
     // BACK TO TOP FUNCTIONALITY ************************************************
     $('#backToTop').hide()
 
     $(window).scroll(function(){
-		// Toggles the back to top button on scroll position
-		if ($(this).scrollTop() > 450  &&  $(window).width() > 767){
+        // if ($(window).width() > 0) {
+        if ($(this).scrollTop() > 5){
+            $('header').addClass("scrolledHeader")
+        } else {
+            $('header').removeClass("scrolledHeader") 
+        }
+
+        //Toggles the back to top button on scroll position
+		if ($(this).scrollTop() > 200  &&  $(window).width() > 767){
             $('#backToTop').fadeIn()
 		} else {
 			$('#backToTop').fadeOut()
         }
-        
-        if ($(this).scrollTop() > 100){
-            $('#scrollDown').fadeOut()
-		} else {
-			$('#scrollDown').fadeIn()
-		}
 	}) // end of function
+
+
+    // $(window).scroll(function(){
+	// 	// Toggles the back to top button on scroll position
+	// 	if ($(this).scrollTop() > 450  &&  $(window).width() > 767){
+    //         $('#backToTop').fadeIn()
+	// 	} else {
+	// 		$('#backToTop').fadeOut()
+    //     }
+    //     // Toggles the scroll down teaser
+    //     if ($(this).scrollTop() > 100){
+    //         $('#scrollDown').fadeOut()
+	// 	} else {
+	// 		$('#scrollDown').fadeIn()
+	// 	}
+
+    //     //if ($(window).width() > 0) {
+    //     if ($(this).scrollTop() > 5){
+    //         //$('header').addClass("scrolledHeader")
+
+    //         $('header').animate({backgroundColor: 'rgba(255,255,255, 0.9)'}, 700)
+    //     } else {
+    //         //$('header').removeClass("scrolledHeader")
+    //         $('header').animate({backgroundColor: 'rgba(#330949, 0.7)'}, 500)
+    //     }
+    //     //}
+	// }) // end of function
+
+
+    
 
 	// Click function to animate to the top
 	$('#backToTop').click(function(){

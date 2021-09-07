@@ -1,25 +1,46 @@
-<header>
+<!--Back to Top-->
+<div id="backToTop"> 
+        <a href="#"><img src="images/backToTop.png" alt="back to top"></a> 
+    </div>
+
+    <header>
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-md-4">
             <a href="/">
-              <img id="logo" src="images/logo.svg" alt="Crystal Engineering Logo">
+              <img id="logo" src="images/logo.svg" alt="Payrailz">
             </a>
           </div>
-          <div class="col-12 col-md-8">
-            <nav>
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <nav class="align-items-center">
               <ul>
-                <li id="servicesLink">
+                <!-- <li id="servicesLink">
                   Services <i class="arrowDown"></i>
+                </li> -->
+                <li>
+                  <a href="payrailz-advantage">Payrailz Advantage</a>  
                 </li>
                 <li>
-                  <a href="case-studies.php">Case Studies</a>  
+                  <a href="about.php">Products</a>  
                 </li>
                 <li>
-                  <a href="about.php">About</a>  
+                  <a href="contact.php">About Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-12 col-md-4 d-flex justify-content-center">
+            <nav class="align-items-center">
+              <ul class="d-flex align-items-center">
+                <li id="demo">
+                  <a href="#">Request a Demo</a>  
                 </li>
                 <li>
-                  <a href="contact.php">Contact</a>
+                  <a href="tel:8604305200">
+                    <img src="images/phone.png" alt="Call Payrailz" style="padding-right: 8px;">
+                    860.430.5200
+                  </a>  
                 </li>
               </ul>
             </nav>
@@ -27,7 +48,7 @@
         </div>
       </div>
 
-      <div class="container-fluid" id="dropdown">
+      <!-- <div class="container-fluid" id="dropdown">
         <div class="row">
           <div class="col-12 col-sm-4">
             <div class="row no-gutters">
@@ -105,6 +126,6 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
 
     </header>

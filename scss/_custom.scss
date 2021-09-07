@@ -15,32 +15,30 @@ strong { font-weight: bold;}
 p { padding-top: 10px; }
 
 .btn, .btn2 {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 4px;
+    padding: 16px 35px;
+    border-radius: 8px;
     margin-top: 30px;
     text-transform: none;
+    cursor: pointer;
     @include media-breakpoint-between(xs, md) { margin-top: 15px; }
 }
 
 .btn {
     border-color: $lightGray;
-    background-color: rgba($color: #ff6600, $alpha: 0.9);
+    background-color: rgba($color: $darkPurple, $alpha: 1);
     color: $white;
 
-    &:hover { background-color: rgba($color: #ff6600, $alpha: 0); }
+    &:hover { background-color: rgba($color: $purple, $alpha: 1); }
 }
 
 .btn2 {
-    border-color: $medGray;
-    background-color: rgba($color: #fff, $alpha: 0);
-    color: $lightBlue;
+    border-color: $lightGray;
+    background-color: rgba($color: $purple, $alpha: 1);
+    color: $white;
 
-    &:hover {
-        background-color: $lightBlue;
-        color: $white;
-    }
+    &:hover { background-color: rgba($color: $darkPurple, $alpha: 1); }
 }
 
 a, :hover, :link {
@@ -66,6 +64,8 @@ h1, h2, h3, h4, h5, h6 { font-family: $font-family-headers; }
 h1 {
     font-size: 2.1em;
     padding-bottom: 0;
+    text-transform: none !important;
+    font-weight: lighter;
 }
 h2 {
     color: $primary;
@@ -97,7 +97,7 @@ h4 {
     } 
 }
 h5 {
-    color: $secondary;
+    color: $primary;
     text-transform: none;
     font-size: 0.8em;
     padding: 0;
@@ -114,17 +114,18 @@ h6 {
 	width: 40px;
 	height: auto;
     position: fixed;
-	right: 5px; 
-	top: 50vh;  
+	right: 38px; 
+	bottom: 50px;  
+    opacity: 0.6;
     z-index: 9;
     cursor: pointer;
   
-  &:hover { opacity: 0.6; }
+    &:hover { opacity: 1; }
 }
 
 // Scrollbar Styling **********************************************
-::-webkit-scrollbar { width: 15px; } 
-::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { border-radius: 10px; }
+::-webkit-scrollbar { width: 9px; } 
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { border-radius: 7px; }
 ::-webkit-scrollbar-thumb { background-color: $primary; }
 
 
@@ -133,16 +134,22 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 5;
-    background-color: $white;
+    z-index: 100;
+    background-color: rgba($darkPurple, .7);
     height: auto;
     box-shadow: 0 5px 8px rgba(0,0,0,.2);
-    border-bottom: 1px solid rgba($gray-500,.8);
+    border-bottom: 1px solid $purple;
+
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    transition-duration: 0.6s;
 
     nav {
         display: flex;
         justify-content: center;
         height: 100%;
+        color: $white;
+        text-transform: uppercase;
         @include media-breakpoint-up(md){
             justify-content: flex-end;
         }
@@ -164,13 +171,13 @@ header {
                 cursor: pointer;
                 padding: 20px 15px;
                 margin-bottom: 0 !important; 
-                color: $lightBlue;
+                color: $white;
                 border-radius: 5px 5px 0 0;
         
-                &:hover { color: $primary; }
+                &:hover { color: $secondary; }
 
                 .arrowUp, .arrowDown { 
-                    border: solid $lightBlue;
+                    border: solid $white;
                     border-width: 0 3px 3px 0;
                     display: inline-block;
                     padding: 4px;
@@ -192,26 +199,31 @@ header {
             }
 
             li {
-                margin-bottom: 20px;
+                //margin-bottom: 20px;
                 text-align: center;
                 line-height: 1.2em;
 
                 a { 
                     padding: 20px 15px; 
-                    
                     @include media-breakpoint-down(md){
                         padding: 10px 10px; 
                     }
                 }
             }
+
+            li#demo { 
+                padding: 10px 15px;
+                border: 1px solid $lightGray;
+                margin-right: 20px;
+            }
         }
     
         a {
             text-decoration: none;
-            color: $lightBlue;
+            color: $white;
         
             &:hover {
-                color: $primary;
+                color: $secondary;
                 text-decoration: none;
             }
         }
@@ -248,236 +260,23 @@ header {
     }
 }
 
+.scrolledHeader { background-color: rgba($darkPurple, .95); }
+
 .bgToggle { background-color: #eaeced }
 
 main { margin-top: 89px; }
 
-article.robotics { 
-    #flex {
-        .col-12 {
-            display: flex;
-            @include media-breakpoint-down(md) { 
-                margin-bottom: 20px;
-            }
-        }
 
-        .robConent {
-            //flex: 1;
-            border: 1px solid $gray-500;
 
-            .bg1 { background: url(../images/rob1.jpg); }
-            .bg2 { background: url(../images/rob2.jpg); }
-            .bg3 { background: url(../images/rob3.jpg); }
-
-            .bg1, .bg2, .bg3 { 
-                display: flex;
-                align-items: center;
-                justify-content: center !important;
-                justify-items: center !important;
-                background-repeat: no-repeat;
-                background-position: top center;
-                background-size: cover;
-                text-align: center;
-                height: 150px;
-                @include media-breakpoint-down(md) { 
-                    height: 100px;
-                }
-                color: $white;
-                font-weight: bold;
-                font-size: 1.3em;
-                padding: 5px;
-                text-transform: initial;
-            }
-
-            p { padding: 10px 10px 0;}
-        }
-    }
-
-    h3 {
-        color: $primary;
-        font-size: 1.2em;
-        margin-bottom: 0;
-    }
-
-    #obstacles { 
-        position: relative;
-        text-align: center;
-        h4 { color: $white; }
-
-        .content { 
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            display: flex;
-            justify-content: center !important;
-            align-items: center !important;
-            flex-direction: column;
-            z-index: 2;
-    
-            h4 { 
-                font-size: 1.8em;
-                color: $white;
-                margin-bottom: 0;
-                padding: 10px 0;
-                text-transform: uppercase;
-                
-                @include media-breakpoint-down(sm) { 
-                    font-size: 1.1em;
-                    padding: 5px;
-                }
-            }
-        }
-    }
-}
-
-article#timeline {
-    h3 { 
-        color: $primary; 
-        margin-bottom: 0;
-    }
-
-    button { margin: 0 auto; }
-
-    .wrapper {
-        margin: 1.5em auto;
-        padding: 1em 2em 1em 3.5em;
-        // @include media-breakpoint-down(lg) { 
-        //     padding-left: 5em;
-        // }
-        max-width: 1000px;
-    }
-      
-    h1 {
-        color: white;
-        font-family: inherit;
-        text-align: center;
-    }
-      
-    /* - &:nth-child(1) {
-                grid-area: entry1;
-            }
-        - useful timesaver if there is a lengthy list
-    */
-    .timeline {
-        line-height: 1.5em;
-        font-size: 14px;
-        transition: all 0.4s ease;
-        position: relative;
-        counter-reset: section;
-        //@include media-breakpoint-up(lg) { margin-left: 30px; }
-    }
-    .timeline:before {
-        content: "";
-        width: 10px;
-        height: 100%;
-        background: #2a89c7;
-        position: absolute;
-        top: 0;
-        left: -3.313em;
-        border-radius: 40px 40px;
-    }
-    .timeline--entry {
-        position: relative;
-        background-color: #eeeeee;
-        //border: 1px solid red;
-    }
-    .timeline--entry__title {
-        color: white;
-        background-color: $primary;
-        font-family: inherit;
-        font-weight: 300;
-        font-size: 1rem;
-        padding: 1em;
-    }
-    .timeline--entry__title:before {
-        content: "";
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        position: absolute;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        
-        // @include media-breakpoint-up(md) { 
-        //     right: -1em;
-        //     border-left: 10px solid $primary;
-        // }
-        // @include media-breakpoint-down(sm) { 
-        //     left: -1em;
-        //     border-right: 10px solid $primary;
-        // }
-        left: -1em;
-        border-right: 10px solid $primary;
-    }
-    .timeline--entry__detail {
-        background-color: #dddddd;
-        padding: 1em;
-        margin: 0;
-    }
-    .timeline--entry:before {
-        content: "";
-        font-family: inherit;
-        color: #ffffff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 3em;
-        height: 3em;
-        background-color: #2a89c7;
-        border: 0.2em solid white;
-        border-radius: 50%;
-        position: absolute;
-        counter-increment: section;
-        content: counter(section);
-        text-shadow: 0 1px 0 #424242;
-        left: -4.3em;
-    }
-    
-    @supports (display: grid) {
-        // @media (min-width: 768px) {
-        //     .timeline {
-        //         display: grid;
-        //         grid-gap: 4.75em;
-        //         grid-template-areas: "entry1 ." ". entry2"  "entry3 ." ". entry4" "entry5 ." ". entry6" "entry7 ." ". entry8" "entry9 ." ". entry10";
-        //     }
-        //     .timeline:before { left: 49.5%; } 
-        
-        //     .timeline--entry:nth-child(1) { grid-area: entry1; }
-        //     .timeline--entry:nth-child(2) { grid-area: entry2; }
-        //     .timeline--entry:nth-child(3) { grid-area: entry3; }
-        //     .timeline--entry:nth-child(4) { grid-area: entry4; }
-        //     .timeline--entry:nth-child(5) { grid-area: entry5; }
-        //     .timeline--entry:nth-child(6) { grid-area: entry6; }
-        //     .timeline--entry:nth-child(7) { grid-area: entry7; }
-        //     .timeline--entry:nth-child(8) { grid-area: entry8; }
-        //     .timeline--entry:nth-child(9) { grid-area: entry9; }
-        //     .timeline--entry:nth-child(10) { grid-area: entry10; }
-
-        //     .timeline--entry:nth-of-type(odd):before {
-        //         //right: -3.8em;
-        //         //left: 22.8em;
-        //         left:104% // need to adjust this for smaller sizes to give more room
-        //     }
-        //     .timeline--entry:nth-of-type(even):not(:nth-of-type(odd)) .timeline--entry__title:before {
-        //         right: 100%;
-        //         border-right: 10px solid $primary;
-        //         border-left: 0;
-        //     }
-        //     .timeline--entry:nth-of-type(even):before {
-        //         right: 103%;
-        //     }
-        // }
-    }
-}
 
 
 // NEW HERO 
 #heroWrapper {
+    position: relative;
     /* Full height */
     height: 100%; 
     width: 100%;
+    overflow: hidden;
   
     #hero {
         position: absolute;
@@ -487,26 +286,30 @@ article#timeline {
         /* Full height */
         height: 100%; 
         /* Center and scale the image */
-        background-position: center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-blend-mode:screen;
         z-index: 2;
         opacity: 1;
         background-image: url("../images/bg-1.png");
+        background-color: rgba($color: #000, $alpha: 1.0);
 
-      .wrapper {
-        display: none;
-        height: auto;
-      }
+    //   .wrapper {
+    //     display: none;
+    //     height: auto;
+    //   }
   
       h1 { 
         color: $white;
+        font-size: 4em;
         @include media-breakpoint-down(xs) {
           font-size: 30px;
           margin-bottom: 11px; 
         }
         margin-bottom: 14px; 
       }
+      h2 { color: $white; }
       h6 {
           text-align: right;
           color: rgb(252, 139, 64);
@@ -517,15 +320,15 @@ article#timeline {
       }
   
       p { 
+        font-size: 16px; 
+        color: $white;
+        font-weight: 400;
         @include media-breakpoint-down(xs) {
           font-size: 18px; 
-          //color: $black;
         }
         @include media-breakpoint-only(sm) {
           font-size: 18px; 
         }
-        font-size: 20px; 
-        color: $white;
       }
   
       button {
@@ -535,79 +338,214 @@ article#timeline {
             margin-bottom: 45px; 
           }
       }
-    }   
+    }  
+    
+    #heroLines { 
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 3;
+        opacity: .3;
+    }
 }
 
-#transcriptOverlay { 
+#heroWrapper:after {
+    content: '';
     position: absolute;
-    top: 0;
     left: 0;
+    bottom: -70px;
     width: 100%;
-    height: 100vh;
-    z-index: 1000;
-    background-color: rgba(0,0,0,0.7);
-    display: none;
-    opacity: 0;
+    height: 130px;
+    background-color: $white;
 
-    #transcript {
-        position: relative;
-        width: 70%;
-        height: auto;
-        padding: 30px;
-        margin: 50px auto;
-        background-color: white;
-        border-radius: 20px;
-        overflow: scroll;
+    -webkit-transform: skewY(2.8deg);
+    transform: skewY(2.8deg);
+    z-index: 4;
+}
+#hero2:after { 
+    content: '';
+    position: absolute;
+    right: -25px;
+    bottom: 54px;
+    width: 95%;
+    height: 30px;
+    background: $secondary;
+
+    //-webkit-transform: skewY(2.8deg);
+    //transform: skewY(2.8deg);
+    transform: skew(50deg, 2.8deg);
+    z-index: 5;
+}
+
+#payRailzAdvantage {
+    position: relative;
+    z-index: 7;
+    margin-top: -250px;
+    margin-bottom: 50px;
+    h1 { 
+        color: $primary; 
+        font-weight: 700;
+        img { 
+            border-radius: 50%;
+            margin-right: 14px;
+        }
+    }
+    #payRailzAdvantageContent {
+        padding: 0px 100px 60px 0;
+        p { margin-bottom: 0; }
+    }
+}
+
+#callOutBoxes { 
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: -15px;
+    padding: 0 0 100px;
+    padding-top: -50px;
+    background-color: #DBD8D6;
+
+    #threeLines { 
+        position: absolute;
+        top: 100px;
+        right: 0;
+        height: 700px;
+        width: auto;
+        z-index: 1;
+        opacity: .3;
+    }
+
+    .coBoxes { 
+        margin-top: -75px;
+        border-radius: 10px;
+        text-align: center;
+        padding: 30px 20px;
+        background-color: $white;
+        img { 
+            border-radius: 50%;
+            margin-bottom: 25px;
+            width: 56px;
+            height: auto;
+        }
+        h1 { 
+            color: inherit;
+            font-size: 24px;
+        }
+        p { margin-bottom: 0; }
+    }
+
+    #HPaboutTeaser { 
+        padding: 75px 40px 0;
+
+        p {
+            color: $white;
+            margin-bottom: 0;
+        }
+    }
+
+    #teamModule { 
+        margin-top: 50px;
         
-        h3 { color: $primary; }
+        h1 { 
+            font-size: 125px;
+            font-weight: 700;
+            margin-bottom: -38px;
+            line-height: 1;
+            //color: $white;
+            
+            background: -webkit-linear-gradient( 45deg, $white, $pink 60%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
 
-        #transcriptClose {
-            position: absolute;
-            top: 10px;
-            right: 0;
-            margin: 0;
+            opacity: .3;
+        }
+    }
+    
+    ol.carousel-indicators {
+        bottom: -50px;
+        li {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-left: 8px;
+            margin-right: 8px;
+            cursor: pointer;
+            background-color: rgba($primary, .5);
+        }
+        li.active { background-color: rgba($primary, 1); }
+    }
 
-            &:hover { 
-                background-color: rgba(255, 102, 0, 0); 
-                color: $secondary;
-                border: 1px solid $secondary;
-            }
+    .carousel-item { 
+        text-align: center;
+        img { 
+            display: inline-block; 
+            margin: 10px;
+            width: 250px;
+            height: 300px;
+            border-radius: 10px;
+            -webkit-transition-duration: 0.3s;
+               -moz-transition-duration: 0.3s;
+                    transition-duration: 0.3s;
+            cursor: pointer;
+
+            &:hover { border: 4px $secondary solid; }
+        }
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon { 
+        height: 63px; 
+        width: 32px;
+    }
+    .carousel-control-next-icon { background-image: url("../images/next.png"); }
+    .carousel-control-prev-icon {  background-image: url("../images/prev.png"); }
+
+    #teamText { 
+        margin-top: 100px;
+        text-align: center;
+        
+        h1 {
+            color: $primary;
+            font-weight: 700;
+            font-size: 20px;
         }
     }
 }
-  
-// SCROLL DOWN AREA
-#scrollDown {
-width: 15px; 
-position: absolute;
-right: 20px;
-//left: 0;
-bottom: 20px;
-text-align: center;
-color: rgba(255,255,255,1);
-//padding: 10px 10px 0 10px;
-margin: 10px auto;
-z-index: 20; 
+
+#callOutBoxes:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -50px;
+    width: 100%;
+    height: 1050px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#50185b+1,330949+100 */
+    background: $primary; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  $purple 1%, $darkPurple 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  $purple 1%,$darkPurple 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  $purple 1%,$darkPurple 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$purple, endColorstr=$darkPurple,GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    -webkit-transform: skewY(-3.8deg);
+    transform: skewY(-3.8deg);
+    //z-index: 4;
 }
-.arrow {
-//background-color: rgba(255,255,255,.7);
-width: 15px;
-height: auto;
-position: relative;
-margin: 0 auto !important;
-    -webkit-animation: bounce 1.75s linear 0s infinite;
-            animation: bounce 1.75s linear 0s infinite;
+
+
+
+.purpleBorder { border-top: 15px solid $primary; }
+.greenBorder { border-top: 15px solid $secondary; }
+
+.bold { font-weight: 700; }
+.shadow { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.addPadding { 
+    padding-left: 50px;
+    padding-right: 50px;
 }
-@-webkit-keyframes bounce {
-    0% { -webkit-transform: translateY(0px); }
-    50% { -webkit-transform: translateY(-15px); }
-    100% { -webkit-transform: translateY(0px); }
-}
-@keyframes bounce {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0px); }
-}
+
+.pb-T100 { padding-bottom:  100px; }
+.pb-B100 { padding-top:  100px; }
+
 // END OF NEW HERO
 
 video { 
@@ -630,7 +568,7 @@ video {
 }
 
 #logo, #logoWhite {
-    padding: 20px 20px 10px 20px;
+    padding: 20px;
     width: 250px;
     height: auto;
     text-align: left;
@@ -646,374 +584,56 @@ video {
     margin-left: 17px;
 }
 
-// SERVICES
-#services {
-    padding: 0 0 90px 0;
-    text-align: center;
-
-    .container-fluid { padding: 0; }
-
-    #engineering, #stamping, #machining, #washer, #robotic { 
-        cursor: pointer;
-        
-        img, h2 {
-            -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease;  
-        }
-
-        &:hover { 
-             img { -webkit-filter: brightness(140%); }
-             h2 { font-size: 2.2em; } 
-        }
-    }
-
-    .content { 
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        display: flex;
-        justify-content: center !important;
-        align-items: center !important;
-        flex-direction: column;
-        z-index: 2;
-
-        h2 { 
-            font-size: 1.9em;
-            color: $white;
-            margin-bottom: 0;
-        }
-
-        button { margin-top: 20px; }
-    }
-}
 
 
-//Case Studies Module **********************************************
-#caseStudies, #caseStudiesPage {
-    position: relative;
-    padding: 80px 0 90px 0;
-    text-align: center;
-    background-color: $gray-500;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6c757d+0,adb5bd+100 */
-    background: -moz-linear-gradient(top,  $gray-600 0%, $gray-500 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  $gray-600 0%,$gray-500 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  $gray-600 0%,$gray-500 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c757d', endColorstr='#adb5bd',GradientType=0 ); /* IE6-9 */
-
-    @include media-breakpoint-between(xs,sm) { 
-        margin-top: 10px;
-        padding-bottom: 30px;
-    }
-    @include media-breakpoint-only(md) { 
-        margin-top: 0;
-        padding-top: 80px;
-    }
-
-    h2 { 
-        color: $white;
-        padding-bottom: 30px; 
-    }
-
-    .caseContent {
-        padding: 20px 30px 40px 30px;
-        background-color: $lightGray;
-        @include media-breakpoint-between(xs, sm) { margin-bottom: 20px; }
-        p {
-            font-size: 0.9em;
-            line-height: 1.7em;
-        }
-        button { margin-top: 15px; }
-    }
-}
-
-#caseStudiesPage {
-    padding-top: 40px;
-}
-
-//CTA Modules **********************************************
-#ctaContact, #ctaAbout {
-    padding: 80px 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: $primary;
-    background-blend-mode: overlay;
-    text-align: center;
-    @include media-breakpoint-between(xs, sm) { padding: 50px 30px; }
-
-    h1 {
-        @include media-breakpoint-only(md) { font-size: 1.6em; } 
-    }
-    p { color: $white; }
-}
-
-#ctaContact { background-image: url("../images/cta-1.jpg"); }
-#ctaAbout { background-image: url("../images/cta-2.jpg"); }
-
-//About Us Module **********************************************
-#aboutUs {
-    height: 450px;
-    overflow: hidden;
-    @include gradient-y($start-color: $darkGray, $end-color: #6f6f6f, $start-percent: 0%, $end-percent: 100%);
-
-    @include media-breakpoint-only(lg) { height: auto; }
-    // #aboutImg {
-
-    //     img {
-    //         height: 100%;
-    //         width: auto;
-    //     }
-    // }
-
-    #aboutContent {
-        padding: 80px;
-        color: $white;
-        @include media-breakpoint-between(xs, sm) { padding: 40px; }
-        @include media-breakpoint-only(lg) { padding: 50px; }
-    }
-
-    h1 {
-        text-transform: none;
-        padding-bottom: 0;
-        @include media-breakpoint-between(md,lg) { font-size: 1.8em; }
-    }
-
-    p { @include media-breakpoint-only(lg) { font-size: 90%; line-height: 1.6em; } }
-    .btn { margin-top: 10px; }
-
-    @include media-breakpoint-between(xs, sm) { margin-top: 50px; }
-}
-
-//Testimonials Module **********************************************
-
-#testimonials {
-    padding: 80px 0;
-    background-color: $lightGray;
-    @include media-breakpoint-between(xs, sm) { 
-        padding: 40px 30px 120px 10px;
-    }
-
-    #testQuotes img {
-        width: 70px;
-        height: auto;
-        margin-top: -30px;
-        @include media-breakpoint-between(xs, sm) { 
-            margin-top: -15px;
-            padding-right: 5px;
-        }
-    }
-
-    h5 {
-        font-size: 0.9em;
-        font-family: $font-family-sans-serif;
-        @include media-breakpoint-between(xs, md) { margin-bottom: 20px; }
-    }
-}
-
-#testImg {
-    margin-top: -180px;
-    padding-bottom: 80px;
-    @include media-breakpoint-between(xs, sm) { 
-        margin-top: -120px;
-        padding: 30px 30px 60px 30px;
-    }
-    @include media-breakpoint-only(md) { padding: 30px 30px 60px 50px; }
-    
-
-    img {
-        width: 800px;
-        height: auto;
-        @include media-breakpoint-between(xs, sm) { width: 350px; }
-        @include media-breakpoint-only(md) { width: 450px; }
-    }
-}
-
-//Gallery Module **********************************************
-#gallery {
-    padding-bottom: 80px;
-    text-align: center;
-    @include media-breakpoint-between(xs, sm) { padding-bottom: 40px; } 
-
-    h2 { color: $medGray; }
-    p { 
-        margin-bottom: 60px;
-        @include media-breakpoint-between(xs, sm) { margin-bottom: 20px; } 
-    }
-    button { margin-top: 40px; }
-
-    .galleryImg { position: relative; }
-
-    .lightboxgallery-gallery-item { z-index: 0;}
-
-    .imageOverlay {
-        background-color: rgba($color: #0a2148, $alpha: 0.85);
-        position: absolute;
-        left: 0;
-        top: 0; 
-        width: 100%;
-        height: 100%;
-
-        h3 {
-            position: absolute;
-            color: $lightGray;
-            font-size: 0.9em;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
-    }
-}
-
-//News Module **********************************************
-#news {
-    padding: 80px 0;
-    @include gradient-y($start-color: #0f316a, $end-color: #0463a9, $start-percent: 0%, $end-percent: 100%);
-    color: $white;
-    @include media-breakpoint-between(xs, sm) { padding: 40px 20px; } 
-    
-    #newsBtn {
-        margin: auto;
-        text-align: center;
-        @include media-breakpoint-between(xs, sm) { text-align: left; } 
-    }
-}
-
-//Clients Module **********************************************
-#clients {
-    padding: 80px 0;
-    text-align: center;
-    @include media-breakpoint-between(xs, sm) { padding: 40px 20px; } 
-
-    .clientLogo {
-        border: 1px $lightGray solid;
-        padding: 20px 10px;
-        margin: 5px;
-
-        img {
-            width: 150px;
-            height: auto;
-        }
-    }
-
-    h2 { color: $medGray; }
-    p { 
-        margin-bottom: 60px; 
-        @include media-breakpoint-between(xs, sm) { margin-bottom: 20px; }
-    }
-}
-
-//Services Module **********************************************
-#servicesArea {
-    padding: 80px 0 0 0;
-    @include gradient-y($start-color: #2f2c2d, $end-color: #757373, $start-percent: 0%, $end-percent: 100%);
-    @include media-breakpoint-between(xs, sm) { padding: 40px 0 0 0; }
-
-    h1 {
-        text-align: center;
-        text-transform: none;
-        @include media-breakpoint-between(xs, sm) { font-size: 1.6em; }
-    }
-
-    #servicesTabs {
-        text-align: center;
-        margin-top: 50px;
-        @include media-breakpoint-between(xs, sm) { margin-top: 30px; }
-        
-        .tab {
-            background-color: $lightGray;
-            padding: 20px 40px 10px 40px;
-            cursor: pointer;
-            @include media-breakpoint-between(xs, sm) { 
-                border-bottom: 1px solid $gray-500; 
-                width: 80%;
-                &:last-child { border: none; }
-            }
-            @include media-breakpoint-only(md) { 
-                padding: 20px 20px 8px 20px; 
-            }
-
-            h5 { color: $medGray; }
-        }
-
-        #tab1 { 
-            border-top-left-radius: 4px; 
-            @include media-breakpoint-between(xs, sm) { 
-                border-top-right-radius: 4px; 
-            }
-        }
-        #tab5 { 
-            border-top-right-radius: 4px;
-            @include media-breakpoint-between(xs, sm) { 
-                border-top-right-radius: 0; 
-            }
-        }
-
-        #tab1, #tab2, #tab3, #tab4 {
-            border-right: 1px solid $gray-500;
-            @include media-breakpoint-between(xs, sm) { 
-                border-right: none; 
-            }
-        }
-    }
-}
-#precisionContent, #cncContent, #engineeringContent, #worldWasherContent, #additiveContent {
-    position: relative;
-
-    .serviceText {
-        position: absolute;
-        left: 70%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        @include media-breakpoint-between(xs, sm) { 
-            position: relative;
-            transform: none;
-            left: 0;
-            top: 0;
-        }
-    }
-    .btn2 { 
-        margin-top: 15px;
-        @include media-breakpoint-only(md) { 
-            margin-top: 0; 
-        }
-    }
-
-    img { 
-        border: 1px solid $lightGray;
-    }
-
-    h4 {
-        @include media-breakpoint-between(xs, sm) { 
-            margin-top: 20px; 
-        }
-    }
-}
-
-#servicesContent { 
-    padding: 80px 0; 
-    @include media-breakpoint-between(xs, sm) { 
-        padding: 20px 20px 40px 20px; 
-    }
-}
+.secondary { color: $secondary; }
 
 //Footer Section **********************************************
+#footerTopBorder {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    margin-bottom: -15px;
+    z-index: 2;
+    
+    #footerBorder {
+        position: absolute;
+        right: -25px;
+        bottom: 0;
+        width: 90%;
+        height: 30px;
+        transform: skew(60deg, 0deg);
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#732282+0,50185b+99 */
+        background: $primary; /* Old browsers */
+        background: -moz-linear-gradient(left,  #732282 0%, #50185b 99%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  #732282 0%,#50185b 99%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  #732282 0%,#50185b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#732282', endColorstr='#50185b',GradientType=1 ); /* IE6-9 */
+
+    }
+}
+
 #footer {
-    color: $lightGray;
-    padding: 80px 0;
-    background-image: url("../images/footer-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: $darkGray;
-    background-blend-mode: overlay;
+    position: relative;
+    color: $white;
+    padding: 50px 0;
+    font-size: 0.8em;
+    overflow: hidden;
     @include media-breakpoint-between(xs, sm) { padding: 40px 20px; }
     @include media-breakpoint-only(md) { padding: 60px 40px 40px 40px; }
 
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#141414+1,626262+100 */
+    background: #141414; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #141414 1%, #626262 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #141414 1%,#626262 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #141414 1%,#626262 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141414', endColorstr='#626262',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
     #footerAddress {
-        font-size: 0.8em;
+        //font-size: 0.8em;
         margin-left: 35px;
+        font-weight: bold;
 
         @include media-breakpoint-between(xs, sm) { 
             margin-top: 10px;
@@ -1026,6 +646,11 @@ video {
         }
 
         p {
+            &:first-child { 
+                padding-top: 0;
+                margin-top: -5px; 
+                padding-bottom: 20px;
+            }
             @include media-breakpoint-between(xs, sm) { 
                 line-height: 1.5em;
                 margin-bottom: 0;
@@ -1045,10 +670,12 @@ video {
                     display: inline-block;
                     width: 22px;
                     height: auto;
+                    max-height: 28px;
                     padding-top: 10px;
                 }
             }
         }
+
     }
 
     #footerLogo {
@@ -1081,120 +708,51 @@ video {
         &:hover { color: $secondary; }
     }
 
-    #anabLogo, #iatf {
-        width: auto;
-        height: 150px;
+   .footerNav { text-transform: uppercase; }
 
-        @include media-breakpoint-only(md) { 
-            height: 100px; 
-        }
-    }
+   #footerContent {
+       position: relative;
+       z-index: 2;
+   }
 
-    #iatf {
-        @include media-breakpoint-between(md, lg) { 
-            vertical-align: bottom;
-            margin-left: 20px;
-        }
-        @include media-breakpoint-between(xs, sm) { 
-            height: 100px;
-            width: auto; 
-            margin-left: 20px;
-            vertical-align: bottom;
-        }
-    }
-
-    #itarLogo {
-        width: 150px;
-        height: auto;
-        padding-top: 30px;
-        padding-bottom: 5px;
-
-        @include media-breakpoint-down(lg) { padding-bottom: 20px; }
-    }
+   #footerLines { 
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       z-index: 1;
+       opacity: .3;
+   }
 }
 
 #subFooter {
-    background-color: $medGray;
+    background-color: #D5D4D4;
     padding: 15px 0 20px 0;
+    text-transform: uppercase;
+    font-size: .8;
     @include media-breakpoint-only(md) { padding-right: 30px; }
     @include media-breakpoint-only(xs) { padding-left: 20px; }
 
     p {
-        color: $white;
+        color: #000;
         font-size: 0.7em;
         margin-bottom: 0;
         line-height: 1.2em;
-    }
 
-    img { 
-        padding-top: 5px;
-        @include media-breakpoint-only(xs) { padding-top: 20px; }
-     }
-}
-
-//INSIDE PAGES **********************************************
-#heroPrecision { background-image: url("../images/inside-hero-precision.jpg"); }
-#heroCNC { background-image: url("../images/inside-hero-cnc.jpg"); }
-#heroEngineering { background-image: url("../images/inside-hero-engineering.jpg"); }
-#heroAdditive { background-image: url("../images/inside-hero-robotic.jpg"); }
-#heroWorldWasher { background-image: url("../images/inside-hero-world-washer.jpg"); }
-#heroAbout { background-image: url("../images/inside-hero-about.jpg"); }
-#heroCareers { background-image: url("../images/inside-hero-careers.jpg"); }
-#heroTestimonials { background-image: url("../images/inside-hero-testimonials.jpg"); }
-#heroCaseStudies { background-image: url("../images/inside-hero-case-studies.jpg"); }
-#heroNews { background-image: url("../images/inside-hero-news.jpg"); }
-#heroContact { background-image: url("../images/inside-hero-contact.jpg"); }
-
-#heroPrecision, #heroAbout, #heroCareers, #heroTestimonials, #heroContact, 
-#heroCNC, #heroEngineering, #heroAdditive, #heroWorldWasher, #heroCaseStudies, #heroNews {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    overflow: hidden;
-    
-    .container { padding: 0; }
-}
-
-.insideHeroContent {
-    height: 300px;
-    position: relative;
-    @include media-breakpoint-between(xs, sm) { height: 250px; }
-    
-    .content { 
-        position: relative;
-        bottom: 5px;
-        top: 0;
-        left: 0;
-        height: 300px;
-        @include media-breakpoint-down(sm) { height: 250px; }
-        display: flex;
-        justify-items: flex-start;
-        align-items: baseline;
-        flex-direction: column;
-
-        button { 
-            margin-top: 15px;
-            margin-bottom: 50px;
+        a { 
+            padding: 0 10px 0 10px;
+            color: $purple;
+            font-weight: bold;
         }
     }
-    h1 {
-        margin: auto 0;
-        margin-bottom: 0;
-        font-size: 3em;
-        font-weight: 600;
-        @include media-breakpoint-only(md) { font-size: 2.5em; }
-        @include media-breakpoint-between(xs, sm) { font-size: 1.9em; }
-    }
-    h2 { 
-        color: $white; 
-        margin-bottom: 0;
-    }
 
-    @include media-breakpoint-between(xs, sm) { 
-        h1, h2, button, a { padding-left: 30px; }
-        button, a { margin-bottom: 15px; }
-    }
+    // img { 
+    //     padding-top: 5px;
+    //     @include media-breakpoint-only(xs) { padding-top: 20px; }
+    // }
 }
+
+.green { color: $secondary; }
+
 
 #insideContent {
     margin: 80px 0;
@@ -1262,430 +820,4 @@ video {
     }
 
     a:hover { color: $secondary; }
-}
-
-//Service Side Ads **********************************************
-.serviceAd {
-    padding: 15px 20px 20px 20px;
-    margin-left: 20px;
-    margin-top: 25px;
-    color: $white;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    @include media-breakpoint-between(xs, md) { 
-        margin-left: 0;
-        margin-top: 20px; 
-    }
-
-    h3 {
-        text-transform: uppercase;
-        font-size: 1.7em;
-        margin-bottom: 0;
-        @include media-breakpoint-only(md) { font-size: 1.3em; }
-    }
-
-    p {
-        font-size: 0.8em;
-        line-height: 1.4em;
-        padding-top: 0;
-        margin: 5px 0 15px 0;
-    }
-
-    .btn { margin-top: 0; }
-}
-
-#cncAd { background-image: url("../images/cnc-side-ad.jpg"); }
-#precisionAd { background-image: url("../images/precision-side-ad.jpg"); }
-#engineeringAd { background-image: url("../images/engineering-side-ad.jpg"); }
-#additiveAd { background-image: url("../images/robotic-side-ad.jpg"); }
-#worldWasherAd { background-image: url("../images/world-washer-side-ad.jpg"); }
-
-//About Us Page **********************************************
-.menuSidebar {
-    margin-left: 20px;
-    @include media-breakpoint-between(xs, sm) { 
-        margin-top: 10px;
-        margin-left: 0; 
-    }
-    ul li {
-      color: $primary;
-      font-size: 0.8em;
-      font-weight: 700;
-      border-top: 1px solid rgba($color: #fff, $alpha: 1);
-      background-color: $lightGray;
-      padding: 22px 0 20px 40px!important;
-      cursor: pointer;
-      @include media-breakpoint-only(md) { 
-        padding: 20px!important;
-        line-height: 1.4em;
-    }
-  
-      &:hover { 
-        color: $white;
-        background-color: $lightBlue; 
-      }
-    }
-    & a:first-child li { border: none; }
-    a { text-decoration: none; }
-  }
-
-//Testimonials Page **********************************************
-#testimonialsInside {
-    h2 { text-align: center; }
-    h5 {
-        font-size: 0.9em;
-        font-family: $font-family-sans-serif;
-    }
-
-    .testContent { 
-        padding: 50px 0 35px 0;
-        @include media-breakpoint-only(md) { 
-            padding-top: 30px;
-        } 
-        @include media-breakpoint-between(xs, sm) { 
-            padding-left: 10px;
-        } 
-    }
-
-    .testQuotes img {
-        width: 80px;
-        height: auto;
-        margin-top: -50px;
-        padding-right: 10px;
-        @include media-breakpoint-between(xs,md) { 
-            width: 60px;
-        }
-        @include media-breakpoint-between(xs,sm) { 
-            margin-top: -20px;
-        }
-    }
-}
-
-.authorTitle {
-    color: $medGray;
-    font-weight: 400;
-    font-size: 0.9em;
-    font-style: italic;
-}
-
-//Gallery Page **********************************************
-#galleryCategories {
-    text-align: center;
-    padding: 30px 0;
-    a {
-        cursor: pointer;
-        padding-left: 0;
-        margin-left: 10px;
-        color: $primary;
-        font-weight: 600;
-        text-transform: uppercase;
-
-        &:hover {
-            color: $secondary; 
-        }
-    } 
-    p {
-        color: $medGray;
-        text-transform: uppercase;
-        padding-left: 0;
-        display: inline;
-    }     
-}
-
- //Case Studies Page **********************************************
- #caseArea {
-    margin-top: 40px;
-    padding: 60px;
-    background-image: url("../images/case-study-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: $lightGray;
-    background-blend-mode: overlay;
-    width: 100%;
-    @include media-breakpoint-between(xs, sm) { 
-        padding: 30px;
-        margin-top: 20px;
-    }
-
-    .container {
-        @include media-breakpoint-between(xs, sm) { padding-right: 0; }
-    }
-    
-    .mainCase {
-        margin-top: 80px;
-        @include media-breakpoint-between(xs, sm) { margin-top: 0; }
-
-        .caseArrow {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            width: auto;
-            height: 50px;
-
-            &:hover { opacity: 0.5; }
-        }
-
-        h4 { margin-top: 20px; }
-        h5 { color: $medGray; }
-    }
-
-    #thumbnails  {
-        .thumbOverlay {
-            background-color: $darkGray;
-            cursor: pointer;
-            
-            img {
-                opacity: 0.4;
-
-                &:hover { opacity: 1; }
-            }
-        }
-    }
-
-    #img1, #img2, #img3, #img4 {
-        border: 1px solid $lightGray;
-        margin-bottom: 60px;
-        @include media-breakpoint-between(xs, sm) { margin-bottom: 20px; }
-    }
- }
-
- #caseStudiesPage {
-    margin-top: 0;
-    @include media-breakpoint-between(xs, sm) { padding: 0; }
-
-    .container {
-        @include media-breakpoint-between(xs, sm) { padding-right: 0; }
-    }
-
-    h2 { padding-bottom: 0; }
-    img { 
-        margin-top: 40px; 
-        @include media-breakpoint-between(xs, sm) { margin-top: 10px; }
-    }
- }
-
-//News Page **********************************************
-#newsPage {
-    text-align: center;
-
-    .container {
-    @include media-breakpoint-between(xs, sm) { padding-left: 15px; }
-    }
-
-    .newsBox {
-        text-align: left;
-        background-color: $lightGray;
-        margin-top: 30px;
-        padding: 20px 40px 40px;
-        @include media-breakpoint-between(xs, sm) { margin-top: 5px; }
-
-        h6 {
-            color: $medGray;
-            margin-bottom: 15px;
-        }
-
-        .btn2 { margin-top: 10px; }
-
-        img {
-            padding: 10px 0 40px;
-            width: 220px;
-            height: auto;
-            margin-left: 20px; 
-        }
-
-        .subtitle {
-        font-weight: 600;
-        color: $secondary;
-    }
-    }
-}
-
-//Contact Page *******************************************
-#formContent {
-    background-color: $lightGray;
-    padding: 40px;
-
-    form { margin-top: 30px; }
-
-    input, textarea { 
-        width: 80%; 
-        @include media-breakpoint-between(xs,md) { width: 100%; }
-    }
-
-    label {
-        font-size: 0.8em;
-        font-weight: 600;
-        margin-bottom: 2px;
-        text-transform: uppercase;
-        color: $medGray;
-    }
-}
-
-.sidebarContent {
-@include media-breakpoint-between(xs, sm) { 
-    margin-top: 20px;
-    padding-left: 0; 
-}
-h4 { margin-top: 30px; }
-
-a {
-    color: $primary;
-
-    &:hover { color: $secondary; } 
-}
-}
-
-#contactMap {
-    margin-top: 60px; 
-    @include media-breakpoint-between(xs, sm) { 
-    margin-top: 30px;
-    padding-left: 0;
-    padding-right: 0; 
-}
-}
-
-//Suppliers Page *******************************************
-.pdfSidebar {
-    margin-bottom: 30px;
-    @include media-breakpoint-up(md) { padding: 0; }
-
-    h4 { padding-bottom: 20px; }
-    a {
-        @include media-breakpoint-only(md) { font-size: 0.8em; }
-    }
-}
-
-.pdfIcon {
-    width: 50px;
-    height: auto;
-    padding-right: 10px;
-}
-
-//Admin **********************************************
-#logOut, #adminBtn {
-    margin-right: 30px;
-
-    a {
-        color: $lightBlue;
-        padding-right: 20px;
-
-        &:hover {
-            text-decoration: none;
-            color: $secondary;
-        }
-    }
-
-    img {
-        width: 25px;
-        height: auto;
-        margin-right: 5px;
-    }
-}
-
-#adminBtn { margin-right: 20px; }
-
-#adminContent {
-    margin-bottom: 0;
-
-    a { color: $primary!important; }
-
-    h2 { text-align: center; }
-    h4 {
-        font-size: 1.3em;
-        text-transform: none;
-    }
-
-    .boldText { font-weight: 600; }
-
-    hr { width: 100%; }
-
-    .newsBox {
-        text-align: left;
-        background-color: $lightGray;
-        margin-top: 20px;
-        padding: 20px 40px 40px;
-        @include media-breakpoint-between(xs, sm) { margin-top: 5px; }
-
-        h6 {
-            color: $medGray;
-            margin-bottom: 15px;
-        }
-
-        .btn2 { margin-top: 10px; }
-
-        img {
-            padding: 10px 0 40px;
-            width: 220px;
-            height: auto;
-            margin-left: 20px; 
-        }
-        
-        .subtitle {
-            font-weight: 600;
-            color: $secondary;
-        }
-    }
-    
-    .icons {
-        width: auto;
-        height: 55px;
-        padding-bottom: 10px;
-    }
-    .error_container {
-    text-align: center;
-    margin-bottom: 40px;
-    }
-
-    input { height: 50px; }
-
-    .form-group {
-        h4 {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
-
-        img {
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-    }
-
-    #activeArea {
-        label { padding-right: 20px; }
-        input { height: auto; }
-    }
-
-    .adminLinks {
-        text-align: center;
-        margin-top: 30px;
-
-        h4 {
-            font-size: 1.2em;
-            text-transform: none;
-    
-            &:hover { color: $secondary; }
-        }
-    } 
-}
- 
-.has-error .form-control {
-    border-color:#a94442;
-    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
-    box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
-}
-
-.has-error .form-control:focus{
-    border-color:#843534;
-    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #ce8483;
-    box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #ce8483
-}
-
-.help-block {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    color: #a94442;
 }
