@@ -24,7 +24,7 @@
               <p id="socialIcons">
                 Follow Us <br>
                 <a href="#" target="_blank">
-                    <img src="images/instagram.svg" class="socialIcon" alt="instagram">
+                    <img src="images/linked-in.svg" class="socialIcon" alt="LinkedIn">
                 </a>
                 <a href="#" target="_blank">
                     <img src="images/twitter.svg" class="socialIcon" alt="twitter">

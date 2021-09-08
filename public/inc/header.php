@@ -34,7 +34,7 @@
             <nav class="align-items-center">
               <ul class="d-flex align-items-center">
                 <li id="demo">
-                  <a href="#">Request a Demo</a>  
+                  <a href="#">Contact Us</a>  
                 </li>
                 <li>
                   <a href="tel:8604305200">

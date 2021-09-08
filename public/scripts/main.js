@@ -38,16 +38,16 @@ $(document).ready(function(){
 
 
     $('#payAPersonBtn').on('click', function(){
-        $('.product').removeClass('active')
+        $('.product').removeClass('active2')
         $('#payABill').hide()
-        $('#payAPersonBtn').addClass('active')
+        $('#payAPersonBtn').addClass('active2')
         $('#payAPerson').fadeIn(200)
     })
 
     $('#payAbillBtn').on('click', function(){
-        $('.product').removeClass('active')
+        $('.product').removeClass('active2')
         $('#payAPerson').hide()
-        $('#payAbillBtn').addClass('active')
+        $('#payAbillBtn').addClass('active2')
         $('#payABill').fadeIn(200)
     })
 

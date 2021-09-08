@@ -34,7 +34,7 @@ p { padding-top: 10px; }
 }
 
 .btn2 {
-    border-color: $lightGray;
+    border: 1px solid $lightGray;
     background-color: rgba($color: $purple, $alpha: 1);
     color: $white;
 
@@ -606,7 +606,6 @@ main {
 
 
 
-
 // Inside Pages **********************************************
 
 #breadcrumbs { 
@@ -703,7 +702,6 @@ main {
     background-size: cover;
     background-blend-mode: screen;
     z-index: 1;
-    //background-color: rgba($color: #000, $alpha: 1.0);
     background-image: url("../images/guy-on-phone.png");
 
     p { 
@@ -809,20 +807,20 @@ main {
         content: '';
         position: absolute;
         left: 0;
-        top: -75px;
+        top: -65px;
         width: 100%;
-        height: 150px;
+        height: 125px;
         background-color: $white;
 
-        -webkit-transform: skewY(-5deg);
-        transform: skewY(-5deg);
+        -webkit-transform: skewY(-4deg);
+        transform: skewY(-4deg);
         z-index: -1;
    } 
    
    #payAPerson { display: none;}
 }
 
-.active { background-color: rgba($primary, .3); }
+.active2 { background-color: rgba($primary, .3); }
 
 
 

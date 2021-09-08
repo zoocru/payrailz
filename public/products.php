@@ -65,7 +65,7 @@
                     <!-- Product selection list -->
                     <div class="col-12 col-md-3">
                         <div id="productsList" class="shadow">
-                            <div id="payAbillBtn" class="product active">
+                            <div id="payAbillBtn" class="product active2">
                                 <h1><img src="images/product-icons/payABill_icon.png" class="shadowLil" alt="Pay A Bill">Pay A Bill</h1>
                             </div>
                             <div id="payAPersonBtn" class="product">
@@ -84,13 +84,19 @@
                         <div id="payABill" class="productDetail shadow">
                             <h1>Pay A Bill</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id&nbsp;est&nbsp;laborum.</p>
+                            <a id="button1" href="#">
+                                <button type="button" class="btn">Learn More</button>  
+                            </a>
                         </div>
                         <div id="payAPerson" class="productDetail shadow">
                             <h1>Pay A Person</h1>
                             <h2>What is Pay A Person?</h2>
                             <p>Pay A Person (P2P, Person to Person/B2C, Business to Consumer) is a digital service available to end-users and business users through online and mobile banking that replaces the need for cash, downloading a separate payment app, and check writing when paying a person. Pay A Person payments can be real time payments via debit card and/or next business day via ACH. End-users must have an active checking account for this service. The Recipient does not have to be an end-user at your financial&nbsp;institution.</p>
-                            <div class="d-flex">
+                            <div class="d-flex flex-column text-center">
                                 <img src="images/payAPerson.png" class="img-fluid shadow" alt="Pay A Person">
+                                <a id="button1" href="#">
+                                    <button type="button" class="btn">Learn More</button>  
+                                </a>
                             </div>
                         </div>
                     </div>
