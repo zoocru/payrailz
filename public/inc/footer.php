@@ -32,9 +32,9 @@
                 <a href="#" target="_blank">
                     <img src="images/facebook.svg" class="socialIcon" alt="facebook">
                 </a>
-                <a href="#" target="_blank">
+                <!-- <a href="#" target="_blank">
                     <img src="images/youTube.svg" class="socialIcon" alt="YouTube">
-                </a>
+                </a> -->
               </p>
             </div>
             <hr class="d-block d-md-none">

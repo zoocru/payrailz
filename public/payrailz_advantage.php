@@ -23,8 +23,8 @@
         <div class="row">
             <!-- Main Copy -->
             <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
-            <h1>The Payrailz Advantage</h1>
-            <h2>Payments are only part of&nbsp;it.</h2>
+                <h1>The Payrailz Advantage</h1>
+                <h2>Payments are only part of&nbsp;it.</h2>
             </div>
         </div>
         </div>
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-11 offset-lg-1">
                     <p>
-                        <a href="/">Home</a> <span class="separator">/
+                        <a href="/">Home</a><span class="separator">/
                         Payrailz Advantage
                     </p>
                 </div>
@@ -91,7 +91,7 @@
                         <div class="content">
                             <h1><img class="shadow" src="images/ai-icon.png" alt="Action Insights®">Action Insights<sup>®</sup></h1>
                             <p>Our machine learning and AI capabability study each user to provide custom recommendations and notifications that help the consumer manage accounts, loan payments, bills and other financial decisions with a single click. All seamlessly integrated into one user-friendly&nbsp;space.</p>
-                            <a id="button1" href="#">
+                            <a id="button1" href="action_insights.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>
@@ -105,7 +105,7 @@
                         <div class="content2">
                             <h1><img class="shadow" src="images/aui-icon.png" alt="Action Insights®">Advanced User Experience</h1>
                             <p>By combining powerful performance with a sleek and modern interface, Payrailz has created an experience that goes well beyond user&nbsp;expectations. </p>
-                            <a id="button1" href="#">
+                            <a id="button1" href="advanced_user_experience.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>
@@ -117,22 +117,8 @@
             </div>
         </section>
 
-        <section id="smarterPaymentSystems">
-            <div id="SPSTopBorder">
-                <div id="SPSBorder"></div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-6 offset-md-1">
-                        <h1>Smarter Payment Systems</h1>
-                        <p>Our multi-channel capabilities were designed to work in real time on one intuitive, comprehensive platform. This enables us to offer every variety of digital payment solution, each fully integrated and fully compatible with one&nbsp;another.</p>
-                        <a id="button1" href="#">
-                            <button type="button" class="btn2">Learn More</button>  
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- Smarter Payment Solutions -->
+        <?php include("inc/smarter-payment-solutions.php"); ?>
         
     </main>
 

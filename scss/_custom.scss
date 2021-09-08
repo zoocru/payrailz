@@ -359,6 +359,7 @@ main {
 
 .heroHP { background-image: url("../images/bg-1.png"); }
 .payrailzAdvantageHero { background-image: url("../images/bg1.jpg"); }
+.products { background-image: url("../images/bg2.jpg"); }
 
 #insideHeroWrapper { height: 550px; }
 
@@ -711,15 +712,129 @@ main {
     }
 }
 
+#actionInsights { 
+    padding-bottom: 75px;
+
+    h1 { 
+        color: $primary;
+        font-weight: 700;
+    }
+    h4 { 
+        color: $purple;
+        font-weight: 400;
+        margin-top: 30px
+    }
+}
+
+#productTop {
+    h1 { 
+        color: $primary;
+        font-weight: 700;
+    }
+}
+
+#productsSection {
+    position: relative;
+    padding: 40px 0 75px;
+
+    #productsSectionContent {
+        position: relative;
+        z-index: 2;
+    }
+
+    #productsList {
+        border-radius: 10px;
+        padding: 12px;
+        background-color: $white;
+
+       .product{
+           padding: 20px 15px;
+           border-radius: 10px;
+           cursor: pointer;
+           margin: 2px 0;
+
+           &:hover { background-color: rgba($primary, .3); }
+
+           h1 { 
+               color: $primary;
+               font-size: 18px;
+               font-weight: 400;
+               margin: 0;
+
+               img {
+                   width: 45px;
+                   height: auto;
+                   border-radius: 50%;
+                   margin: -5px 9px 0 0;
+                }
+           }
+       }
+    }
+
+   .productDetail {
+       padding: 30px;
+       background-color: $white;
+       border-radius: 10px;
+
+       h1 {
+           font-size: 24px;
+           color: $primary;
+           font-weight: 700;
+       }
+       h2 { 
+           font-size: 20px; 
+           color: $darkPurple;
+       }
+
+       img { margin: 15px auto; }
+   }
+
+   #purpleProductBG { 
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       height: 400px;
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#732282+0,50185b+99 */
+        background: $purple; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  $purple 0%, $darkPurple 99%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  $purple 0%,$darkPurple 99%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  $purple 0%,$darkPurple 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$purple, endColorstr=$darkPurple,GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+        z-index: 1;
+   }
+
+   #purpleProductBG:before { 
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -75px;
+        width: 100%;
+        height: 150px;
+        background-color: $white;
+
+        -webkit-transform: skewY(-5deg);
+        transform: skewY(-5deg);
+        z-index: -1;
+   } 
+   
+   #payAPerson { display: none;}
+}
+
+.active { background-color: rgba($primary, .3); }
 
 
 
+
+ // Utilities **********************************************
 .purpleBorder { border-top: 15px solid $primary; }
 .greenBorder { border-top: 15px solid $secondary; }
 
 .bold { font-weight: 700; }
 .shadow { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 .shadow2 { box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2), 2px 10px 8px 0 rgba(0, 0, 0, 0.19);}
+.shadowLil { box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19); }
 
 .addPadding { 
     padding-left: 50px;

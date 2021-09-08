@@ -27,7 +27,7 @@
                 <h2>Payrailz is the only digital payments platform you’ll ever&nbsp;need.</h2>
                 <p>Our all-in-one digital payments solution seamlessly navigates across existing payment platforms and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
                 <p>In a society focused on “Do It For Me®”, smart makes the&nbsp;difference.</p>
-                <a id="button1" href="about.php">
+                <a id="button1" href="products.php">
                     <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>
@@ -41,7 +41,7 @@
                       <li class="active"></li>
                       <li><li>
                       <li></li>
-                      </li></li>
+                      <li></li>
                     </ul>
                   </div>
               </div>
