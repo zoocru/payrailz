@@ -18,13 +18,13 @@
                   Services <i class="arrowDown"></i>
                 </li> -->
                 <li>
-                  <a href="payrailz-advantage">Payrailz Advantage</a>  
+                  <a href="payrailz_advantage.php">Payrailz Advantage</a>  
                 </li>
                 <li>
-                  <a href="about.php">Products</a>  
+                  <a href="products.php">Products</a>  
                 </li>
                 <li>
-                  <a href="contact.php">About Us</a>
+                  <a href="about.php">About Us</a>
                 </li>
               </ul>
             </nav>
