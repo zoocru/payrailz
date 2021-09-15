@@ -6348,6 +6348,17 @@ header {
 main {
   margin-top: 50px;
   margin-bottom: -15px; }
+  main ul {
+    list-style: none; }
+  main ul li::before {
+    content: "\2022";
+    /* \2022 is the CSS Code/unicode for a bullet */
+    color: #732282;
+    font-weight: bold;
+    font-size: 1.1em;
+    display: inline-block;
+    width: .875em;
+    margin-left: -1em; }
 
 #heroWrapper, #insideHeroWrapper {
   position: relative;
@@ -6423,6 +6434,9 @@ main {
 
 .products {
   background-image: url("../images/bg2.jpg"); }
+
+.aboutUs {
+  background-image: url("../images/bg3.jpg"); }
 
 #insideHeroWrapper {
   height: 550px; }
@@ -6538,11 +6552,13 @@ main {
     z-index: 1;
     opacity: .3; }
   #callOutBoxes .coBoxes {
+    position: relative;
     margin-top: -75px;
     border-radius: 10px;
     text-align: center;
     padding: 30px 20px;
-    background-color: #fff; }
+    background-color: #fff;
+    z-index: 2; }
     #callOutBoxes .coBoxes img {
       border-radius: 50%;
       margin-bottom: 25px;
@@ -6553,12 +6569,26 @@ main {
       font-size: 24px; }
     #callOutBoxes .coBoxes p {
       margin-bottom: 0; }
-  #callOutBoxes #HPaboutTeaser {
+  #callOutBoxes #HPaboutTeaser, #callOutBoxes #aboutTeaser {
     padding: 75px 40px 0; }
-    #callOutBoxes #HPaboutTeaser p {
+    #callOutBoxes #HPaboutTeaser p, #callOutBoxes #aboutTeaser p {
       color: #fff;
       margin-bottom: 0; }
+  #callOutBoxes #aboutTeaser {
+    padding-left: 0;
+    padding-right: 0; }
+  #callOutBoxes #HPaboutPillars {
+    margin-top: 75px; }
+    #callOutBoxes #HPaboutPillars .pillar {
+      color: #fff; }
+      #callOutBoxes #HPaboutPillars .pillar h1 {
+        padding-left: 15px;
+        border-left: 3px solid #B3FF3A; }
+      #callOutBoxes #HPaboutPillars .pillar p {
+        padding-left: 18px; }
   #callOutBoxes #teamModule {
+    position: relative;
+    z-index: 2;
     margin-top: 50px; }
     #callOutBoxes #teamModule h1 {
       font-size: 125px;
@@ -6646,6 +6676,33 @@ main {
     font-weight: 700; }
   #expectations img {
     border-radius: 0 0 0 10px; }
+
+#aboutMid {
+  position: relative;
+  background-color: #e9e9e9;
+  margin-top: 40px; }
+  #aboutMid h1 {
+    margin-top: 120px;
+    color: #732282;
+    font-size: 24px;
+    font-weight: 700; }
+  #aboutMid img {
+    position: relative;
+    top: px;
+    right: 0;
+    z-index: 1;
+    border-radius: 0 0 0 10px; }
+
+#aboutMid:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -20px;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  -webkit-transform: skewY(2.8deg);
+  transform: skewY(2.8deg); }
 
 #paywayz {
   position: relative;
@@ -6764,6 +6821,8 @@ main {
     #productsSection .productDetail h2 {
       font-size: 20px;
       color: #330949; }
+    #productsSection .productDetail p {
+      margin-bottom: 0 !important; }
     #productsSection .productDetail img {
       margin: 15px auto; }
   #productsSection #purpleProductBG {
@@ -6793,11 +6852,61 @@ main {
     -webkit-transform: skewY(-4deg);
     transform: skewY(-4deg);
     z-index: -1; }
-  #productsSection #payAPerson {
+  #productsSection #payAPerson, #productsSection #transferMoney,
+  #productsSection #creditPayPro {
     display: none; }
 
 .active2 {
   background-color: rgba(115, 34, 130, 0.3); }
+
+#about {
+  text-align: center; }
+  #about h1 {
+    color: #732282;
+    font-weight: bold; }
+
+#manPA:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -30px;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  -webkit-transform: skewY(6deg);
+  transform: skewY(6deg);
+  z-index: 2; }
+
+#productDetailPage {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 70px; }
+  #productDetailPage h1 {
+    margin-top: 150px;
+    color: #732282;
+    font-weight: 700; }
+  #productDetailPage img {
+    border-radius: 0 0 0 10px; }
+
+#manPA img {
+  border-radius: 0 0 10px 0 !important; }
+
+#manBottomPA:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 100%;
+  height: 480px;
+  background-color: #e9e9e9;
+  -webkit-transform: skewY(3deg);
+  transform: skewY(3deg);
+  z-index: -1; }
+
+figcaption {
+  font-size: .75em;
+  padding-top: 8px;
+  padding-left: 5px; }
 
 .purpleBorder {
   border-top: 15px solid #732282; }
@@ -6870,7 +6979,7 @@ video {
   width: 100%;
   height: 30px;
   margin-bottom: -15px;
-  z-index: 2; }
+  z-index: 3; }
   #footerTopBorder #footerBorder, #footerTopBorder #SPSBorder, #SPSTopBorder #footerBorder, #SPSTopBorder #SPSBorder {
     position: absolute;
     right: -25px;
@@ -6901,6 +7010,7 @@ video {
 
 #footer {
   position: relative;
+  z-index: 2;
   color: #fff;
   padding: 50px 0;
   font-size: 0.8em;

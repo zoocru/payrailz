@@ -109,6 +109,7 @@ h6 {
 }
 
 
+
 // Back To Top Button **********************************************
 #backToTop {
 	width: 40px;
@@ -273,6 +274,17 @@ header {
 main { 
     margin-top: 50px; 
     margin-bottom: -15px;
+
+    ul { list-style: none; }
+    ul li::before {
+        content: "\2022";  /* \2022 is the CSS Code/unicode for a bullet */
+        color: $purple; 
+        font-weight: bold; 
+        font-size: 1.1em;
+        display: inline-block; 
+        width: .875em; 
+        margin-left: -1em; 
+    }
 }
 
 
@@ -360,6 +372,7 @@ main {
 .heroHP { background-image: url("../images/bg-1.png"); }
 .payrailzAdvantageHero { background-image: url("../images/bg1.jpg"); }
 .products { background-image: url("../images/bg2.jpg"); }
+.aboutUs { background-image: url("../images/bg3.jpg"); }
 
 #insideHeroWrapper { height: 550px; }
 
@@ -490,11 +503,13 @@ main {
     }
 
     .coBoxes { 
+        position: relative;
         margin-top: -75px;
         border-radius: 10px;
         text-align: center;
         padding: 30px 20px;
         background-color: $white;
+        z-index: 2;
         img { 
             border-radius: 50%;
             margin-bottom: 25px;
@@ -508,7 +523,7 @@ main {
         p { margin-bottom: 0; }
     }
 
-    #HPaboutTeaser { 
+    #HPaboutTeaser, #aboutTeaser { 
         padding: 75px 40px 0;
 
         p {
@@ -517,7 +532,29 @@ main {
         }
     }
 
+    #aboutTeaser { 
+        padding-left: 0; 
+        padding-right: 0;
+    }
+
+    #HPaboutPillars { 
+        margin-top: 75px;
+
+        .pillar { 
+            //margin-left: 40px;
+            color: $white;
+
+            h1 { 
+                padding-left: 15px;
+                border-left: 3px solid $secondary;
+            }
+            p { padding-left: 18px;}
+        }
+    }
+
     #teamModule { 
+        position: relative;
+        z-index: 2;
         margin-top: 50px;
         
         h1 { 
@@ -632,6 +669,42 @@ main {
     img {
         border-radius: 0 0 0 10px;
     }
+}
+
+#aboutMid {
+    position: relative;
+    // z-index: 3;
+    background-color: $lightGray;
+    margin-top: 40px;
+
+    h1 { 
+        margin-top: 120px;
+        color: $primary;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    img {
+        position: relative;
+        //position: absolute;
+        top: px;
+        right: 0;
+         z-index: 1;
+         border-radius: 0 0 0 10px;
+    }
+}
+
+#aboutMid:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -20px;
+    width: 100%;
+    height: 100px;
+    background-color: $white;
+
+    -webkit-transform: skewY(2.8deg);
+    transform: skewY(2.8deg);
+    // z-index: 3;
 }
 
 #paywayz {
@@ -784,6 +857,8 @@ main {
            color: $darkPurple;
        }
 
+       p { margin-bottom: 0 !important; }
+
        img { margin: 15px auto; }
    }
 
@@ -817,11 +892,72 @@ main {
         z-index: -1;
    } 
    
-   #payAPerson { display: none;}
+   #payAPerson, #transferMoney,
+   #creditPayPro { display: none; }
 }
 
 .active2 { background-color: rgba($primary, .3); }
 
+#about { 
+    text-align: center;
+
+    h1 { 
+        color: $primary; 
+        font-weight: bold;
+    }
+}
+
+#manPA:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -30px;
+    width: 100%;
+    height: 80px;
+    background-color: $white;
+
+    -webkit-transform: skewY(6deg);
+    transform: skewY(6deg);
+    z-index: 2;
+}
+
+#productDetailPage { 
+    position: relative;
+    z-index: 1;
+    padding-bottom: 70px;
+    h1 { 
+        margin-top: 150px;
+        color: $primary;
+        font-weight: 700;
+    }
+    img {
+        border-radius: 0 0 0 10px;
+    }
+}
+
+#manPA { 
+    img { border-radius: 0 0 10px 0 !important; }
+}
+
+#manBottomPA:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    height: 480px;
+    background-color: $lightGray;
+
+    -webkit-transform: skewY(3deg);
+    transform: skewY(3deg);
+    z-index: -1;
+}
+
+figcaption { 
+    font-size: .75em; 
+    padding-top: 8px;
+    padding-left: 5px;
+}
 
 
 
@@ -893,7 +1029,7 @@ video {
     width: 100%;
     height: 30px;
     margin-bottom: -15px;
-    z-index: 2;
+    z-index: 3;
     
     #footerBorder, #SPSBorder{
         position: absolute;
@@ -927,6 +1063,7 @@ video {
 
 #footer {
     position: relative;
+    z-index: 2;
     color: $white;
     padding: 50px 0;
     font-size: 0.8em;

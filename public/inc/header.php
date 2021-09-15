@@ -6,12 +6,12 @@
     <header>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-3">
             <a href="/">
               <img id="logo" src="images/logo.svg" alt="Payrailz">
             </a>
           </div>
-          <div class="col-12 col-md-4 d-flex justify-content-center">
+          <div class="col-12 col-md-6 d-flex justify-content-center">
             <nav class="align-items-center">
               <ul>
                 <!-- <li id="servicesLink">
@@ -26,16 +26,19 @@
                 <li>
                   <a href="about.php">About Us</a>
                 </li>
+                <li>
+                  <a href="contact.php">Contact Us</a>
+                </li>
               </ul>
             </nav>
           </div>
 
-          <div class="col-12 col-md-4 d-flex justify-content-center">
+          <div class="col-12 col-md-3 d-flex justify-content-center">
             <nav class="align-items-center">
               <ul class="d-flex align-items-center">
-                <li id="demo">
+                <!-- <li id="demo">
                   <a href="#">Contact Us</a>  
-                </li>
+                </li> -->
                 <li>
                   <a href="tel:8604305200">
                     <img src="images/phone.png" alt="Call Payrailz" style="padding-right: 8px;">

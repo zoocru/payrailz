@@ -20,13 +20,13 @@
     <div id="insideHeroWrapper">
       <section id="hero" class="payrailzAdvantageHero d-flex align-items-center">
         <div class="container-fluid">
-        <div class="row">
-            <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
-                <h1>The Payrailz Advantage</h1>
-                <h2>Payments are only part of&nbsp;it.</h2>
+            <div class="row">
+                <!-- Main Copy -->
+                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+                    <h1>The Payrailz Advantage</h1>
+                    <h2>Payments are only part of&nbsp;it.</h2>
+                </div>
             </div>
-        </div>
         </div>
       </section>
       <section id="heroLines2">
@@ -73,7 +73,7 @@
                     <div class="col-12 col-md-6">
                         <h1>Paywayz: Smart Payments Made&nbsp;Simple</h1>
                         <p>The Paywayz Smart Payment Routing Hub eliminates the need for multiple partners, vendors, networks, and services, by streamlining the entire process and ensuring a payment goes where it’s supposed to go—no matter&nbsp;what.</p>
-                        <a id="button1" href="#">
+                        <a id="button1" href="paywayz.php">
                             <button type="button" class="btn2">Learn More</button>  
                         </a>
                     </div>
@@ -90,7 +90,7 @@
                     <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
                         <div class="content">
                             <h1><img class="shadow" src="images/ai-icon.png" alt="Action Insights®">Action Insights<sup>®</sup></h1>
-                            <p>Our machine learning and AI capabability study each user to provide custom recommendations and notifications that help the consumer manage accounts, loan payments, bills and other financial decisions with a single click. All seamlessly integrated into one user-friendly&nbsp;space.</p>
+                            <p>Our machine learning and AI capability study each user to provide custom recommendations and notifications that help the consumer manage accounts, loan payments, bills and other financial decisions with a single click. All seamlessly integrated into one user-friendly&nbsp;space.</p>
                             <a id="button1" href="action_insights.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>

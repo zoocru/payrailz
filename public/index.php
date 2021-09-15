@@ -31,6 +31,7 @@
                     <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>
+              <!-- Testimonials -->
               <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
                   <div id="testimonialsHP">
                     <img src="images/avatar.png" alt="">
@@ -61,7 +62,7 @@
             <div id="payRailzAdvantageContent" class="col-6 col-md-6 offset-md-1 d-flex justify-content-end flex-column align-items-end text-right">
               <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
               <p>By leveraging <span class="bold">AI and machine learning technologies</span>, we see a future where the consumer experience is intuitive, proactive, engaging and&nbsp;<span class="bold">smart</span>. </p>
-              <a href="#">
+              <a href="payrailz_advantage.php">
                   <button type="button" class="btn">Learn More</button>  
               </a>
             </div>
@@ -90,14 +91,13 @@
       <section id="callOutBoxes">
         <div class="container-fluid addPadding">
           <div class="row">
-            <img id="threeLines" src="images/three-lines.png" alt="">
             <!-- Smarter Payments -->
             <div class="col-12 col-md-3 pb-T100">
               <div class="coBoxes shadow border">
                 <img class="shadow" src="images/sp-icon.png" alt="Smarter Payments">
-                <h1>Smarter Payments</h1>
+                <h1>Smarter Payments System</h1>
                 <p>By offering every payment solution you need, all on one digital platform, we go well beyond basic services to deliver the type of experience consumers are demanding in today’s digitally-focused&nbsp;world.</p>
-                <a href="#">
+                <a href="products.php">
                   <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>
@@ -108,7 +108,7 @@
                 <img class="shadow" src="images/sprh-icon.png" alt="PayWayz: Smart Payment Routing Hub">
                 <h1>PayWayz: Smart Payment Routing&nbsp;Hub</h1>
                 <p>Paywayz intuitively finds the best path, identifies the best of each rail and forges new paths across rails, without the need for additional information, time or&nbsp;technology.</p>
-                <a href="#">
+                <a href="paywayz.php">
                   <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>
@@ -119,7 +119,7 @@
                 <img class="shadow" src="images/ai-icon.png" alt="Action Insights®">
                 <h1>Action Insights<sup>®</sup></h1>
                 <p>AI technology studies and overlays consumer data and behavior to make personalized recommendations that simplify the lives of your&nbsp;consumers.</p>
-                <a href="#">
+                <a href="action_insights.php">
                   <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>
@@ -130,11 +130,12 @@
                 <img class="shadow" src="images/aui-icon.png" alt="Advanced User Interface">
                 <h1>Advanced User Interface</h1>
                 <p>Designed to integrate seamlessly with the technology you’re familiar with and to operate on the online and mobile platforms today’s consumers are already&nbsp;using.</p>
-                <a href="#">
+                <a href="advanced_user_interface.php">
                   <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>
             </div>
+            <img id="threeLines" src="images/three-lines.png" alt="">
           </div>
         </div>
 
@@ -146,7 +147,7 @@
                 <h1>Smart people. Smart solutions. Smart&nbsp;service.</h1>
                 <p>Payrailz brings together a perfect combination of proven experience, innovation, technology and forward-thinking product&nbsp;development.</p>
                 <p>We’ll help you take the first step, the next step, and every step into the future, so you never feel like you’re going it&nbsp;alone.</p>
-                <a href="#">
+                <a href="about.php">
                   <button type="button" class="btn2">Learn More</button>  
                 </a>
               </div>
@@ -217,7 +218,7 @@
               <div class="col-12 col-md-8 offset-md-2">
                 <h1>Payments are our passion.</h1>
                 <p>Our founders, executive team, associates, board of directors and strategic partners are all well-established financial-industry professionals and technologists who are incredibly passionate about transforming the payments&nbsp;experience.</p>
-                <a href="#">
+                <a href="team.php">
                   <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>

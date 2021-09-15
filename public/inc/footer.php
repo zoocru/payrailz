@@ -47,7 +47,7 @@
                   <li><a href="products.php">Products</a></li>
                   <li><a href="smart_routing_hub.php">Paywayz Smart Routing Hub</a></li>
                   <li><a href="action_insights.php">Action Insights</a></li>
-                  <li><a href="advanced-user-experience.php">Advanced User Experience</a></li>
+                  <li><a href="advanced_user_experience.php">Advanced User Experience</a></li>
                   
                 </ul>
               </div>
@@ -56,8 +56,9 @@
                   <li><a href="about_us.php">About Us</a></li>
                   <li><a href="team.php">Our Team</a></li>
                   <li><a href="board_investors.php">Board & Investors</a></li>
-                  <li><a href="partners.php">Partners</a></li>
-                  
+                  <!-- <li><a href="partners.php">Partners</a></li> -->
+                  <li><a href="contact.php">Contact Us</a></li>
+                  <li><a href="careers.php">Careers</a></li>
                 </ul>
               </div>
               <div class="col-md-4">
@@ -67,8 +68,7 @@
                   <li><a href="faqs.php">FAQs</a></li>
                   <li><a href="testimonials.php">Testimonials</a></li>
                   <!-- <li><a href="contact.php">Contact Us</a></li>
-                  <li><a href="contact.php">Customer Support</a></li>
-                  <li><a href="careers.php">Careers</a></li> -->
+                  <li><a href="contact.php">Customer Support</a></li>-->
                 </ul>
               </div>
             </div>
