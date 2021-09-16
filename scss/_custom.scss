@@ -285,6 +285,11 @@ main {
         width: .875em; 
         margin-left: -1em; 
     }
+
+    h3 { 
+        color: $purple;
+        font-size: 1.5em;
+    }
 }
 
 
@@ -767,7 +772,8 @@ main {
     }
 }
 
-#smarterPaymentSystems {
+
+#smarterPaymentSystems, #careers {
     position: relative;
     padding: 175px 0;
     background-position: top center;
@@ -775,13 +781,15 @@ main {
     background-size: cover;
     background-blend-mode: screen;
     z-index: 1;
-    background-image: url("../images/guy-on-phone.png");
-
+    
     p { 
         margin-bottom: 0; 
         color: $white;
     }
 }
+#smarterPaymentSystems { background-image: url("../images/guy-on-phone.png"); }
+
+#careers { background-image: url("../images/careers.png"); }
 
 #actionInsights { 
     padding-bottom: 75px;
@@ -957,6 +965,47 @@ figcaption {
     font-size: .75em; 
     padding-top: 8px;
     padding-left: 5px;
+}
+
+#assets {
+    padding: 9px;
+    background-color: $white;
+    h1 { margin-top: 10px; }
+}
+
+.assets { 
+    h1 { 
+        padding: 10px; 
+        padding-left: 35px;
+        color: #231f20 !important;
+        font-weight: 400 !important;
+    }
+}
+
+.purpleBG { 
+    position: relative;
+    background-color: $purple;
+    h1 { 
+        color: $white !important;
+        padding: 10px; 
+        font-weight: 400 !important;
+    }
+}
+
+.purpleBG:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    right: -20px;
+    z-index: 1;
+    background-color: $purple;
+    transform-origin: bottom left;
+    -ms-transform: skew(-20deg, 0deg);
+    -webkit-transform: skew(-20deg, 0deg);
+    transform: skew(-20deg, 0deg);
 }
 
 

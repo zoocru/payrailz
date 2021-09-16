@@ -20,13 +20,13 @@
     <div id="insideHeroWrapper">
       <section id="hero" class="products d-flex align-items-center">
         <div class="container-fluid">
-        <div class="row">
-            <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
-                <h1>Pay A Person</h1>
-                <h2>A better way to pay just about&nbsp;anyone.</h2>
+            <div class="row">
+                <!-- Main Copy -->
+                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+                    <h1>Pay A Person</h1>
+                    <h2>A better way to pay just about&nbsp;anyone.</h2>
+                </div>
             </div>
-        </div>
         </div>
       </section>
       <section id="heroLines2">
@@ -60,7 +60,7 @@
                     <div class="col-12 col-md-6 offset-md-1">
                         <h1>Any time, any place, any&nbsp;person.</h1>
                         <p>With <span class="bold">Pay A Person</span>, users no longer need to carry cash, download compatible payment apps, or write checks to make person to person payments. <span class="bold">Pay A Person</span> works in real time via debit card and/or next business day via ACH. While both users and recipients must have an active checking account to use this service, Pay A Person works automatically across all financial institutions.</p>
-                        <p>Benefits</p>
+                        <h3>Benefits</h3>
                         <ul class="mb-4">
                             <li>Easy, seamless experience helps users quickly move their money&nbsp;electronically.</li>
                             <li>Contacts are securely authenticated, ensuring the payment goes to the correct&nbsp;person.</li>

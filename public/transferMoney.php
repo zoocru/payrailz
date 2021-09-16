@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
 
-      <title>Payrailz Products - Pay A Person</title>
+      <title>Payrailz Products - Transfer Money</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>
@@ -23,8 +23,8 @@
         <div class="row">
             <!-- Main Copy -->
             <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
-                <h1>Pay Bills</h1>
-                <h2>A Smarter Bill Pay&nbsp;Experience</h2>
+                <h1>Transfer Money</h1>
+                <h2>The fastest way from&nbsp;A2A.</h2>
             </div>
         </div>
         </div>
@@ -41,7 +41,7 @@
                     <p>
                         <a href="/">Home</a><span class="separator">/
                         <a href="products.php">Products</a><span class="separator">/
-                        Pay Bills
+                        Transfer Money
                     </p>
                 </div>
             </div>
@@ -54,24 +54,23 @@
                 <div class="row no-gutter">
                     <div class="col-12 col-md-4" style="padding-left: 0 !important;">
                         <div id="manPA">
-                            <img src="images/woman3.png" class="img-fluid shadow2" alt="Pay Bills">
+                            <img src="images/woman-laptop.png" class="img-fluid shadow2" alt="Transfer Money">
                         </div>
                     </div>    
                     <div class="col-12 col-md-6 offset-md-1">
-                        <h1>Introducing an innovative new way to view, manage and pay&nbsp;bills.</h1>
-                        <p>By leveraging our AI-driven capabilities to deliver actionable insights, users will have better oversight and control of their bills and payment accounts. <span class="bold">Pay Bills</span> also enables users to easily view their billing information and pay anyone via their own personal choice of delivery options, including immediate, same day, next day, future date, recurring or automatic.</p>
+                        <h1>Moving money just got a whole lot&nbsp;smarter.</h1>
+                        <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is available for both personal and business users through online and mobile banking and provides an easy, seamless experience that helps users quickly move money to and from accounts at different financial&nbsp;institution.</p>
                         <h3>Benefits</h3>
                         <ul class="mb-4">
-                            <li>Secure, convenient, fast. Providing a better way to send payments directly to billers and&nbsp;creditors.</li>
-                            <li>Records and receipts are stored online to provide proof of&nbsp;payment.</li>
-                            <li>View historical and scheduled payments to easily manage all bill&nbsp;payments.</li>
-                            <li>Action Insights™ provides personalized, actionable recommendations and reminders, helping users manage bills and&nbsp;budgets.</li>
+                            <li>Account Authentication of external accounts can happen in real-time or through a micro-deposit&nbsp;process.</li>
+                            <li>Next day ACH allows for streamlined processing and provides full transparency into money&nbsp;movement. </li>
+                            <li>As the ODFI, you can work directly with the RDFI on returns and exception&nbsp;processing.</li>
                         </ul>
                         <figure>
-                            <img src="images/payBills.png" alt="Pay Bills" class="img-fluid shadow2">
-                            <figcaption>Pay Bills Activity&nbsp;Feed</figcaption>
+                            <img src="images/transferMoney.png" alt="Transfer Money" class="img-fluid shadow2">
+                            <figcaption>PLAID-Enabled Bank Verification</figcaption>
                         </figure>
-                        <p class="mb-1">Want to learn more about our <span class="bold">Pay Bills</span> feature?</p>
+                        <p class="mb-1">Ready to talk more about our <span class="bold">Transfer Money</span> tool?</p>
                         <a id="button1" href="contact.php">
                             <button type="button" class="btn">Contact Us</button>  
                         </a>

@@ -53,7 +53,7 @@
               </div>
               <div class="col-md-4">
                 <ul class="list-unstyled">
-                  <li><a href="about_us.php">About Us</a></li>
+                  <li><a href="about.php">About Us</a></li>
                   <li><a href="team.php">Our Team</a></li>
                   <li><a href="board_investors.php">Board & Investors</a></li>
                   <!-- <li><a href="partners.php">Partners</a></li> -->

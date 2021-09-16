@@ -68,7 +68,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img src="images/computer.jpg" class="img-fluid purpleBorder shadow" alt="Paywayz: Smart Payments Made Simple">
+                        <img src="images/paywayz.png" class="img-fluid purpleBorder shadow" alt="Paywayz: Smart Payments Made Simple">
                     </div>
                     <div class="col-12 col-md-6">
                         <h1>Paywayz: Smart Payments Made&nbsp;Simple</h1>
@@ -85,7 +85,7 @@
             <div class="container-fluid removePadding">
                 <div class="row no-gutters">
                     <div class="col-12 col-md-6">
-                        <img src="images/coffee-screen.png" class="img-fluid greenBorder" alt="Payrailz Action Insights">
+                        <img src="images/action-insights.png" class="img-fluid greenBorder" alt="Payrailz Action Insights">
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
                         <div class="content">

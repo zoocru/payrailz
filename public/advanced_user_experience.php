@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
 
-      <title>Payrailz Advantage</title>
+      <title>Payrailz - Advanced User Experience</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>
@@ -40,7 +40,7 @@
                 <div class="col-11 offset-lg-1">
                     <p>
                         <a href="/">Home</a><span class="separator">/
-                        Action Insights
+                        Advanced User Experience
                     </p>
                 </div>
             </div>
@@ -62,7 +62,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-10 offset-1 text-center">
-                        <img id="AIImg" src="images/charts/FlexUI.jpg" class="img-fluid" alt="">
+                        <img id="AIImg" src="images/charts/FlexUI.svg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>

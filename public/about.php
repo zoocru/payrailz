@@ -65,6 +65,25 @@
                     <div class="col-12 col-md-6 offset-md-2">
                         <h1>Momentum is on our side.</h1>
                         <p>The Payrailz platform is growing rapidly with some of the most respected financial institutions and industry leaders placing their trust&nbsp;in&nbsp;us.</p>
+                        <div class="row">
+                            <div class="col-12 col-md-10 offset-md-1">
+                                <div class="row" id="assets">
+                                    <div class="col-12 col-md-3">
+                                        <div class="purpleBG">
+                                            <h1>
+                                                Current<br>
+                                                Clients
+                                            </h1>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9 assets">
+                                        <h1>$72.2 Billion Assets<br>
+                                        25.8 Million Annual Transactions</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                     <div class="col-12 offset-md-1 col-md-3" style="padding-right: 0 !important;">
                         <div id="womanPA">
@@ -186,7 +205,7 @@
       </section>
 
         <!-- Smarter Payment Solutions -->
-        <?php include("inc/smarter-payment-solutions.php"); ?>
+        <?php include("inc/careers-module.php"); ?>
         
     </main>
 
