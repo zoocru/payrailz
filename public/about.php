@@ -204,7 +204,7 @@
         
       </section>
 
-        <!-- Smarter Payment Solutions -->
+        <!-- Careers -->
         <?php include("inc/careers-module.php"); ?>
         
     </main>

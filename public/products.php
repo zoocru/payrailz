@@ -66,7 +66,7 @@
                     <div class="col-12 col-md-3">
                         <div id="productsList" class="shadow">
                             <div id="paybillsBtn" class="product active2">
-                                <h1><img src="images/product-icons/payABill_icon.png" class="shadowLil" alt="Pay A Bill">Pay A Bill</h1>
+                                <h1><img src="images/product-icons/payABill_icon.png" class="shadowLil" alt="Pay A Bill">Pay Bills</h1>
                             </div>
                             <div id="payAPersonBtn" class="product">
                                 <h1><img src="images/product-icons/payAPerson_icon.png" class="shadowLil" alt="Pay A Person">Pay A Person</h1>
@@ -77,6 +77,12 @@
                             <div id="ccpBtn" class="product">
                                 <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Credit Pay Pro">Credit Pay Pro</h1>
                             </div>
+                            <div id="bsolBtn" class="product">
+                                <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Business Solutions">Business Solutions</h1>
+                            </div>
+                            <div id="bserBtn" class="product">
+                                <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Business Services">Biller Services</h1>
+                            </div>
                         </div>
                     </div>
                     <!-- Product details -->
@@ -84,7 +90,7 @@
                         <div id="payABill" class="productDetail shadow">
                             <h1>Pay Bills</h1>
                             <h2>What is <span class="bold">Pay Bills</span></h2>
-                            <p>Pay Bills is a proprietary digital service that delivers smart-enabled electronic bill presentment and payment capabilities. It comes with all the advanced features your users have come to expect from their traditional bill pay solutions, plus so much more.  </p>
+                            <p>Pay Bills is a proprietary digital service that delivers smart-enabled electronic bill presentment and payment capabilities. It comes with all the advanced features your users have come to expect from their traditional bill pay solutions, plus so much&nbsp;more. </p>
                             <a id="button1" href="payBills.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
@@ -92,7 +98,7 @@
                         <div id="payAPerson" class="productDetail shadow">
                             <h1>Pay A Person</h1>
                             <h2>What is <span class="bold">Pay A Person?</span></h2>
-                            <p>Pay A Person (P2P, Person to Person/B2C, Business to Consumer) is a digital service available to end-users and business users through online and mobile banking that replaces the need for cash, downloading a separate payment app, and check writing when paying a person. Pay A Person payments can be real time payments via debit card and/or next business day via ACH. End-users must have an active checking account for this service. The Recipient does not have to be an end-user at your financial&nbsp;institution. </p>
+                            <p>Pay A Person (P2P, Person to Person/B2C, Business to Consumer) is a modern, ultra-convenient service that enables anyone to make electronic payments directly to anyone else via online and mobile&nbsp;banking.</p>
                             <a id="button1" href="payAPerson.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
@@ -105,11 +111,30 @@
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>
+
                         <div id="creditPayPro" class="productDetail shadow">
                             <h1>Credit Pay Pro</h1>
-                            <h2>What is <span class="bold">Credit Pay Pro?</span></h2>
-                            <p>provides users with the ability to view loans, mortgage and credit card statement information and make payments via their Financial Institution's website, Call Center, and&nbsp;IVR.</p>
+                            <h2>What is Credit Pay Pro?</h2>
+                            <p><span class="bold">Credit Pay Pro</span> provides users with the ability to view loans, mortgage and credit card statement information and make payments via their Financial Institution's website, Call Center, and&nbsp;IVR.</p>
                             <a id="button1" href="creditPayPro.php">
+                                <button type="button" class="btn">Learn More</button>  
+                            </a>
+                        </div>
+
+                        <div id="businessSolutions" class="productDetail shadow">
+                            <h1>Business Solutions</h1>
+                            <h2>What Business Solutions do we&nbsp;offer?</h2>
+                            <p>Payrailz offers the next generation of electronic Billing, Invoice and Payment Solutions, including Business Bill Pay, Disbursements (B2C), External Transfers (A2A) and New Account Funding&nbsp;(A2A).</p>
+                            <a id="button1" href="businessSolutions.php">
+                                <button type="button" class="btn">Learn More</button>  
+                            </a>
+                        </div>
+
+                        <div id="billerServices" class="productDetail shadow">
+                            <h1>Biller Services</h1>
+                            <h2>What Biller Services do we&nbsp;offer?</h2>
+                            <p>Payrailz Biller Services include Payment Consolidator, Credit Pay Lite (Pay a Loan) and Credit Pay Pro for&nbsp;Billers.</p>
+                            <a id="button1" href="billerServices.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>

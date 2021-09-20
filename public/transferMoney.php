@@ -39,8 +39,8 @@
             <div class="row">
                 <div class="col-11 offset-lg-1">
                     <p>
-                        <a href="/">Home</a><span class="separator">/
-                        <a href="products.php">Products</a><span class="separator">/
+                        <a href="/">Home</a><span class="separator">/</span>
+                        <a href="products.php">Products</a><span class="separator">/</span>
                         Transfer Money
                     </p>
                 </div>
@@ -59,7 +59,7 @@
                     </div>    
                     <div class="col-12 col-md-6 offset-md-1">
                         <h1>Moving money just got a whole lot&nbsp;smarter.</h1>
-                        <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is available for both personal and business users through online and mobile banking and provides an easy, seamless experience that helps users quickly move money to and from accounts at different financial&nbsp;institution.</p>
+                        <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is available for both personal and business users through online and mobile banking and provides an easy, seamless experience that helps users quickly move money to and from accounts at different financial&nbsp;institutions.</p>
                         <h3>Benefits</h3>
                         <ul class="mb-4">
                             <li>Account Authentication of external accounts can happen in real-time or through a micro-deposit&nbsp;process.</li>

@@ -92,7 +92,9 @@
       <div class="container">
         <div class="row">
         <div class="col-md-11">
-          <p>© <?php echo date("Y"); ?> &nbsp;Payrailz. All Rights Reserved. <a href="privacy.php">Privacy Policy</a> | <a href="Terms & Conditions">Terms & Conditions</a></p>
+          <p>© <?php echo date("Y"); ?> &nbsp;Payrailz. All Rights Reserved.</p> 
+          <!-- <a href="privacy.php">Privacy Policy</a> | 
+          <a href="Terms & Conditions">Terms & Conditions</a> -->
         </div>
       </div>
       </div>

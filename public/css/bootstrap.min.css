@@ -6441,6 +6441,9 @@ main {
 .aboutUs {
   background-image: url(../images/bg3.jpg); }
 
+.contactUs {
+  background-image: url(../images/bg5.jpg); }
+
 #insideHeroWrapper {
   height: 550px; }
 
@@ -6810,7 +6813,7 @@ main {
         background-color: rgba(115, 34, 130, 0.3); }
       #productsSection #productsList .product h1 {
         color: #732282;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin: 0; }
         #productsSection #productsList .product h1 img {
@@ -6861,8 +6864,38 @@ main {
     transform: skewY(-4deg);
     z-index: -1; }
   #productsSection #payAPerson, #productsSection #transferMoney,
-  #productsSection #creditPayPro {
+  #productsSection #creditPayPro, #productsSection #businessSolutions,
+  #productsSection #billerServices {
     display: none; }
+
+#contact {
+  position: relative;
+  padding: 120px 0 75px;
+  margin-top: -70px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: screen;
+  z-index: 1;
+  background-image: url(../images/paywayz-bg.jpg); }
+  #contact #contactContent {
+    position: relative;
+    z-index: 2; }
+  #contact h1#contactH1 {
+    margin-bottom: 50px;
+    padding-top: 20px; }
+
+#contact:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -80px;
+  width: 100%;
+  height: 130px;
+  background-color: #fff;
+  -webkit-transform: skewY(1.5deg);
+  transform: skewY(1.5deg);
+  z-index: 2; }
 
 .active2 {
   background-color: rgba(115, 34, 130, 0.3); }

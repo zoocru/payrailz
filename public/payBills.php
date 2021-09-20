@@ -39,8 +39,8 @@
             <div class="row">
                 <div class="col-11 offset-lg-1">
                     <p>
-                        <a href="/">Home</a><span class="separator">/
-                        <a href="products.php">Products</a><span class="separator">/
+                        <a href="/">Home</a><span class="separator">/</span>
+                        <a href="products.php">Products</a><span class="separator">/</span>
                         Pay Bills
                     </p>
                 </div>

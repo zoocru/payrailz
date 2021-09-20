@@ -96,7 +96,7 @@
               <div class="coBoxes shadow border">
                 <img class="shadow" src="images/sp-icon.png" alt="Smarter Payments">
                 <h1>Smarter Payments System</h1>
-                <p>By offering every payment solution you need, all on one digital platform, we go well beyond basic services to deliver the type of experience consumers are demanding in today’s digitally-focused&nbsp;world.</p>
+                <p>By offering every payment solution you need, all on one digital platform, we go well beyond basic services to deliver the type of experience consumers are demanding in today’s digitally focused&nbsp;world.</p>
                 <a href="products.php">
                   <button type="button" class="btn">Learn More</button>  
                 </a>

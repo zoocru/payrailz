@@ -38,31 +38,47 @@ $(document).ready(function(){
 
     $('#paybillsBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payAPerson, #transferMoney, #creditPayPro').hide()
+        $('#payAPerson, #transferMoney, #creditPayPro, #billerServices, #businessSolutions').hide()
         $('#payAbillBtn').addClass('active2')
         $('#payABill').fadeIn(200)
     })
 
     $('#payAPersonBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #creditPayPro, #transferMoney').hide()
+        $('#payABill, #creditPayPro, #transferMoney, #billerServices, #businessSolutions').hide()
         $('#payAPersonBtn').addClass('active2')
         $('#payAPerson').fadeIn(200)
     })
 
     $('#transferMoneyBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #creditPayPro').hide()
+        $('#payABill, #payAPerson, #creditPayPro, #billerServices, #businessSolutions').hide()
         $('#transferMoneyBtn').addClass('active2')
         $('#transferMoney').fadeIn(200)
     })
 
     $('#ccpBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #transferMoney').hide()
+        $('#payABill, #payAPerson, #transferMoney, #billerServices, #businessSolutions').hide()
         $('#ccpBtn').addClass('active2')
         $('#creditPayPro').fadeIn(200)
     })
+
+
+    $('#bsolBtn').on('click', function(){
+        $('.product').removeClass('active2')
+        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #billerServices').hide()
+        $('#bsolBtn').addClass('active2')
+        $('#businessSolutions').fadeIn(200)
+    })
+
+    $('#bserBtn').on('click', function(){
+        $('.product').removeClass('active2')
+        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #businessSolutions').hide()
+        $('#bserBtn').addClass('active2')
+        $('#billerServices').fadeIn(200)
+    })
+    
 
 
 
