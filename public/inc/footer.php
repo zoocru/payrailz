@@ -73,12 +73,19 @@
               </div>
             </div>
             <hr>
-            <div class="row">
-              <div class="col-12">
-                <p>Receive Updates, News & Information</p>
-                <!-- Form will go here for email -->
+
+            <form id="form2" name="contact_form" method="post" action="" >
+              <div class="row">
+                <div id="updates" class="col-12 align-items-center">
+                  <p>Receive Updates, News & Information</p>
+                  <div class="form-group email-group">
+                      <input type="text" name="email" class="form-control" id="email" placeholder="Email Address" value=''>
+                      <span class="help-block"></span>
+                  </div>
+                  <button type="submit" id="submit2" name="submit" class="btn2 gBtn btn-sm">OK</button>
+                </div>
               </div>
-            </div>
+            </form>
 
           </div>
         </div>

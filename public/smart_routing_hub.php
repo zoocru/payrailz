@@ -60,7 +60,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-10 offset-1 text-center">
-                        <img id="AIImg" src="images/charts/ActionInsights.svg" class="img-fluid" alt="">
+                        <img id="AIImg" src="images/charts/PayWayz.svg" class="img-fluid mb-5" alt="">
                         <p class="mb-1">Want to learn more?</p>
                         <a id="button1" href="contact.php">
                             <button type="button" class="btn">Contact Us</button>  
@@ -70,8 +70,8 @@
             </div>
         </section>
 
-            <!-- Smarter Payment Solutions -->
-            <?php include("inc/smarter-payment-solutions.php"); ?>
+        <!-- Smarter Payment Solutions -->
+        <?php include("inc/smarter-payment-solutions.php"); ?>
 
     </main>
 

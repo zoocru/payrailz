@@ -9,7 +9,11 @@
 
       <title>About Payrailz</title>
 
-      <link rel="stylesheet" href="css/bootstrap.min.css">    
+      <link rel="stylesheet" href="css/bootstrap.min.css">   
+      
+      <style>
+          #callOutBoxes:before { height: 825px;}
+      </style>
   </head>
 
   <body>
@@ -94,7 +98,7 @@
             </div>
         </section>
 
-        <section id="callOutBoxes" style="margin-top: 0 !important">
+        <section id="callOutBoxes" style="margin-top: 0 !important; ">
             <div class="container-fluid addPadding">
                 <div class="row">
                     <img id="threeLines" src="images/three-lines.png" alt="">
@@ -143,47 +147,186 @@
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
                     <!-- Carousel Indicators -->
                     <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                     </ol>
                     <!-- Carousel items -->
                     <div class="container">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="images/team/DaveFrench.jpg" class="img-fluid" alt="">
-                        <img src="images/team/Denise-Delisle-2.jpg" class="img-fluid" alt="">
-                        <img src="images/team/Fran-Chan-2.jpg" class="img-fluid" alt="">
-                        <img src="images/team/FranDuggan.jpg" class="img-fluid" alt="">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!-- Fran Duggan -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Fran-Duggan">
+                                    <div class="teamInfoContent">
+                                        <h2>Fran Duggan</h2>
+                                        <h4>CEO & Founder</h4>
+                                    </div>
+                                    <img src="images/team/FranDuggan.jpg" class="img-fluid" alt="Fran Duggan - CEO & Founder">
+                                    </a>
+                                </div>
+                                <!-- Paul Franko II -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Paul-Franko">
+                                    <div class="teamInfoContent">
+                                        <h2>Paul Franko II</h2>
+                                        <h4>COO & Founder</h4>
+                                    </div>
+                                    <img src="images/team/PaulFrankoII.jpg" class="img-fluid" alt="Paul Franko II - COO & Founder">
+                                    </a>
+                                </div>
+                                <!-- Rich Pelikan -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Rich-Pelikan">
+                                    <div class="teamInfoContent">
+                                        <h2>Rich Pelikan</h2>
+                                        <h4>CBDO & Founder</h4>
+                                    </div>
+                                    <img src="images/team/RichPelikan.jpg" class="img-fluid" alt="RichPelikan - CBDO & Founder">
+                                    </a>
+                                </div>
+                                <!-- Horng Tern -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Horng-Tern">
+                                    <div class="teamInfoContent">
+                                        <h2>Horng Tern</h2>
+                                        <h4>CTO</h4>
+                                    </div>
+                                    <img src="images/team/Horng-Tern-2.jpg" class="img-fluid" alt="Horng Tern - CTO">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">                  
+                                <!-- Jim Kern -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Jim-Kern">
+                                    <div class="teamInfoContent">
+                                        <h2>Jim Kern</h2>
+                                        <h4>VP, Chief Sales&nbsp;Officer</h4>
+                                    </div>
+                                    <img src="images/team/Jim-Kern-web.jpg" class="img-fluid" alt="Jim Kern - VP, Chief Sales Officer">
+                                    </a>
+                                </div>
+                                <!-- Mickey Goldwasser -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Mickey-Goldwasser">
+                                    <div class="teamInfoContent">
+                                        <h2>Mickey Goldwasser</h2>
+                                        <h4>VP, Marketing & Chief of&nbsp;Staff</h4>
+                                    </div>
+                                    <img src="images/team/mickeygoldwasser.jpg" class="img-fluid" alt="Mickey Goldwasser - VP, Marketing & Chief of Staff">
+                                    </a>
+                                </div>
+                                <!-- Gereen Langmeyer -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Gereen-Langmeyer">
+                                    <div class="teamInfoContent">
+                                        <h2>Gereen Langmeyer</h2>
+                                        <h4>VP, Payment Product&nbsp;Management</h4>
+                                    </div>
+                                    <img src="images/team/DaveFrench.jpg" class="img-fluid" alt="Gereen Langmeyer - VP, Payment Product Management">
+                                    </a>
+                                </div>
+                                <!-- Kavita Singh -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Kavita-Singh">
+                                    <div class="teamInfoContent">
+                                        <h2>Kavita Singh</h2>
+                                        <h4>VP, AI Product&nbsp;Management</h4>
+                                    </div>
+                                    <img src="images/team/Kavita-Singh-II-e1594149412865.jpg" class="img-fluid" alt="Kavita Singh - VP, AI Product Management">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <!-- Dave French -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Dave-French">
+                                    <div class="teamInfoContent">
+                                        <h2>Dave French</h2>
+                                        <h4>VP, Finance</h4>
+                                    </div>
+                                    <img src="images/team/DaveFrench.jpg" class="img-fluid" alt="Dave French - VP, Finance">
+                                    </a>
+                                </div>
+                                <!-- Denise Delisle -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Denise-Delisle">
+                                    <div class="teamInfoContent">
+                                        <h2>Denise Delisle</h2>
+                                        <h4>VP, Payment Operations</h4>
+                                    </div>
+                                    <img src="images/team/Denise-Delisle-2.jpg" class="img-fluid" alt="Denise Delisle - VP, Payment Operations">
+                                    </a>
+                                </div>
+                                <!-- Ted Chaney -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Ted-Chaney">
+                                    <div class="teamInfoContent">
+                                        <h2>Ted Chaney</h2>
+                                        <h4>VP, Strategic Partnerships &&nbsp;Channels</h4>
+                                    </div>
+                                    <img src="images/team/TedChaney.jpg" class="img-fluid" alt="Ted Chaney - VP, Strategic Partnerships & Channels">
+                                    </a>
+                                </div>
+                                <!-- Song Nunnallee -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Song-Nunnallee">
+                                    <div class="teamInfoContent">
+                                        <h2>Song Nunnallee</h2>
+                                        <h4>VP, Agile Project&nbsp;Management</h4>
+                                    </div>
+                                    <img src="images/team/Song-Nunnallee-2.jpg" class="img-fluid" alt="Song Nunnallee - VP, Agile Project Management">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <!-- Lena Mitchell -->
+                                <div class="teamInfo">
+                                    <a href="team.php#">
+                                    <div class="teamInfoContent">
+                                        <h2>Lena Mitchell</h2>
+                                        <h4>Director of Implementation</h4>
+                                    </div>
+                                    <img src="images/team/Lena-Mitchell-2.jpg" class="img-fluid" alt="Lena Mitchell - Director of Implementation">
+                                    </a>
+                                </div>
+                                <!-- Katie Stein -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Katie-Stein">
+                                    <div class="teamInfoContent">
+                                        <h2>Katie Stein</h2>
+                                        <h4>Director, Client Success</h4>
+                                    </div>
+                                    <img src="images/team/Katie-Headshot-iii-e1619541707871.jpg" class="img-fluid" alt="Katie Stein - Director, Client Success">
+                                    </a>
+                                </div>
+                                <!-- Fran Chan -->
+                                <div class="teamInfo">
+                                    <a href="team.php#Frank-Chan">
+                                    <div class="teamInfoContent">
+                                        <h2>Frank Chan</h2>
+                                        <h4>Security & Compliance Officer</h4>
+                                    </div>
+                                    <img src="images/team/Fran-Chan-2.jpg" class="img-fluid" alt="Frank Chan - Security & Compliance Officer">
+                                    </a>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="carousel-item">
-                        <img src="images/team/Gereen-Langmeyer-II-e1571954839543.jpg" class="img-fluid" alt="">
-                        <img src="images/team/Horng-Tern-2.jpg" class="img-fluid" alt="">
-                        <img src="images/team/Jim-Kern-web.jpg" class="img-fluid" alt="">
-                        <img src="images/team/Katie-Headshot-iii-e1619541707871.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="images/team/Kavita-Singh-II-e1594149412865.jpg" class="img-fluid" alt="">
-                        <img src="images/team/Lena-Mitchell-2.jpg" class="img-fluid" alt="">
-                        <img src="images/team/mickeygoldwasser.jpg" class="img-fluid" alt="">
-                        <img src="images/team/PaulFrankoII.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="carousel-item">
-                        <img src="images/team/RichPelikan.jpg" class="img-fluid" alt="">
-                        <img src="images/team/Song-Nunnallee-2.jpg" class="img-fluid" alt="">
-                        <img src="images/team/TedChaney.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
                     </div>
                     <!-- Prev / Next -->
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
                     </a>
                 </div>
             </section>
@@ -194,7 +337,7 @@
                     <div class="col-12 col-md-8 offset-md-2">
                         <h1>Payments are our passion.</h1>
                         <p>Our founders, executive team, associates, board of directors and strategic partners are all well-established financial-industry professionals and technologists who are incredibly passionate about transforming the payments&nbsp;experience.</p>
-                        <a href="#">
+                        <a href="team.php">
                         <button type="button" class="btn">Learn More</button>  
                         </a>
                     </div>

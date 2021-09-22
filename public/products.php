@@ -20,13 +20,13 @@
     <div id="insideHeroWrapper">
       <section id="hero" class="products d-flex align-items-center">
         <div class="container-fluid">
-        <div class="row">
-            <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
-                <h1>Smarter Payments</h1>
-                <h2>Smarter payment solutions start&nbsp;here.</h2>
+            <div class="row">
+                <!-- Main Copy -->
+                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+                    <h1>Smarter Payments</h1>
+                    <h2>Smarter payment solutions start&nbsp;here.</h2>
+                </div>
             </div>
-        </div>
         </div>
       </section>
       <section id="heroLines2">
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-11 offset-lg-1">
                     <p>
-                        <a href="/">Home</a><span class="separator">/
+                        <a href="/">Home</a><span class="separator">/</span>
                         Products
                     </p>
                 </div>
@@ -78,10 +78,10 @@
                                 <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Credit Pay Pro">Credit Pay Pro</h1>
                             </div>
                             <div id="bsolBtn" class="product">
-                                <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Business Solutions">Business Solutions</h1>
+                                <h1><img src="images/product-icons/businessSolutions_icon.png" class="shadowLil" alt="Business Solutions">Business Solutions</h1>
                             </div>
                             <div id="bserBtn" class="product">
-                                <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Business Services">Biller Services</h1>
+                                <h1><img src="images/product-icons/billerServices_icon.png" class="shadowLil" alt="Business Services">Biller Services</h1>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,6 @@
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>
-
                         <div id="creditPayPro" class="productDetail shadow">
                             <h1>Credit Pay Pro</h1>
                             <h2>What is Credit Pay Pro?</h2>
@@ -120,7 +119,6 @@
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>
-
                         <div id="businessSolutions" class="productDetail shadow">
                             <h1>Business Solutions</h1>
                             <h2>What Business Solutions do we&nbsp;offer?</h2>
@@ -129,7 +127,6 @@
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>
-
                         <div id="billerServices" class="productDetail shadow">
                             <h1>Biller Services</h1>
                             <h2>What Biller Services do we&nbsp;offer?</h2>

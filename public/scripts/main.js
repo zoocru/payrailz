@@ -25,17 +25,9 @@ $(document).ready(function(){
 		return false
     })
 
-    // Dropdown nav clicks
-    $('#servicesLink').on("click", function(){
-        $('#servicesLink').toggleClass("bgToggle")
-        $('#dropdown').slideToggle()
-    })
-    $('#dropdown').mouseleave(function() {
-        $('#servicesLink').toggleClass("bgToggle")
-        $('#dropdown').slideToggle()
-    })
 
 
+    // PRODUCTS
     $('#paybillsBtn').on('click', function(){
         $('.product').removeClass('active2')
         $('#payAPerson, #transferMoney, #creditPayPro, #billerServices, #businessSolutions').hide()
@@ -79,9 +71,24 @@ $(document).ready(function(){
         $('#billerServices').fadeIn(200)
     })
     
+    // Hover on team photos on team teaser
+    $(function(){
+        $('.teamInfoContent').hover(function() {
+          $(this).addClass('teamActive')
+        }, function() {
+          $(this).removeClass('teamActive')
+        })
+    })
 
+    $('#teamPics img').on('click', function(){
+        $data = $(this).data('name')
+        $('#teamPics img').removeClass('teamActive2')
+        $(this).addClass('teamActive2')
+        $('#bios div').removeClass('teamBioActive')
+        $('.' + $data).addClass('teamBioActive')
+    })
 
+   
 
-
-}) // end ready
+})
 
