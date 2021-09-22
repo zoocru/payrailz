@@ -54,7 +54,7 @@
                 <div class="row no-gutter">
                     <div class="col-12 col-md-4" style="padding-left: 0 !important;">
                         <div id="manPA">
-                            <img src="images/woman4.jpg" class="img-fluid shadow2" alt="Credit Pay Pro">
+                            <img src="images/man-computer2.jpg" class="img-fluid shadow2" alt="Credit Pay Pro">
                         </div>
                     </div>    
                     <div class="col-12 col-md-6 offset-md-1">

@@ -51,11 +51,11 @@
         <section id="actionInsights">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-7">
+                    <div class="col-12 col-md-10 offset-md-1 text-center">
                         <h1>Built for today’s payment platforms and&nbsp;tomorrow’s.</h1>
                         <p>Payrailz was built API first from day one, with the critical goal of achieving full integration and seamless navigation though every existing payment platform. This means that it works with the technologies you already use, as well as the platforms that consumers rely upon every&nbsp;day. </p>
 
-                        <p>We designed the entire platform to be white labeled by banks and credit unions, with customizable design capabilities that allow you to add your brand colors, fonts and logos. To the end user, it’s business as usual. Except now, your business is a lot more robust and&nbsp;user-friendly.</p>
+                        <p class="mb-5">We designed the entire platform to be white labeled by banks and credit unions, with customizable design capabilities that allow you to add your brand colors, fonts and logos. To the end user, it’s business as usual. Except now, your business is a lot more robust and&nbsp;user-friendly.</p>
                     </div>
                 </div>
             </div>
@@ -63,6 +63,10 @@
                 <div class="row">
                     <div class="col-10 offset-1 text-center">
                         <img id="AIImg" src="images/charts/FlexUI.svg" class="img-fluid" alt="">
+                        <p class="mt-4 mb-1">Want to learn more?</p>
+                        <a id="button1" href="contact.php">
+                            <button type="button" class="btn">Contact Us</button>  
+                        </a>
                     </div>
                 </div>
             </div>
