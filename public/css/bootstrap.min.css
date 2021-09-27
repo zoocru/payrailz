@@ -6558,6 +6558,24 @@ main {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$purple, endColorstr=$darkPurple,GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
+  #teamBG #boardPage {
+    padding-bottom: 70px; }
+    #teamBG #boardPage h1 {
+      font-weight: 700;
+      margin-bottom: 50px; }
+    #teamBG #boardPage h2, #teamBG #boardPage h3, #teamBG #boardPage p {
+      color: #fff; }
+    #teamBG #boardPage h2 {
+      font-size: 24px;
+      font-weight: 700; }
+    #teamBG #boardPage h3 {
+      font-size: 16px;
+      margin-bottom: 18px; }
+    #teamBG #boardPage hr {
+      margin: 40px 0;
+      background-color: rgba(233, 233, 233, 0.5);
+      height: 1px;
+      border: none; }
 
 #teamBG:before {
   content: '';
@@ -6603,9 +6621,9 @@ main {
       font-size: 24px; }
     #callOutBoxes .coBoxes p {
       margin-bottom: 0; }
-  #callOutBoxes #HPaboutTeaser, #callOutBoxes #aboutTeaser {
+  #callOutBoxes #HPaboutTeaser, #callOutBoxes #aboutTeaser, #callOutBoxes #boardPage {
     padding: 75px 40px 0; }
-    #callOutBoxes #HPaboutTeaser p, #callOutBoxes #aboutTeaser p {
+    #callOutBoxes #HPaboutTeaser p, #callOutBoxes #aboutTeaser p, #callOutBoxes #boardPage p {
       color: #fff;
       margin-bottom: 0; }
   #callOutBoxes #aboutTeaser {

@@ -2,6 +2,7 @@
 
 <html lang="en">
   <head>
+  <meta name="robots" content="noindex">
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -73,7 +74,7 @@
                     <div class="col-12 col-md-6">
                         <h1>Paywayz: Smart Payments Made&nbsp;Simple</h1>
                         <p>The Paywayz Smart Payment Routing Hub eliminates the need for multiple partners, vendors, networks, and services, by streamlining the entire process and ensuring a payment goes where it’s supposed to go—no matter&nbsp;what.</p>
-                        <a id="button1" href="paywayz.php">
+                        <a id="button1" href="smart_routing_hub.php">
                             <button type="button" class="btn2">Learn More</button>  
                         </a>
                     </div>

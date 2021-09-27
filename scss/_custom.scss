@@ -503,6 +503,34 @@ main {
     background: -webkit-radial-gradient(center, ellipse cover,  $purple 1%,$darkPurple 100%); /* Chrome10-25,Safari5.1-6 */
     background: radial-gradient(ellipse at center,  $purple 1%,$darkPurple 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$purple, endColorstr=$darkPurple,GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    #boardPage { 
+        padding-bottom: 70px;
+
+        h1 { 
+            font-weight: 700; 
+            margin-bottom: 50px;
+        }
+
+        h2, h3, p { color: $white; }
+        h2 { 
+            font-size: 24px; 
+            font-weight: 700;
+            //margin-bottom: 18px;
+        }
+        h3 { 
+            font-size: 16px; 
+            margin-bottom: 18px;
+        }
+
+        hr { 
+            margin: 40px 0; 
+            background-color: rgba($lightGray, .5);
+            height: 1px;
+            border: none;
+        }
+        
+    }
 }
 
 #teamBG:before { 
@@ -556,7 +584,7 @@ main {
         p { margin-bottom: 0; }
     }
 
-    #HPaboutTeaser, #aboutTeaser { 
+    #HPaboutTeaser, #aboutTeaser, #boardPage { 
         padding: 75px 40px 0;
 
         p {
@@ -569,6 +597,8 @@ main {
         padding-left: 0; 
         padding-right: 0;
     }
+
+    
 
     #HPaboutPillars { 
         margin-top: 75px;

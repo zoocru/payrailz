@@ -96,6 +96,7 @@
                                 <img data-name="DeniseDelisle" src="images/team/Denise-Delisle-2.jpg" class="img-fluid" alt="Denise Delisle - VP, Payment Operations">
                                 <img data-name="TedChaney" src="images/team/TedChaney.jpg" class="img-fluid" alt="Ted Chaney - VP, Strategic Partnerships & Channels">
                                 <img data-name="Song" src="images/team/Song-Nunnallee-2.jpg" class="img-fluid" alt="Song Nunnallee - VP, Agile Project Management">
+                                <img data-name="LenaMitchell" src="images/team/Lena-Mitchell-2.jpg" class="img-fluid" alt="Lena Mitchell - Director of Implementation">
                                 <img data-name="KatieStein" src="images/team/Katie-Headshot-iii-e1619541707871.jpg" class="img-fluid" alt="Katie Stein - Director, Client Success">
                                 <img data-name="FranChan" src="images/team/Fran-Chan-2.jpg" class="img-fluid" alt="Frank Chan - Security & Compliance Officer">
                             </div>
@@ -261,10 +262,191 @@
                                     </div>
                                 </div>
 
-                            </div>
-                            
-                            
+                                <div class="Kavita bio">
+                                    <div class="row">
+                                        <div class="col-12 col-md-3">
+                                            <img data-name="Kavita" src="images/team/Kavita-Singh-II-e1594149412865.jpg" class="img-fluid" alt="Kavita Singh - VP, AI Product Management">
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <h1>Kavita Singh</h1>
+                                            <h3>AI Product Management</h3>
+                                            
+                                            <p>As VP of AI Product Management for Payrailz, Kavita will use her extensive background in financial services product management and artificial intelligence to further build out and develop Payrailz’ AI product initiatives and features. Moreover, she is also responsible for further advancing our company’s strategic “smarter payments vision” and overseeing the go-to-market approaches for Payrailz’ AI initiatives and&nbsp;experiences.</p>
+                                            
+                                            <p>Kavita brings more than 15 years of experience in product management and development and joined Payrailz from Credit2B, a company that is now part of Billtrust. In this role, she was responsible for the company’s SaaS-based risk analytics platform, including the launch of artificial intelligence and machine learning features within the platform. She also served as Senior Product Strategy Manager at Fiserv where she led new mobile payments product development for B2C, B2B and C2B payments. Singh began her career at&nbsp;IBM.</p>
 
+                                            <p>A results-driven product management leader with deep experience in fintech, information services/data insights, and analytics. She also brings a new and fresh perspective to Payrailz efforts to innovate the payments experience and plays a key role in Payrailz’ ongoing mission of making the payments experience smarter and more engaging for the banks and credit unions we&nbsp;serve.</p>
+
+                                            <p> a unique blend of business and technical innovation expertise she is a strong customer champion in the commercialization and adoption of digital&nbsp;transformation.</p>
+                                            
+                                            <!-- <div class="socialLinks">
+
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="DaveFrench bio">
+                                    <div class="row">
+                                        <div class="col-12 col-md-3">
+                                            <img data-name="DaveFrench" src="images/team/DaveFrench.jpg" class="img-fluid" alt="Dave French - VP, Finance">
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <h1>Dave French</h1>
+                                            <h3>VP, Finance</h3>
+                                            
+                                            <p>As VP of Finance for Payrailz, David is responsible for leading all financial, forecasting and financial reporting activities as well as efforts that generate meaningful insights to drive the company’s decision-making&nbsp;processes.</p>
+                                                                                        
+                                            <p>He brings more than 30 years of financial, operational and administrative experience focusing on the software technology and biotechnology arenas to Payrailz. His areas of expertise are FP&A, mergers and acquisitions, strategic planning, pricing, and&nbsp;controllership.</p>
+
+                                            <p>David joined Payrailz from Eppendorf where, as director of FP&A, he oversaw forecasting, annual planning and improving operational&nbsp;efficiencies.</p>
+
+                                            <p>During his career, he has held a variety of executive-level financial positions with leading companies including Open Solutions, Konica Minolta and Digital&nbsp;Equipment.</p>
+                                            
+                                            <!-- <div class="socialLinks">
+
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="DeniseDelisle bio">
+                                    <div class="row">
+                                        <div class="col-12 col-md-3">
+                                            <img data-name="DeniseDelisle" src="images/team/Denise-Delisle-2.jpg" class="img-fluid" alt="Denise Delisle - VP, Payment Operations">
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <h1>Denise Delisle</h1>
+                                            <h3>VP, Payment Operations</h3>
+                                            
+                                            <p>As VP of Payment Operations for Payrailz, Denise is responsible for ensuring superior payment processing, account reconciliation, biller/vendor management, and client success efforts in order to deliver a superior client experience. She has over 30 years of experience in Customer Operations, Payment Operations, Compliance, and Vendor Management, from which over 10 years have been in Money Remittances. The last 8 years have been in the Financial Technology&nbsp;industry.</p>
+                                                                                        
+                                            <p>Her experience includes working in a start-up environment, domestic and international money remittance and bill payment, managing third-party vendors (Billers, Processors, and Customer Support), developing and implementing operational procedures and&nbsp;processes.</p>
+
+                                            <p>Denise joined Payrailz from BillMo, a US-based company that offers a low-cost money transfer and mobile wallet application designed to enable US senders to send money to individuals in Mexico using just their smartphone and debit card. She was responsible for the day-to-day operations including customer support. Additionally, she directed activities, establish priorities, provides guidance and ensures the availability of resources to meet or exceed customer needs, while ensuring BSA/AML standards were understood, adhered to and reviewed. As one of BillMo’s first employees, she helped grow the company to be the first to set a new standard for low-cost money transfer and mobile wallet application for Mexico using a&nbsp;Smartphone.</p>
+
+                                            <p>Additionally, her wealth of experience includes 3 years at CheckFree (now part of Fiserv) managing the customer operations groups including call center, technical support, quality assurance, warehouse, client services, stored value card operations and agent support&nbsp;operations.</p>
+                                            
+                                            <!-- <div class="socialLinks">
+
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="TedChaney bio">
+                                    <div class="row">
+                                        <div class="col-12 col-md-3">
+                                            <img data-name="TedChaney" src="images/team/TedChaney.jpg" class="img-fluid" alt="Ted Chaney - VP, Strategic Partnerships & Channels">
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <h1>Ted Chaney</h1>
+                                            <h3>VP, Strategic Partnerships &&nbsp;Channels</h3>
+                                            
+                                            <p>As VP of Strategic Partnerships & Channels for Payrailz, Ted is responsible for leading the Payrailz partnership distribution channel and further advancing the company’s strategic alliance and partnership&nbsp;strategy.</p>
+                                            
+                                            <p>He joined Payrailz from Hyperwallet Financial Services, where he served as director of Customer Success with responsibilities for developing and executing strategies to drive revenue growth for the company’s prepaid debit cards, ACH bank deposits, wires and cash pickup services. Prior to that he served as SVP of Strategic Alliances for Payveris, where he managed the company’s partner distribution&nbsp;network.</p>
+
+                                            <p>Additionally, Ted brings a wealth of experience in leadership, management and business development roles across notable payment companies such as Securenet (now a part of Worldpay) and Visa. He has a deep expertise and success in developing and executing on high-growth sales strategies for digital payment and Omni-channel payment processing solutions, including credit, debit, and bill payment processing, through strategic partnerships including resellers, enterprise merchants and tier one financial institutions such as Bank of America and Wells&nbsp;Fargo.</p>
+
+                                            <p>He also spent 10 years with CheckFree (now a part of Fiserv) where he managed the Electronic Billing and Payment (EBP) partner channel of Value Added Resellers, representing more than 2,500 financial&nbsp;institutions.</p>
+                                            
+                                            <!-- <div class="socialLinks">
+
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="Song bio">
+                                    <div class="row">
+                                        <div class="col-12 col-md-3">
+                                            <img data-name="Song" src="images/team/Song-Nunnallee-2.jpg" class="img-fluid" alt="Song Nunnallee - VP, Agile Project Management">
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <h1>Song Nunnallee</h1>
+                                            <h3>VP, Agile Project&nbsp;Management</h3>
+                                            
+                                            <p>As VP of Agile Project Management for Payrailz, Song is responsible for managing all internal project initiatives. She directs a dynamic agile project framework that constantly evolves to meet the rapidly changing demands of the financial services industry in support of all Product and IT initiatives. Song believes that change is constant and thus it is imperative that we are not limited by tools and methodology but driven forward by collaboration and delivering timely results providing high customer&nbsp;value.</p>
+
+                                            <p>Song’s experience at Payrailz includes being an integral member of the Payrailz platform core design team as well as establishing the Implementation team and processes and overseeing FI Implementations. Her goal for the Agile Project Management team is to provide a flexible and adaptable internal service that accelerates the delivery and improves the quality of Payrailz team initiatives. The end result, being able to respond quickly to the changing industry and meeting the needs of our clients&nbsp;quickly.</p>
+
+                                            <p>Song joined Payrailz with extensive experience in technical project management, payments, digital banking, financial services, information technology, quality engineering, and professional services. Her prior professional background includes API integration project manager with Payveris, Commerce Velocity mortgage lending solutions with Bear Stearns, IT technology specialist with ORCC, and Noblestar consultant for quality engineering, systems analysis, and Y2K&nbsp;initiatives.</p>
+                                            
+                                            <!-- <div class="socialLinks">
+
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="LenaMitchell bio">
+                                    <div class="row">
+                                        <div class="col-12 col-md-3">
+                                            <img data-name="LenaMitchell" src="images/team/Lena-Mitchell-2.jpg" class="img-fluid" alt="Lena Mitchell - Director of Implementation">
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <h1>Lena Mitchell</h1>
+                                            <h3>Director of Implementation</h3>
+                                            
+                                            <p>As Director of Implementation for Payrailz, Lena is responsible for all client implementations and integrations onto the Payrailz digital payment platform. Her passion is ensuring the best client experience possible during implementation and after “go-live”. Lena has a team of highly skilled specialists with deep experience in banking, credit unions, payments, project management, APIs, and data conversions. Financial institutions can feel confident they are “in good hands” with a collaborative transparent approach that addresses their unique concerns and leverages the full power of the Payrailz&nbsp;platform.</p>
+
+                                            <p>Her goals for the implementation team is to be a true partner with the client, eliminate pain points, assist them in understanding and managing their data, provide the highest level of data accuracy, drive the project timeline to keep everyone on task, and achieve the ultimate goal of a successful launch with minimal end-user&nbsp;disruption.</p>
+
+                                            <p>Lena joined Payrailz with extensive experience in project management, financial services, strategic planning, vendor relationships and professional services. Her prior professional background includes Project Management Office Director at Suncoast Credit Union and Vice President with GTE Financial Credit Union with a concentration in branch operations, mergers, consumer lending, internal staff support and implementation of various systems and&nbsp;applications.</p>
+                                            
+                                            <!-- <div class="socialLinks">
+
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="KatieStein bio">
+                                    <div class="row">
+                                        <div class="col-12 col-md-3">
+                                            <img data-name="KatieStein" src="images/team/Katie-Headshot-iii-e1619541707871.jpg" class="img-fluid" alt="Katie Stein - Director, Client Success">
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <h1>Katie Stein</h1>
+                                            <h3>Director, Client&nbsp;Success</h3>
+                                            
+                                            <p>As Director of Client Success for Payrailz, Katie's goal is that clients are highly successful in their efforts and are continually wowed by their interactions with Payrailz. Moreover, she strives to make sure clients have the best solutions throughout their entire journey with the company by providing the resources and relationships necessary to deliver positive and memorable interactions with all levels of&nbsp;business.</p>
+
+                                            <p>Katie has been in the financial industry for more than 20 years as both the client and the vendor. She has worked in a variety of areas including operations, member service, fraud, IT, project management, digital banking, and fintech. With a drive to always provide the best experience possible for clients, her vast experience and knowledge give her a truly unique skill set that allows her to partner with her clients and build successful&nbsp;relationships.</p>
+
+                                            <p>Katie joined the Payrailz team as an Implementations Specialist and now moves into the role of Director of Client Success. Additionally, she brings a wealth of experience in management, leadership, and product development roles from Best Innovation Group, Wescom Resources Group, and Wescom Credit&nbsp;Union.</p>
+                                            
+                                            <!-- <div class="socialLinks">
+
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="FranChan bio">
+                                    <div class="row">
+                                        <div class="col-12 col-md-3">
+                                            <img data-name="FranChan" src="images/team/Fran-Chan-2.jpg" class="img-fluid" alt="Frank Chan - Security & Compliance Officer">
+                                        </div>
+                                        <div class="col-12 col-md-9">
+                                            <h1>Frank Chan</h1>
+                                            <h3>Security & Compliance&nbsp;Officer</h3>
+                                            
+                                            <p>As Security & Compliance Officer for Payrailz, Frank is responsible for executing a risk-based compliance strategy and overseeing all security, risk, and audit activities. He is a highly accomplished information security, risk and compliance professional with over 10 years of demonstrated experience in managing complex information security, risk and governance&nbsp;programs.</p>
+
+                                            <p>Frank joined Payrailz from D+H (now a part of Finastra), where he served as Senior Director of Regulatory Services for managing complex federal IT examinations across all functional areas of the company. Prior to that, he served as Chief Information Security Officer for Open Solutions (now a part of Fiserv) where he managed the company’s information security&nbsp;program.</p>
+
+                                            <p>He also brings a wealth of experience in audit and regulatory compliance across notable fintech companies and government agencies. He spent 9 years as Director of IT Audit with BISYS, and 6 years with the Office of the Comptroller of the Currency (OCC) as a Bank&nbsp;IT&nbsp;examiner.</p>
+
+                                            <!-- <div class="socialLinks">
+
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 

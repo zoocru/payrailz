@@ -2,6 +2,7 @@
 
 <html lang="en">
   <head>
+  <meta name="robots" content="noindex">
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -108,7 +109,7 @@
                 <img class="shadow" src="images/sprh-icon.png" alt="PayWayz: Smart Payment Routing Hub">
                 <h1>PayWayz: Smart Payment Routing&nbsp;Hub</h1>
                 <p>Paywayz intuitively finds the best path, identifies the best of each rail and forges new paths across rails, without the need for additional information, time or&nbsp;technology.</p>
-                <a href="paywayz.php">
+                <a href="smart_routing_hub.php">
                   <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>
@@ -130,7 +131,7 @@
                 <img class="shadow" src="images/aui-icon.png" alt="Advanced User Interface">
                 <h1>Advanced User Interface</h1>
                 <p>Designed to integrate seamlessly with the technology you’re familiar with and to operate on the online and mobile platforms today’s consumers are already&nbsp;using.</p>
-                <a href="advanced_user_interface.php">
+                <a href="advanced_user_experience.php">
                   <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>
