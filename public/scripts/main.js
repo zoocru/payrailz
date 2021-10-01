@@ -88,7 +88,18 @@ $(document).ready(function(){
         $('.' + $data).addClass('teamBioActive')
     })
 
-   
+    // FAQs & Careers
+    // FAQs ==========================
+    $('.faqQuestion').on('click', function() {
+        $(this).next(".faqAnswer").slideToggle(500)
+        $(this).find('.faqArrow').toggleClass('rotate')
+        $(this).find('.faqArrow').toggleClass('rotate-reset')
+    })
+    $('.careerTitle').on('click', function() {
+        $(this).next(".careerDetail").slideToggle(500)
+        $(this).find('.careerArrow').toggleClass('rotate')
+        $(this).find('.careerArrow').toggleClass('rotate-reset')
+    })
 
 })
 
