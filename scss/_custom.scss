@@ -783,7 +783,17 @@ main {
         border-radius: 0 0 0 10px;
     }
 }
-
+#clients {
+    margin-top: 40px;
+    padding-bottom: 120px;
+    text-align: center;
+    .clientLogos {
+        margin: 5px;
+        padding: 20px 20px;
+        background-color: white;
+        border: 1px solid $gray-300;
+    }
+}
 #aboutMid, #curailz {
     position: relative;
     // z-index: 3;
@@ -1636,6 +1646,7 @@ h3, p { color: $white; }
 }
 
 #jobs {  
+    margin-bottom: 70px;
 
     .careerTitle {
         padding: 20px;
