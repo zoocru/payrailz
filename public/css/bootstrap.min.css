@@ -7554,4 +7554,24 @@ video {
 .help-block {
   color: #ff6969; }
 
+#cardProcessingFlow {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 12px;
+  margin: 20px 0; }
+  #cardProcessingFlow .ccpImages {
+    display: flex;
+    justify-content: center; }
+    #cardProcessingFlow .ccpImages img {
+      display: inline;
+      max-height: 50px;
+      width: auto;
+      margin: 0 7px; }
+    #cardProcessingFlow .ccpImages .ccpArow {
+      width: 50px;
+      height: auto; }
+  #cardProcessingFlow p {
+    display: block; }
+
 /*# sourceMappingURL=bootstrap.css.map */

@@ -1715,6 +1715,33 @@ h3, p { color: $white; }
     }
 }
 
-.help-block { 
-    color: #ff6969;
+.help-block { color: #ff6969; }
+
+#cardProcessingFlow {
+    background-color: $white;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    .ccpImages {
+        display: flex;
+        justify-content: center;
+        img { 
+            display: inline;
+            max-height: 50px;
+            width: auto;
+            margin: 0 7px;
+        }
+        .ccpArow { 
+            width: 50px;
+            height: auto;
+        }
+    }
+    // img {
+    //     max-height: 75px;
+    //     width: auto;
+    // }
+    p { 
+        display: block; 
+    }
 }
