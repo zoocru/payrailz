@@ -1,3 +1,11 @@
+<?php
+
+    if(isset($_GET['id'])) {
+        $id = $_GET['id'];
+    }
+
+?>
+
 <!doctype html>
 
 <html lang="en">
@@ -9,7 +17,8 @@
 
       <title>Payrailz Team</title>
 
-      <link rel="stylesheet" href="css/bootstrap.min.css">    
+      <link rel="stylesheet" href="css/bootstrap.min.css">   
+      
   </head>
 
   <body>
@@ -452,7 +461,8 @@
 
                     <!-- Sidebar -->
                     <div class="col-12 col-md-4">
-                        <div id="teamInfo" style="margin-top: 80px !important">
+                        <!-- <div id="teamInfo" style="margin-top: 80px !important"> -->
+                        <div id="teamInfo">
                             <h1>Team Experience</h1>
                             <p><span class="bold">329</span> years in&nbsp;Financial Services</p>
                             <p><span class="bold">285</span> years in&nbsp;Fintech</p>
@@ -473,6 +483,16 @@
 
     <!--FOOTER-->
     <?php include("inc/footer.php"); ?>
+    <script>
+        var id = <?php echo json_encode($id); ?>;
+        console.log(id)
+        if (id != null){
+            $('#teamPics img').removeClass('teamActive2')
+            $('#teamPics img[data-name='+id+']').addClass('teamActive2')
+            $('#bios div').removeClass('teamBioActive')
+            $('.' + id).addClass('teamBioActive')
+        }
+    </script>
 
   </body>
 

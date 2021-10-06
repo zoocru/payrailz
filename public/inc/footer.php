@@ -63,10 +63,13 @@
               </div>
               <div class="col-md-4">
                 <ul class="list-unstyled">
-                  <li><a href="/news">News & Events</a></li>
+                  <!-- <li><a href="/news">News & Events</a></li> -->
+                  <li>News & Events</li>
                   <li><a href="curailz.php">Curailz</a></li>
-                  <li><a href="faqs.php">FAQs</a></li>
-                  <li><a href="testimonials.php">Testimonials</a></li>
+                  <!-- <li><a href="faqs.php">FAQs</a></li>
+                  <li><a href="testimonials.php">Testimonials</a></li> -->
+                  <li>FAQs</li>
+                  <li>Testimonials</li>
                   <!-- <li><a href="contact.php">Contact Us</a></li>
                   <li><a href="contact.php">Customer Support</a></li>-->
                 </ul>

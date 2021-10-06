@@ -65,16 +65,20 @@
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <div class="form-group reason-group">
-                                        <label for="reason">Reason for Contacting</label>
+                                        <label for="reason">Reason for Contacting (Optional)</label>
                                         <select class="form-control" id="reasons">
                                             <option value="">-- Select Reason --</option>
-                                            <option value="">Customer Support</option>
-                                            <option value="">Reason 2</option>
-                                            <option value="">Reason 3</option>
-                                            <option value="">Reason 4</option>
-                                            <option value="">Reason 5</option>
+                                            <option value="payBills">Pay Bills</option>
+                                            <option value="payAPerson">Pay A Person</option>
+                                            <option value="transferMoney">Transfer Money</option>
+                                            <option value="creditPayPro">Credit Pay Pro</option>
+                                            <option value="businessSolutions">Business Solutions</option>
+                                            <option value="billerServices">Biller Services</option>
+                                            <option value="sdvancedUserExperience">Advanced User Experience</option>
+                                            <option value="actionInsights">Action Insights</option>
+                                            <option value="smartRoutingHub">Smart Routing Hub</option>
                                         </select>
-                                        <span class="help-block"></span>
+                                        <!-- <span class="help-block"></span> -->
                                     </div>
                                     <div class="form-group name-group">
                                         <label for="name">Full Name</label>
@@ -93,14 +97,14 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <div class="form-group email-group">
+                                    <div class="form-group phone-group">
                                         <label for="phone">Phone (Optional)</label>
                                         <input type="text" name="phone" class="form-control" id="phone" value=''>
                                         <span class="help-block"></span>
                                     </div>
                                     <div class="form-group">
                                         <label for="description">Comments/Questions (Optional)</label>
-                                        <textarea class="form-control" name="description" id="description" rows="8"><?php echo htmlentities($description) ?></textarea>
+                                        <textarea class="form-control" name="description" id="description" rows="8"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
@@ -148,6 +152,7 @@
 
     <!--FOOTER-->
     <?php include("inc/footer.php"); ?>
+    <script src="scripts/validation.js"></script>
 
   </body>
 

@@ -8,6 +8,16 @@ $('#name').focusout(function(){
 	}
 })
 
+$('#company').focusout(function(){
+	if ($('#company').val().length == 0 ) {
+		$('.company-group .help-block').text('Please enter your company name.')
+		$('.company-group').attr({ class:"has-error form-group company-group" })
+	} else {
+		$('.company-group .help-block').text('')
+		$('.company-group').attr({ class:"form-group company-group" })
+	}
+})
+
 $('#email').focusout(function(){
 	if ($('#email').val().length == 0 ) {
 		$('.email-group .help-block').text('Please enter your email.')
@@ -18,15 +28,15 @@ $('#email').focusout(function(){
 	}
 })
 
-$('#captcha').focusout(function(){
-	if ($('#captcha').val().length == 0 ) {
-		$('.captcha-group .help-block').text('Please enter code.')
-		$('.captcha-group').attr({ class:"has-error form-group2 captcha-group" })
-	} else {
-		$('.captcha-group .help-block').text('');
-		$('.captcha-group').attr({ class:"form-group2 captcha-group" })	
-	}
-}) 
+// $('#captcha').focusout(function(){
+// 	if ($('#captcha').val().length == 0 ) {
+// 		$('.captcha-group .help-block').text('Please enter code.')
+// 		$('.captcha-group').attr({ class:"has-error form-group2 captcha-group" })
+// 	} else {
+// 		$('.captcha-group .help-block').text('');
+// 		$('.captcha-group').attr({ class:"form-group2 captcha-group" })	
+// 	}
+// }) 
 	
 // function for validating email address
 function validateEmail(sEmail) {
@@ -53,6 +63,15 @@ $('#submit').click(function(submit){
 	} else {
 		$('.name-group .help-block').text('')
 	}
+
+	if ($('#company').val().length == 0 ) {
+		$('.company-group .help-block').text('Please enter your company name.')
+		$('.company-group').attr({ class:"has-error form-group company-group" })
+		submit.preventDefault()
+		proceedWithSubmission = false
+	} else {
+		$('.name-group .help-block').text('')
+	}
 	
 	var sEmail = $('#email').val();
 	if ($.trim(sEmail).length == 0) {
@@ -72,12 +91,11 @@ $('#submit').click(function(submit){
 		proceedWithSubmission = false
 	}
 	
-	
 	if (proceedWithSubmission === true) $('#form1').submit()
 
 })
 
-function refreshCaptcha() {
-    var img = document.images['captchaimg']
-    img.src = img.src.substring(0,img.src.lastIndexOf("?"))+"?rand="+Math.random()*1000
-}
+// function refreshCaptcha() {
+//     var img = document.images['captchaimg']
+//     img.src = img.src.substring(0,img.src.lastIndexOf("?"))+"?rand="+Math.random()*1000
+// }

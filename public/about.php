@@ -254,7 +254,7 @@
                             <div class="carousel-item active">
                                 <!-- Fran Duggan -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Fran-Duggan">
+                                    <a href="team.php?id=FranDuggan">
                                     <div class="teamInfoContent">
                                         <h2>Fran Duggan</h2>
                                         <h4>CEO & Founder</h4>
@@ -264,7 +264,7 @@
                                 </div>
                                 <!-- Paul Franko II -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Paul-Franko">
+                                    <a href="team.php?id=PaulFranko">
                                     <div class="teamInfoContent">
                                         <h2>Paul Franko II</h2>
                                         <h4>COO & Founder</h4>
@@ -274,7 +274,7 @@
                                 </div>
                                 <!-- Rich Pelikan -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Rich-Pelikan">
+                                    <a href="team.php?id=RichPelikan">
                                     <div class="teamInfoContent">
                                         <h2>Rich Pelikan</h2>
                                         <h4>CBDO & Founder</h4>
@@ -284,7 +284,7 @@
                                 </div>
                                 <!-- Horng Tern -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Horng-Tern">
+                                    <a href="team.php?id=HorngTern">
                                     <div class="teamInfoContent">
                                         <h2>Horng Tern</h2>
                                         <h4>CTO</h4>
@@ -297,7 +297,7 @@
                             <div class="carousel-item">                  
                                 <!-- Jim Kern -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Jim-Kern">
+                                    <a href="team.php?id=JimKern">
                                     <div class="teamInfoContent">
                                         <h2>Jim Kern</h2>
                                         <h4>VP, Chief Sales&nbsp;Officer</h4>
@@ -307,7 +307,7 @@
                                 </div>
                                 <!-- Mickey Goldwasser -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Mickey-Goldwasser">
+                                    <a href="team.php?id=mickey">
                                     <div class="teamInfoContent">
                                         <h2>Mickey Goldwasser</h2>
                                         <h4>VP, Marketing & Chief of&nbsp;Staff</h4>
@@ -317,7 +317,7 @@
                                 </div>
                                 <!-- Gereen Langmeyer -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Gereen-Langmeyer">
+                                    <a href="team.php?id=GereenLangmeyer">
                                     <div class="teamInfoContent">
                                         <h2>Gereen Langmeyer</h2>
                                         <h4>VP, Payment Product&nbsp;Management</h4>
@@ -327,7 +327,7 @@
                                 </div>
                                 <!-- Kavita Singh -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Kavita-Singh">
+                                    <a href="team.php?id=Kavita">
                                     <div class="teamInfoContent">
                                         <h2>Kavita Singh</h2>
                                         <h4>VP, AI Product&nbsp;Management</h4>
@@ -340,7 +340,7 @@
                             <div class="carousel-item">
                                 <!-- Dave French -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Dave-French">
+                                    <a href="team.php?id=DaveFrench">
                                     <div class="teamInfoContent">
                                         <h2>Dave French</h2>
                                         <h4>VP, Finance</h4>
@@ -350,7 +350,7 @@
                                 </div>
                                 <!-- Denise Delisle -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Denise-Delisle">
+                                    <a href="team.php?id=DeniseDelisle">
                                     <div class="teamInfoContent">
                                         <h2>Denise Delisle</h2>
                                         <h4>VP, Payment Operations</h4>
@@ -360,7 +360,7 @@
                                 </div>
                                 <!-- Ted Chaney -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Ted-Chaney">
+                                    <a href="team.php?id=TedChaney">
                                     <div class="teamInfoContent">
                                         <h2>Ted Chaney</h2>
                                         <h4>VP, Strategic Partnerships &&nbsp;Channels</h4>
@@ -370,7 +370,7 @@
                                 </div>
                                 <!-- Song Nunnallee -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Song-Nunnallee">
+                                    <a href="team.php?id=Song">
                                     <div class="teamInfoContent">
                                         <h2>Song Nunnallee</h2>
                                         <h4>VP, Agile Project&nbsp;Management</h4>
@@ -383,7 +383,7 @@
                             <div class="carousel-item">
                                 <!-- Lena Mitchell -->
                                 <div class="teamInfo">
-                                    <a href="team.php#">
+                                    <a href="team.php?id=LenaMitchell">
                                     <div class="teamInfoContent">
                                         <h2>Lena Mitchell</h2>
                                         <h4>Director of Implementation</h4>
@@ -393,7 +393,7 @@
                                 </div>
                                 <!-- Katie Stein -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Katie-Stein">
+                                    <a href="team.php?id=KatieStein">
                                     <div class="teamInfoContent">
                                         <h2>Katie Stein</h2>
                                         <h4>Director, Client Success</h4>
@@ -403,7 +403,7 @@
                                 </div>
                                 <!-- Fran Chan -->
                                 <div class="teamInfo">
-                                    <a href="team.php#Frank-Chan">
+                                    <a href="team.php?id=FranChan">
                                     <div class="teamInfoContent">
                                         <h2>Frank Chan</h2>
                                         <h4>Security & Compliance Officer</h4>

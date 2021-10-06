@@ -1592,10 +1592,10 @@ video {
 #teamPics {
     img {
         display: inline-block;
-        width: 75px;
-        height: 75px;
-        margin-right: 20px;
-        margin-bottom: 20px;
+        width: 65px;
+        height: 65px;
+        margin-right: 15px;
+        margin-bottom: 15px;
         cursor: pointer;
         opacity: .5;
 
@@ -1713,4 +1713,8 @@ h3, p { color: $white; }
         }
 
     }
+}
+
+.help-block { 
+    color: #ff6969;
 }
