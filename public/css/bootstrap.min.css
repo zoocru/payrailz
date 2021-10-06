@@ -7574,4 +7574,10 @@ video {
   #cardProcessingFlow p {
     display: block; }
 
+a#infoEmail {
+  color: #732282;
+  font-weight: 700; }
+  a#infoEmail:hover {
+    color: inherit; }
+
 /*# sourceMappingURL=bootstrap.css.map */

@@ -55,9 +55,9 @@
                     <div class="col-10 offset-md-1">
                         <h1>Get ready to make a&nbsp;difference.</h1>
                         <p>At Payrailz, we believe that satisfied employees deliver superior performance. To achieve this, we’re committed to creating a diverse, family environment where our employees feel valued and welcomed. Today, our team is making a real difference in the world in a positive, memorable way, and we have our passionate, committed team to thank for that. If making a difference is what motivates you, then check us out&nbsp;today!</p>
-                        <!-- <p>Send your resume to <a href="mailto:info@payrailz.com" target="_blank"> info@payrailz.com</a> and we’ll contact you regarding next&nbsp;steps.</p>
+                        <p>Send your resume to <a href="mailto:info@payrailz.com" target="_blank" id="infoEmail"> info@payrailz.com</a> and we’ll contact you regarding next&nbsp;steps.</p>
 
-                        <small>Payraliz is an equal opportunity employer.</small>   -->
+                        <small>Payraliz is an equal opportunity employer.</small>
                     </div>
                 </div>
             </div>

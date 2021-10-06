@@ -1745,3 +1745,10 @@ h3, p { color: $white; }
         display: block; 
     }
 }
+
+a#infoEmail {
+    color: $primary;
+    font-weight: 700;
+
+    &:hover { color: inherit; }
+}
