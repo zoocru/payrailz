@@ -65,8 +65,8 @@
                         <h3>Payment Consolidator</h3>
                         <p class="mb-5">Payment Consolidator equips any financial institution with the ability to become an electronic biller through the Payrailz Electronic Payment Network. This instantly enables you to receive electronic payments from your end users to their loans, mortgages and credit cards via any Bill Payment Service Provider. Payment Consolidator also gives small and local billers the ability to join an Electronic Payment Network, reducing their need to process&nbsp;checks.</p>
 
-                        <h3>Credit Pay Lite (Pay&nbsp;a&nbsp;Loan)</h3>
-                        <p class="mb-5">By leveraging your financial institution’s existing online and mobile banking platform, Credit Pay Lite provides consumers with the ability to easily view their summary loan and credit card statements and make payments via internal and external checking and savings accounts. Consumers have the option to set up onetime and recurring payments, with variable or set payment&nbsp;amounts. </p>
+                        <h3>Pay a Loan</h3>
+                        <p class="mb-5">By leveraging your financial institution’s existing online and mobile banking platform, Pay a Loan provides consumers with the ability to easily view their summary loan and credit card statements and make payments via internal and external checking and savings accounts. Consumers have the option to set up onetime and recurring payments, with variable or set payment&nbsp;amounts. </p>
 
                         <h3>Credit Pay Pro for&nbsp;Business</h3>
                         <p class="mb-5">Credit Pay Pro for Business provides our business customers with multiple ways to make their loan and card payments via their financial institution’s website, call center and IVR. The user has the abilitiy to view their summary and detailed loan and credit card statement information and make payments via internal and external checking or savings accounts, or even via debit card. Users also have the flexibility to make one-time and recurring payments with set or variable payment&nbsp;amounts. </p>

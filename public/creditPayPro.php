@@ -61,11 +61,11 @@
                     <div class="col-12 col-md-6 offset-md-1">
                         <h1>More Options = More&nbsp;Satisfaction</h1>
                         <p><span class="bold">Credit Pay Pro</span> supports one-time and recurring payments with variable or set amounts using internal and external checking and saving accounts, as well as debit and credit cards. Users can quickly make guest payments or register to save their information for future&nbsp;transactions.</p>
-                        <figure class="mb-5">
+                        <figure class="mb-2">
                             <img src="images/creditPayPro.png" alt="Credit Pay Pro" class="img-fluid shadow2">
                             <figcaption>Credit Pay Pro Dashboard</figcaption>
                         </figure>
-
+                        
                         <h3>Accounts&nbsp;Receivables</h3>
                         <p class="mb-5">An Accounts Receivables file contains payments processed by Credit Pay Pro and is specifically formatted by individual Financial Institutions to update their accounting. The file version that best suits the Financial Institution will be decided during the implementation phase when the requirements for the specific site are determined. Regardless of funding method, all payments will be sent to the respective Financial Institution in the appropriate Accounts Receivables file after the mutually agreed upon end of day cut&nbsp;off&nbsp;time.</p>
 

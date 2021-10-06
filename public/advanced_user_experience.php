@@ -52,9 +52,9 @@
         <section id="actionInsights">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-10 offset-md-1 text-center">
-                        <h1>Built for today’s payment platforms and&nbsp;tomorrow’s.</h1>
-                        <p>Payrailz was built API first from day one, with the critical goal of achieving full integration and seamless navigation though every existing payment platform. This means that it works with the technologies you already use, as well as the platforms that consumers rely upon every&nbsp;day. </p>
+                    <div class="col-12 col-md-8 offset-md-2  col-lg-10 offset-lg-1 text-center">
+                        <h1>Built for today’s payment paths and&nbsp;tomorrow’s.</h1>
+                        <p>Payrailz was built API first from day one, with the critical goal of achieving full integration and seamless navigation though every existing payment path. This means that it works with the technologies you already use, as well as the platforms that consumers rely upon every&nbsp;day.</p>
 
                         <p class="mb-5">We designed the entire platform to be white labeled by banks and credit unions, with customizable design capabilities that allow you to add your brand colors, fonts and logos. To the end user, it’s business as usual. Except now, your business is a lot more robust and&nbsp;user-friendly.</p>
                     </div>

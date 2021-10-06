@@ -65,7 +65,7 @@
                         <ul class="mb-4">
                             <li>Easy, seamless experience helps users quickly move their money&nbsp;electronically.</li>
                             <li>Contacts are securely authenticated, ensuring the payment goes to the correct&nbsp;person.</li>
-                            <li>Next day ACH payments allow for streamlined processing and provide full transparency into money&nbsp;movement.</li>
+                            <li>Next day ACH payments allow for streamlined processing and provide full transparency into the exchange&nbsp;of&nbsp;funds</li>
                             <li>Real time payments make funds instantly available to the&nbsp;Recipient.</li>
                         </ul>
                         <figure>

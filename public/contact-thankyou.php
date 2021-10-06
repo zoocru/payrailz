@@ -55,14 +55,18 @@
             <div id="contactContent" class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h1 id="contactH1">Thank you!</h1>
+                        <h1 id="contactH1">Thanks for reaching out!</h1>
                     </div>
                 </div>
                 <!-- Content -->
                 <div class="row">
                     <!-- Form elements -->
                     <div class="col-12 col-md-8">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo&nbsp;consequat.</p>
+                        <p>A member of our team will be in touch shortly to tell you more about&nbsp;Payrailz.</p>
+
+                        <p>We’re excited to show you all the ways Payrailz can help provide you with next-generation payment&nbsp;solutions.</p>
+                        
+                        <p>Check your inbox for a message from one of our Payment Specialists. We’d be happy to set up an appointment for a demo or to answer any questions you may have via phone or&nbsp;email.</p>
                     </div>
                     <!-- Sidebar -->
                     <div class="col-12 col-md-3 offset-md-1">

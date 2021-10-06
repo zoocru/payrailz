@@ -18,7 +18,7 @@
                   Services <i class="arrowDown"></i>
                 </li> -->
                 <li>
-                  <a href="payrailz_advantage.php">Payrailz Advantage</a>  
+                  <a href="payrailz_advantage.php">Payrailz<sup>®</sup> Advantage</a>  
                 </li>
                 <li>
                   <a href="products.php">Products</a>  

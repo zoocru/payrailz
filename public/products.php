@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-  <meta name="robots" content="noindex">
+     <meta name="robots" content="noindex">
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -107,7 +107,7 @@
                         <div id="transferMoney" class="productDetail shadow">
                             <h1>Transfer Money</h1>
                             <h2>What is <span class="bold">Transfer Money?</span></h2>
-                            <p>Transfer Money (A2A, Account to Account Transfers) is an easy-to-use, easy-to-manage digital tool that provides users with a secure way to move money between accounts at different financial institutions across&nbsp;the&nbsp;US.</p>
+                            <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is an easy-to-use, easy-to-manage digital tool that provides users with a secure way to move money between accounts at different financial institutions across&nbsp;the&nbsp;US.</p>
                             <a id="button1" href="transferMoney.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
@@ -131,7 +131,7 @@
                         <div id="billerServices" class="productDetail shadow">
                             <h1>Biller Services</h1>
                             <h2>What Biller Services do we&nbsp;offer?</h2>
-                            <p>Payrailz Biller Services include Payment Consolidator, Credit Pay Lite (Pay a Loan) and Credit Pay Pro for&nbsp;Billers.</p>
+                            <p>Payrailz Biller Services include Payment Consolidator, Pay a Loan and Credit Pay Pro for&nbsp;Billers.</p>
                             <a id="button1" href="billerServices.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>

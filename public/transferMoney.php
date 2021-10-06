@@ -60,18 +60,21 @@
                         </div>
                     </div>    
                     <div class="col-12 col-md-6 offset-md-1">
-                        <h1>Moving money just got a whole lot&nbsp;smarter.</h1>
-                        <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is available for both personal and business users through online and mobile banking and provides an easy, seamless experience that helps users quickly move money to and from accounts at different financial&nbsp;institutions.</p>
+                        <h1>Transfering funds just got a whole lot&nbsp;smarter.</h1>
+                        <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is available for both personal and business users through online and mobile banking and provides an easy, seamless experience that helps users quickly transfer funds to and from accounts at different financial&nbsp;institutions.</p>
                         <h3>Benefits</h3>
                         <ul class="mb-4">
                             <li>Account Authentication of external accounts can happen in real-time or through a micro-deposit&nbsp;process.</li>
-                            <li>Next day ACH allows for streamlined processing and provides full transparency into money&nbsp;movement. </li>
+                            <li>Next day ACH allows for streamlined processing and provides full transparency into the exchange&nbsp;of&nbsp;funds</li>
                             <li>As the ODFI, you can work directly with the RDFI on returns and exception&nbsp;processing.</li>
                         </ul>
                         <figure>
                             <img src="images/transferMoney.png" alt="Transfer Money" class="img-fluid shadow2">
                             <figcaption>PLAID-Enabled Bank Verification</figcaption>
                         </figure>
+                        <h3>New Account Funding&nbsp;(A2A)</h3>
+                        <p>New Account Funding makes it easy for businesses to onboard with your financial institution by giving them the ability to fund newly opened deposit accounts from checking and savings accounts they hold at other financial institutions in the United States. With our advanced authentication solutions, both you and your business customers can rest assured that transfers will be delivered accurately&nbsp;and&nbsp;securely.</p>
+
                         <p class="mb-1">Ready to talk more about our <span class="bold">Transfer Money</span> tool?</p>
                         <a id="button1" href="contact.php">
                             <button type="button" class="btn">Contact Us</button>  

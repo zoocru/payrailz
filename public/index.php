@@ -26,8 +26,6 @@
               <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
                 <h1>Tomorrow’s payment  <br>innovations, today</h1>
                 <h2>Payrailz is the only digital payments platform you’ll ever&nbsp;need.</h2>
-                <p>Our all-in-one digital payments solution seamlessly navigates across existing payment platforms and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
-                <p>In a society focused on “Do It For Me®”, smart makes the&nbsp;difference.</p>
                 <a id="button1" href="products.php">
                     <button type="button" class="btn">Learn More</button>  
                 </a>
@@ -62,7 +60,8 @@
           <div class="row">
             <div id="payRailzAdvantageContent" class="col-6 col-md-6 offset-md-1 d-flex justify-content-end flex-column align-items-end text-right">
               <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
-              <p>By leveraging <span class="bold">AI and machine learning technologies</span>, we see a future where the consumer experience is intuitive, proactive, engaging and&nbsp;<span class="bold">smart</span>. </p>
+              <p>Our all-in-one digital payments solution seamlessly navigates across existing payment platforms and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
+              <p>In a society focused on “Do It For Me<sup>®</sup>”, smart makes&nbsp;the&nbsp;difference.</p>
               <a href="payrailz_advantage.php">
                   <button type="button" class="btn">Learn More</button>  
               </a>
