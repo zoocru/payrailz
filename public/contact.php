@@ -71,12 +71,14 @@
                                             <option value="payBills">Pay Bills</option>
                                             <option value="payAPerson">Pay A Person</option>
                                             <option value="transferMoney">Transfer Money</option>
+                                            <option value="newAccountFunding">New Account Funding</option>
                                             <option value="creditPayPro">Credit Pay Pro</option>
                                             <option value="businessSolutions">Business Solutions</option>
                                             <option value="billerServices">Biller Services</option>
                                             <option value="sdvancedUserExperience">Advanced User Experience</option>
                                             <option value="actionInsights">Action Insights</option>
                                             <option value="smartRoutingHub">Smart Routing Hub</option>
+                                            <option value="other">Other</option>
                                         </select>
                                         <!-- <span class="help-block"></span> -->
                                     </div>

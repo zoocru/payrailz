@@ -55,9 +55,6 @@
                     <div class="col-12 col-md-10 offset-md-1 text-center">
                         <h1>Smart Makes the&nbsp;Difference</h1>
                         <p>Payrailz Action Insights studies and overlays consumer data and behavior, to make personalized, actionable suggestions that simplify the payments process for&nbsp;consumers. Examples include Action Insights designed to negotiate rates on the consumer’s behalf, provide reminders about upcoming bills and late fees, offer suggestions on fund allocations and&nbsp;more. To further enhance this offering, our dedicated AI Team is relentlessly innovating in order to continually add new Action Insights to help consumers better manager their financial&nbsp;wellbeing.</p>
-
-                        <h2>Action Insights</h2>
-                        <p class="mb-5">Payrailz’s Action Insights Generator studies and overlays consumer data and behavior, to make actionable, personalized recommendations that simplify the payments process, allowing the consumer to manage accounts, loans, bills and other financial decisions with a single&nbsp;click.</p>
                     </div>
                 </div>
             </div>

@@ -64,7 +64,7 @@
             <div id="productsSectionContent" class="container">
                 <div class="row">
                     <!-- Product selection list -->
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-4">
                         <div id="productsList" class="shadow">
                             <div id="paybillsBtn" class="product active2">
                                 <h1><img src="images/product-icons/payABill_icon.png" class="shadowLil" alt="Pay A Bill">Pay Bills</h1>
@@ -74,6 +74,9 @@
                             </div>
                             <div id="transferMoneyBtn" class="product">
                                 <h1><img src="images/product-icons/transferMoney-icon.png" class="shadowLil" alt="Transfer Money">Transfer Money</h1>
+                            </div>
+                            <div id="accountFundingBtn" class="product">
+                                <h1><img src="images/product-icons/newAccountFunding_icon.png" class="shadowLil" alt="New Account Funding">New Account Funding</h1>
                             </div>
                             <div id="ccpBtn" class="product">
                                 <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Credit Pay Pro">Credit Pay Pro</h1>
@@ -87,7 +90,7 @@
                         </div>
                     </div>
                     <!-- Product details -->
-                    <div class="col-12 col-md-9">
+                    <div class="col-12 col-md-8">
                         <div id="payABill" class="productDetail shadow">
                             <h1>Pay Bills</h1>
                             <h2>What is <span class="bold">Pay Bills</span></h2>
@@ -112,6 +115,16 @@
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>
+
+                        <div id="accountFunding" class="productDetail shadow">
+                            <h1>New Account Funding</h1>
+                            <h2>What is<span class="bold"> New Account Funding?</span></h2>
+                            <p><span class="bold">New Account Funding</span> gives businesses the ability to fund newly opened deposit accounts from other financial institutions in the United States, quickly and&nbsp;easily.</p>
+                            <a id="button1" href="newAccountFunding.php">
+                                <button type="button" class="btn">Learn More</button>  
+                            </a>
+                        </div>
+
                         <div id="creditPayPro" class="productDetail shadow">
                             <h1>Credit Pay Pro</h1>
                             <h2>What is Credit Pay Pro?</h2>

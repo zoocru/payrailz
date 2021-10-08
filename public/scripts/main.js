@@ -30,28 +30,28 @@ $(document).ready(function(){
     // PRODUCTS
     $('#paybillsBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payAPerson, #transferMoney, #creditPayPro, #billerServices, #businessSolutions').hide()
+        $('#payAPerson, #transferMoney, #creditPayPro, #billerServices, #businessSolutions, #accountFunding').hide()
         $('#payAbillBtn').addClass('active2')
         $('#payABill').fadeIn(200)
     })
 
     $('#payAPersonBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #creditPayPro, #transferMoney, #billerServices, #businessSolutions').hide()
+        $('#payABill, #creditPayPro, #transferMoney, #billerServices, #businessSolutions, #accountFunding').hide()
         $('#payAPersonBtn').addClass('active2')
         $('#payAPerson').fadeIn(200)
     })
 
     $('#transferMoneyBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #creditPayPro, #billerServices, #businessSolutions').hide()
+        $('#payABill, #payAPerson, #creditPayPro, #billerServices, #businessSolutions, #accountFunding').hide()
         $('#transferMoneyBtn').addClass('active2')
         $('#transferMoney').fadeIn(200)
     })
 
     $('#ccpBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #transferMoney, #billerServices, #businessSolutions').hide()
+        $('#payABill, #payAPerson, #transferMoney, #billerServices, #businessSolutions, #accountFunding').hide()
         $('#ccpBtn').addClass('active2')
         $('#creditPayPro').fadeIn(200)
     })
@@ -59,17 +59,26 @@ $(document).ready(function(){
 
     $('#bsolBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #billerServices').hide()
+        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #billerServices, #accountFunding').hide()
         $('#bsolBtn').addClass('active2')
         $('#businessSolutions').fadeIn(200)
     })
 
     $('#bserBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #businessSolutions').hide()
+        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #businessSolutions, #accountFunding').hide()
         $('#bserBtn').addClass('active2')
         $('#billerServices').fadeIn(200)
     })
+
+    $('#accountFundingBtn').on('click', function(){
+        $('.product').removeClass('active2')
+        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #businessSolutions, #billerServices').hide()
+        $('#accountFundingBtn').addClass('active2')
+        $('#accountFunding').fadeIn(200)
+    })
+
+
     
     // Hover on team photos on team teaser
     $(function(){

@@ -23,8 +23,8 @@
         <div class="row">
             <!-- Main Copy -->
             <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
-                <h1>Our Team</h1>
-                <h2>Executive Leadership</h2>
+                <h1>Board & Investors</h1>
+                <h2>Advisors we can count on.</h2>
             </div>
         </div>
         </div>
@@ -40,7 +40,7 @@
                 <div class="col-11 offset-lg-1">
                     <p>
                         <a href="/">Home</a><span class="separator">/</span>
-                        Board of Directors
+                        Board & Investors
                     </p>
                 </div>
             </div>
@@ -52,8 +52,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-10 offset-md-1">
-                        <h1>Advisors we can count on.</h1>
-                        <p>At Payrailz, we’ve brought together some of the industry’s foremost thinkers in the digital payments space. Our shared passion for innovation is something that resonates throughout the entire company, which is evident in the unrelenting commitment we see from our team members each and every&nbsp;day.</p>
+                        <h1>Client Funded = Client&nbsp;Focused</h1>
+                        <p>With the guidance of some of the industry’s most respected leaders, the backing of several rock-solid financial institutions, and the experience of our Executive Team, our vision for the future of digital payments is in very good&nbsp;hands.</p>
                     </div>
                 </div>
             </div>

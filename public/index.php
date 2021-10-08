@@ -25,7 +25,7 @@
               <!-- Main Copy -->
               <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
                 <h1>Tomorrow’s payment  <br>innovations, today</h1>
-                <h2>Payrailz is the only digital payments platform you’ll ever&nbsp;need.</h2>
+                <h2 class="mb-4">Payrailz is the only digital payments platform you’ll ever&nbsp;need.</h2>
                 <a id="button1" href="products.php">
                     <button type="button" class="btn">Learn More</button>  
                 </a>
@@ -60,7 +60,7 @@
           <div class="row">
             <div id="payRailzAdvantageContent" class="col-6 col-md-6 offset-md-1 d-flex justify-content-end flex-column align-items-end text-right">
               <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
-              <p>Our all-in-one digital payments solution seamlessly navigates across existing payment platforms and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
+              <p>Our all-in-one digital payments solution seamlessly navigates across existing payment paths and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
               <p>In a society focused on “Do It For Me<sup>®</sup>”, smart makes&nbsp;the&nbsp;difference.</p>
               <a href="payrailz_advantage.php">
                   <button type="button" class="btn">Learn More</button>  
@@ -144,7 +144,7 @@
           <div class="row">
             <div class="col-12 col-md-8 col-lg-9">
               <div id="HPaboutTeaser">
-                <h1>Smart people. Smart solutions. Smart&nbsp;service.</h1>
+                <h1>Smart people providing smart solutions.</h1>
                 <p>Payrailz brings together a perfect combination of proven experience, innovation, technology and forward-thinking product&nbsp;development.</p>
                 <p>We’ll help you take the first step, the next step, and every step into the future, so you never feel like you’re going it&nbsp;alone.</p>
                 <a href="about.php">

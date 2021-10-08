@@ -6447,6 +6447,9 @@ main {
 .curailz {
   background-image: url("../images/bg6.jpg"); }
 
+.testimonialBG {
+  background-image: url("../images/bg8.jpg"); }
+
 #insideHeroWrapper {
   height: 550px; }
 
@@ -6993,10 +6996,10 @@ main {
     z-index: -1; }
   #productsSection #payAPerson, #productsSection #transferMoney,
   #productsSection #creditPayPro, #productsSection #businessSolutions,
-  #productsSection #billerServices {
+  #productsSection #billerServices, #productsSection #accountFunding {
     display: none; }
 
-#contact {
+#contact, #testimonial {
   position: relative;
   padding: 120px 0 75px;
   margin-top: -70px;
@@ -7004,18 +7007,17 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: screen;
-  z-index: 1;
-  background-image: url("../images/paywayz-bg.jpg"); }
-  #contact #contactContent {
+  z-index: 1; }
+  #contact #contactContent, #contact #testimonialContent, #testimonial #contactContent, #testimonial #testimonialContent {
     position: relative;
     z-index: 2; }
-    #contact #contactContent p {
+    #contact #contactContent p, #contact #testimonialContent p, #testimonial #contactContent p, #testimonial #testimonialContent p {
       color: #fff; }
-  #contact h1#contactH1 {
+  #contact h1#contactH1, #testimonial h1#contactH1 {
     margin-bottom: 50px;
     padding-top: 20px; }
 
-#contact:before {
+#contact:before, #testimonial:before {
   content: '';
   position: absolute;
   left: 0;
@@ -7026,6 +7028,12 @@ main {
   -webkit-transform: skewY(1.5deg);
   transform: skewY(1.5deg);
   z-index: 2; }
+
+#contact {
+  background-image: url("../images/paywayz-bg.jpg"); }
+
+#testimonial {
+  background-image: url("../images/testimonials-bg.jpg"); }
 
 #contactInfo {
   margin-top: 8px;
@@ -7580,5 +7588,33 @@ a#infoEmail {
   font-weight: 700; }
   a#infoEmail:hover {
     color: inherit; }
+
+#testimonial div.col-12 {
+  margin-bottom: 30px; }
+
+#testimonial h1 {
+  margin: 30px 0 20px; }
+
+#testimonial .testimonial {
+  height: 100%;
+  margin: 10px;
+  padding: 20px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px; }
+  #testimonial .testimonial h2, #testimonial .testimonial h3, #testimonial .testimonial h4, #testimonial .testimonial p {
+    color: #231f20 !important; }
+  #testimonial .testimonial h2, #testimonial .testimonial h3, #testimonial .testimonial h4 {
+    font-weight: 400;
+    padding-left: 15px; }
+  #testimonial .testimonial h2 {
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px; }
+  #testimonial .testimonial h3, #testimonial .testimonial h4 {
+    font-size: .825em; }
+  #testimonial .testimonial h4 {
+    padding-top: 0; }
 
 /*# sourceMappingURL=bootstrap.css.map */
