@@ -75,11 +75,11 @@
                             <div id="transferMoneyBtn" class="product">
                                 <h1><img src="images/product-icons/transferMoney-icon.png" class="shadowLil" alt="Transfer Money">Transfer Money</h1>
                             </div>
-                            <div id="accountFundingBtn" class="product">
-                                <h1><img src="images/product-icons/newAccountFunding_icon.png" class="shadowLil" alt="New Account Funding">New Account Funding</h1>
-                            </div>
                             <div id="ccpBtn" class="product">
                                 <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Credit Pay Pro">Credit Pay Pro</h1>
+                            </div>
+                            <div id="accountFundingBtn" class="product">
+                                <h1><img src="images/product-icons/newAccountFunding_icon.png" class="shadowLil" alt="New Account Funding">New Account Funding</h1>
                             </div>
                             <div id="bsolBtn" class="product">
                                 <h1><img src="images/product-icons/businessSolutions_icon.png" class="shadowLil" alt="Business Solutions">Business Solutions</h1>

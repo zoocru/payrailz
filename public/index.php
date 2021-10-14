@@ -76,13 +76,8 @@
       <section id="hpVideo">
         <div class="container">
           <div class="row d-flex">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6 offset-lg-3">
               <iframe class="greenBorder shadow" width="100%" height="315" src="https://www.youtube.com/embed/uBjzFMge6Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col-12 col-md-6">
-              <div id="divNexttoVideo" class="d-flex align-items-end justify-content-center">
-                <img src="images/outside-guy.png" class="img-fluid imgThumb purpleBorder shadow" alt="">
-              </div>
             </div>
           </div>
         </div>
@@ -140,7 +135,7 @@
         </div>
 
         <!-- About teaser -->
-        <div class="container">
+        <!-- <div class="container">
           <div class="row">
             <div class="col-12 col-md-8 col-lg-9">
               <div id="HPaboutTeaser">
@@ -153,7 +148,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <section id="teamModule"> 
           <div class="container">
