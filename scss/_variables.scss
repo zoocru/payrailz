@@ -9,7 +9,7 @@
 //
 
 $burgundy: #680e10;
-$yellowGold: #f2a929;
+$yellow: #F7C826;
 //$darkGray: #333333;
 //$mediumGray: #999999;
 //$lightGray: #e1e1e1;
@@ -40,7 +40,7 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:        #007bff !default;
+$blue:        #59B4FD !default;
 $indigo:      #6610f2 !default;
 $purple:      #732282 !default;
 $darkPurple:  #330949 !default;
