@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- Main Copy -->
-                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+                <div class="col-10 offset-1">
                     <h1>CU Railz</h1>
                     <h2>Credit Union Service&nbsp;Organization</h2>
                 </div>
@@ -52,7 +52,7 @@
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-10 offset-md-1">
+                    <div class="col-10 offset-1">
                         <h1>Together, we’re&nbsp;better.</h1>
                         <p>It’s time for Credit Unions to collaborate on the payments experience and leapfrog the competition. Working together, we created CU Railz, a CUSO that enables credit unions to exceed members’ expectations with all of the features and benefits of the Payrailz smarter payments&nbsp;experience</p>
                     </div>
@@ -88,7 +88,7 @@
 
 
                     </div>
-                    <div class="col-12 offset-md-1 col-md-3" style="padding-right: 0 !important;">
+                    <div class="col-12 offset-md-1 col-md-3 d-none d-md-block" style="padding-right: 0 !important;">
                         <div id="womanPA">
                             <img src="images/woman-computer3.jpg" class="img-fluid shadow2" alt="About Payrailz">
                         </div>

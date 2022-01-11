@@ -29,7 +29,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>Our Team</h1>
                 <h2>Executive Leadership</h2>
             </div>
@@ -59,7 +59,7 @@
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-10 offset-md-1">
+                    <div class="col-10 offset-1">
                         <h1>The people behind Payrailz</h1>
                         <p>At Payrailz, we’ve brought together some of the industry’s foremost thinkers in the digital payments space. Our shared passion for innovation is something that resonates throughout the entire company, which is evident in the unrelenting commitment we see from our team members each and every&nbsp;day.</p>
                     </div>

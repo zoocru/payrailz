@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- Main Copy -->
-                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+                <div class="col-10 offset-1">
                     <h1>Careers</h1>
                     <h2>Feel valued and spend your future shaping the&nbsp;future.</h2>
                 </div>
@@ -52,7 +52,7 @@
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-10 offset-md-1">
+                    <div class="col-10 offset-1">
                         <h1>Get ready to make a&nbsp;difference.</h1>
                         <p>At Payrailz, we believe that satisfied employees deliver superior performance. To achieve this, we’re committed to creating a diverse, family environment where our employees feel valued and welcomed. Today, our team is making a real difference in the world in a positive, memorable way, and we have our passionate, committed team to thank for that. If making a difference is what motivates you, then check us out&nbsp;today!</p>
                         <p>Send your resume to <a href="mailto:info@payrailz.com" target="_blank" id="infoEmail"> info@payrailz.com</a> and we’ll contact you regarding next&nbsp;steps.</p>
@@ -360,7 +360,7 @@
                                              
                         
                     </div>
-                    <div class="col-12 offset-md-1 col-md-3" style="padding-right: 0 !important;">
+                    <div class="col-12 offset-md-1 col-md-3 d-none d-md-block" style="padding-right: 0 !important;">
                         <div id="womanPA">
                             <img src="images/interview.jpg" class="img-fluid shadow2" alt="About Payrailz">
                         </div>

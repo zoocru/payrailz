@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- Main Copy -->
-                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+                <div class="col-10 offset-1">
                     <h1>The Payrailz Advantage</h1>
                     <h2>Payments are only part of&nbsp;it.</h2>
                 </div>
@@ -52,11 +52,11 @@
         <section id="expectations">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-12 col-md-5 offset-md-2">
+                    <div class="col-12 col-md-6 offset-md-1 col-lg-5 offset-lg-2">
                         <h1>Changing Expectations</h1>
                         <p>In today’s landscape, payment experiences must go beyond transactions to make emotional connections with consumers. This requires a keen understanding of how people think about money, and continual innovation to over-deliver against their ever-changing expectations. Introducing Payrailz, a smarter payments&nbsp;experience.</p>
                     </div>
-                    <div class="col-12 offset-md-1 col-md-4" style="padding-right: 0 !important;">
+                    <div class="col-12 col-md-4 offset-md-1 justify-content-sm-center d-none d-md-block" style="padding-right: 0 !important;">
                         <div id="womanPA">
                             <img src="images/woman1.png" class="img-fluid shadow2" alt="Payrailz Advantage">
                         </div>
@@ -85,10 +85,10 @@
         <section class="adTeasers">
             <div class="container-fluid removePadding">
                 <div class="row no-gutters">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6 order-last order-lg-first adImg">
                         <img src="images/action-insights.png" class="img-fluid greenBorder" alt="Payrailz Action Insights">
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
+                    <div class="col-12 col-lg-6 order-first order-lg-last d-flex justify-content-center flex-column">
                         <div class="content">
                             <h1><img class="shadow" src="images/ai-icon.png" alt="Action Insights®">Action Insights<sup>®</sup></h1>
                             <p>Our machine learning and AI capability study each user to provide custom recommendations and notifications that help the consumer manage accounts, loan payments, bills and other financial decisions with a single click. All seamlessly integrated into one user-friendly&nbsp;space.</p>
@@ -102,7 +102,7 @@
 
             <div class="container-fluid removePadding">
                 <div class="row no-gutters">
-                    <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center flex-column">
                         <div class="content2">
                             <h1><img class="shadow" src="images/aui-icon.png" alt="Action Insights®">Advanced User Experience</h1>
                             <p>By combining powerful performance with a sleek and modern interface, Payrailz has created an experience that goes well beyond user&nbsp;expectations. </p>
@@ -111,7 +111,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6 adImg">
                         <img src="images/phone-comp.png" class="img-fluid purpleBorder" alt="Payrailz Advanced User Experience">
                     </div>
                 </div>

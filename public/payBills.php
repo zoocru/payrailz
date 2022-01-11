@@ -23,7 +23,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>Pay Bills</h1>
                 <h2>A Smarter Bill Pay&nbsp;Experience</h2>
             </div>
@@ -53,12 +53,12 @@
         <section id="productDetailPage">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-12 col-md-4" style="padding-left: 0 !important;">
+                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
                         <div id="manPA">
                             <img src="images/woman3.png" class="img-fluid shadow2" alt="Pay Bills">
                         </div>
                     </div>    
-                    <div class="col-12 col-md-6 offset-md-1">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
                         <h1>Introducing an innovative new way to view, manage and pay&nbsp;bills.</h1>
                         <p>By leveraging our AI-driven capabilities to deliver actionable insights, users will have better oversight and control of their bills and payment accounts. <span class="bold">Pay Bills</span> also enables users to easily view their billing information and pay anyone via their own personal choice of delivery options, including immediate, same day, next day, future date, recurring or automatic.</p>
                         <h3>Benefits</h3>

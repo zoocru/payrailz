@@ -23,7 +23,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>Flex UI</h1>
                 <h2>Experience Matters – An Advanced User&nbsp;Experience</h2>
             </div>
@@ -62,7 +62,7 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-10 offset-1 text-center">
+                    <div class="col-12 col-sm-10 offset-sm-1 text-center">
                         <img id="AIImg" src="images/charts/FlexUI.svg" class="img-fluid" alt="">
                         <p class="mt-4 mb-1">Want to learn more?</p>
                         <a id="button1" href="contact.php">

@@ -27,7 +27,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>About Us</h1>
                 <h2>A perfect combination of resources, experience, passion&nbsp;and&nbsp;innovation.</h2>
             </div>
@@ -52,11 +52,11 @@
         </div>
     </div>
     
-    <main>
+    <main id="aboutMain">
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-10 offset-md-1">
+                    <div class="col-10 offset-1">
                         <h1>We are Payrailz</h1>
                         <p>Our company was built around the central mission of making the payments experience smarter and more engaging. With the financial backing and expertise of nearly two dozen FI investors, and a leadership team with a combined 300+ years in Financial Services and Fintech, we have both the resources and experience to develop our consumer-centric technology without being skewed by external&nbsp;forces. </p>
                     </div>
@@ -67,13 +67,13 @@
         <section id="aboutMid">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-12 col-md-6 offset-md-2">
+                    <div class="col-12 col-md-7 offset-md-1 col-xl-6 offset-xl-2">
                         <h1>Momentum is on our side.</h1>
                         <p>The Payrailz platform is growing rapidly with some of the most respected financial institutions and industry leaders placing their trust&nbsp;in&nbsp;us.</p>
                         <div class="row">
-                            <div class="col-12 col-md-10 offset-md-1">
+                            <div class="col-10 offset-1">
                                 <div class="row" id="assets">
-                                    <div class="col-12 col-md-3">
+                                    <div class="col-4 col-xl-3">
                                         <div class="purpleBG">
                                             <h1>
                                                 Current<br>
@@ -81,9 +81,9 @@
                                             </h1>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-9 assets">
-                                        <h1>$72.2 Billion Assets<br>
-                                        25.8 Million Annual Transactions</h1>
+                                    <div class="col-8 col-xl-9 assets">
+                                        <h1>$72.2 Billion Assets
+                                        25.8 Million Annual&nbsp;Transactions</h1>
                                     </div>
                                 </div>
                             </div>
@@ -92,22 +92,22 @@
                             <div class="col-12">
                                 <!--Row 1-->
                                 <div class="row no-gutters">
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/canapi-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/coastal-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/farmers-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/keybank-logo.png" class="img-fluid" alt="">
                                         </div>
@@ -115,22 +115,22 @@
                                 </div> 
                                 <!--Row 2-->
                                 <div class="row no-gutters">
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/liberty-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/meritrust-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/nusenda-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/penair-logo.png" class="img-fluid" alt="">
                                         </div>
@@ -138,22 +138,22 @@
                                 </div> 
                                 <!--Row 3-->
                                 <div class="row no-gutters">
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/purdue-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/suncoast-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/teachers-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/truist-logo.png" class="img-fluid" alt="">
                                         </div>
@@ -161,22 +161,22 @@
                                 </div>
                                 <!--Row 4-->
                                 <div class="row no-gutters">
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/twinstar-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/unify-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/varady-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
-                                    <div class="col-lg-3 col-6">
+                                    <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/webster-logo.png" class="img-fluid" alt="">
                                         </div>
@@ -185,7 +185,7 @@
                             </div>
                         </div>    
                     </div>
-                    <div class="col-12 offset-md-1 col-md-3" style="padding-right: 0 !important;">
+                    <div class="col-12 offset-md-1 col-md-3 d-none d-md-block" style="padding-right: 0 !important;">
                         <div id="womanPA">
                             <img src="images/woman2.png" class="img-fluid shadow2" alt="About Payrailz">
                         </div>
@@ -204,7 +204,7 @@
             <!-- About teaser -->
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8 col-lg-9">
+                    <div class="col-12 col-lg-9">
                         <div id="aboutTeaser">
                             <h1>Smart people. Smart solutions. Smart&nbsp;service.</h1>
                             <p>At Payrailz, it’s not all about technology. We pride ourselves on personal service from real people with real-world experience, who know and understand your pain points. Our service team is always available with dedicated and personalized implementation assistance, ongoing project management, and whatever else you need to transform your payments&nbsp;experience.</p>
@@ -234,7 +234,7 @@
             <section id="teamModule"> 
                 <div class="container">
                     <div class="row">
-                    <div class="col-12 d-flex justify-content-end">
+                    <div class="col-12 d-flex justify-content-center justify-content-lg-end">
                         <h1>Our Team</h1>
                     </div>
                     </div>

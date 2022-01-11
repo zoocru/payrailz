@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- Main Copy -->
-                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+                <div class="col-10 offset-1">
                     <h1>Pay A Person</h1>
                     <h2>A better way to pay just about&nbsp;anyone.</h2>
                 </div>
@@ -53,12 +53,12 @@
         <section id="productDetailPage">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-12 col-md-4" style="padding-left: 0 !important;">
+                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
                         <div id="manPA">
                             <img src="images/man1.png" class="img-fluid shadow2" alt="Pay A Person">
                         </div>
                     </div>    
-                    <div class="col-12 col-md-6 offset-md-1">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
                         <h1>Any time, any place, any&nbsp;person.</h1>
                         <p>With <span class="bold">Pay A Person</span>, users no longer need to carry cash, download compatible payment apps, or write checks to make person to person payments. <span class="bold">Pay A Person</span> works in real time via debit card and/or next business day via ACH. While both users and recipients must have an active checking account to use this service, Pay A Person works automatically across all financial institutions.</p>
                         <h3>Benefits</h3>

@@ -31,7 +31,7 @@ $(document).ready(function(){
     $('#paybillsBtn').on('click', function(){
         $('.product').removeClass('active2')
         $('#payAPerson, #transferMoney, #creditPayPro, #billerServices, #businessSolutions, #accountFunding').hide()
-        $('#payAbillBtn').addClass('active2')
+        $('#paybillsBtn').addClass('active2')
         $('#payABill').fadeIn(200)
     })
 

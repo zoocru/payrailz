@@ -58,7 +58,7 @@
       <section id="payRailzAdvantage">
         <div class="container">
           <div class="row">
-            <div id="payRailzAdvantageContent" class="col-6 col-md-6 offset-md-1 d-flex justify-content-end flex-column align-items-end text-right">
+            <div id="payRailzAdvantageContent" class="col-12 col-lg-6 offset-lg-1 d-flex justify-content-end flex-column align-items-end text-right">
               <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
               <p>Our all-in-one digital payments solution seamlessly navigates across existing payment paths and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
               <p>In a society focused on “Do It For Me<sup>®</sup>”, smart makes&nbsp;the&nbsp;difference.</p>
@@ -66,7 +66,7 @@
                   <button type="button" class="btn">Learn More</button>  
               </a>
             </div>
-            <div class="col-6 col-md-5">
+            <div class="col-12 d-none d-lg-block col-lg-5">
               <img class="img-fluid purpleBorder shadow" src="images/phone-woman.png" alt="">
             </div>
           </div>
@@ -87,7 +87,7 @@
         <div class="container-fluid addPadding">
           <div class="row">
             <!-- Smarter Payments -->
-            <div class="col-12 col-md-3 pb-T100">
+            <div class="col-12 col-sm-6 col-lg-3 pb-T100">
               <div class="coBoxes shadow border">
                 <img class="shadow" src="images/sp-icon.png" alt="Smarter Payments">
                 <h1>Smarter Payments System</h1>
@@ -98,7 +98,7 @@
               </div>
             </div>
             <!-- PayWayz: Smart Payment Routing Hub -->
-            <div class="col-12 col-md-3 pb-B100">
+            <div class="col-12 col-sm-6 col-lg-3 pb-B100">
               <div class="coBoxes shadow border">
                 <img class="shadow" src="images/sprh-icon.png" alt="PayWayz: Smart Payment Routing Hub">
                 <h1>PayWayz: Smart Payment Routing&nbsp;Hub</h1>
@@ -109,7 +109,7 @@
               </div>
             </div>
             <!-- Action Insights® -->
-            <div class="col-12 col-md-3 pb-T100">
+            <div id="actionBox" class="col-12 col-sm-6 col-lg-3 pb-T100">
               <div class="coBoxes shadow border">
                 <img class="shadow" src="images/ai-icon.png" alt="Action Insights®">
                 <h1>Action Insights<sup>®</sup></h1>
@@ -120,7 +120,7 @@
               </div>
             </div>
             <!-- Advanced User Interface -->
-            <div class="col-12 col-md-3 pb-B100">
+            <div class="col-12 col-sm-6 col-lg-3 pb-B100">
               <div class="coBoxes shadow border">
                 <img class="shadow" src="images/aui-icon.png" alt="Advanced User Interface">
                 <h1>Advanced User Interface</h1>
@@ -153,7 +153,7 @@
         <section id="teamModule"> 
           <div class="container">
             <div class="row">
-              <div class="col-12 d-flex justify-content-end">
+              <div class="col-12 d-flex justify-content-center justify-content-lg-end">
                 <h1>Our Team</h1>
               </div>
             </div>

@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- Main Copy -->
-                <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+                <div class="col-10 offset-1">
                     <h1>Smarter Payments</h1>
                     <h2>Smarter payment solutions start&nbsp;here.</h2>
                 </div>
@@ -64,7 +64,7 @@
             <div id="productsSectionContent" class="container">
                 <div class="row">
                     <!-- Product selection list -->
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-5 col-lg-4">
                         <div id="productsList" class="shadow">
                             <div id="paybillsBtn" class="product active2">
                                 <h1><img src="images/product-icons/payABill_icon.png" class="shadowLil" alt="Pay A Bill">Pay Bills</h1>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <!-- Product details -->
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-7 col-lg-8">
                         <div id="payABill" class="productDetail shadow">
                             <h1>Pay Bills</h1>
                             <h2>What is <span class="bold">Pay Bills</span></h2>
@@ -158,11 +158,11 @@
         <section class="adTeasers">
             <div class="container-fluid removePadding">
                 <div class="row no-gutters">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6 adImg">
                         <img src="images/man-phone.png" class="img-fluid greenBorder" alt="Payrailz Advantage">
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
-                        <div class="content">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center flex-column">
+                        <div class="content mb-4">
                             <h1><img class="shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage">Payrailz Advantage</h1>
                             <p>By leveraging <span class="bold">AI and machine learning technologies</span>, we see a future where the consumer experience is intuitive, proactive, engaging and <span class="bold">smart</span>. And that future starts&nbsp;now.</p>
                             <a id="button1" href="payrailz_advantage.php">

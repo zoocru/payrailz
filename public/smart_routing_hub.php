@@ -23,7 +23,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>PayWayz</h1>
                 <h2>Smart Payments Made&nbsp;Simple</h2>
             </div>

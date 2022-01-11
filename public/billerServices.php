@@ -23,7 +23,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>Biller Services</h1>
                 <h2>A smarter way to manage&nbsp;billing.</h2>
             </div>
@@ -53,12 +53,12 @@
         <section id="productDetailPage">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-12 col-md-4" style="padding-left: 0 !important;">
+                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
                         <div id="manPA">
                             <img src="images/man-computer4.jpg" class="img-fluid shadow2" alt="Credit Pay Pro">
                         </div>
                     </div>  
-                    <div class="col-12 col-md-6 offset-md-1">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
                         <h1>Flexible Payment Options for&nbsp;All.</h1>
                         <p class="mb-5"><span class="bold">Payrailz Biller Services</span> were designed to help Financial Institutions and Billers provide flexible payment options to consumers, allowing for convenient payments to loans and credit cards directly from any financial&nbsp;institution.</p>
 

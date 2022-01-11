@@ -23,7 +23,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-8 offset-lg-1 col-lg-8">
+            <div class="col-10 offset-1">
                 <h1>New Account Funding (A2A)</h1>
                 <h2>Smarter. Faster. Easier.</h2>
             </div>
@@ -53,12 +53,12 @@
         <section id="productDetailPage">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-12 col-md-4" style="padding-left: 0 !important;">
+                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
                         <div id="manPA">
                             <img src="images/woman-computer4.jpg" class="img-fluid shadow2" alt="Credit Pay Pro">
                         </div>
                     </div>  
-                    <div class="col-12 col-md-6 offset-md-1">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
                         <h1>Introducing a better way to onboard new&nbsp;businesses.</h1>
                         <p class="mb-5"><span class="bold">New Account Funding </span> makes it easy for businesses to onboard with your financial institution by giving them the ability to fund newly opened deposit accounts from checking and savings accounts they hold at other financial institutions in the United States. With our advanced authentication solutions, both you and your business customers can rest assured that transfers will be delivered accurately and&nbsp;securely.</p>
 

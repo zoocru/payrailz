@@ -23,7 +23,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>Contact Us</h1>
                 <h2>We’re all about making&nbsp;connections.</h2>
             </div>
@@ -60,10 +60,10 @@
                 <!-- Content -->
                 <div class="row">
                     <!-- Form elements -->
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-md-7 col-lg-8">
                         <form id="form1" name="contact_form" method="post" action="contact-thankyou.php" >
                             <div class="row">
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="form-group reason-group">
                                         <label for="reason">Reason for Contacting (Optional)</label>
                                         <select class="form-control" id="reasons">
@@ -98,7 +98,7 @@
                                         <span class="help-block"></span>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-lg-6">
                                     <div class="form-group phone-group">
                                         <label for="phone">Phone (Optional)</label>
                                         <input type="text" name="phone" class="form-control" id="phone" value=''>
@@ -118,7 +118,7 @@
                         </form>
                     </div>
                     <!-- Sidebar -->
-                    <div class="col-12 col-md-3 offset-md-1">
+                    <div class="col-12 col-md-5 col-lg-3 offset-lg-1">
                         <div id="contactInfo">
                             <div class="contactInfo">
                                 <img src="images/email.svg" alt="">

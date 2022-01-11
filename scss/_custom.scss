@@ -22,7 +22,7 @@ p { padding-top: 10px; }
     margin-top: 30px;
     text-transform: none;
     cursor: pointer;
-    @include media-breakpoint-between(xs, md) { margin-top: 15px; }
+    @include media-breakpoint-between(xs, md) { margin-top: 15px; padding: 12px 25px; font-size: 0.8em; }
 }
 
 .btn {
@@ -149,7 +149,7 @@ header {
     -webkit-transition-duration: 0.6s;
     -moz-transition-duration: 0.6s;
     transition-duration: 0.6s;
-
+    
     nav {
         display: flex;
         justify-content: center;
@@ -208,6 +208,14 @@ header {
                 //margin-bottom: 20px;
                 text-align: center;
                 line-height: 1.2em;
+                @include media-breakpoint-down(md){
+                    margin-top: 0;
+                    margin-bottom: 20px;
+                }
+                @include media-breakpoint-down(sm){
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
 
                 a { 
                     padding: 20px 15px; 
@@ -317,17 +325,25 @@ main {
         opacity: 1;
         
         background-color: rgba($color: #000, $alpha: 1.0);
-  
+        @include media-breakpoint-only(xs){ padding-top: 150px; }
+        @include media-breakpoint-only(sm){ padding-top: 150px; }
+        
       h1 { 
         color: $white;
         font-size: 4em;
-        @include media-breakpoint-down(xs) {
-          font-size: 30px;
-          margin-bottom: 11px; 
+        @include media-breakpoint-between(sm,md) {
+            font-size: 2.5em;
+            margin-bottom: 11px;
         }
+        @include media-breakpoint-only(lg) {font-size: 3em;}
+        @include media-breakpoint-only(xs) {font-size: 2em;}
         margin-bottom: 14px; 
       }
-      h2 { color: $white; }
+      h2 { 
+          color: $white; 
+          @include media-breakpoint-down(lg) {font-size: 1.8em;}
+          @include media-breakpoint-only(xs) {font-size: 1.5em;}
+        }
       h6 {
           text-align: right;
           color: rgb(252, 139, 64);
@@ -382,7 +398,19 @@ main {
 .curailz { background-image: url("../images/bg6.jpg"); }
 .testimonialBG { background-image: url("../images/bg8.jpg"); }
 
-#insideHeroWrapper { height: 550px; }
+#insideHeroWrapper { 
+    height: 550px; 
+    @include media-breakpoint-down(sm){  height: 450px; }
+
+    #hero {
+        @include media-breakpoint-down(sm){ padding-top: 75px;  }
+        
+        h1 {
+            @include media-breakpoint-down(sm){ margin-bottom: 0;  } 
+        }
+    }
+}
+
 
 
 #testimonialsHP {
@@ -392,6 +420,7 @@ main {
     border-radius: 8px;
     text-align: center;
     padding: 30px;
+    @include media-breakpoint-down(sm) {margin-bottom: 150px;}
     img {
         width: 70px;
         height: auto;
@@ -473,6 +502,7 @@ main {
     h1 { 
         color: $primary; 
         font-weight: 700;
+        @include media-breakpoint-down(lg) {font-size: 1.7em;}
         img { 
             border-radius: 50%;
             margin-right: 14px;
@@ -481,6 +511,10 @@ main {
     #payRailzAdvantageContent {
         padding: 0px 100px 60px 0;
         p { margin-bottom: 0; }
+        @include media-breakpoint-down(lg) {
+            margin-top: 120px;
+            padding-bottom: 0;
+        }
     }
 }
 
@@ -495,9 +529,13 @@ main {
 #teamBG {
     position: relative;
     margin-bottom: -15px;
+    margin-top: 80px;
     //padding: 0 0 100px;
     padding-top: 80px;
     background-color: #DBD8D6;
+    @include media-breakpoint-down(md) {
+        margin-top: 0;
+    }
 
     background: $primary; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover,  $purple 1%, $darkPurple 100%); /* FF3.6-15 */
@@ -553,6 +591,11 @@ main {
     padding: 0 0 100px;
     padding-top: -50px;
     background-color: #DBD8D6;
+    @include media-breakpoint-down(md) {margin-top: 150px;}
+
+    #actionBox {
+        @include media-breakpoint-down(xs) {padding-top: 115px;}
+    }
 
     #threeLines { 
         position: absolute;
@@ -597,12 +640,22 @@ main {
     #aboutTeaser { 
         padding-left: 0; 
         padding-right: 0;
+        @include media-breakpoint-down(md) {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 30px;
+        }
     }
 
     
 
     #HPaboutPillars { 
         margin-top: 75px;
+        @include media-breakpoint-down(md) {
+            padding-left: 30px; 
+            padding-right: 30px;
+            margin-top: 50px; 
+        }
 
         .pillar { 
             //margin-left: 40px;
@@ -611,6 +664,9 @@ main {
             h1 { 
                 padding-left: 15px;
                 border-left: 3px solid $secondary;
+                @include media-breakpoint-down(md) {
+                    font-size: 1.7em;
+                }
             }
             p { padding-left: 18px;}
         }
@@ -626,6 +682,14 @@ main {
             font-weight: 700;
             margin-bottom: -38px;
             line-height: 1;
+            @include media-breakpoint-down(md) { 
+                font-size: 95px; 
+                margin-bottom: -30px;
+            }
+            @include media-breakpoint-only(xs) { 
+                font-size: 75px; 
+                margin-bottom: -25px;
+            }
             
             background: -webkit-linear-gradient( 45deg, $white, $pink 60%);
             -webkit-background-clip: text;
@@ -657,6 +721,8 @@ main {
             width: 200px;
             display: inline-block;
             margin: 10px;
+            @include media-breakpoint-only(lg) { width: 180px; }
+            @include media-breakpoint-only(md) { width: 220px; }
 
             .teamInfoContent {
                 display: flex;
@@ -682,15 +748,19 @@ main {
                 background: -webkit-linear-gradient(top,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.62) 83%,rgba(0,0,0,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
                 background: linear-gradient(to bottom,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.62) 83%,rgba(0,0,0,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#b3000000',GradientType=0 ); /* IE6-9 */
+                @include media-breakpoint-only(lg) { height: 180px; }
+                @include media-breakpoint-only(md) { height: 220px; }
 
                 h2, h4 { 
                     color: white; 
                     font-weight: 400;
                 }
-                h2 { font-size: 18px; }
+                h2 { 
+                    font-size: 18px;
+                }
                 h4 { 
                     padding-top: 0;
-                    font-size: 14px; 
+                    font-size: 14px;
                 }
 
                 img {
@@ -711,15 +781,24 @@ main {
                     transition-duration: 0.3s;
             cursor: pointer;
             z-index: 1;
+            @include media-breakpoint-only(lg) { height: 180px; width: 180px; }
+            @include media-breakpoint-only(md) { height: 220px; width: 220px; }
         }
     }
 
     .carousel-control-next-icon, .carousel-control-prev-icon { 
         height: 63px; 
         width: 32px;
+        @include media-breakpoint-only(xs) { height: 43px; width: 23px; }
     }
-    .carousel-control-next-icon { background-image: url("../images/next.png"); }
-    .carousel-control-prev-icon {  background-image: url("../images/prev.png"); }
+    .carousel-control-next-icon { 
+        background-image: url("../images/next.png"); 
+        @include media-breakpoint-only(xs) { margin-left: 50px; }
+    }
+    .carousel-control-prev-icon {  
+        background-image: url("../images/prev.png"); 
+        @include media-breakpoint-only(xs) { margin-right: 50px; }
+    }
 
     #teamText { 
         margin-top: 100px;
@@ -742,6 +821,11 @@ main {
     top: -50px;
     width: 100%;
     height: 750px;
+    @include media-breakpoint-only(xl) {height: 800px;}
+    @include media-breakpoint-only(lg) {height: 920px;}
+    @include media-breakpoint-only(md) {height: 1200px;}
+    @include media-breakpoint-only(sm) {height: 1400px;}
+    @include media-breakpoint-only(xs) {height: 1800px;}
 
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#50185b+1,330949+100 */
     background: $primary; /* Old browsers */
@@ -755,7 +839,13 @@ main {
     //z-index: 4;
 }
 
-
+#aboutMain {
+    #callOutBoxes:before {
+        @include media-breakpoint-only(md) {height: 1150px;}
+        @include media-breakpoint-only(sm) {height: 1400px;}
+        @include media-breakpoint-only(xs) {height: 1200px;}
+    } 
+}
 
 // Inside Pages **********************************************
 
@@ -779,6 +869,14 @@ main {
         margin-top: 150px;
         color: $primary;
         font-weight: 700;
+        @include media-breakpoint-down(lg) { 
+            margin-top: 30px; 
+            font-size: 26px;
+        }
+        @include media-breakpoint-down(sm) { 
+            margin-top: 0; 
+        }
+        @include media-breakpoint-only(xs) { font-size: 1.8em; }
     }
     img {
         border-radius: 0 0 0 10px;
@@ -817,6 +915,15 @@ main {
     }
 }
 
+#aboutMid {
+
+    @include media-breakpoint-down(sm) { margin-top: 0; }  
+
+    h1 {
+        @include media-breakpoint-down(sm) { margin-top: 80px; }   
+    }
+}
+
 #aboutMid:before, #curailz:before {
     content: '';
     position: absolute;
@@ -828,6 +935,8 @@ main {
 
     -webkit-transform: skewY(2.8deg);
     transform: skewY(2.8deg);
+
+    @include media-breakpoint-down(sm) { height: 50px; }  
 }
 
 #curailz { 
@@ -865,6 +974,22 @@ main {
     //background-color: rgba($color: #000, $alpha: 1.0);
     background-image: url("../images/paywayz-bg.jpg");
 
+    @include media-breakpoint-only(md) { 
+        margin-top: -30px;
+        padding-top: 110px;
+        padding-bottom: 50px;
+     }
+     @include media-breakpoint-down(sm) { 
+        padding-bottom: 70px;
+        padding-top: 110px;
+        margin-top: 10px;
+     }
+
+    h1 {
+        @include media-breakpoint-down(sm) { 
+            padding-top: 30px;
+        }    
+    }
     h1, p, button { margin-left: 30px ;}
     p { color: white; }
 }
@@ -897,6 +1022,10 @@ main {
     z-index: 2;
 }
 
+#womanPA {
+    @include media-breakpoint-down(sm) { width: 50%; } 
+}
+
 .adTeasers {
     position: relative;
     .content, .content2 { padding: 20px 50px; }
@@ -905,11 +1034,24 @@ main {
     h1 {
         color: $primary;
         font-weight: 700;
+        @include media-breakpoint-down(xl) { font-size: 1.7em; }
+        @include media-breakpoint-down(lg) { font-size: 1.2em; } 
+
+        img {
+            @include media-breakpoint-down(lg) { width: 50px; }
+        }
     }
 
     h1 > img {
         border-radius: 50%;
         margin-right: 14px;
+    }
+
+    .adImg  {
+            @include media-breakpoint-down(md) { height: 300px; overflow: hidden; }
+    }
+    .btn {
+        @include media-breakpoint-down(lg) { margin-top: 0; } 
     }
 }
 
@@ -929,10 +1071,18 @@ main {
         color: $white;
     }
 }
-#smarterPaymentSystems { background-image: url("../images/guy-on-phone.png"); }
+#smarterPaymentSystems { 
+    background-image: url("../images/guy-on-phone.png"); 
+    @include media-breakpoint-down(md) { padding: 125px 0; }
+    @include media-breakpoint-down(sm) { padding: 75px 0; }
+}
 #careers { background-image: url("../images/careers.png"); }
 #aboutModule { background-image: url("../images/bg-purple.jpg"); }
 .careers { background-image: url("../images/bg4.jpg"); }
+
+#careers, #aboutModule {
+    @include media-breakpoint-down(md) { padding: 100px 0; } 
+}
 
 #actionInsights { 
     padding-bottom: 75px;
@@ -952,12 +1102,14 @@ main {
     h1 { 
         color: $primary;
         font-weight: 700;
+        @include media-breakpoint-only(xs) { font-size: 1.8em; }
     }
 }
 
 #productsSection {
     position: relative;
     padding: 40px 0 75px;
+    @include media-breakpoint-down(md) { padding-top: 10px; }
 
     #productsSectionContent {
         position: relative;
@@ -968,6 +1120,7 @@ main {
         border-radius: 10px;
         padding: 12px;
         background-color: $white;
+        @include media-breakpoint-down(sm) { margin-bottom: 20px; }
 
        .product{
            padding: 20px 15px;
@@ -988,6 +1141,9 @@ main {
                    height: auto;
                    border-radius: 50%;
                    margin: -5px 9px 0 0;
+
+                @include media-breakpoint-down(md) { width: 30px; }
+               
                 }
            }
        }
@@ -1070,6 +1226,7 @@ main {
     h1#contactH1 { 
         margin-bottom: 50px;
         padding-top: 20px;
+        @include media-breakpoint-only(xs) { font-size: 1.8em; }
     }
 
 }
@@ -1102,6 +1259,10 @@ main {
     //text-align: left;
     padding: 30px;
     padding-bottom: 10px;
+    @include media-breakpoint-down(sm) { 
+        margin-top: 50px; 
+        text-align: center;
+    }
     
     .contactInfo, 
     .contactInfo2 { margin-bottom: 30px; }
@@ -1111,11 +1272,13 @@ main {
             text-align: center;
             margin: 0;
             padding: 0;
+            @include media-breakpoint-only(md) {margin-top: 0;}
             img { 
                 height: 20px;
                 width: auto;
                 margin: 0 15px;
                 padding: 0;
+                @include media-breakpoint-only(lg) { height: 15px; }
             }
         }
     }
@@ -1138,6 +1301,11 @@ main {
     //text-align: left;
     padding: 30px;
     padding-bottom: 30px;
+    @include media-breakpoint-down(sm) { margin-bottom: 80px; }
+
+    h1 {
+        @include media-breakpoint-down(md) { font-size: 28px; } 
+    }
 
     p { margin-bottom: 0; }
 }
@@ -1151,6 +1319,7 @@ main {
     h1 { 
         color: $primary; 
         font-weight: bold;
+        @include media-breakpoint-only(xs) { font-size: 1.8em; }
     }
 }
 
@@ -1176,6 +1345,9 @@ main {
         margin-top: 150px;
         color: $primary;
         font-weight: 700;
+        @include media-breakpoint-only(md) { margin-top: 60px; }
+        @include media-breakpoint-down(sm) { margin-top: 0; }
+        @include media-breakpoint-only(xs) { font-size: 1.8em; }
     }
     img {
         border-radius: 0 0 0 10px;
@@ -1209,7 +1381,12 @@ figcaption {
 #assets {
     padding: 9px;
     background-color: $white;
-    h1 { margin-top: 10px; }
+    h1 { 
+        margin-top: 10px; 
+        font-size: 20px;
+        @include media-breakpoint-down(lg) { font-size: 18px; }
+        @include media-breakpoint-down(md) { font-size: 16px; }
+    }
 }
 
 .assets { 
@@ -1228,6 +1405,7 @@ figcaption {
         color: $white !important;
         padding: 10px; 
         font-weight: 400 !important;
+        @include media-breakpoint-down(lg) { font-size: 16px; }
     }
 }
 
@@ -1235,7 +1413,7 @@ figcaption {
     content: " ";
     position: absolute;
     display: block;
-    width: 40%;
+    width: 50%;
     height: 100%;
     top: 0;
     right: -20px;
@@ -1252,7 +1430,10 @@ figcaption {
  // Utilities **********************************************
 .purpleBorder { border-top: 15px solid $primary; }
 .greenBorder { border-top: 15px solid $secondary; }
-.green { color: $secondary; }
+.green { 
+    color: $secondary; 
+    @include media-breakpoint-down(sm) { padding-bottom: 15px; }
+}
 
 .bold { font-weight: 700; }
 .shadow { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -1266,7 +1447,10 @@ figcaption {
 
 .removePadding { padding: 0 !important; }
 
-.pb-T100 { padding-bottom:  100px; }
+.pb-T100 { 
+    padding-bottom:  100px; 
+    @include media-breakpoint-down(md) {padding-bottom: 20px;}
+}
 .pb-B100 { padding-top:  100px; }
 
 video { 
@@ -1365,11 +1549,11 @@ video {
         //font-size: 0.8em;
         margin-left: 35px;
         font-weight: bold;
+        @include media-breakpoint-down(md) {margin-left: 0;}
 
         @include media-breakpoint-between(xs, sm) { 
             margin-top: 10px;
             margin-bottom: 40px;
-            margin-left: 60px;
         }
         @include media-breakpoint-only(md) { 
             margin-left: 0; 
@@ -1383,6 +1567,7 @@ video {
                 padding-top: 0;
                 margin-top: 55px; 
                 //padding-top: 20px;
+                @include media-breakpoint-down(md) { margin-top: 25px; }
             }
             @include media-breakpoint-between(xs, sm) { 
                 line-height: 1.5em;
@@ -1441,11 +1626,15 @@ video {
         &:hover { color: $secondary; }
     }
 
-   .footerNav { text-transform: uppercase; }
+   .footerNav { 
+       text-transform: uppercase; 
+       @include media-breakpoint-down(sm) { text-align: left; }
+    }
 
    #footerContent {
        position: relative;
        z-index: 2;
+       @include media-breakpoint-down(sm) { text-align: center; }
    }
 
    #footerLines { 
@@ -1618,12 +1807,20 @@ video {
 
 #bios {
     margin: 40px 0 70px;
+    @include media-breakpoint-down(sm) { margin-bottom: 20px; }
 
     .bio { display: none; }
 
     .teamBioActive { display: block; }
 
-    img { border: 2px $secondary solid; }
+    img { 
+        border: 2px $secondary solid;
+        @include media-breakpoint-down(sm) { margin-bottom: 20px; }
+    }
+
+    .img-fluid {
+        @include media-breakpoint-down(sm) { max-width: 50%; }
+    }
 
     h1 { font-weight: 500; }
 
@@ -1728,6 +1925,7 @@ h3, p { color: $white; }
     border-radius: 12px;
     margin: 20px 0;
     padding: 20px 20px 0;
+    @include media-breakpoint-down(sm) { display: none; }
 
     .ccpImages {
         display: flex;
@@ -1741,6 +1939,8 @@ h3, p { color: $white; }
         .ccpArow { 
             width: 50px;
             height: auto;
+            @include media-breakpoint-down(xl) { width: 40px; }
+            @include media-breakpoint-down(lg) { width: 25px; }
         }
     }
     // img {
@@ -1749,6 +1949,43 @@ h3, p { color: $white; }
     // }
     p { 
         display: block; 
+        @include media-breakpoint-down(xl) { 
+            font-size: 14px; 
+            line-height: 1.6em;
+        }
+    }
+}
+
+#cardProcessingFlowMobile {
+    background-color: $white;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 20px 20px 0;
+    @include media-breakpoint-up(md) { display: none; }
+
+    .ccpImages {
+        display: block;
+        justify-content: center;
+        img { 
+            display: inline;
+            max-height: 65px;
+            width: auto;
+            margin: 0 7px;
+        }
+    }
+    p { 
+        display: block; 
+        @include media-breakpoint-down(xl) { 
+            font-size: 14px; 
+            line-height: 1.6em;
+        }
+    }
+    .ccpArow { 
+        width: auto;
+        height: 50px;
+        margin-bottom: 16px;
     }
 }
 

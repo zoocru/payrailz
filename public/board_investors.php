@@ -22,7 +22,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>Board & Investors</h1>
                 <h2>Advisors we can count on.</h2>
             </div>
@@ -51,7 +51,7 @@
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-10 offset-md-1">
+                    <div class="col-10 offset-1">
                         <h1>Client Funded = Client&nbsp;Focused</h1>
                         <p>With the guidance of some of the industry’s most respected leaders, the backing of several rock-solid financial institutions, and the experience of our Executive Team, our vision for the future of digital payments is in very good&nbsp;hands.</p>
                     </div>
@@ -63,7 +63,7 @@
             <!-- Board of directors -->
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8 0ffset-md-1">
+                    <div class="col-12 col-lg-8 offset-lg-1">
                         <div id="boardPage">
                             <h1>Board of Directors</h1>
                             <h2>James S. (Chip) Mahan III</h2>

@@ -23,7 +23,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>Business Solutions</h1>
                 <h2>A new generation of electronic bill, invoice and payment&nbsp;solutions.</h2>
             </div>
@@ -53,12 +53,12 @@
         <section id="productDetailPage">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-12 col-md-4" style="padding-left: 0 !important;">
+                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
                         <div id="manPA">
                             <img src="images/man-computer3.jpg" class="img-fluid shadow2" alt="Credit Pay Pro">
                         </div>
                     </div>  
-                    <div class="col-12 col-md-6 offset-md-1">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
                         <h1>Smarter payment solutions for today’s ever-changing&nbsp;world.</h1>
                         <p class="mb-5"><span class="bold">Payrailz Business Solutions</span> provide our business customers with all the advanced features you’ve come to expect from a business bill pay solution PLUS the ability to leverage our Do It For Me<sup>®</sup> AI-driven capabilities. This unique combination of services delivers actionable insights about invoices and payment accounts to help users improve cash flow, spend less time on their finances and focus on their&nbsp;business.</p>
 

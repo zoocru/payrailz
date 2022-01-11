@@ -24,7 +24,7 @@
         <div class="container-fluid">
         <div class="row">
             <!-- Main Copy -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+            <div class="col-10 offset-1">
                 <h1>Transfer Money</h1>
                 <h2>The fastest way from&nbsp;A2A.</h2>
             </div>
@@ -54,12 +54,12 @@
         <section id="productDetailPage">
             <div class="container-fluid">
                 <div class="row no-gutter">
-                    <div class="col-12 col-md-4" style="padding-left: 0 !important;">
+                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
                         <div id="manPA">
                             <img src="images/woman-laptop.png" class="img-fluid shadow2" alt="Transfer Money">
                         </div>
                     </div>    
-                    <div class="col-12 col-md-6 offset-md-1">
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
                         <h1>Transfering funds just got a whole lot&nbsp;smarter.</h1>
                         <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is available for both personal and business users through online and mobile banking and provides an easy, seamless experience that helps users quickly transfer funds to and from accounts at different financial&nbsp;institutions.</p>
                         <h3>Benefits</h3>

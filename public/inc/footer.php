@@ -6,7 +6,7 @@
         <div class="row mb-5">
           <div class="col-md-3">
             <a href="index.php">
-                <img src="images/logo.svg"" id="footerLogo" alt="Payrailz">
+                <img src="images/logo.svg" id="footerLogo" alt="Payrailz">
             </a>
           </div>
         </div>
@@ -39,9 +39,9 @@
             </div>
             <hr class="d-block d-md-none">
           </div>
-          <div class="col-md-8 offset-md-1 footerNav">
+          <div class="col-12 col-md-8 offset-md-1 footerNav">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-4">
                 <ul class="list-unstyled">
                   <li><a href="payrailz_advantage.php">Payrailz Advantage</a></li>
                   <li><a href="products.php">Products</a></li>
@@ -51,7 +51,7 @@
                   
                 </ul>
               </div>
-              <div class="col-md-4">
+              <div class="col-4">
                 <ul class="list-unstyled">
                   <li><a href="about.php">About Us</a></li>
                   <li><a href="team.php">Our Team</a></li>
@@ -61,7 +61,7 @@
                   <li><a href="careers.php">Careers</a></li>
                 </ul>
               </div>
-              <div class="col-md-4">
+              <div class="col-4">
                 <ul class="list-unstyled">
                   <!-- <li><a href="/news">News & Events</a></li> -->
                   <li>News & Events</li>
