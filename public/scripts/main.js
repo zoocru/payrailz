@@ -6,9 +6,11 @@ $(document).ready(function(){
     $(window).scroll(function(){
         // if ($(window).width() > 0) {
         if ($(this).scrollTop() > 5){
-            $('header').addClass("scrolledHeader")
+            //$('header').addClass("scrolledHeader")
+            $('header#mainHeader').addClass("scrolledHeader")
         } else {
-            $('header').removeClass("scrolledHeader") 
+            //$('header').removeClass("scrolledHeader") 
+            $('header#mainHeader').removeClass("scrolledHeader") 
         }
 
         //Toggles the back to top button on scroll position

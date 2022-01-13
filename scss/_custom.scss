@@ -140,11 +140,11 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;
-    background-color: rgba($darkPurple, .7);
+    z-index: 1000;
+    //background-color: rgba($darkPurple, .7);
     height: auto;
-    box-shadow: 0 5px 8px rgba(0,0,0,.2);
-    border-bottom: 1px solid $purple;
+    // box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    // border-bottom: 1px solid $purple;
 
     -webkit-transition-duration: 0.6s;
     -moz-transition-duration: 0.6s;
@@ -274,7 +274,13 @@ header {
     }
 }
 
-.scrolledHeader { background-color: rgba($darkPurple, .95); }
+header#mainHeader {
+    background-color: rgba($darkPurple, .7);
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    border-bottom: 1px solid $purple;
+}
+
+.scrolledHeader { background-color: rgba($darkPurple, .95) !important; }
 
 .bgToggle { background-color: #eaeced }
 
