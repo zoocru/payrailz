@@ -1,56 +1,91 @@
+<?php
+	require('db.php');
+
+	//$sql = "SELECT * FROM testimonials
+			    //ORDER by date_modified DESC";
+
+  $sql = "SELECT * FROM testimonials
+          WHERE active = 1 AND featured = 1
+          ORDER by RAND()
+          LIMIT 4";
+  $result = mysqli_query( $con, $sql );
+	
+	mysqli_close( $con );
+?>
+
 <!doctype html>
 
 <html lang="en">
+
   <head>
-  <meta name="robots" content="noindex">
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
-
-      <title>Payrailz</title>
-
-      <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <meta name="robots" content="noindex">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Payrailz</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>
 
+
   <body>
-    
     <?php include("inc/header.php"); ?>
 
     <!-- The Hero -->
     <div id="heroWrapper">
       <section id="hero" class="heroHP d-flex align-items-center">
-          <div class="container-fluid">
-            <div class="row">
-              <!-- Main Copy -->
-              <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
-                <h1>Tomorrow’s payment  <br>innovations, today</h1>
-                <h2 class="mb-4">Payrailz is the only digital payments platform you’ll ever&nbsp;need.</h2>
-                <a id="button1" href="products.php">
-                    <button type="button" class="btn">Learn More</button>  
-                </a>
-              </div>
-              <!-- Testimonials -->
-              <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
-                  <div id="testimonialsHP">
+        <section id="heroLines">
+          <img src="images/hero-gray-lines.png" alt="">
+        </section>
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Main Copy -->
+            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
+              <h1>Tomorrow’s payment  <br>innovations, today</h1>
+              <h2 class="mb-4">Payrailz is the only digital payments platform you’ll ever&nbsp;need.</h2>
+              <a id="button1" href="products.php">
+                  <button type="button" class="btn">Learn More</button>  
+              </a>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
+                <div id="testimonialsHP">
+                  
+                  
+                  <ul class="indicators">
+                    <li id="indicator1" class="active"></li>
+                    <li id="indicator2" ><li>
+                    <li id="indicator3" ></li>
+                    <li id="indicator4" ></li>
+                  </ul>
+                </div>
+            </div>
+            <!-- End of HP Testimonials -->
+
+            <!-- <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
+                <div id="testimonialsHP">
+                  <div class="content">
                     <img src="images/avatar.png" alt="">
                     <h4>Sarah L.</h4>
                     <h5>SVP/Chief Digital Officer</h5>
                     <p>“This was one of the best conversion processes I have been involved with over the last 30&nbsp;years.”</p>
-                    <ul class="indicators">
-                      <li class="active"></li>
-                      <li><li>
-                      <li></li>
-                      <li></li>
-                    </ul>
                   </div>
-              </div>
-            </div>
+                  
+                  <ul class="indicators">
+                    <li class="active"></li>
+                    <li><li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+            </div> -->
+
+
           </div>
+        </div>
       </section>
-      <section id="heroLines">
-        <img src="images/hero-gray-lines.png" alt="">
-      </section>
+      
       <section id="HPhero2"></section>
     </div>
     
@@ -133,22 +168,6 @@
             <img id="threeLines" src="images/three-lines.png" alt="">
           </div>
         </div>
-
-        <!-- About teaser -->
-        <!-- <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-8 col-lg-9">
-              <div id="HPaboutTeaser">
-                <h1>Smart people providing smart solutions.</h1>
-                <p>Payrailz brings together a perfect combination of proven experience, innovation, technology and forward-thinking product&nbsp;development.</p>
-                <p>We’ll help you take the first step, the next step, and every step into the future, so you never feel like you’re going it&nbsp;alone.</p>
-                <a href="about.php">
-                  <button type="button" class="btn2">Learn More</button>  
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> -->
 
         <section id="teamModule"> 
           <div class="container">
@@ -360,12 +379,63 @@
         </section>
         
       </section>
-
     </main>
 
     <!--FOOTER-->
     <?php include("inc/footer.php"); ?>
 
-  </body>
+    <script> 
+      var testimonials = []
+    </script>
 
+    <?php
+        if( $result ) {
+            while( $row = mysqli_fetch_array( $result ) ) {
+    ?>
+        <script>
+          var id = "<?=$row['ID']?>",
+              imageUrl = "<?=$row['imageUrl']?>",
+              altTag = "<?=$row['altTag']?>",
+              author = "<?=$row['author']?>",
+              authorTitle = "<?=$row['authorTitle']?>",
+              company = "<?=$row['company']?>",
+              testimonial = "<?=$row['testimonial']?>"
+
+          testimonials.push(
+            {
+              id: id,
+              imageUrl: imageUrl,
+              altTag: altTag,
+              author: author,
+              authorTitle: authorTitle,
+              company: company,
+              testimonial: testimonial
+            }
+          )
+        </script> 
+    <?php
+            } // End of While loop
+        } // End of if
+		?>
+    <script>
+      console.log("Testimonials: " + testimonials)
+      console.log(testimonials[1].author)
+
+      var testimonialsLength = testimonials.length
+          content = document.getElementById('testimonialsHP') 
+          contentID = 1
+
+      for (let i = 0; i < testimonialsLength; i++){
+        content.innerHTML += ('<div id="content' + contentID + '" class="content">' + 
+                                '<img src="../uploads/' + testimonials[i].imageUrl + '" alt="' + testimonials[i].altTag + '">' +
+                                '<h4>' + testimonials[i].author + '</h4>' +
+                                '<h5>' + testimonials[i].authorTitle + '</h5>' +
+                                testimonials[i].testimonial +
+                              '</div>')
+        contentID++
+      }
+
+    </script>
+        
+  </body>
 </html>

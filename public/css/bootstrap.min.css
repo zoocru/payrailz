@@ -6493,26 +6493,29 @@ main {
       margin-bottom: 0; } }
 
 #testimonialsHP {
+  position: relative;
+  min-height: 345px;
   border: solid 1px rgba(233, 233, 233, 0.5);
   background-color: rgba(51, 9, 73, 0.5);
   color: #fff;
   border-radius: 8px;
   text-align: center;
-  padding: 30px; }
+  padding: 30px;
+  z-index: 1000; }
   @media (max-width: 767.98px) {
     #testimonialsHP {
       margin-bottom: 150px; } }
-  #testimonialsHP img {
+  #testimonialsHP .content img {
     width: 70px;
     height: auto;
     border-radius: 50%;
     border: solid 1px rgba(233, 233, 233, 0.5); }
-  #testimonialsHP h4, #testimonialsHP h5 {
+  #testimonialsHP .content h4, #testimonialsHP .content h5 {
     color: #fff;
     font-weight: 400; }
-  #testimonialsHP h4, #testimonialsHP p {
+  #testimonialsHP .content h4, #testimonialsHP .content p {
     font-size: 14px; }
-  #testimonialsHP h5 {
+  #testimonialsHP .content h5 {
     font-size: 12px; }
   #testimonialsHP ul {
     list-style: none;
@@ -6525,7 +6528,7 @@ main {
       border-radius: 50%;
       margin-left: 8px;
       margin-right: 8px;
-      cursor: pointer;
+      cursor: pointer !important;
       background-color: rgba(179, 255, 58, 0.5); }
     #testimonialsHP ul li.active {
       background-color: #b3ff3a; }
@@ -7914,7 +7917,7 @@ a#infoEmail {
   margin: 10px;
   padding: 20px;
   padding-bottom: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
   border-radius: 12px; }
   #testimonial .testimonial h2, #testimonial .testimonial h3, #testimonial .testimonial h4, #testimonial .testimonial p {
     color: #231f20 !important; }
@@ -7930,5 +7933,28 @@ a#infoEmail {
     font-size: .825em; }
   #testimonial .testimonial h4 {
     padding-top: 0; }
+
+header#adminHeader {
+  position: relative;
+  background-color: #330949; }
+  header#adminHeader nav#logOut ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    header#adminHeader nav#logOut ul li img#logoutIcon {
+      width: 50px !important;
+      height: auto; }
+
+.adminLinks {
+  margin-bottom: 70px; }
+
+.adminArea #form1 label, .adminArea #form2 label {
+  color: #fff; }
+
+.adminArea #form1 input, .adminArea #form1 input:focus, .adminArea #form1 textarea, .adminArea #form1 select, .adminArea #form2 input, .adminArea #form2 input:focus, .adminArea #form2 textarea, .adminArea #form2 select {
+  color: black;
+  background-color: #fff;
+  border: 1px solid rgba(233, 233, 233, 0.9); }
 
 /*# sourceMappingURL=bootstrap.css.map */

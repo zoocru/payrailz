@@ -8,37 +8,20 @@
 <html>
 
 	<head>
-        
         <meta charset="UTF-8">
-
-        <title>Crystal Engineering</title>
-
+        <title>Payrailz</title>
         <!-- Mobile Specific Metas
         ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
         <!-- site css files -->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <!-- For Gallery -->
-        <link rel="stylesheet" href="../css/lightboxgallery.css">
-        <link rel="stylesheet" href="../css/gallery-style.css">
-    
     </head>
+
     
-    
-    <body>
+    <body class="adminArea">
         <!-- HEADER -->  
-        <header>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <a href="/">
-                        <img id="logo" src="../images/logo.svg" alt="Crystal Engineering Logo">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <?php include("1_inc/header-admin.php"); ?>
         
         <!-- HERO -->
         <section id="heroAbout">
@@ -53,8 +36,6 @@
             </div>
         </section>
 
-
-        
         <!-- Login -->
         <section id="insideContent" class="pb-0">
             <div id="adminContent"class="container">

@@ -3,23 +3,26 @@
 	require('../db.php');
 
 	if (isset($_POST['submit'])) {	
-		$title = isset($_POST['title']) ? $_POST['title'] : "";
-        $title = mysqli_real_escape_string($con, $title);
+		$author = isset($_POST['author']) ? $_POST['author'] : "";
+        $author = mysqli_real_escape_string($con, $author);
         
-        $subTitle = isset($_POST['subTitle']) ? $_POST['subTitle'] : "";
-		$subTitle = mysqli_real_escape_string($con, $subTitle);
+        $authorTitle = isset($_POST['authorTitle']) ? $_POST['authorTitle'] : "";
+		$authorTitle = mysqli_real_escape_string($con, $authorTitle);
 		
-		$introText = isset($_POST['introText']) ? $_POST['introText'] : "";
-        $introText = mysqli_real_escape_string($con, $introText);
+		$testimonial = isset($_POST['testimonial']) ? $_POST['testimonial'] : "";
+        $testimonial = mysqli_real_escape_string($con, $testimonial);
 
         $altTag = isset($_POST['altTag']) ? $_POST['altTag'] : "";
         $altTag = mysqli_real_escape_string($con, $altTag);
         
-        $copyBlock = isset($_POST['copyBlock']) ? $_POST['copyBlock'] : "";
-        $copyBlock = mysqli_real_escape_string($con, $copyBlock);
+        $company = isset($_POST['company']) ? $_POST['company'] : "";
+        $company = mysqli_real_escape_string($con, $company);
         
         $active = isset($_POST['active']) ? $_POST['active'] : "";
         $active = mysqli_real_escape_string($con, $active);
+
+        $featured = isset($_POST['featured']) ? $_POST['featured'] : "";
+        $featured = mysqli_real_escape_string($con, $featured);
 
         // Image uploaded:
 		$allowedExts = array("gif", "jpeg", "jpg", "png");
@@ -47,7 +50,12 @@
 					echo $_FILES["file"]["name"] . $alreadyExists;
 				} else {
 					move_uploaded_file($_FILES["file"]["tmp_name"],
-					"/home/crystal/public_html/uploads/news/" . $_FILES["file"]["name"]);
+                    "/Users/anibalcruz/Sites/Payrailz/public/uploads/" . $_FILES["file"]["name"]);
+                    // Above is local
+
+                    // Production
+					// "/home/crystal/public_html/uploads/news/" . $_FILES["file"]["name"]);
+                    
 					$uploaded = $_FILES["file"]["name"];
                     
 					// Lets insert image into database
@@ -60,14 +68,14 @@
         } 
         
         // Lets insert into database
-        $sql = "INSERT INTO news (imageName, altTag, title, subTitle, introText, copyBlock, active ) 
-                VALUES ('$uploaded', '$altTag','$title', '$subTitle', '$introText', '$copyBlock', '$active')";
+        $sql = "INSERT INTO testimonials (imageUrl, altTag, author, authorTitle, testimonial, company, active, featured ) 
+                VALUES ('$uploaded', '$altTag','$author', '$authorTitle', '$testimonial', '$company', '$active', '$featured')";
                 
         // mysqli_query($con, $sql);
         // header("location: news.php");
         
         if ( mysqli_query($con, $sql) ) {
-            header("location: news.php");
+            header("location: testimonials.php");
         } else {
             echo "Error: " . $sql2 . "<br>" . mysqli_error($con);
         }
@@ -81,79 +89,81 @@
 
     <head>
         <meta charset="UTF-8">
-
-        <title>Crystal Engineering</title>
-
+        <title>Payrailz: Add Testimonial</title>
         <!-- Mobile Specific Metas
         ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-
         <!-- site css files -->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <!-- For Gallery -->
-        <link rel="stylesheet" href="../css/lightboxgallery.css">
-        <link rel="stylesheet" href="../css/gallery-style.css">
-        
         <?php require_once('1_inc/tiny.php'); ?>
     </head>
     
     
-    <body>
+    <body class="adminArea">
         <!-- HEADER -->  
         <?php require_once('1_inc/header-admin.php'); ?>
-       
-        <!-- HERO -->
-        <section id="heroAbout">
-            <div class="insideHeroContent container">
-                <h1 class="text-uppercase">Admin</h1>
-            </div>
-        </section>
         
-           <!-- MAIN CONTENT -->
+        <!-- MAIN CONTENT -->
         <section id="insideContent" class="pb-0">
             <div id="adminContent"class="container">
-                <h2>Admin: Add News Article</h2>
+                <h2 class="text-center">Admin: Add Testimonial</h2>
                 <hr class="pb-4">
                 <form id="form1" name="form1" method="post" enctype="multipart/form-data" >                 
-                    <!-- NEWS-->
+                    <!-- Testimonial-->
+                    <!-- Author -->
                     <div class="row justify-content-center">
                         <div class="form-group col-8">
-                            <h4>News Item Title:</h4> 
-                            <input type="text" name="title" value="" class="form-control" placeholder="TITLE"/>
+                            <h4>Author:</h4> 
+                            <input type="text" name="author" value="" class="form-control" placeholder="AUTHOR"/>
                         </div>
                     </div>
+                    <!-- Author Title -->
                     <div class="row justify-content-center">
                         <div class="form-group col-8">
-                            <h4>Subtitle:</h4> 
-                            <input type="text" name="subTitle" value="" class="form-control" placeholder="SUBTITLE"/>
+                            <h4>Author Title:</h4> 
+                            <input type="text" name="authorTitle" value="" class="form-control" placeholder="TITLE"/>
                         </div>
                     </div>
+                    <!-- Testimonial -->
                     <div class="row justify-content-center">
                         <div class="form-group col-8">
-                            <h4>Abstract:</h4> 
-                            <textarea name="introText" cols="" rows="" class="form-control" placeholder="ABSTRACT"></textarea>
+                            <h4>Testimonial:</h4> 
+                            <textarea name="testimonial" cols="" rows="" class="form-control" placeholder="TESTIMONIAL"></textarea>
                         </div>
                     </div>
+                    <!-- Image -->
                     <div class="row justify-content-center mt-2">
                         <div class="form-group col-8">
                             <h4><label for="file">Image:</label></h4>
                             <input type="file" name="file" id="file">
                         </div>
                     </div>
+                    <!-- Image Alt Tag -->
                     <div class="row justify-content-center">
                         <div class="form-group col-8">
                             <h4>Image Alt Text:</h4> 
                             <input type="text" name="altTag" value="" class="form-control" placeholder="ALT TEXT"/>
                         </div>
                     </div>
+                    <!-- Company -->
                     <div class="row justify-content-center">
                         <div class="form-group col-8">
-                            <h4>Main News Content:</h4> 
-                            <textarea name="copyBlock" cols="" rows="" class="form-control" placeholder="MAIN NEWS CONTENT"></textarea>
+                            <h4>Company:</h4> 
+                            <input type="text" name="company" value="" class="form-control" placeholder="COMPANY"/>
                         </div>
                     </div>
+                    <!-- Active -->
                     <div id="activeArea" class="row justify-content-center mt-3">
                         <div class="form-group col-8">
+                            <h4>Featured on Site:</h4> 
+                            <label for="featured">
+                                <input type="radio" name="featured" id="featured" value="1"> Yes
+                            </label>
+                            <label for="non-active">
+                                <input type="radio" name="featured" id="non-featured" value="0" checked="checked"> No
+                            </label>
+                            <br>
+
                             <h4>Active on Site:</h4> 
                             <label for="active">
                                 <input type="radio" name="active" id="active" value="1" checked="checked"> Yes
@@ -166,9 +176,9 @@
                     <!-- Submit Button -->
                     <div class="text-center">
                         <button class="btn2 mr-2" type="submit" id="submit" name="submit">
-                            Add News Item
+                            Add Testimonial
                         </button>
-                        <a href="news.php">
+                        <a href="testimonials.php">
                             <button class="btn2" type="button">
                                 Cancel
                             </button>
@@ -184,9 +194,7 @@
 		<!-- javascript files -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script src="../js/jquery-min.js" type="text/javascript"></script>
-		<script src="../js/site.js"></script>
-        <script src="js/validation-login.js"></script>
-     
+		<script src="../js/site.js"></script>     
     </body>
 
 </html>

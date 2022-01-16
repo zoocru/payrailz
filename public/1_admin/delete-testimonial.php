@@ -7,10 +7,10 @@
 		
 		$id = $_GET['id'];
 		
-		$sql = "DELETE FROM gallery WHERE id='$id'";
+		$sql = "DELETE FROM testimonials WHERE id='$id'";
 		$query = mysqli_query( $con, $sql );
 		
-		header("location: gallery.php");
+		header("location: testimonials.php");
 		
 	}
 	
