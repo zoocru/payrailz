@@ -67,16 +67,13 @@
                     <div class="col-12 col-md-5 col-lg-4">
                         <div id="productsList" class="shadow">
                             <div id="paybillsBtn" class="product active2">
-                                <h1><img src="images/product-icons/payABill_icon.png" class="shadowLil" alt="Pay A Bill">Pay Bills</h1>
+                                <h1><img src="images/product-icons/payABill_icon.png" class="shadowLil" alt="Pay A Bill">Pay A Bill</h1>
                             </div>
                             <div id="payAPersonBtn" class="product">
                                 <h1><img src="images/product-icons/payAPerson_icon.png" class="shadowLil" alt="Pay A Person">Pay A Person</h1>
                             </div>
                             <div id="transferMoneyBtn" class="product">
                                 <h1><img src="images/product-icons/transferMoney-icon.png" class="shadowLil" alt="Transfer Money">Transfer Money</h1>
-                            </div>
-                            <div id="ccpBtn" class="product">
-                                <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Credit Pay Pro">Credit Pay Pro</h1>
                             </div>
                             <div id="accountFundingBtn" class="product">
                                 <h1><img src="images/product-icons/newAccountFunding_icon.png" class="shadowLil" alt="New Account Funding">New Account Funding</h1>
@@ -87,14 +84,17 @@
                             <div id="bserBtn" class="product">
                                 <h1><img src="images/product-icons/billerServices_icon.png" class="shadowLil" alt="Business Services">Biller Services</h1>
                             </div>
+                            <div id="ccpBtn" class="product">
+                                <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Credit Pay Pro">Credit Pay Pro</h1>
+                            </div>
                         </div>
                     </div>
                     <!-- Product details -->
                     <div class="col-12 col-md-7 col-lg-8">
                         <div id="payABill" class="productDetail shadow">
-                            <h1>Pay Bills</h1>
-                            <h2>What is <span class="bold">Pay Bills</span></h2>
-                            <p>Pay Bills is a proprietary digital service that delivers smart-enabled electronic bill presentment and payment capabilities. It comes with all the advanced features your users have come to expect from their traditional bill pay solutions, plus so much&nbsp;more. </p>
+                            <h1>Pay A Bill</h1>
+                            <h2>What is <span class="bold">Pay A Bill?</span></h2>
+                            <p>Pay A Bill is a proprietary digital service that delivers smart-enabled electronic bill presentment and payment capabilities. It comes with all the advanced features your users have come to expect from their traditional bill pay solutions, plus so much&nbsp;more. </p>
                             <a id="button1" href="payBills.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
@@ -125,14 +125,6 @@
                             </a>
                         </div>
 
-                        <div id="creditPayPro" class="productDetail shadow">
-                            <h1>Credit Pay Pro</h1>
-                            <h2>What is Credit Pay Pro?</h2>
-                            <p><span class="bold">Credit Pay Pro</span> provides users with the ability to view loans, mortgage and credit card statement information and make payments via their Financial Institution's website, Call Center, and&nbsp;IVR.</p>
-                            <a id="button1" href="creditPayPro.php">
-                                <button type="button" class="btn">Learn More</button>  
-                            </a>
-                        </div>
                         <div id="businessSolutions" class="productDetail shadow">
                             <h1>Business Solutions</h1>
                             <h2>What Business Solutions do we&nbsp;offer?</h2>
@@ -146,6 +138,14 @@
                             <h2>What Biller Services do we&nbsp;offer?</h2>
                             <p>Payrailz Biller Services include Payment Consolidator, Pay a Loan and Credit Pay Pro for&nbsp;Billers.</p>
                             <a id="button1" href="billerServices.php">
+                                <button type="button" class="btn">Learn More</button>  
+                            </a>
+                        </div>
+                        <div id="creditPayPro" class="productDetail shadow">
+                            <h1>Credit Pay Pro&trade;</h1>
+                            <h2>What is Credit Pay Pro&trade;?</h2>
+                            <p><span class="bold">Credit Pay Pro&trade;</span> provides users with the ability to view loans, mortgage and credit card statement information and make payments via their Financial Institution's website, Call Center, and&nbsp;IVR.</p>
+                            <a id="button1" href="creditPayPro.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>

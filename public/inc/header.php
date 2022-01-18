@@ -15,7 +15,7 @@
             <nav class="align-items-center">
               <ul>
                 <li>
-                  <a href="payrailz_advantage.php">Payrailz<sup>®</sup> Advantage</a>  
+                  <a href="payrailz_advantage.php">Payrailz Advantage</a>  
                 </li>
                 <li>
                   <a href="products.php">Products</a>  

@@ -126,7 +126,7 @@
                             </div>
                             <div class="contactInfo">
                                 <img src="images/phone.svg" alt="">
-                                <p><a href="tel:8604305200" class="bold">800.555.1212</a></p>
+                                <p><a href="tel:8604305200" class="bold">860.430.5200</a></p>
                             </div>
                             <div class="contactInfo2 d-flex justify-content-center">
                                 <p id="socialIcons">

@@ -1,9 +1,6 @@
 <?php
 	require('db.php');
 
-	//$sql = "SELECT * FROM testimonials
-			    //ORDER by date_modified DESC";
-
   $sql = "SELECT * FROM testimonials
           WHERE active = 1 AND featured = 1
           ORDER by RAND()
@@ -91,7 +88,7 @@
     
     <main id="mainHp">
       <section id="payRailzAdvantage">
-        <div class="container">
+        <div class="container pt-5">
           <div class="row">
             <div id="payRailzAdvantageContent" class="col-12 col-lg-6 offset-lg-1 d-flex justify-content-end flex-column align-items-end text-right">
               <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
@@ -125,7 +122,7 @@
             <div class="col-12 col-sm-6 col-lg-3 pb-T100">
               <div class="coBoxes shadow border">
                 <img class="shadow" src="images/sp-icon.png" alt="Smarter Payments">
-                <h1>Smarter Payments System</h1>
+                <h1>Smarter Payments</h1>
                 <p>By offering every payment solution you need, all on one digital platform, we go well beyond basic services to deliver the type of experience consumers are demanding in today’s digitally focused&nbsp;world.</p>
                 <a href="products.php">
                   <button type="button" class="btn">Learn More</button>  
@@ -168,6 +165,22 @@
             <img id="threeLines" src="images/three-lines.png" alt="">
           </div>
         </div>
+        
+        <!-- About teaser -->
+        <!--<div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8 col-lg-9">
+              <div id="HPaboutTeaser">
+                <h1>Smart people. Smart Solutions. Smart Service.</h1>
+                <p>Payrailz brings together a perfect combination of proven experience, innovation, technology and forward-thinking product&nbsp;development.</p>
+                <p>We’ll help you take the first step, the next step, and every step into the future, so you never feel like you’re going it&nbsp;alone.</p>
+                <a href="about.php">
+                  <button type="button" class="btn2">Learn More</button>  
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>-->
 
         <section id="teamModule"> 
           <div class="container">

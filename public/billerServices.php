@@ -69,7 +69,7 @@
                         <p class="mb-5">By leveraging your financial institution’s existing online and mobile banking platform, Pay a Loan provides consumers with the ability to easily view their summary loan and credit card statements and make payments via internal and external checking and savings accounts. Consumers have the option to set up onetime and recurring payments, with variable or set payment&nbsp;amounts. </p>
 
                         <h3>Credit Pay Pro for&nbsp;Business</h3>
-                        <p class="mb-5">Credit Pay Pro for Business provides our business customers with multiple ways to make their loan and card payments via their financial institution’s website, call center and IVR. The user has the abilitiy to view their summary and detailed loan and credit card statement information and make payments via internal and external checking or savings accounts, or even via debit card. Users also have the flexibility to make one-time and recurring payments with set or variable payment&nbsp;amounts. </p>
+                        <p class="mb-5">Credit Pay Pro for Business provides our business customers with multiple ways to make their loan and card payments via their financial institution’s website, call center and IVR. The user has the ability to view their summary and detailed loan and credit card statement information and make payments via internal and external checking or savings accounts, or even via debit card. Users also have the flexibility to make one-time and recurring payments with set or variable payment&nbsp;amounts. </p>
                 
                         <p class="mb-1">Looking for more info on <span class="bold">Biller Services</span>?</p>
                         <a id="button1" href="contact.php">

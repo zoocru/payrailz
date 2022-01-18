@@ -70,7 +70,6 @@
                         </ul>
                         <figure>
                             <img src="images/transferMoney.png" alt="Transfer Money" class="img-fluid shadow2">
-                            <figcaption>PLAID-Enabled Bank Verification</figcaption>
                         </figure>
                         
                         <p class="mb-1">Ready to talk more about our <span class="bold">Transfer Money</span> tool?</p>

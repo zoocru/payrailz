@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
 
-      <title>Payrailz Products - Pay A Person</title>
+      <title>Payrailz Products - Pay A Bill</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>
@@ -24,8 +24,8 @@
         <div class="row">
             <!-- Main Copy -->
             <div class="col-10 offset-1">
-                <h1>Pay Bills</h1>
-                <h2>A Smarter Bill Pay&nbsp;Experience</h2>
+                <h1>Pay A Bill</h1>
+                <h2>A Smarter Digital Bill Pay&nbsp;Experience</h2>
             </div>
         </div>
         </div>
@@ -42,7 +42,7 @@
                     <p>
                         <a href="/">Home</a><span class="separator">/</span>
                         <a href="products.php">Products</a><span class="separator">/</span>
-                        Pay Bills
+                        Pay A Bill
                     </p>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                     </div>    
                     <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
                         <h1>Introducing an innovative new way to view, manage and pay&nbsp;bills.</h1>
-                        <p>By leveraging our AI-driven capabilities to deliver actionable insights, users will have better oversight and control of their bills and payment accounts. <span class="bold">Pay Bills</span> also enables users to easily view their billing information and pay anyone via their own personal choice of delivery options, including immediate, same day, next day, future date, recurring or automatic.</p>
+                        <p>By leveraging our AI-driven capabilities to deliver actionable insights, users will have better oversight and control of their bills and payment accounts. <span class="bold">Pay A Bill</span> also enables users to easily view their billing information and pay anyone via their own personal choice of delivery options, including immediate, same day, next day, future date, recurring or automatic.</p>
                         <h3>Benefits</h3>
                         <ul class="mb-4">
                             <li>Secure, convenient, fast. Providing a better way to send payments directly to billers and&nbsp;creditors.</li>
@@ -70,9 +70,9 @@
                         </ul>
                         <figure>
                             <img src="images/payBills.png" alt="Pay Bills" class="img-fluid shadow2">
-                            <figcaption>Pay Bills Activity&nbsp;Feed</figcaption>
+                            <figcaption>Pay A Bill Activity&nbsp;Feed</figcaption>
                         </figure>
-                        <p class="mb-1">Want to learn more about our <span class="bold">Pay Bills</span> feature?</p>
+                        <p class="mb-1">Want to learn more about our <span class="bold">Pay A Bill</span> feature?</p>
                         <a id="button1" href="contact.php">
                             <button type="button" class="btn">Contact Us</button>  
                         </a>

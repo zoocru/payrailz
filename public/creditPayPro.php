@@ -60,11 +60,23 @@
                     </div>    
                     <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
                         <h1>More Options = More&nbsp;Satisfaction</h1>
-                        <p><span class="bold">Credit Pay Pro</span> supports one-time and recurring payments with variable or set amounts using internal and external checking and saving accounts, as well as debit and credit cards. Users can quickly make guest payments or register to save their information for future&nbsp;transactions.</p>
-                        <figure class="mb-2">
+                        <p><span class="bold">Credit Pay Pro</span> supports one-time and recurring payments with variable or set amount payments using internal and external checking and saving accounts, as well as debit and credit cards. Users can quickly make guest payments or register to save their information for future&nbsp;transactions.</p>
+                        <figure class="mb-5">
                             <img src="images/creditPayPro.png" alt="Credit Pay Pro" class="img-fluid shadow2">
                             <figcaption>Credit Pay Pro Dashboard</figcaption>
                         </figure>
+                        <h3>Benefits</h3>
+                        <ul class="mb-5">
+                            <li>Provides the end user with multiple methods (web, IVR and CSR) to pay their loans at the Financial Institution that are consolidated into one platform and one posting&nbsp;file.</li>
+                            <li>Delivery of summary and detailed loan statement information is available to the end&nbsp;user.</li>
+                            <li>Numerous funding options are available including internal and external checking/savings accounts and debit&nbsp;cards.</li>
+                            <li>Provides the end user with flexibility to choose when to make their payment, 24x7 as well as “set it and forget it” auto pay&nbsp;option.</li>
+                            <li>End users can receive reminders and notifications regarding due dates and scheduled&nbsp;payments.</li>
+                            <li>Payment methods and communications are branded to the Financial Institution, so the end user does not feel as if they are going to a third-party&nbsp;site.</li>
+                            <li>The Financial Institution receives and Accounts Receivable file prior to their cut off time, allowing for loan payments to be posted same&nbsp;day.</li>
+                            <li>Service Representatives have the ability to full support an end user (take/schedule payments, research previously made payments, reset passwords,&nbsp;etc.)</li>
+                            <li>Dramatically reduces the number of check payments which streamlines the bill payment&nbsp;process.</li>
+                        </ul>
                         
                         <h3>Accounts&nbsp;Receivables</h3>
                         <p class="mb-5">An Accounts Receivables file contains payments processed by Credit Pay Pro and is specifically formatted by individual Financial Institutions to update their accounting. The file version that best suits the Financial Institution will be decided during the implementation phase when the requirements for the specific site are determined. Regardless of funding method, all payments will be sent to the respective Financial Institution in the appropriate Accounts Receivables file after the mutually agreed upon end of day cut&nbsp;off&nbsp;time.</p>

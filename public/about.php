@@ -69,7 +69,7 @@
                 <div class="row no-gutter">
                     <div class="col-12 col-md-7 offset-md-1 col-xl-6 offset-xl-2">
                         <h1>Momentum is on our side.</h1>
-                        <p>The Payrailz platform is growing rapidly with some of the most respected financial institutions and industry leaders placing their trust&nbsp;in&nbsp;us.</p>
+                        <p>The Payrailz platform is growing rapidly with some of the most respected financial industry clients and investors placing their trust&nbsp;in&nbsp;us.</p>
                         <div class="row">
                             <div class="col-10 offset-1">
                                 <div class="row" id="assets">
