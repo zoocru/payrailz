@@ -20,7 +20,6 @@ $(document).ready(function(){
 			$('#backToTop').fadeOut()
         }
 	})
-
 	// Click function to animate to the top
 	$('#backToTop').click(function(){
 		$("html, body").animate({ scrollTop: 0 }, 800)
@@ -58,7 +57,6 @@ $(document).ready(function(){
         $('#creditPayPro').fadeIn(200)
     })
 
-
     $('#bsolBtn').on('click', function(){
         $('.product').removeClass('active2')
         $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #billerServices, #accountFunding').hide()
@@ -80,7 +78,6 @@ $(document).ready(function(){
         $('#accountFunding').fadeIn(200)
     })
 
-
     
     // Hover on team photos on team teaser
     $(function(){
@@ -99,18 +96,38 @@ $(document).ready(function(){
         $('.' + $data).addClass('teamBioActive')
     })
 
-    // FAQs & Careers
-    // FAQs ==========================
+    // FAQs & Careers ==========================
+    // FAQs 
     $('.faqQuestion').on('click', function() {
         $(this).next(".faqAnswer").slideToggle(500)
         $(this).find('.faqArrow').toggleClass('rotate')
         $(this).find('.faqArrow').toggleClass('rotate-reset')
     })
+    // Careers
     $('.careerTitle').on('click', function() {
         $(this).next(".careerDetail").slideToggle(500)
         $(this).find('.careerArrow').toggleClass('rotate')
         $(this).find('.careerArrow').toggleClass('rotate-reset')
     })
+
+    // function hideTestimonials() {
+    //     $('#content1, #content2, #content3').fadeOut().css("z-index", "-2")
+    // }
+
+    // $('#content1').on('click', function(){
+    //     hideTestimonials()
+    //     $(this).css("z-index", "1")
+    // })
+
+    // $('#content2').on('click', function(){
+    //     hideTestimonials()
+    //     $(this).css("z-index", "1")
+    // })
+
+    // $('#content3').on('click', function(){
+    //     hideTestimonials()
+    //     $(this).css("z-index", "1")
+    // })
 
 })
 

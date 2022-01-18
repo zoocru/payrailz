@@ -56,12 +56,12 @@
                                                     echo "<p><img src='../images/generalAvatar.jpg" . "' class='img-fluid' alt='Payrails general avatar'></p>"; 
                                                 }
                                             ?>
-                                            <h2><?=$row['author']?></h2>
-                                            <h3><?=$row['authorTitle']?></h3>
-                                            <h4><?=$row['company']?></h4>
+                                            <h2><?=$row['company']?></h2>
+                                            <h3><?=$row['author']?></h3>
+                                            <h4><?=$row['authorTitle']?></h4>
                                             <?=$row['testimonial']?>
                                             
-                                            <p class="mb-3 pt-4">
+                                            <p class="mb-1 pt-2">
                                                 <span class="boldText">Featured on Site?</span>
                                                 <?php
                                                     if ($row['featured'] == 1) {

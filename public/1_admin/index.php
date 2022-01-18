@@ -37,23 +37,23 @@
                         <div class="col-12">
                             <div class="text-center adminLinks">
                                 <a href="testimonials.php">
-                                    <img class="icons" src="../images/testimonial.svg">
+                                    <img class="icons" src="../images/testimonials_icon.png">
                                     <h4>Testimonials</h4>
                                 </a>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="text-center adminLinks">
-                                <a href="faqs.php">
-                                    <img class="icons" src="../images/faqs.svg">
+                                <a href="#">
+                                    <img class="icons" src="../images/FAQ_icon.png">
                                     <h4>FAQs</h4>
                                 </a>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="text-center adminLinks">
-                                <a href="careers.php">
-                                    <img class="icons" src="../images/careers.svg">
+                                <a href="#">
+                                    <img class="icons" src="../images/careers_icon.png">
                                     <h4>Careers</h4>
                                 </a>
                             </div>

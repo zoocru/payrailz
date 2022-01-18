@@ -4,7 +4,7 @@
   $sql = "SELECT * FROM testimonials
           WHERE active = 1 AND featured = 1
           ORDER by RAND()
-          LIMIT 4";
+          LIMIT 3";
   $result = mysqli_query( $con, $sql );
 	
 	mysqli_close( $con );
@@ -48,13 +48,13 @@
             <!-- Testimonials -->
             <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
                 <div id="testimonialsHP">
-                  
-                  
+                  <div id="testimonialContent">
+
+                  </div>
                   <ul class="indicators">
                     <li id="indicator1" class="active"></li>
-                    <li id="indicator2" ><li>
+                    <li id="indicator2" ></li>
                     <li id="indicator3" ></li>
-                    <li id="indicator4" ></li>
                   </ul>
                 </div>
             </div>
@@ -435,7 +435,7 @@
       console.log(testimonials[1].author)
 
       var testimonialsLength = testimonials.length
-          content = document.getElementById('testimonialsHP') 
+          content = document.getElementById('testimonialContent') 
           contentID = 1
 
       for (let i = 0; i < testimonialsLength; i++){
