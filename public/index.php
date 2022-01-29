@@ -49,12 +49,11 @@
             <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
                 <div id="testimonialsHP">
                   <div id="testimonialContent">
-
                   </div>
                   <ul class="indicators">
-                    <li id="indicator1" class="active"></li>
-                    <li id="indicator2" ></li>
-                    <li id="indicator3" ></li>
+                    <li id="indicator1" class="indicatorsLI active"></li>
+                    <li id="indicator2" class="indicatorsLI"></li>
+                    <li id="indicator3" class="indicatorsLI"></li>
                   </ul>
                 </div>
             </div>
@@ -431,15 +430,17 @@
         } // End of if
 		?>
     <script>
-      console.log("Testimonials: " + testimonials)
-      console.log(testimonials[1].author)
+      // console.log("Testimonials: " + testimonials)
+      // console.log(testimonials[1].author)
 
-      var testimonialsLength = testimonials.length
-          content = document.getElementById('testimonialContent') 
+      var testimonialsLength = testimonials.length,
+          content = document.getElementById('testimonialContent'),
           contentID = 1
 
-      for (let i = 0; i < testimonialsLength; i++){
-        content.innerHTML += ('<div id="content' + contentID + '" class="content">' + 
+        console.log(testimonialsLength)
+
+      for (let i = 0; i <= testimonialsLength; i++){
+        content.innerHTML += ('<div id="content' + contentID + '" class="content" data-content="' + contentID + '">' + 
                                 '<img src="../uploads/' + testimonials[i].imageUrl + '" alt="' + testimonials[i].altTag + '">' +
                                 '<h4>' + testimonials[i].author + '</h4>' +
                                 '<h5>' + testimonials[i].authorTitle + '</h5>' +

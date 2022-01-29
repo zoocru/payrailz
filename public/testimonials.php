@@ -1,3 +1,14 @@
+<?php
+	require('db.php');
+
+  $sql = "SELECT * FROM testimonials
+          WHERE active = 1
+          ORDER by DESC";
+  $result = mysqli_query( $con, $sql );
+	
+	mysqli_close( $con );
+?>
+
 <!doctype html>
 
 <html lang="en">
@@ -8,7 +19,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
 
-      <title>Payrailz - Contact</title>
+      <title>Payrailz - Testimonials</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

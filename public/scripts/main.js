@@ -110,24 +110,30 @@ $(document).ready(function(){
         $(this).find('.careerArrow').toggleClass('rotate-reset')
     })
 
-    // function hideTestimonials() {
-    //     $('#content1, #content2, #content3').fadeOut().css("z-index", "-2")
-    // }
 
-    // $('#content1').on('click', function(){
-    //     hideTestimonials()
-    //     $(this).css("z-index", "1")
-    // })
 
-    // $('#content2').on('click', function(){
-    //     hideTestimonials()
-    //     $(this).css("z-index", "1")
-    // })
 
-    // $('#content3').on('click', function(){
-    //     hideTestimonials()
-    //     $(this).css("z-index", "1")
-    // })
+    function hideTestimonials() {
+        $('#content1, #content2, #content3').fadeOut().css("z-index", "-1")
+        $('#indicator1, #indicator2, #indicator3').removeClass('active')
+    }
+    $('#indicator1').on('click', function(){
+        hideTestimonials()
+        $(this).addClass('active')
+        $('#content1').css("z-index", "2").fadeIn()
+    })
+
+    $('#indicator2').on('click', function(){
+        hideTestimonials()
+        $(this).addClass('active')
+        $('#content2').css("z-index", "2").fadeIn()
+    })
+
+    $('#indicator3').on('click', function(){
+        hideTestimonials()
+        $(this).addClass('active')
+        $('#content3').css("z-index", "2").fadeIn()
+    })
 
 })
 
