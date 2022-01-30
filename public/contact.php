@@ -1,3 +1,7 @@
+<?php
+    if(isset($_GET['id'])) $id = $_GET['id'];
+?>
+
 <!doctype html>
 
 <html lang="en">
@@ -62,6 +66,7 @@
                     <!-- Form elements -->
                     <div class="col-12 col-md-7 col-lg-8">
                         <form id="form1" name="contact_form" method="post" action="contact-thankyou.php" >
+                            <input type="hidden" id="pageFrom" name="pageFrom" value="<?=$id?>">
                             <div class="row">
                                 <div class="col-12 col-lg-6">
                                     <div class="form-group reason-group">

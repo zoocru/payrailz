@@ -160,7 +160,7 @@
                         </div>
 
                         <p class="mb-1">Looking for more info on <span class="bold">Credit Pay Pro</span>?</p>
-                        <a id="button1" href="contact.php">
+                        <a id="button1" href="contact.php?id=creditPayPro">
                             <button type="button" class="btn">Contact Us</button>  
                         </a>
                     </div>

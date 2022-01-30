@@ -73,7 +73,7 @@
                         </figure>
                         
                         <p class="mb-1">Ready to talk more about our <span class="bold">Transfer Money</span> tool?</p>
-                        <a id="button1" href="contact.php">
+                        <a id="button1" href="contact.php?id=transferMoney">
                             <button type="button" class="btn">Contact Us</button>  
                         </a>
                     </div>

@@ -73,7 +73,7 @@
                             <figcaption>Pay A Person Activity Feed</figcaption>
                         </figure>
                         <p class="mb-1">Want more details on <span class="bold">Pay A Person</span>?</p>
-                        <a id="button1" href="contact.php">
+                        <a id="button1" href="contact.php?id=payAPerson">
                             <button type="button" class="btn">Contact Us</button>  
                         </a>
                     </div>
