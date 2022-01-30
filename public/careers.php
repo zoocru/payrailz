@@ -97,22 +97,6 @@
                                         <p class="mt-4">Send your resume to <a href="mailto:info@payrailz.com" target="_blank"> info@payrailz.com</a> and we’ll contact you regarding next&nbsp;steps.</p>
 
                                         <small>Payraliz is an equal opportunity&nbsp;employer.</small> 
-                                        <p class="mb-1 pt-2">
-                                            <span class="boldText">Active on Site?</span>
-                                            <?php
-                                                if ($row['active'] == 1) {
-                                                    echo "<span class='boldText' style='color: red;'> YES</span>";
-                                                } else {
-                                                    echo " NO";
-                                                }
-                                            ?>
-                                        </p>
-                                        <form id="form1" method="post" action="delete-careers.php?id=<?=$row['id']?>" onSubmit="return confirm('Are you sure you want to delete?')">
-                                            <a href="edit-career.php?id=<?=$row['id']?>">
-                                                <button type="button" class="btn2 btn-sm mr-2">Edit</button>
-                                            </a>
-                                            <button class="btn2 btn-sm" type="submit">Delete</button>
-                                        </form>
                                     </div>
                                 <?php
                                         }
