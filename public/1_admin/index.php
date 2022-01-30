@@ -19,6 +19,7 @@
         
         <style>
 			p { line-height: 1.5em; }
+            h4 { font-size: 1.1em; }
 		</style>
     </head>
     
@@ -34,7 +35,7 @@
                     <h2 class="text-center">Admin</h2>
                     <hr class="pb-4">
                     <div class="row justify-content-center">
-                        <div class="col-12">
+                        <div class="col">
                             <div class="text-center adminLinks">
                                 <a href="testimonials.php">
                                     <img class="icons" src="../images/testimonials_icon.png">
@@ -42,17 +43,17 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-12">
+                        <!-- <div class="col">
                             <div class="text-center adminLinks">
                                 <a href="#">
                                     <img class="icons" src="../images/FAQ_icon.png">
                                     <h4>FAQs</h4>
                                 </a>
                             </div>
-                        </div>
-                        <div class="col-12">
+                        </div> -->
+                        <div class="col">
                             <div class="text-center adminLinks">
-                                <a href="#">
+                                <a href="careers.php">
                                     <img class="icons" src="../images/careers_icon.png">
                                     <h4>Careers</h4>
                                 </a>

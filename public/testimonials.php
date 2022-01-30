@@ -1,10 +1,10 @@
 <?php
 	require('db.php');
 
-  $sql = "SELECT * FROM testimonials
-          WHERE active = 1
-          ORDER by DESC";
-  $result = mysqli_query( $con, $sql );
+    $sql = "SELECT * FROM testimonials
+          WHERE active = 1 AND featured != 1
+          ORDER by id DESC";
+    $result = mysqli_query( $con, $sql );
 	
 	mysqli_close( $con );
 ?>
@@ -71,15 +71,27 @@
                 <div class="row">
                     <div class="col-12 col-md-10 offset-md-1">
                         <div class="row" id="testimonials">
-                            <div class="col-12 col-md-6 col-xxl-4">
-                                <div class="testimonial shadow">
-                                    <p>“Even before COVID-19, we worked to ensure our members had a convenient and robust digital banking experience in place, and since the pandemic, we’ve seen a significant increase in our members engaging through the digital channels. With Payrailz, our credit union will deliver a digital member experience that keeps pace with our rapidly growing membership and keeps us competitive as consumers migrate to&nbsp;digital.”</p>
-                                    <h2>Scott Bell</h2>
-                                    <h3>Chief Experience Officer</h3>
-                                    <h4>Unitus Community Credit&nbsp;Union</h4>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-xxl-4">
+                        
+                        <?php
+                            if( $result ) {
+                                while( $row = mysqli_fetch_array( $result ) ) {
+                        ?>
+
+                                    <div class="col-12 col-md-6 col-xxl-4">
+                                        <div class="testimonial shadow">
+                                            <img src="../uploads/<?=$row['imageUrl']?>" alt="<?=$row['altTag']?> class="img-fluid">
+                                            <?=$row['testimonial']?>
+                                            <h2><?=$row['author']?></h2>
+                                            <h3><?=$row['authorTitle']?></h3>
+                                            <h4><?=$row['company']?></h4>
+                                        </div>
+                                    </div>
+                        <?php
+                                } // End of While loop
+                            } // End of if
+                        ?>
+
+                            <!-- <div class="col-12 col-md-6 col-xxl-4">
                                 <div class="testimonial shadow">
                                     <p>“I selected Payrailz – twice – as a trusted partner with a best of breed digital payments platform. I believe in Payrailz and love the vision that I have seen come to fruition over the past few years. The Payrailz platform is so much more than just Bill Pay, A2A and P2P. It is evolving with new innovations using AI for a a superior member&nbsp;experience.”</p>
                                     <h2>Ted Hassenfelt</h2>
@@ -117,7 +129,7 @@
                                     <h3>President and COO</h3>
                                     <h4>Woodforest National Bank</h4>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

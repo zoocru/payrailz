@@ -2,7 +2,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <a href="/">
+                        <a href="/1_admin/">
                             <img id="logo" src="../images/logo.svg" alt="Payrailz Logo">
                         </a>
                     </div>

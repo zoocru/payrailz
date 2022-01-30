@@ -44,7 +44,6 @@
                   <button type="button" class="btn">Learn More</button>  
               </a>
             </div>
-
             <!-- Testimonials -->
             <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
                 <div id="testimonialsHP">
@@ -58,26 +57,6 @@
                 </div>
             </div>
             <!-- End of HP Testimonials -->
-
-            <!-- <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
-                <div id="testimonialsHP">
-                  <div class="content">
-                    <img src="images/avatar.png" alt="">
-                    <h4>Sarah L.</h4>
-                    <h5>SVP/Chief Digital Officer</h5>
-                    <p>“This was one of the best conversion processes I have been involved with over the last 30&nbsp;years.”</p>
-                  </div>
-                  
-                  <ul class="indicators">
-                    <li class="active"></li>
-                    <li><li>
-                    <li></li>
-                    <li></li>
-                  </ul>
-                </div>
-            </div> -->
-
-
           </div>
         </div>
       </section>
@@ -404,27 +383,27 @@
         if( $result ) {
             while( $row = mysqli_fetch_array( $result ) ) {
     ?>
-        <script>
-          var id = "<?=$row['ID']?>",
-              imageUrl = "<?=$row['imageUrl']?>",
-              altTag = "<?=$row['altTag']?>",
-              author = "<?=$row['author']?>",
-              authorTitle = "<?=$row['authorTitle']?>",
-              company = "<?=$row['company']?>",
-              testimonial = "<?=$row['testimonial']?>"
+              <script>
+                var id = "<?=$row['ID']?>",
+                    imageUrl = "<?=$row['imageUrl']?>",
+                    altTag = "<?=$row['altTag']?>",
+                    author = "<?=$row['author']?>",
+                    authorTitle = "<?=$row['authorTitle']?>",
+                    company = "<?=$row['company']?>",
+                    testimonial = "<?=$row['testimonial']?>"
 
-          testimonials.push(
-            {
-              id: id,
-              imageUrl: imageUrl,
-              altTag: altTag,
-              author: author,
-              authorTitle: authorTitle,
-              company: company,
-              testimonial: testimonial
-            }
-          )
-        </script> 
+                testimonials.push(
+                  {
+                    id: id,
+                    imageUrl: imageUrl,
+                    altTag: altTag,
+                    author: author,
+                    authorTitle: authorTitle,
+                    company: company,
+                    testimonial: testimonial
+                  }
+                )
+              </script> 
     <?php
             } // End of While loop
         } // End of if

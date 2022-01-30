@@ -48,7 +48,7 @@
                                         while( $row = mysqli_fetch_array( $result ) ) {
                                 ?>
                                     <div class="col-12 col-lg-4">
-                                        <div class="testimonial shadow">
+                                        <div class="testimonial shadow" style="margin-bottom: 20px;">
                                             <?php 
                                                 if ($row['imageUrl'] !== "") {
                                                     echo "<p><img src='../uploads/" . $row['imageUrl'] . "' class='img-fluid' alt='" . $row['altTag'] . "'></p>"; 

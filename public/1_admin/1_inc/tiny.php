@@ -5,7 +5,7 @@
             tinymce.init({
 				selector: 'textarea',
                 plugins: 'autolink lists media table',
-                toolbar: 'addcomment showcomments casechange code table',
+                toolbar: 'addcomment showcomments casechange code table bullist numlist',
                 toolbar_mode: 'floating',
                 tinycomments_mode: 'embedded',
                 tinycomments_author: 'Author name'
