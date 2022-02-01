@@ -140,7 +140,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 2000;
     //background-color: rgba($darkPurple, .7);
     height: auto;
     // box-shadow: 0 5px 8px rgba(0,0,0,.2);
@@ -331,8 +331,8 @@ main {
         opacity: 1;
         
         background-color: rgba($color: #000, $alpha: 1.0);
-        @include media-breakpoint-only(xs){ padding-top: 150px; }
-        @include media-breakpoint-only(sm){ padding-top: 150px; }
+        @include media-breakpoint-only(xs){ padding-top: 50px; }
+        @include media-breakpoint-only(sm){ padding-top: 50px; }
         
       h1 { 
         color: $white;
@@ -342,7 +342,7 @@ main {
             margin-bottom: 11px;
         }
         @include media-breakpoint-only(lg) {font-size: 3em;}
-        @include media-breakpoint-only(xs) {font-size: 2em;}
+        @include media-breakpoint-only(xs) {font-size: 2.2em;}
         margin-bottom: 14px; 
       }
       h2 { 
@@ -548,6 +548,9 @@ main {
         img { 
             border-radius: 50%;
             margin-right: 14px;
+            @include media-breakpoint-down(lg) {
+                width: 50px;
+            }
         }
     }
     #payRailzAdvantageContent {
@@ -556,6 +559,9 @@ main {
         @include media-breakpoint-down(lg) {
             margin-top: 120px;
             padding-bottom: 0;
+        }
+        @include media-breakpoint-down(sm) {
+            padding-right: 30px;
         }
     }
 }
@@ -729,7 +735,7 @@ main {
                 margin-bottom: -30px;
             }
             @include media-breakpoint-only(xs) { 
-                font-size: 75px; 
+                font-size: 65px; 
                 margin-bottom: -25px;
             }
             
@@ -835,11 +841,11 @@ main {
     }
     .carousel-control-next-icon { 
         background-image: url("../images/next.png"); 
-        @include media-breakpoint-only(xs) { margin-left: 50px; }
+        @include media-breakpoint-only(xs) { margin-left: 20px; }
     }
     .carousel-control-prev-icon {  
         background-image: url("../images/prev.png"); 
-        @include media-breakpoint-only(xs) { margin-right: 50px; }
+        @include media-breakpoint-only(xs) { margin-right: 20px; }
     }
 
     #teamText { 
@@ -867,7 +873,7 @@ main {
     @include media-breakpoint-only(lg) {height: 920px;}
     @include media-breakpoint-only(md) {height: 1200px;}
     @include media-breakpoint-only(sm) {height: 1400px;}
-    @include media-breakpoint-only(xs) {height: 1800px;}
+    @include media-breakpoint-only(xs) {height: 2650px;}
 
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#50185b+1,330949+100 */
     background: $primary; /* Old browsers */
@@ -1347,6 +1353,7 @@ main {
 
     h1 {
         @include media-breakpoint-down(md) { font-size: 28px; } 
+        @include media-breakpoint-only(xs) { font-size: 24px; } 
     }
 
     p { margin-bottom: 0; }
@@ -1521,7 +1528,7 @@ video {
     text-align: left;
     @include media-breakpoint-down(sm) { 
         margin-left: 0; 
-        width: 230px;
+        width: 200px;
         padding-bottom: 0;
     }
 }
@@ -1800,7 +1807,7 @@ video {
 
 #updates { 
     display: flex;
-
+    
     p { 
         padding: 0 20px 0 0;
         margin: 0;
@@ -2164,13 +2171,28 @@ time.entry-date.published.updated:hover {
 
 
 .nav-previous a, .nav-next a {
-	background: #330949;
-		padding: 10px 17px;
+	background: $darkPurple;
+		padding: 10px 17px;
 		border-radius: 8px;
 	color: #fff;
 		font-weight: 600;
 }
 
-.nav-previous a:hover, .nav-next a:hover {
-		background-color: #732282;
+.nav-previous a:hover, .nav-next a:hover {
+		background-color: $purple;
 }
+
+h1.entry-title { color: #1f1f1f; }
+
+.entry-content { 
+    h4 {
+        em {
+            color: $purple;
+        }
+    }
+    a {
+        color: $darkPurple;
+    }
+}
+
+

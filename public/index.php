@@ -45,7 +45,7 @@
               </a>
             </div>
             <!-- Testimonials -->
-            <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-3">
+            <div class="d-none d-md-block d-col-xs-12 col-md-6 offset-lg-1 col-lg-3">
                 <div id="testimonialsHP">
                   <div id="testimonialContent">
                   </div>
