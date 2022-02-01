@@ -403,6 +403,7 @@ main {
 .contactUs { background-image: url("../images/bg5.jpg"); }
 .curailz { background-image: url("../images/bg6.jpg"); }
 .testimonialBG { background-image: url("../images/bg8.jpg"); }
+.blogBG { background-image: url("../images/bg9.jpg"); }
 
 #insideHeroWrapper { 
     height: 550px; 
@@ -1984,10 +1985,6 @@ h3, p { color: $white; }
             @include media-breakpoint-down(lg) { width: 25px; }
         }
     }
-    // img {
-    //     max-height: 75px;
-    //     width: auto;
-    // }
     p { 
         display: block; 
         @include media-breakpoint-down(xl) { 
@@ -2067,7 +2064,9 @@ a#infoEmail {
     }
 }
 
+
 // =============== ADMIN ===============
+
 header#adminHeader {
     position: relative;
     background-color: $darkPurple;
@@ -2138,4 +2137,40 @@ header#adminHeader {
 
 #adminContent {
     label { color: black !important; }
+}
+
+// =============== BLOG ===============
+
+a.more-link {
+    background: #330949;
+    padding: 16px 35px;
+    font-weight: 600;
+}
+
+.entry-meta * { color: #330949;
+}
+
+
+.entry-meta a:hover {
+    text-decoration: none;
+}
+
+
+time.entry-date.published.updated:hover {
+    color: #3366c8;
+}
+
+
+
+
+.nav-previous a, .nav-next a {
+	background: #330949;
+		padding: 10px 17px;
+		border-radius: 8px;
+	color: #fff;
+		font-weight: 600;
+}
+
+.nav-previous a:hover, .nav-next a:hover {
+		background-color: #732282;
 }

@@ -36,7 +36,7 @@
             <!-- Main Copy -->
             <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
                 <h1>Testimonials</h1>
-                <h2>What are customers are&nbsp;saying.</h2>
+                <h2>What our customers are&nbsp;saying.</h2>
             </div>
         </div>
         </div>

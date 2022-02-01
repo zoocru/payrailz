@@ -64,7 +64,7 @@
               <div class="col-4">
                 <ul class="list-unstyled">
                   <li><a href="careers.php">Careers</a></li>
-                  <li><a href="/resources">Resources</a></li>
+                  <li><a href="/resources">Resources: News & Events</a></li>
                   <li><a href="curailz.php">Curailz</a></li>
                   <!-- <li><a href="faqs.php">FAQs</a></li> -->
                   <li><a href="testimonials.php">Testimonials</a></li>
