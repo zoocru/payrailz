@@ -83,11 +83,7 @@
 
                         <h3>ACH Funding</h3>
                         <p>An ACH File is a Nacha Formatted file delivered to the Financial Institution to record both the debits and credits for payments funded via ACH. The Financial Institution can then deliver the ACH File to the Federal Reserve for processing. While Credit Pay Pro supports ACH (Checking and Savings), Debit Card and Credit Card funding methods, each Financial Institution can choose to support all funding methods, only specific funding methods or even specific funding methods per Payment Channel. Credit Pay Pro was built to accept payments from Personal, Business, Checking and Savings Accounts, each Financial Institution can once again choose which accounts will be&nbsp;supported.</p>
-                        <figure class="mb-5">
-                            <img src="images/ccp-ach.png" alt="ACH Funding" class="img-fluid shadow2">
-                            <figcaption>ACH Funding and Settlement</figcaption>
-                        </figure>
-
+                        
                         <h3>Bill File</h3>
                         <p>A Bill File is essentially a snapshot of the Financial Institution’s Accounts Receivables database and has two purposes:</p>
                         <ol>

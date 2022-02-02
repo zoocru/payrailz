@@ -102,7 +102,7 @@
                         <div id="payAPerson" class="productDetail shadow">
                             <h1>Pay A Person</h1>
                             <h2>What is <span class="bold">Pay A Person?</span></h2>
-                            <p>Pay A Person (P2P, Person to Person/B2C, Business to Consumer) is a modern, ultra-convenient service that enables anyone to make electronic payments directly to anyone else via online and mobile&nbsp;banking.</p>
+                            <p>Pay A Person (Person to Person, Business to Consumer) is a modern, ultra-convenient service that enables anyone to make electronic payments directly to anyone else via online and mobile&nbsp;banking.</p>
                             <a id="button1" href="payAPerson.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
@@ -110,7 +110,7 @@
                         <div id="transferMoney" class="productDetail shadow">
                             <h1>Transfer Money</h1>
                             <h2>What is <span class="bold">Transfer Money?</span></h2>
-                            <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is an easy-to-use, easy-to-manage digital tool that provides users with a secure way to move money between accounts at different financial institutions across&nbsp;the&nbsp;US.</p>
+                            <p><span class="bold">Transfer Money</span> (Account to Account) is an easy-to-use, easy-to-manage digital tool that provides users with a secure way to move money between accounts at different financial institutions across&nbsp;the&nbsp;US.</p>
                             <a id="button1" href="transferMoney.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>

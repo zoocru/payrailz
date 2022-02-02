@@ -207,7 +207,7 @@
                     <div class="col-12 col-lg-9">
                         <div id="aboutTeaser">
                             <h1>Smart people. Smart solutions. Smart&nbsp;service.</h1>
-                            <p>At Payrailz, it’s not all about technology. We pride ourselves on personal service from real people with real-world experience, who know and understand your pain points. Our service team is always available with dedicated and personalized implementation assistance, ongoing project management, and whatever else you need to transform your payments&nbsp;experience.</p>
+                            <p>At Payrailz, it’s not only about technology. We pride ourselves on personal service from real people with real-world experience, who know and understand your pain points. Our service team is always available with dedicated and personalized implementation assistance, ongoing project management, and whatever else you need to transform your payments&nbsp;experience.</p>
                             <p>We enable banks and credit unions to better meet the expectations of their customers or members by offering an innovative payment experience with a “Do It For Me” approach that keeps them well informed and in control of their financial&nbsp;wellness.</p>
                         </div>
                     </div>

@@ -35,7 +35,7 @@
                 <!-- Main Copy -->
                 <div class="col-10 offset-1">
                     <h1>Careers</h1>
-                    <h2>Feel valued and spend your future shaping the&nbsp;future.</h2>
+                    <h2>Spend your future shaping the&nbsp;future.</h2>
                 </div>
             </div>
         </div>

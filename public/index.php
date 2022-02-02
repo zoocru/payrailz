@@ -71,7 +71,7 @@
             <div id="payRailzAdvantageContent" class="col-12 col-lg-6 offset-lg-1 d-flex justify-content-end flex-column align-items-end text-right">
               <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
               <p>Our all-in-one digital payments solution seamlessly navigates across existing payment paths and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
-              <p>In a society focused on “Do It For Me<sup>®</sup>”, smart makes&nbsp;the&nbsp;difference.</p>
+              <p>In a society focused on “Do It For Me,<sup>®</sup>” smart makes&nbsp;the&nbsp;difference.</p>
               <a href="payrailz_advantage.php">
                   <button type="button" class="btn">Learn More</button>  
               </a>

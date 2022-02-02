@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-12 col-md-10 offset-md-1 text-center">
                         <h1>Your money goes where it’s supposed&nbsp;to&nbsp;go</h1>
-                        <p class="mb-5">The PayWayz Smart Payment Routing Hub simplifies the payment process at every step of the process. By seamlessly integrating with any and all funding sources, you no longer need to spend time managing those relationships. With PayWayz, it happens automatically. Pair that with our ability to deliver payments via every distribution rail, and the result is a smarter experience that enables you to better meet the payment expectations of today’s&nbsp;consumers.</p>
+                        <p class="mb-5">The PayWayz Smart Payment Routing Hub simplifies the payment process at every step along the way. By seamlessly integrating with any and all funding sources, you no longer need to spend time managing those relationships. With PayWayz, it happens automatically. Pair that with our ability to deliver payments via every distribution rail, and the result is a smarter experience that enables you to better meet the payment expectations of today’s&nbsp;consumers.</p>
                     </div>
                 </div>
             </div>

@@ -54,7 +54,7 @@
                 <div class="row no-gutter">
                     <div class="col-12 col-md-6 offset-md-1 col-lg-5 offset-lg-2">
                         <h1>Changing Expectations</h1>
-                        <p>In today’s landscape, payment experiences must go beyond transactions to make emotional connections with consumers. This requires a keen understanding of how people think about money, and continual innovation to over-deliver against their ever-changing expectations. Introducing Payrailz, a smarter payments&nbsp;experience.</p>
+                        <p>In today’s landscape, payment experiences must go beyond transactions to make emotional connections with consumers. This requires a keen understanding of how people think about money, and continuous innovation to over-deliver against their ever-changing expectations. Introducing Payrailz, a smarter payments&nbsp;experience.</p>
                     </div>
                     <div class="col-12 col-md-4 offset-md-1 justify-content-sm-center d-none d-md-block" style="padding-right: 0 !important;">
                         <div id="womanPA">
