@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Smarter payments solutions for both consumers and the financial Institutions they do business with.">
 
-      <title>Payrailz Products - Transfer Money</title>
+      <title>Credit Pay Pro | Multiple Payment Methods and Funding Options</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

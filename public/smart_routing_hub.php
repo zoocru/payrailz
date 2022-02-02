@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="By seamlessly integrating with any and all funding sources, money goes where it’s supposed to go.">
 
-      <title>PayWayz</title>
+      <title>Paywayz | Smart Routing Hub</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

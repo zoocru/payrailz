@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Our easy, seamless payments experience works automatically across all financial institutions and existing platforms.">
 
-      <title>Payrailz Products - Pay A Person</title>
+      <title>Pay A Person | Real-time payments 24/7</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

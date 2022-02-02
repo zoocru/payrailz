@@ -17,9 +17,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Hear about the Payrailz experience and advantages from fellow financial industry professionals.">
 
-      <title>Payrailz - Testimonials</title>
+      <title>Testimonials | What our customers are saying</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Smart makes the difference. Discover intelligent and elegant payment solutions for both consumers and businesses.">
 
-      <title>Payrailz Advantage</title>
+      <title>Smarter Payments Products| Smart makes the difference.</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

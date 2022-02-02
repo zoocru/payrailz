@@ -19,8 +19,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <title>Payrailz</title>
+    <meta name="description" content="Built to seamlessly navigate every existing payments platform, Payrailz is the only digital payments platform you’ll ever need.">
+    <title>Payrailz Digital Payments | The future of Digital Payments</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>
 

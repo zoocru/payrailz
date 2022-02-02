@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Helping Financial Institutions and Billers provide flexible payment options to consumers.">
 
-      <title>Payrailz Products - Biller Services</title>
+      <title>Biller Services | Billing Management and Payment Options</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

@@ -16,9 +16,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Join our team of passionate, tech-focused individuals working together to shape the future of bill pay">
 
-      <title>Payrailz - Careers</title>
+      <title>Careers at Payrailz | Opportunities for success</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

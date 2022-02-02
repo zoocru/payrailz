@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Our team of financial-industry professionals and technologists is committed to a better, smarter  digital payments experience.">
 
-      <title>About Payrailz</title>
+      <title>About Payrailz | The only digital payments platform you’ll ever need</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">   
       

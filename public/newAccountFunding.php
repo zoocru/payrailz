@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Bringing business and financial institutions together quickly and easily, and delivering smarter payments technology.">
 
-      <title>Payrailz Products - New Account Funding</title>
+      <title>New Account Funding – A better way to onboard business</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="AI-driven capabilities provide users with insights and recommendations for more control of their bills and payment accounts.">
 
-      <title>Payrailz Products - Pay A Bill</title>
+      <title>Pay A Bill – A Smarter Digital Bill Pay Experience</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

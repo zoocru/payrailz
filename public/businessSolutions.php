@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="We’re providing our business customers with intuitive, integrated business bill pay capabilities.">
 
-      <title>Payrailz Products - Business Solutions</title>
+      <title>Business Solutions | Payments Products for Modern Business</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

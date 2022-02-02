@@ -6,9 +6,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Built API first to deliver full integration and seamless navigation through every existing payment path.">
 
-      <title>Payrailz - Advanced User Experience</title>
+      <title>Flex UX | An Advanced User Experience</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>

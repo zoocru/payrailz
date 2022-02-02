@@ -7,9 +7,9 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
+      <meta name="description" content="Both consumers and business customers will enjoy an easy, seamless experience and faster, smarter payments.">
 
-      <title>Payrailz Products - Transfer Money</title>
+      <title>Transfer Money | Account to Account Transfers</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>
