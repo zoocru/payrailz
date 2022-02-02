@@ -1,3 +1,5 @@
+html { font-size: 100% !important; }
+
 body, html {
     height: 100%;
     margin: 0;
@@ -453,14 +455,15 @@ main {
 
     .content { 
         img {
-            width: 100px;
+            max-width: 150px;
+            max-height: 75px;
             height: auto;
             //border-radius: 50%;
             border: solid 1px rgba($lightGray, .5);
             border: solid23px white;
         }
         h4, h5 { 
-            font-size: 12px; 
+            font-size: 14px; 
             color: $white; 
         }
         h4 { font-weight: 700; }
@@ -1130,6 +1133,10 @@ main {
 
 #careers, #aboutModule {
     @include media-breakpoint-down(md) { padding: 100px 0; } 
+}
+
+#careers {
+    a:hover { color: $secondary; }
 }
 
 #actionInsights { 
@@ -2152,10 +2159,12 @@ a.more-link {
     background: #330949;
     padding: 16px 35px;
     font-weight: 600;
+    color: $white !important;
+
+    &:hover { color: $secondary !important; }
 }
 
-.entry-meta * { color: #330949;
-}
+.entry-meta * { color: #330949; }
 
 
 .entry-meta a:hover {

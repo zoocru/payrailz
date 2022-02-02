@@ -73,7 +73,7 @@
             </div>
             <hr>
 
-            <form id="form2" name="contact_form" method="post" action="" >
+            <!-- <form id="form2" name="contact_form" method="post" action="" >
               <div class="row">
                 <div id="updates" class="col-12 align-items-center">
                   <p>Receive Updates, News & Information</p>
@@ -84,7 +84,7 @@
                   <button type="submit" id="submit2" name="submit" class="btn2 gBtn btn-sm">OK</button>
                 </div>
               </div>
-            </form>
+            </form> -->
 
           </div>
         </div>
