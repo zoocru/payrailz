@@ -6243,7 +6243,7 @@ main {
   color: #fff;
   border-radius: 8px;
   text-align: center;
-  padding: 30px;
+  padding-bottom: 25px;
   z-index: 1000;
   margin-bottom: 30px; }
   @media (max-width: 767.98px) {
@@ -6261,23 +6261,41 @@ main {
     #testimonialsHP #testimonialContent #content2, #testimonialsHP #testimonialContent #content3 {
       z-index: -1;
       display: none; }
+  #testimonialsHP .content .imgBGTesti {
+    background-color: white;
+    padding: 18px 0;
+    border-radius: 8px 8px 0 0; }
   #testimonialsHP .content img {
-    max-width: 150px;
+    max-width: 175px;
     max-height: 75px;
-    height: auto;
-    border: solid 1px rgba(233, 233, 233, 0.5);
-    border: solid23px white; }
+    height: auto; }
+  #testimonialsHP .content .quotesBG {
+    position: relative; }
+    #testimonialsHP .content .quotesBG img {
+      position: absolute;
+      width: 30px !important;
+      height: auto !important;
+      z-index: 1; }
+    #testimonialsHP .content .quotesBG img.quoteLeft {
+      top: 0;
+      left: 10px; }
+    #testimonialsHP .content .quotesBG img.quoteRight {
+      bottom: 0;
+      right: 10px; }
+  #testimonialsHP .content h4, #testimonialsHP .content h5, #testimonialsHP .content p {
+    padding-left: 20px;
+    padding-right: 20px; }
   #testimonialsHP .content h4, #testimonialsHP .content h5 {
     font-size: 14px;
     color: #fff; }
   #testimonialsHP .content h4 {
     font-weight: 700; }
-  #testimonialsHP .content p {
-    font-size: 14px !important; }
   #testimonialsHP .content h5 {
     font-weight: 400; }
   #testimonialsHP .content p {
-    line-height: 1.5 !important; }
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    z-index: 2; }
   #testimonialsHP ul {
     position: absolute;
     bottom: 30px;

@@ -420,10 +420,16 @@
 
       for (let i = 0; i <= testimonialsLength; i++){
         content.innerHTML += ('<div id="content' + contentID + '" class="content" data-content="' + contentID + '">' + 
-                                '<img src="../uploads/' + testimonials[i].imageUrl + '" alt="' + testimonials[i].altTag + '">' +
+                                '<div class="imgBGTesti">' +
+                                  '<img src="../uploads/' + testimonials[i].imageUrl + '" alt="' + testimonials[i].altTag + '">' +
+                                '</div>' +
                                 '<h4>' + testimonials[i].author + '</h4>' +
                                 '<h5>' + testimonials[i].authorTitle + '</h5>' +
-                                testimonials[i].testimonial +
+                                '<div class="quotesBG">' +
+                                  '<img class="quoteLeft" src="images/quote-left.svg">' +
+                                  '<img class="quoteLeft" src="images/quote-right.svg">' +
+                                  testimonials[i].testimonial +
+                                '</div>' +
                               '</div>')
         contentID++
       }
