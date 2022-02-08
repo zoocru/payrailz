@@ -427,7 +427,7 @@
                                 '<h5>' + testimonials[i].authorTitle + '</h5>' +
                                 '<div class="quotesBG">' +
                                   '<img class="quoteLeft" src="images/quote-left.svg">' +
-                                  '<img class="quoteLeft" src="images/quote-right.svg">' +
+                                  '<img class="quoteRight" src="images/quote-right.svg">' +
                                   testimonials[i].testimonial +
                                 '</div>' +
                               '</div>')
