@@ -6039,7 +6039,7 @@ header {
         @media (max-width: 767.98px) {
           header nav ul li {
             margin-top: 20px;
-            margin-bottom: 20px; } }
+            margin-bottom: 10px; } }
         header nav ul li a {
           padding: 20px 15px; }
           @media (max-width: 991.98px) {
@@ -6143,18 +6143,23 @@ main {
         padding-top: 50px; } }
     #heroWrapper #hero h1, #insideHeroWrapper #hero h1 {
       color: #fff;
-      font-size: 4em;
+      font-size: 3.5em;
+      padding-top: 10px;
       margin-bottom: 14px; }
       @media (min-width: 576px) and (max-width: 991.98px) {
         #heroWrapper #hero h1, #insideHeroWrapper #hero h1 {
           font-size: 2.5em;
           margin-bottom: 11px; } }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        #heroWrapper #hero h1, #insideHeroWrapper #hero h1 {
+          padding-top: 60px; } }
       @media (min-width: 992px) and (max-width: 1199.98px) {
         #heroWrapper #hero h1, #insideHeroWrapper #hero h1 {
-          font-size: 3em; } }
+          font-size: 3em;
+          padding-top: 20px; } }
       @media (max-width: 575.98px) {
         #heroWrapper #hero h1, #insideHeroWrapper #hero h1 {
-          font-size: 2.2em; } }
+          font-size: 2em; } }
     #heroWrapper #hero h2, #insideHeroWrapper #hero h2 {
       color: #fff; }
       @media (max-width: 1199.98px) {
@@ -6162,7 +6167,7 @@ main {
           font-size: 1.8em; } }
       @media (max-width: 575.98px) {
         #heroWrapper #hero h2, #insideHeroWrapper #hero h2 {
-          font-size: 1.5em; } }
+          font-size: 1.2em; } }
     #heroWrapper #hero h6, #insideHeroWrapper #hero h6 {
       text-align: right;
       color: #fc8b40;
@@ -6223,13 +6228,16 @@ main {
   background-image: url(../images/bg9.jpg); }
 
 #insideHeroWrapper {
-  height: 550px; }
+  height: 400px; }
   @media (max-width: 767.98px) {
     #insideHeroWrapper {
-      height: 450px; } }
+      height: 350px; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #insideHeroWrapper {
+      height: 375px; } }
   @media (max-width: 767.98px) {
     #insideHeroWrapper #hero {
-      padding-top: 75px; } }
+      padding-top: 45px; } }
   @media (max-width: 767.98px) {
     #insideHeroWrapper #hero h1 {
       margin-bottom: 0; } }

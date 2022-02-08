@@ -216,7 +216,7 @@ header {
                 }
                 @include media-breakpoint-down(sm){
                     margin-top: 20px;
-                    margin-bottom: 20px;
+                    margin-bottom: 10px;
                 }
 
                 a { 
@@ -338,19 +338,21 @@ main {
         
       h1 { 
         color: $white;
-        font-size: 4em;
+        font-size: 3.5em;
+        padding-top: 10px;
         @include media-breakpoint-between(sm,md) {
             font-size: 2.5em;
             margin-bottom: 11px;
         }
-        @include media-breakpoint-only(lg) {font-size: 3em;}
-        @include media-breakpoint-only(xs) {font-size: 2.2em;}
+        @include media-breakpoint-only(md) {padding-top: 60px;}
+        @include media-breakpoint-only(lg) {font-size: 3em; padding-top: 20px;}
+        @include media-breakpoint-only(xs) {font-size: 2em;}
         margin-bottom: 14px; 
       }
       h2 { 
           color: $white; 
           @include media-breakpoint-down(lg) {font-size: 1.8em;}
-          @include media-breakpoint-only(xs) {font-size: 1.5em;}
+          @include media-breakpoint-only(xs) {font-size: 1.2em;}
         }
       h6 {
           text-align: right;
@@ -408,11 +410,12 @@ main {
 .blogBG { background-image: url("../images/bg9.jpg"); }
 
 #insideHeroWrapper { 
-    height: 550px; 
-    @include media-breakpoint-down(sm){  height: 450px; }
+    height: 400px; 
+    @include media-breakpoint-down(sm){  height: 350px; }
+    @include media-breakpoint-only(md){  height: 375px; }
 
     #hero {
-        @include media-breakpoint-down(sm){ padding-top: 75px;  }
+        @include media-breakpoint-down(sm){ padding-top: 45px;  }
         
         h1 {
             @include media-breakpoint-down(sm){ margin-bottom: 0;  } 
