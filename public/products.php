@@ -25,7 +25,7 @@
                 <!-- Main Copy -->
                 <div class="col-10 offset-1">
                     <h1>Smarter Payments</h1>
-                    <h2>Smarter payment solutions start&nbsp;here.</h2>
+                    <h2>Smarter digital payment solutions start&nbsp;here.</h2>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-8 offset-md-2 text-center">
-                        <h1>In a “Do It For Me”&nbsp;Society,<br>Smart makes the&nbsp;difference<sup>®</sup></h1>
+                        <h1>In a “Do It For Me<sup>®</sup>”&nbsp;"Society,<br>Smart Makes The&nbsp;Difference<sup>®</sup>"</h1>
                         <p>From voice interactions to mobile functionality, Payrailz delivers intuitive, intelligent and elegant payment solutions for both consumers and&nbsp;businesses.</p>
                     </div>
                 </div>
@@ -78,21 +78,21 @@
                             <div id="accountFundingBtn" class="product">
                                 <h1><img src="images/product-icons/newAccountFunding_icon.png" class="shadowLil" alt="New Account Funding">New Account Funding</h1>
                             </div>
+                            <div id="ccpBtn" class="product">
+                                <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Credit Pay Pro">Credit Pay Pro</h1>
+                            </div>
                             <div id="bsolBtn" class="product">
                                 <h1><img src="images/product-icons/businessSolutions_icon.png" class="shadowLil" alt="Business Solutions">Business Solutions</h1>
                             </div>
                             <div id="bserBtn" class="product">
                                 <h1><img src="images/product-icons/billerServices_icon.png" class="shadowLil" alt="Business Services">Biller Services</h1>
                             </div>
-                            <div id="ccpBtn" class="product">
-                                <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Credit Pay Pro">Credit Pay Pro</h1>
-                            </div>
                         </div>
                     </div>
                     <!-- Product details -->
                     <div class="col-12 col-md-7 col-lg-8">
                         <div id="payABill" class="productDetail shadow">
-                            <h1>Pay A Bill</h1>
+                            <h1>Pay A Bill (Bill Pay)</h1>
                             <h2>What is <span class="bold">Pay A Bill?</span></h2>
                             <p>Pay A Bill is a proprietary digital service that delivers smart-enabled electronic bill presentment and payment capabilities. It comes with all the advanced features your users have come to expect from their traditional bill pay solutions, plus so much&nbsp;more. </p>
                             <a id="button1" href="payBills.php">
@@ -100,15 +100,15 @@
                             </a>
                         </div>
                         <div id="payAPerson" class="productDetail shadow">
-                            <h1>Pay A Person</h1>
+                            <h1>Pay A Person (P2P)</h1>
                             <h2>What is <span class="bold">Pay A Person?</span></h2>
-                            <p>Pay A Person (Person to Person, Business to Consumer) is a modern, ultra-convenient service that enables anyone to make electronic payments directly to anyone else via online and mobile&nbsp;banking.</p>
+                            <p>Pay A Person (Person to Person, Business to Consumer) is a modern, ultra-convenient P2P service that enables anyone to make electronic payments directly to anyone else via online and mobile&nbsp;banking.</p>
                             <a id="button1" href="payAPerson.php">
                                 <button type="button" class="btn">Learn More</button>  
                             </a>
                         </div>
                         <div id="transferMoney" class="productDetail shadow">
-                            <h1>Transfer Money</h1>
+                            <h1>Transfer Money (A2A)</h1>
                             <h2>What is <span class="bold">Transfer Money?</span></h2>
                             <p><span class="bold">Transfer Money</span> (Account to Account) is an easy-to-use, easy-to-manage digital tool that provides users with a secure way to move money between accounts at different financial institutions across&nbsp;the&nbsp;US.</p>
                             <a id="button1" href="transferMoney.php">

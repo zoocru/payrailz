@@ -5857,7 +5857,7 @@ body, html {
 
 body {
   color: #231f20;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.8em; }
 
 strong {
@@ -6235,6 +6235,9 @@ main {
   @media (min-width: 768px) and (max-width: 991.98px) {
     #insideHeroWrapper {
       height: 375px; } }
+  @media (min-width: 1200px) {
+    #insideHeroWrapper {
+      height: 450px; } }
   @media (max-width: 767.98px) {
     #insideHeroWrapper #hero {
       padding-top: 45px; } }
@@ -6303,6 +6306,9 @@ main {
     font-size: 14px !important;
     line-height: 1.5 !important;
     z-index: 2; }
+    @media (min-width: 1200px) {
+      #testimonialsHP .content p {
+        font-size: 16px !important; } }
   #testimonialsHP ul {
     position: absolute;
     bottom: 30px;
@@ -6350,6 +6356,10 @@ main {
   -webkit-transform: skewY(2.8deg);
   transform: skewY(2.8deg);
   z-index: 4; }
+  @media (min-width: 1200px) {
+    #insideHeroWrapper:after {
+      height: 150px;
+      bottom: -75px; } }
 
 #HPhero2:after {
   content: '';
@@ -6697,6 +6707,9 @@ main {
   position: relative;
   margin-top: -50px;
   z-index: 5; }
+  @media (min-width: 1200px) {
+    #breadcrumbs {
+      margin-top: -75px; } }
   #breadcrumbs a {
     color: #732282;
     font-weight: 600; }
@@ -6845,9 +6858,23 @@ main {
   transform: skewY(-6deg);
   z-index: 2; }
 
+@media (min-width: 1200px) {
+  #expectations #womanPA:before {
+    height: 100px;
+    top: 10px; } }
+
+@media (min-width: 1200px) {
+  #expectations #womanPA {
+    margin-top: 50px;
+    margin-right: 50px; } }
+
 @media (max-width: 767.98px) {
   #womanPA {
     width: 50%; } }
+
+@media (min-width: 1200px) {
+  #womanPA img {
+    width: 100%; } }
 
 .adTeasers {
   position: relative; }
@@ -6924,6 +6951,12 @@ main {
     color: #732282;
     font-weight: 400;
     margin-top: 30px; }
+
+#AIImg {
+  width: 50%; }
+  @media (max-width: 991.98px) {
+    #AIImg {
+      width: 100%; } }
 
 #productTop h1 {
   color: #732282;
@@ -7051,9 +7084,6 @@ main {
 #contact {
   background-image: url(../images/paywayz-bg.jpg); }
 
-#testimonial {
-  background-image: url(../images/testimonials-bg.jpg); }
-
 #contactInfo {
   margin-top: 8px;
   border: solid 1px rgba(233, 233, 233, 0.5);
@@ -7134,6 +7164,9 @@ main {
   -webkit-transform: skewY(6deg);
   transform: skewY(6deg);
   z-index: 2; }
+  @media (min-width: 1200px) {
+    #manPA:before {
+      height: 120px; } }
 
 #productDetailPage {
   position: relative;
@@ -7157,6 +7190,10 @@ main {
 
 #manPA img {
   border-radius: 0 0 10px 0 !important; }
+
+@media (min-width: 1200px) {
+  #manPA {
+    margin-top: 50px; } }
 
 #manBottomPA:after {
   content: '';
@@ -7715,6 +7752,8 @@ a#infoEmail {
   margin-bottom: 30px; }
 
 #testimonial h1 {
+  color: #732282;
+  font-weight: 700;
   margin: 30px 0 20px; }
 
 #testimonial .testimonial {
@@ -7723,7 +7762,7 @@ a#infoEmail {
   margin: 10px;
   padding: 20px;
   padding-bottom: 10px;
-  background-color: white;
+  background-color: #e9e9e9;
   border-radius: 12px; }
   #testimonial .testimonial h2, #testimonial .testimonial h3, #testimonial .testimonial h4, #testimonial .testimonial p {
     color: #231f20 !important; }

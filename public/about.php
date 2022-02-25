@@ -178,7 +178,7 @@
                                     </div> 
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
-                                            <img src="images/webster-logo.png" class="img-fluid" alt="">
+                                            <img src="images/Woodforest_National_Bank.jpg" class="img-fluid" alt="">
                                         </div>
                                     </div>   
                                 </div>    

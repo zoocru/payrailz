@@ -23,13 +23,13 @@
               
               <p id="socialIcons">
                 Follow Us <br>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/company/payrailz/" target="_blank">
                     <img src="images/linked-in.svg" class="socialIcon" alt="LinkedIn">
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://twitter.com/payrailz" target="_blank">
                     <img src="images/twitter.svg" class="socialIcon" alt="twitter">
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.facebook.com/Payrailz/" target="_blank">
                     <img src="images/facebook.svg" class="socialIcon" alt="facebook">
                 </a>
                 <!-- <a href="#" target="_blank">

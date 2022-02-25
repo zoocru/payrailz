@@ -71,11 +71,11 @@
                         <p>Credit unions need next-generation products and services to better compete in an ever-changing banking landscape. To succeed in this environment, they must collaborate on a large scale on strategic technology investments and leverage their collective influence – through group buying and/or equity&nbsp;ownership.</p>
 
                         <h2>Offer Better Technology</h2>
-                        <p>Payrailz’ payment services leverage an innovative, smart platform based on AI technology that enables credit unions to create unique digital payment experiences and build valuable digital relationships with both consumers and businesses. Payrailz’ PayWayz® smart routing technology and our Action Insight Generator™ make proactive, intelligent and personalized recommendations, helping you to build stronger relationships with members and ensure they stay financially&nbsp;healthy.</p>
+                        <p>Payrailz’ payment services leverage an innovative, smart platform based on AI technology that enables credit unions to create unique digital payment experiences and build valuable digital relationships with both consumers and businesses. Payrailz’ PayWayz<sup>®</sup> smart routing technology and our Action Insight Generator<sup>®</sup> make proactive, intelligent and personalized recommendations, helping you to build stronger relationships with members and ensure they stay financially&nbsp;healthy.</p>
 
                         <p class="lastone">Want to learn more?</p>
-                        <a id="button1" href="#">
-                            <button type="button" class="btn">Read about the launch</button>  
+                        <a id="button1" href="contact.php">
+                            <button type="button" class="btn">Contact Us</button>  
                         </a>
 
                         <h6>CU Railz is jointly owned by its credit union members and Payrailz, and provides Digital Payment Services in an exclusive agreement with Payrailz to the members of the&nbsp;CUSO.</h6>

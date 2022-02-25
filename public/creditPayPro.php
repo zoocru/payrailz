@@ -94,66 +94,6 @@
 
                         <h3>Card Processing</h3>
                         <p>Credit Pay Pro supports the acceptance of Credit and Signature Debit Cards including MasterCard, Visa, American Express and Discover. The Financial Institution can choose which Payment Channels (web/mobile, Call Center and IVR) cards are accepted on, as well as which Card brands. Additionally, each Financial Institution has the option to charge convenience or transaction fees that align with Card Network rules and their Merchant Services&nbsp;Provider.</p>
-                        <!--Horizontal Version-->
-                        <div class="row shadow" id="cardProcessingFlow">
-                            <div class="col-12 col-md-3">
-                                <div class="ccpImages">
-                                    <img src="images/ccp.png" alt="" class="img-fluid">
-                                    <img src="images/right-arrow.svg" alt="" class="img-fluid ccpArow">
-                                </div>
-                                <p>Credit Pay Pro sends payment requests & receives authorization.</p>
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <div class="ccpImages">
-                                    <img src="images/CreditPayPro.svg" alt="" class="img-fluid">
-                                    <img src="images/right-arrow.svg" alt="" class="img-fluid ccpArow">
-                                </div>
-                                <p>Credit Pay Pro initiates request for same business&nbsp;day.</p>
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <div class="ccpImages">
-                                    <img src="images/Merchant-Funds.svg" alt="" class="img-fluid">
-                                    <img src="images/right-arrow.svg" alt="" class="img-fluid ccpArow">
-                                </div>
-                                <p>Merchant Funds Payments</p>
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <div class="ccpImages">
-                                    <img src="images/Funds-Deposited.svg" alt="" class="img-fluid">
-                                </div>
-                                <p>Funds are deposited into financial institution's account.</p>
-                            </div>
-                        </div>
-                        <!--Vertical Version - Mobile-->
-                        <div class="row shadow" id="cardProcessingFlowMobile">
-                            <div class="col-12">
-                                <div class="ccpImages">
-                                    <img src="images/ccp.png" alt="" class="img-fluid">
-                                </div>
-                                <p>Credit Pay Pro sends payment requests & receives authorization.</p>
-                                <img src="images/down-arrow.svg" alt="" class="img-fluid ccpArow">
-                            </div>
-                            <div class="col-12">
-                                <div class="ccpImages">
-                                    <img src="images/CreditPayPro.svg" alt="" class="img-fluid">
-                                </div>
-                                <p>Credit Pay Pro initiates request for same business&nbsp;day.</p>
-                                <img src="images/down-arrow.svg" alt="" class="img-fluid ccpArow">
-                            </div>
-                            <div class="col-12">
-                                <div class="ccpImages">
-                                    <img src="images/Merchant-Funds.svg" alt="" class="img-fluid">
-                                </div>
-                                <p>Merchant Funds Payments</p>
-                                <img src="images/down-arrow.svg" alt="" class="img-fluid ccpArow">
-                            </div>
-                            <div class="col-12">
-                                <div class="ccpImages">
-                                    <img src="images/Funds-Deposited.svg" alt="" class="img-fluid">
-                                </div>
-                                <p>Funds are deposited into financial institution's account.</p>
-                            </div>
-                        </div>
 
                         <p class="mb-1">Looking for more info on <span class="bold">Credit Pay Pro</span>?</p>
                         <a id="button1" href="contact.php?id=creditPayPro">

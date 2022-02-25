@@ -66,12 +66,8 @@
                             <li>Secure, convenient, fast. Providing a better way to send payments directly to billers and&nbsp;creditors.</li>
                             <li>Records and receipts are stored online to provide proof of&nbsp;payment.</li>
                             <li>View historical and scheduled payments to easily manage all bill&nbsp;payments.</li>
-                            <li>Action Insights™ provides personalized, actionable recommendations and reminders, helping users manage bills and&nbsp;budgets.</li>
+                            <li>Action Insights<sup>®</sup> provides personalized, actionable recommendations and reminders, helping users manage bills and&nbsp;budgets.</li>
                         </ul>
-                        <figure>
-                            <img src="images/payBills.png" alt="Pay Bills" class="img-fluid shadow2">
-                            <figcaption>Pay A Bill Activity&nbsp;Feed</figcaption>
-                        </figure>
                         <p class="mb-1">Want to learn more about our <span class="bold">Pay A Bill</span> feature?</p>
                         <a id="button1" href="contact.php?id=payBills">
                             <button type="button" class="btn">Contact Us</button>  

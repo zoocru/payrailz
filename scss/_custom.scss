@@ -8,7 +8,7 @@ body, html {
 
 body {
     color: $darkGray;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.8em;
 }
 
@@ -290,6 +290,7 @@ header#mainHeader {
 main { 
     margin-top: 50px; 
     margin-bottom: -15px;
+    
 
     ul { list-style: none; }
     ul li::before {
@@ -411,11 +412,12 @@ main {
 
 #insideHeroWrapper { 
     height: 400px; 
-    @include media-breakpoint-down(sm){  height: 350px; }
-    @include media-breakpoint-only(md){  height: 375px; }
+    @include media-breakpoint-down(sm) { height: 350px; }
+    @include media-breakpoint-only(md) { height: 375px; }
+    @include media-breakpoint-only(xl) { height: 450px; } 
 
     #hero {
-        @include media-breakpoint-down(sm){ padding-top: 45px;  }
+        @include media-breakpoint-down(sm){ padding-top: 45px; }
         
         h1 {
             @include media-breakpoint-down(sm){ margin-bottom: 0;  } 
@@ -504,6 +506,7 @@ main {
             font-size: 14px !important;
             line-height: 1.5 !important; 
             z-index: 2;
+            @include media-breakpoint-only(xl) { font-size: 16px !important; }
         }
     }  
 
@@ -557,6 +560,7 @@ main {
     -webkit-transform: skewY(2.8deg);
     transform: skewY(2.8deg);
     z-index: 4;
+    @include media-breakpoint-only(xl) { height: 150px; bottom: -75px; } 
 }
 
 #HPhero2:after { 
@@ -939,6 +943,7 @@ main {
     position: relative;
     margin-top: -50px;
     z-index: 5;
+    @include media-breakpoint-only(xl) { margin-top: -75px; } 
 
     a { 
         color: $primary;
@@ -951,6 +956,7 @@ main {
 #expectations { 
     position: relative;
     z-index: 3;
+
     h1 { 
         margin-top: 150px;
         color: $primary;
@@ -1108,8 +1114,21 @@ main {
     z-index: 2;
 }
 
+#expectations {
+    #womanPA:before {
+        @include media-breakpoint-only(xl) { height: 100px; top: 10px; }
+    }
+    #womanPA {
+        @include media-breakpoint-only(xl) { margin-top: 50px; margin-right: 50px; }
+    }
+}
+
 #womanPA {
     @include media-breakpoint-down(sm) { width: 50%; } 
+
+    img {
+        @include media-breakpoint-only(xl) { width: 100%; }
+    }
 }
 
 .adTeasers {
@@ -1186,6 +1205,10 @@ main {
         font-weight: 400;
         margin-top: 30px
     }
+}
+#AIImg { 
+    width: 50%; 
+    @include media-breakpoint-down(md) { width: 100%; }
 }
 
 #productTop {
@@ -1336,7 +1359,7 @@ main {
 }
 
 #contact { background-image: url("../images/paywayz-bg.jpg"); }
-#testimonial { background-image: url("../images/testimonials-bg.jpg"); }
+// #testimonial { background-image: url("../images/testimonials-bg.jpg"); }
 
 
 #contactInfo { 
@@ -1426,7 +1449,10 @@ main {
     -webkit-transform: skewY(6deg);
     transform: skewY(6deg);
     z-index: 2;
+    @include media-breakpoint-only(xl) { height: 120px; }
+
 }
+
 
 #productDetailPage { 
     position: relative;
@@ -1447,6 +1473,7 @@ main {
 
 #manPA { 
     img { border-radius: 0 0 10px 0 !important; }
+    @include media-breakpoint-only(xl) { margin-top: 50px; }
 }
 
 #manBottomPA:after {
@@ -2086,7 +2113,10 @@ a#infoEmail {
 #testimonial {
     div.col-12 { margin-bottom: 30px; }
 
-    h1 { margin: 30px 0 20px; }
+    h1 { 
+        color: $purple; 
+        font-weight: 700;
+        margin: 30px 0 20px; }
 
     .testimonial {
         position: relative;
@@ -2094,7 +2124,7 @@ a#infoEmail {
         margin: 10px;
         padding: 20px;
         padding-bottom: 10px;
-        background-color: rgba($color: $white, $alpha: 1);
+        background-color: rgba($color: $lightGray, $alpha: 1);
         border-radius: 12px;
         h2, h3, h4, p { color: rgb(35, 31, 32) !important; }
 

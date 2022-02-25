@@ -68,9 +68,6 @@
                             <li>Next day ACH allows for streamlined processing and provides full transparency into the exchange&nbsp;of&nbsp;funds</li>
                             <li>As the ODFI, you can work directly with the RDFI on returns and exception&nbsp;processing.</li>
                         </ul>
-                        <figure>
-                            <img src="images/transferMoney.png" alt="Transfer Money" class="img-fluid shadow2">
-                        </figure>
                         
                         <p class="mb-1">Ready to talk more about our <span class="bold">Transfer Money</span> tool?</p>
                         <a id="button1" href="contact.php?id=transferMoney">

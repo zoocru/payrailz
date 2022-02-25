@@ -73,16 +73,13 @@
                                         <label for="reason">Reason for Contacting (Optional)</label>
                                         <select class="form-control" id="reasons">
                                             <option value="">-- Select Reason --</option>
-                                            <option value="payBills">Pay Bills</option>
-                                            <option value="payAPerson">Pay A Person</option>
-                                            <option value="transferMoney">Transfer Money</option>
-                                            <option value="newAccountFunding">New Account Funding</option>
-                                            <option value="creditPayPro">Credit Pay Pro</option>
-                                            <option value="businessSolutions">Business Solutions</option>
-                                            <option value="billerServices">Biller Services</option>
-                                            <option value="sdvancedUserExperience">Advanced User Experience</option>
                                             <option value="actionInsights">Action Insights</option>
-                                            <option value="smartRoutingHub">Smart Routing Hub</option>
+                                            <option value="cuRailz">CU Railz</option>
+                                            <option value="demo">Demo</option>
+                                            <option value="digitalPayments">Digital Payments</option>
+                                            <option value="payAPerson">Pay A Person</option>
+                                            <option value="payBills">Pay Bills</option>
+                                            <option value="transferMoney">Transfer Money</option>
                                             <option value="other">Other</option>
                                         </select>
                                         <!-- <span class="help-block"></span> -->
@@ -93,7 +90,7 @@
                                         <span class="help-block"></span>
                                     </div>
                                     <div class="form-group company-group">
-                                        <label for="company">Company</label>
+                                        <label for="company">Bank, Credit Union, or Organization</label>
                                         <input type="text" name="company" class="form-control" id="company" value=''>
                                         <span class="help-block"></span>
                                     </div>
