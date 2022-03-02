@@ -958,7 +958,7 @@ main {
     z-index: 3;
 
     h1 { 
-        margin-top: 150px;
+        margin-top: 100px;
         color: $primary;
         font-weight: 700;
         @include media-breakpoint-down(lg) { 
@@ -1054,6 +1054,12 @@ main {
     }
 }
 
+#cuRailzLogo {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
 #paywayz {
     position: relative;
     padding: 250px 0 100px;
@@ -1116,10 +1122,14 @@ main {
 
 #expectations {
     #womanPA:before {
-        @include media-breakpoint-only(xl) { height: 100px; top: 10px; }
+       content: none;
     }
     #womanPA {
         @include media-breakpoint-only(xl) { margin-top: 50px; margin-right: 50px; }
+
+        img {
+            @include media-breakpoint-only(xl) { margin-top: -5px; }
+        }
     }
 }
 

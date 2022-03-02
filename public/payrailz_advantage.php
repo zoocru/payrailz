@@ -58,7 +58,7 @@
                     </div>
                     <div class="col-12 col-md-4 offset-md-1 justify-content-sm-center d-none d-md-block" style="padding-right: 0 !important;">
                         <div id="womanPA">
-                            <img src="images/woman1.png" class="img-fluid shadow2" alt="Payrailz Advantage">
+                            <img src="images/woman1.png" class="img-fluid" alt="Payrailz Advantage">
                         </div>
                     </div>
                 </div>

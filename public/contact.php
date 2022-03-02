@@ -73,14 +73,9 @@
                                         <label for="reason">Reason for Contacting (Optional)</label>
                                         <select class="form-control" id="reasons">
                                             <option value="">-- Select Reason --</option>
-                                            <option value="actionInsights">Action Insights</option>
-                                            <option value="cuRailz">CU Railz</option>
                                             <option value="demo">Demo</option>
                                             <option value="digitalPayments">Digital Payments</option>
-                                            <option value="payAPerson">Pay A Person</option>
-                                            <option value="payBills">Pay Bills</option>
-                                            <option value="transferMoney">Transfer Money</option>
-                                            <option value="other">Other</option>
+                                            <option value="cuRailz">CU Railz</option>
                                         </select>
                                         <!-- <span class="help-block"></span> -->
                                     </div>

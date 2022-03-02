@@ -53,7 +53,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-8 offset-md-2 text-center">
-                        <h1>In a “Do It For Me<sup>®</sup>”&nbsp;"Society,<br>Smart Makes The&nbsp;Difference<sup>®</sup>"</h1>
+                        <h1>In a “Do It For Me<sup>®</sup>”&nbsp;Society,<br>Smart Makes The&nbsp;Difference<sup>®</sup></h1>
                         <p>From voice interactions to mobile functionality, Payrailz delivers intuitive, intelligent and elegant payment solutions for both consumers and&nbsp;businesses.</p>
                     </div>
                 </div>
