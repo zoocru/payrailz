@@ -53,9 +53,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-10 offset-1">
+                        <img src="images/CURailz-logo.png" id="cuRailzLogo" class="img-fluid" alt="CU Railz">
                         <h1>Together, we’re&nbsp;better.</h1>
                         <p>It’s time for Credit Unions to collaborate on the payments experience and leapfrog the competition. Working together, we created CU Railz, a CUSO that enables credit unions to exceed members’ expectations with all of the features and benefits of the Payrailz smarter payments&nbsp;experience</p>
-                        <img src="images/CURailz-logo.png" id="cuRailzLogo" class="img-fluid" alt="CU Railz">
                     </div>
                 </div>
             </div>
