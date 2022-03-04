@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="Want to learn more about the latest developments at Payrailz? Reach out today via message, email or phone.">
 
-      <title>Contact Us |Message, Email, Phone </title>
+      <title>Contact Us | Message, Email, Phone </title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>
@@ -81,13 +81,13 @@
                             </div>
                             <div class="contactInfo2 d-flex justify-content-center">
                                 <p id="socialIcons">
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.linkedin.com/company/payrailz/" target="_blank">
                                         <img src="images/linked-in.svg" class="socialIcon" alt="LinkedIn">
                                     </a>
-                                    <a href="#" target="_blank">
+                                    <a href="https://twitter.com/payrailz" target="_blank">
                                         <img src="images/twitter.svg" class="socialIcon" alt="twitter">
                                     </a>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.facebook.com/Payrailz/" target="_blank">
                                         <img src="images/facebook.svg" class="socialIcon" alt="facebook">
                                     </a>
                                 </p>

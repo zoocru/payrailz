@@ -1,3 +1,36 @@
+// Footer email signup form
+
+// submit prevention
+$('#submit2').click(function(submit){
+	
+	let proceedWithSubmission1 = true
+	
+	var sEmail = $('#email2').val()
+	// Check if email field is empty
+	if ($.trim(sEmail).length == 0) {
+		//$('.email2-group .help-block').text('Please enter a VALID email.')
+		//$('.email2-group').attr({ class:"has-error form-group email-group" })
+		submit.preventDefault()
+		proceedWithSubmission1 = false;
+	}
+	
+	if (validateEmail(sEmail)) {
+		// email is valid
+		proceedWithSubmission1 = true
+	} else { // not valid
+		proceedWithSubmission1 = false
+	}
+	
+	if (proceedWithSubmission1 === true) $('#form2').submit()
+
+})
+
+
+
+
+
+// =============================================================
+// Contact page form
 $('#name').focusout(function(){
 	if ($('#name').val().length == 0 ) {
 		$('.name-group .help-block').text('Please enter your name.')
@@ -27,28 +60,6 @@ $('#email').focusout(function(){
 		$('.email-group').attr({ class:"form-group email-group"})	
 	}
 })
-
-// $('#captcha').focusout(function(){
-// 	if ($('#captcha').val().length == 0 ) {
-// 		$('.captcha-group .help-block').text('Please enter code.')
-// 		$('.captcha-group').attr({ class:"has-error form-group2 captcha-group" })
-// 	} else {
-// 		$('.captcha-group .help-block').text('');
-// 		$('.captcha-group').attr({ class:"form-group2 captcha-group" })	
-// 	}
-// }) 
-	
-// function for validating email address
-function validateEmail(sEmail) {
-	var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/
-	if (filter.test(sEmail)) {
-		return true
-	} else {
-		return false
-	}
-}
-
-
 
 // submit prevention
 $('#submit').click(function(submit){
@@ -95,7 +106,17 @@ $('#submit').click(function(submit){
 
 })
 
-// function refreshCaptcha() {
-//     var img = document.images['captchaimg']
-//     img.src = img.src.substring(0,img.src.lastIndexOf("?"))+"?rand="+Math.random()*1000
-// }
+
+
+//  ============================================================
+// Utilities
+
+// function for validating email address
+function validateEmail(sEmail) {
+	var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/
+	if (filter.test(sEmail)) {
+		return true
+	} else {
+		return false
+	}
+}

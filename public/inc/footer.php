@@ -32,9 +32,6 @@
                 <a href="https://www.facebook.com/Payrailz/" target="_blank">
                     <img src="images/facebook.svg" class="socialIcon" alt="facebook">
                 </a>
-                <!-- <a href="#" target="_blank">
-                    <img src="images/youTube.svg" class="socialIcon" alt="YouTube">
-                </a> -->
               </p>
             </div>
             <hr class="d-block d-md-none">
@@ -48,7 +45,6 @@
                   <li><a href="smart_routing_hub.php">Paywayz Smart Routing Hub</a></li>
                   <li><a href="action_insights.php">Action Insights</a></li>
                   <li><a href="advanced_user_experience.php">Advanced User Experience</a></li>
-                  
                 </ul>
               </div>
               <div class="col-4">
@@ -56,7 +52,6 @@
                   <li><a href="about.php">About Us</a></li>
                   <li><a href="team.php">Our Team</a></li>
                   <li><a href="board_investors.php">Board & Investors</a></li>
-                  <!-- <li><a href="partners.php">Partners</a></li> -->
                   <li><a href="contact.php">Contact Us</a></li>
                   
                 </ul>
@@ -66,25 +61,24 @@
                   <li><a href="careers.php">Careers</a></li>
                   <li><a href="/resources">Resources: News & Events</a></li>
                   <li><a href="curailz.php">Curailz</a></li>
-                  <!-- <li><a href="faqs.php">FAQs</a></li> -->
                   <li><a href="testimonials.php">Testimonials</a></li>
                 </ul>
               </div>
             </div>
             <hr>
 
-            <!-- <form id="form2" name="contact_form" method="post" action="" >
+            <form id="form2" name="contact_form" method="post" action="" >
               <div class="row">
                 <div id="updates" class="col-12 align-items-center">
                   <p>Receive Updates, News & Information</p>
-                  <div class="form-group email-group">
-                      <input type="text" name="email" class="form-control" id="email" placeholder="Email Address" value=''>
-                      <span class="help-block"></span>
+                  <div class="form-group email2-group">
+                      <input type="text" name="email2" class="form-control" id="email2" placeholder="Email Address" value=''>
+                      <!-- <span class="help-block"></span> -->
                   </div>
-                  <button type="submit" id="submit2" name="submit" class="btn2 gBtn btn-sm">OK</button>
+                  <button type="submit" id="submit2" name="submit2" class="btn2 gBtn btn-sm">OK</button>
                 </div>
               </div>
-            </form> -->
+            </form>
 
           </div>
         </div>
@@ -110,5 +104,4 @@
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <!-- <script src="http://www.crystalengineering.com/scripts/main.js"></script> -->
     <script src="scripts/main.js"></script>

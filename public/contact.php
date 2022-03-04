@@ -1,6 +1,61 @@
 <?php
     if(isset($_GET['id'])) $id = $_GET['id'];
+    
+    // For Contact form
+    $your_email ='cruz@zoocru.com';
+    
+	session_start();
+    $errors = '';
+    $name = '';
+    $phone = '';
+    $question = '';
+    $visitor_email = '';
+
+
+    if(isset($_POST['submit'])){
+        $name = isset($_POST['name']) ? $_POST['name'] : "";
+        $phone = isset($_POST['phone']) ? $_POST['phone'] : "";
+        $question = isset($_POST['question']) ? $_POST['question'] : "";
+        $visitor_email = isset($_POST['email']) ? $_POST['email'] : "";
+
+        if(empty($_SESSION['6_letters_code'] ) ||
+            strcasecmp($_SESSION['6_letters_code'], $_POST['6_letters_code']) != 0) $errors .= "\n The captcha code does not match!";
+        
+        if(empty($errors)) {
+            //send the email
+            $to = $your_email;
+            $subject = "Payrailz contact form submission";
+            //$from = $your_email;
+            $ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '';
+            
+            $body = "$name submitted the contact form:\n".
+            "Phone: $phone \n".
+            "Email: $visitor_email \n" .
+            "Message\Question: $question \n".
+            "IP: $ip\n";
+            
+            $headers = "From: $your_email \r\n";
+            $headers .= "Reply-To: $visitor_email \r\n";
+            
+            mail($to, $subject, $body, $headers);
+
+            session_start();
+            // $_SESSION['error_message'] = null;
+	        // unset($_SESSION['error_message']);
+            $_SESSION['contact_form'] = "Yes";
+            
+            header('Location: contact-thankyou.php');
+        }
+    }
+
 ?>
+
+
+
+
+
+
+
 
 <!doctype html>
 

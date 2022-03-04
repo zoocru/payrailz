@@ -20,16 +20,6 @@ $('#email').focusout(function(){
     }
 })
 
-$('#captcha').focusout(function(){
-    if ($('#captcha').val().length == 0 ) {
-        $('.captcha-group .help-block').text('Please enter code.')
-        $('.captcha-group').attr({ class:"has-error form-group2 captcha-group" })
-    } else {
-        $('.captcha-group .help-block').text('');
-        $('.captcha-group').attr({ class:"form-group2 captcha-group" })	
-    }
-}) 
-
 
 //function for validating email address
 function validateEmail(sEmail) {

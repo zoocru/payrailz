@@ -409,9 +409,6 @@
         } // End of if
 		?>
     <script>
-      // console.log("Testimonials: " + testimonials)
-      // console.log(testimonials[1].author)
-
       var testimonialsLength = testimonials.length,
           content = document.getElementById('testimonialContent'),
           contentID = 1
@@ -433,7 +430,6 @@
                               '</div>')
         contentID++
       }
-
     </script>
         
   </body>
