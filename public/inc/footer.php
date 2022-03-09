@@ -67,6 +67,7 @@
             </div>
             <hr>
 
+            
             <form id="form2" name="contact_form" method="post" action="" >
               <div class="row">
                 <div id="updates" class="col-12 align-items-center">
@@ -79,6 +80,8 @@
                 </div>
               </div>
             </form>
+
+
 
           </div>
         </div>

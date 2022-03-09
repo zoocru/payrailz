@@ -61,6 +61,16 @@ $('#email').focusout(function(){
 	}
 })
 
+$('#captcha').focusout(function(){
+    if ($('#captcha').val().length == 0 ) {
+        $('.captcha-group .help-block').text('Please enter code.')
+        $('.captcha-group').attr({ class:"has-error form-group2 captcha-group" })
+    } else {
+        $('.captcha-group .help-block').text('');
+        $('.captcha-group').attr({ class:"form-group2 captcha-group" })	
+    }
+}) 
+
 // submit prevention
 $('#submit').click(function(submit){
 	
@@ -119,4 +129,10 @@ function validateEmail(sEmail) {
 	} else {
 		return false
 	}
+}
+
+// Function for refreshing Captcha
+function refreshCaptcha() {
+    var img = document.images['captchaimg']
+    img.src = img.src.substring(0,img.src.lastIndexOf("?"))+"?rand="+Math.random()*1000
 }

@@ -1,7 +1,5 @@
 <?php
-    if(isset($_GET['id'])) {
-        $id = $_GET['id'];
-    } else $id = "Did not originate from a products page.";
+    if(isset($_GET['id'])) $id = $_GET['id'];
 
     // For Contact form
     $your_email ='cruz@zoocru.com';
@@ -23,8 +21,7 @@
         $visitor_email = isset($_POST['email']) ? $_POST['email'] : "";
         $company = isset($_POST['company']) ? $_POST['company'] : "";
         $phone = isset($_POST['phone']) ? $_POST['phone'] : "";
-        $comments = isset($_POST['comments']) ? $_POST['comments'] : "";  
-        $comments = trim($comments);    
+        $comments = isset($_POST['comments']) ? $_POST['comments'] : "";       
 
         if(empty($_SESSION['6_letters_code'] ) || strcasecmp($_SESSION['6_letters_code'], $_POST['6_letters_code']) != 0) $errors .= "\n The captcha code does not match!";
         
@@ -74,16 +71,6 @@
       <title>Contact Us |Message, Email, Phone</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
-      <style>
-        small { 
-            display: block;
-            color: white; 
-        }
-        .captcha-group a:hover { 
-            color: white !important;
-            text-decoration: underline; 
-        }
-      </style>
   </head>
 
   <body>
@@ -134,75 +121,73 @@
                 <div class="row">
                     <!-- Form elements -->
                     <div class="col-12 col-md-7 col-lg-8">
-                        <form id="form1" name="contact_form" method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" >
+                        <form id="form1" name="contact_form" method="post" action="contact-thankyou.php" >
+                            <!-- <input type="hidden" id="pageFrom" name="pageFrom" value="<?=$id?>"> -->
                             <div class="row">
                                 <div class="col-12 col-lg-6">
-                                    <!-- Reason for Contacting (Optional) -->
                                     <div class="form-group reason-group">
                                         <label for="reason">Reason for Contacting (Optional)</label>
-                                        <select class="form-control" name ="reason" id="reason">
+                                        <select class="form-control" id="reasons">
                                             <option value="">-- Select Reason --</option>
                                             <option value="demo">Demo</option>
                                             <option value="digitalPayments">Digital Payments</option>
                                             <option value="cuRailz">CU Railz</option>
                                         </select>
+                                        <!-- <span class="help-block"></span> -->
                                     </div>
-                                    <!-- Name -->
                                     <div class="form-group name-group">
                                         <label for="name">Full Name</label>
-                                        <input type="text" name="name" class="form-control" id="name" value='<?php echo htmlentities($name) ?>'>
+                                        <input type="text" name="name" class="form-control" id="name" value=''>
                                         <span class="help-block"></span>
                                     </div>
-                                    <!-- Company -->
                                     <div class="form-group company-group">
                                         <label for="company">Bank, Credit Union, or Organization</label>
-                                        <input type="text" name="company" class="form-control" id="company" value='<?php echo htmlentities($company) ?>'>
+                                        <input type="text" name="company" class="form-control" id="company" value=''>
                                         <span class="help-block"></span>
                                     </div>
-                                    <!-- Email -->
                                     <div class="form-group email-group">
                                         <label for="email">Email</label>
-                                        <input type="text" name="email" class="form-control" id="email" value='<?php echo htmlentities($visitor_email) ?>'>
+                                        <input type="text" name="email" class="form-control" id="email" value=''>
                                         <span class="help-block"></span>
-                                    </div>
-                                    <!-- Captcha -->
-                                    <div class="form-group captcha-group mt-4">
-                                        <img src="captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' ><br>
-                                        <label for="6_letters_code">Enter Code</label>
-                                        <small>Can't read the image? <a href='javascript: refreshCaptcha();'>Click here</a> to refresh</small>
-                                        <input type="text" name="6_letters_code" class="form-control" id="captcha">
-                                        <span class='help-block'></span>
-                                        <?php
-                                            if(!empty($errors)){
-                                                echo "<span class='help-block' style='color: #a94442'>" . $errors . "</span>";
-                                        ?>
-                                                <script>
-                                                    $('.captcha-group').attr({ class:"has-error form-group2 captcha-group" })    
-                                                    $('html, body').animate({
-                                                                scrollTop: $('#zip').offset().top
-                                                            }, 'slow')
-                                                </script>
-                                        <?php
-                                            }
-                                        ?>
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6">
-                                    <!-- Phone -->
                                     <div class="form-group phone-group">
                                         <label for="phone">Phone (Optional)</label>
-                                        <input type="text" name="phone" class="form-control" id="phone" value='<?php echo htmlentities($phone) ?>'>
+                                        <input type="text" name="phone" class="form-control" id="phone" value=''>
                                         <span class="help-block"></span>
                                     </div>
-                                    <!-- Comments -->
                                     <div class="form-group">
                                         <label for="comments">Comments/Questions (Optional)</label>
-                                        <textarea class="form-control" name="comments" id="comments" rows="8">
-                                            <?php echo htmlentities($comments) ?>
-                                        </textarea>
+                                        <textarea class="form-control" name="comments" id="comments" rows="8"></textarea>
                                     </div>
                                 </div>
-                                <!-- Submit -->
+
+                                <!-- Captcha -->
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group2 captcha-group">
+                                            <img src="captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' ><br>
+                                            <label for="6_letters_code">Enter Code</label>
+                                            <small>Can't read the image? <a href='javascript: refreshCaptcha();'>Click here</a> to refresh</small>
+                                            <input type="text" name="6_letters_code" class="form-control" id="captcha">
+                                            <span class='help-block'></span>
+                                            <?php
+                                                if(!empty($errors)){
+                                                    echo "<span class='help-block' style='color: #a94442'>" . $errors . "</span>";
+                                            ?>
+                                                    <script>
+                                                        $('.captcha-group').attr({ class:"has-error form-group2 captcha-group" })    
+                                                        $('html, body').animate({
+                                                                    scrollTop: $('#zip').offset().top
+                                                                }, 'slow')
+                                                    </script>
+                                            <?php
+                                                }
+                                            ?>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-12 col-md-6">
                                     <a href="contact-thankyou.php">
                                         <button type="submit" id="submit" name="submit" class="btn2">Submit</button>
