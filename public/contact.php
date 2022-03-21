@@ -6,8 +6,8 @@
     }
 
     // For Contact form
-    $your_email ='cruz@zoocru.com';
-    $your_email2 ='acruz00766@gmail.com';
+    $your_email ='MGoldwasser@payrailz.com';
+    $your_email2 ='JKern@payrailz.com';
     
 	session_start();
     $errors = '';
