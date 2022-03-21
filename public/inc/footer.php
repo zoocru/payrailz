@@ -74,7 +74,7 @@
                   <p>Receive Updates, News & Information</p>
                   <div class="form-group email2-group">
                       <input type="text" name="email2" class="form-control" id="email2" placeholder="Email Address" value=''>
-                      <!-- <span class="help-block"></span> -->
+                      <span class="help-block"></span>
                   </div>
                   <button type="submit" id="submit2" name="submit2" class="btn2 gBtn btn-sm">OK</button>
                 </div>
@@ -108,3 +108,4 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/validation.js"></script>

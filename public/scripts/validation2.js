@@ -1,14 +1,5 @@
 // FORM VALIDATION ==========================
 // focusout ids
-$('#name').focusout(function(){
-    if ($('#name').val().length == 0 ) {
-        $('.name-group .help-block').text('Enter your name.')
-        $('.name-group').attr({ class:"has-error form-group name-group" })
-    } else {
-        $('.name-group .help-block').text('')
-        $('.name-group').attr({ class:"form-group name-group" })	
-    }
-})
 
 $('#email').focusout(function(){
     if ($('#email').val().length == 0 ) {

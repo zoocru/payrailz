@@ -1,10 +1,13 @@
 <?php
     if(isset($_GET['id'])) {
         $id = $_GET['id'];
-    } else $id = "Did not originate from a products page.";
+    } else { 
+        $id = "Did not originate from a products page.";
+    }
 
     // For Contact form
     $your_email ='cruz@zoocru.com';
+    $your_email2 ='acruz00766@gmail.com';
     
 	session_start();
     $errors = '';
@@ -48,6 +51,7 @@
             $headers .= "Reply-To: $visitor_email \r\n";
             
             mail($to, $subject, $body, $headers);
+            mail($your_email2, $subject, $body, $headers);
 
             session_start();
             // $_SESSION['error_message'] = null;

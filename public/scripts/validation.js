@@ -1,20 +1,30 @@
 // Footer email signup form
 
+// $('#email2').focusout(function(){
+// 	if ($('#email2').val().length == 0 ) {
+// 		$('.email2-group .help-block').text('Please enter your email.')
+// 		$('.email2-group').attr({ class:"has-error form-group email2-group"})	
+// 	} else {
+// 		$('.email2-group .help-block').text('')
+// 		$('.email2-group').attr({ class:"form-group email2-group"})	
+// 	}
+// })
+
 // submit prevention
 $('#submit2').click(function(submit){
 	
 	let proceedWithSubmission1 = true
 	
-	var sEmail = $('#email2').val()
+	var sEmail2 = $('#email2').val()
 	// Check if email field is empty
-	if ($.trim(sEmail).length == 0) {
-		//$('.email2-group .help-block').text('Please enter a VALID email.')
-		//$('.email2-group').attr({ class:"has-error form-group email-group" })
+	if ($.trim(sEmail2).length == 0) {
+		$('.email2-group .help-block').text('Please enter a VALID email.')
+		$('.email2-group').attr({ class:"has-error form-group email2-group" })
 		submit.preventDefault()
 		proceedWithSubmission1 = false;
 	}
 	
-	if (validateEmail(sEmail)) {
+	if (validateEmail(sEmail2)) {
 		// email is valid
 		proceedWithSubmission1 = true
 	} else { // not valid
