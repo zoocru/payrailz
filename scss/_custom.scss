@@ -613,6 +613,7 @@ main {
 }
 
 #hpVideo { 
+    text-align: center;
     #divNexttoVideo { height: 315px; }
     img.imgThumb { 
         width: auto;
@@ -2287,5 +2288,131 @@ h1.entry-title { color: #1f1f1f; }
         color: $darkPurple;
     }
 }
+
+
+
+// =============== BACKGROUND LINES ===============
+// ================================================
+// ================================================
+#heroGreenLines, #heroGreenLinesInside {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    border-left: 2px solid $secondary !important; 
+}
+
+#heroGreenLines {
+    height: 350px;
+    width: 600px;
+}
+
+#heroGreenLinesInside { 
+    height: 250px;
+    width: 320px;
+}
+#heroGreenLines2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 50px;
+    width: 100px;
+    border-top: 2px solid $secondary !important; 
+    border-right: 2px solid $secondary !important; 
+}
+#heroGreenLines3 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 1;
+    height: 1px;
+    width: calc(100% - 100px);
+    border-top: 2px solid $secondary !important;  
+}
+
+#footerLine1 {
+    position: relative;
+    z-index: 5;
+    border-right: 1px solid $secondary;
+    border-bottom: 1px solid $secondary;
+    height: 100px;
+    margin: -50px -15px 0 -30px;
+}
+
+#HPPayrailzAd { 
+    position: absolute;
+    top: 50px !important;
+    bottom: 50px;
+    right: 50px;
+    z-index: -2;
+    height: 90%;
+    width: 80%;
+    border-bottom: 1px solid $secondary !important; 
+    border-right: 1px solid $secondary !important;
+}
+
+#HPVideoLine, #callOutBoxesLines, #callOutBoxesLines2,
+#callOutBoxesLines3, #callOutBoxesLines4 {
+    position: absolute;
+}
+
+#HPVideoLine {
+    top: -50px;
+    bottom: 0;
+    left: 14%;
+    z-index: -2;
+    height: 100%;
+    width: 80%;
+    border-left: 1px solid $secondary !important;
+}
+
+#callOutBoxesLines {
+    top: -250px;
+    bottom: 0;
+    left: 14%;
+    z-index: -8;
+    height: 400px;
+    width: 86%;
+    border-top: 1px solid $secondary !important; 
+    border-right: 1px solid $secondary !important;
+}
+
+#callOutBoxesLines2 { 
+    top: -580px;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    height: 400px;
+    width: 100%;
+    border-bottom: 1px solid $secondary !important; 
+    border-right: 1px solid $secondary !important;
+}
+#callOutBoxesLines3 { 
+    top: -200px;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    height: 400px;
+    width: 100%;
+    border-bottom: 1px solid $secondary !important; 
+    border-left: 1px solid $secondary !important;
+}
+#callOutBoxesLines4 { 
+    top: 200px;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    height: 650px;
+    width: 100%;
+    border-bottom: 1px solid $secondary !important; 
+    border-right: 1px solid $secondary !important;
+}
+
+.border-top{ border-top: 1px solid $secondary !important; }
+.border-left{ border-left: 1px solid $secondary !important; }
+.border-right{ border-right: 1px solid $secondary !important; }
+.border-bottom { border-bottom: 1px solid $secondary !important; }
+    
 
 

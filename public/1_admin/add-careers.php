@@ -1,5 +1,5 @@
 <?php
-	require_once 'authorize.php';
+	//require_once 'authorize.php';
 	require('../db.php');
 
 	if (isset($_POST['submit'])) {	        

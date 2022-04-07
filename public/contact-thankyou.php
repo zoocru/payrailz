@@ -25,7 +25,7 @@
             <!-- Main Copy -->
             <div class="col-xs-12 col-md-6 offset-lg-1 col-lg-6">
                 <h1>Contact Us</h1>
-                <h2>We’re all about making&nbsp;connections.</h2>
+                <h2>We're all about making&nbsp;connections.</h2>
             </div>
         </div>
         </div>
@@ -64,9 +64,9 @@
                     <div class="col-12 col-md-8">
                         <p>A member of our team will be in touch shortly to tell you more about&nbsp;Payrailz.</p>
 
-                        <p>We’re excited to show you all the ways Payrailz can help provide you with next-generation payment&nbsp;solutions.</p>
+                        <p>We're excited to show you all the ways Payrailz can help provide you with next-generation payment&nbsp;solutions.</p>
                         
-                        <p>Check your inbox for a message from one of our Payment Specialists. We’d be happy to set up an appointment for a demo or to answer any questions you may have via phone or&nbsp;email.</p>
+                        <p>Check your inbox for a message from one of our Payment Specialists. We'd be happy to set up an appointment for a demo or to answer any questions you may have via phone or&nbsp;email.</p>
                     </div>
                     <!-- Sidebar -->
                     <div class="col-12 col-md-3 offset-md-1">

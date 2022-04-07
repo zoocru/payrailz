@@ -32,6 +32,10 @@
       </section>
       <section id="heroLines2">
         <img src="images/hero-gray-lines.png" alt="">
+        <div id="heroGreenLinesInside">
+            <div id="heroGreenLines2"></div>
+            <div id="heroGreenLines3"></div>
+        </div>
       </section>
     </div>
 
@@ -70,9 +74,6 @@
 
                         <h3>External Transfers (A2A)</h3>
                         <p class="mb-5">Responding to your business clients’ expectations requires the ability to facilitate transactions across any banking relationship. And that’s exactly what our External Transfers Solutions was built to do. This service enables your business customers to move money between accounts at your financial institution, as well as accounts they hold at other U.S. financial institutions. Transfers can be delivered in real time, same day, next day, on a future date or on a recurring&nbsp;schedule.</p>
-                        
-                        <!-- <h3>New Account Funding&nbsp;(A2A)</h3>
-                        <p class="mb-5"><span class="bold">New Account Funding</span> makes it easy for businesses to onboard with your financial institution by giving them the ability to fund newly opened deposit accounts from checking and savings accounts they hold at other financial institutions in the United States. With our advanced authentication solutions, both you and your business customers can rest assured that transfers will be delivered accurately and&nbsp;securely.</p> -->
                         
                         <p class="mb-1">Looking for more info on <span class="bold">Business Services</span>?</p>
                         <a id="button1" href="contact.php?id=businessServices">

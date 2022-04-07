@@ -18,16 +18,22 @@ $('#submit2').click(function(submit){
 	var sEmail2 = $('#email2').val()
 	// Check if email field is empty
 	if ($.trim(sEmail2).length == 0) {
-		$('.email2-group .help-block').text('Please enter a VALID email.')
+		//$('.email2-group .help-block').text('Please enter a VALID email.')
 		$('.email2-group').attr({ class:"has-error form-group email2-group" })
 		submit.preventDefault()
 		proceedWithSubmission1 = false;
+	} else {
+		// email is not empty
+		$('.email2-group').attr({ class:"form-group email2-group" })
+		proceedWithSubmission1 = true
 	}
 	
 	if (validateEmail(sEmail2)) {
 		// email is valid
+		$('.email2-group').attr({ class:"form-group email2-group" })
 		proceedWithSubmission1 = true
 	} else { // not valid
+		$('.email2-group').attr({ class:"has-error form-group email2-group" })
 		proceedWithSubmission1 = false
 	}
 	

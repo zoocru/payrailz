@@ -61,7 +61,6 @@
             header('Location: contact-thankyou.php');
         }
     }
-
 ?>
 
 
@@ -69,7 +68,7 @@
 
 <html lang="en">
   <head>
-  <meta name="robots" content="noindex">
+    <meta name="robots" content="noindex">
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -109,6 +108,10 @@
       </section>
       <section id="heroLines2">
         <img src="images/hero-gray-lines.png" alt="">
+        <div id="heroGreenLinesInside">
+            <div id="heroGreenLines2"></div>
+            <div id="heroGreenLines3"></div>
+        </div>
       </section>
     </div>
 

@@ -33,6 +33,10 @@
       <section id="hero" class="heroHP d-flex align-items-center">
         <section id="heroLines">
           <img src="images/hero-gray-lines.png" alt="">
+          <div id="heroGreenLines">
+            <div id="heroGreenLines2"></div>
+            <div id="heroGreenLines3"></div>
+          </div>
         </section>
         <div class="container-fluid">
           <div class="row">
@@ -69,6 +73,7 @@
         <div class="container pt-5">
           <div class="row">
             <div id="payRailzAdvantageContent" class="col-12 col-lg-6 offset-lg-1 d-flex justify-content-end flex-column align-items-end text-right">
+              <div id="HPPayrailzAd"></div>
               <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
               <p>Our all-in-one digital payments solution seamlessly navigates across existing payment paths and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
               <p>In a society focused on “Do It For Me,<sup>®</sup>” smart makes&nbsp;the&nbsp;difference.</p>
@@ -86,8 +91,13 @@
       <section id="hpVideo">
         <div class="container">
           <div class="row d-flex">
-            <div class="col-12 col-lg-6 offset-lg-3">
-              <iframe class="greenBorder shadow" width="100%" height="315" src="https://www.youtube.com/embed/uBjzFMge6Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-12 col-lg-12">
+              <div id="HPVideoLine"></div>
+              <div class="row">
+                <div class="col-12 col-lg-6 offset-lg-3">
+                  <iframe class="greenBorder shadow" width="100%" height="315" src="https://www.youtube.com/embed/uBjzFMge6Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -96,6 +106,15 @@
       <section id="callOutBoxes">
         <div class="container-fluid addPadding">
           <div class="row">
+            <div class="col-12">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div id="callOutBoxesLines"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!-- Smarter Payments -->
             <div class="col-12 col-sm-6 col-lg-3 pb-T100">
               <div class="coBoxes shadow border">
@@ -140,26 +159,20 @@
                 </a>
               </div>
             </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div id="callOutBoxesLines2"></div>
+                  <div id="callOutBoxesLines3"></div>
+                  <div id="callOutBoxesLines4"></div>
+                </div>
+              </div>
+            </div>
+            
             <img id="threeLines" src="images/three-lines.png" alt="">
           </div>
         </div>
         
-        <!-- About teaser -->
-        <!--<div class="container">
-          <div class="row">
-            <div class="col-12 col-md-8 col-lg-9">
-              <div id="HPaboutTeaser">
-                <h1>Smart people. Smart Solutions. Smart Service.</h1>
-                <p>Payrailz brings together a perfect combination of proven experience, innovation, technology and forward-thinking product&nbsp;development.</p>
-                <p>We’ll help you take the first step, the next step, and every step into the future, so you never feel like you’re going it&nbsp;alone.</p>
-                <a href="about.php">
-                  <button type="button" class="btn2">Learn More</button>  
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>-->
-
         <section id="teamModule"> 
           <div class="container">
             <div class="row">
@@ -365,8 +378,12 @@
                   <button type="button" class="btn">Learn More</button>  
                 </a>
               </div>
+              <div class="col-12">
+                
+              </div>
             </div>
           </div>
+
         </section>
         
       </section>

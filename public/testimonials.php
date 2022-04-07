@@ -43,6 +43,10 @@
       </section>
       <section id="heroLines2">
         <img src="images/hero-gray-lines.png" alt="">
+        <div id="heroGreenLinesInside">
+            <div id="heroGreenLines2"></div>
+            <div id="heroGreenLines3"></div>
+        </div>
       </section>
     </div>
 
