@@ -62,6 +62,7 @@
                     </div>
                 </div>
             </div>
+            <div id="productLine1"></div>
         </section>
 
         <section id="productsSection">
@@ -156,6 +157,7 @@
                     </div>
                 </div>
             </div>
+            <div id="productLine2"></div>
             <div id="purpleProductBG"></div>
         </section>
 
@@ -175,6 +177,7 @@
                         </div>
                     </div>
                 </div>
+                <div id="productLine3"></div>
             </div>
         </section>
     </main>
