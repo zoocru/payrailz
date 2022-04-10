@@ -1,5 +1,19 @@
 $(document).ready(function(){
 
+    $(window).on('load resize', function(){
+        // Product page
+        var $productTop = $('#productTop').height()
+        var $productsSection = $('#productsSection').height()
+        var $adTeasers = $('.adTeasers').height()
+        var $totalPContentHeight = $productTop + $productsSection + $adTeasers
+        $('#productLine1').height($totalPContentHeight + 170)
+
+        // Products pages
+        var $contentHeight = $('#productDetailPage').height()
+        $('#productsLine').height($contentHeight + 139)
+
+    })
+
     // BACK TO TOP FUNCTIONALITY ************************************************
     $('#backToTop').hide()
 

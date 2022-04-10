@@ -288,9 +288,10 @@ header#mainHeader {
 
 #mainHp { margin-top: 89px; }
 main { 
+    //position: relative;
     margin-top: 50px; 
     margin-bottom: -15px;
-    
+    overflow: hidden;
 
     ul { list-style: none; }
     ul li::before {
@@ -330,7 +331,7 @@ main {
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode:screen;
-        z-index: 2;
+        //z-index: 2;
         opacity: 1;
         
         background-color: rgba($color: #000, $alpha: 1.0);
@@ -549,7 +550,7 @@ main {
 
     -webkit-transform: skewY(2.8deg);
     transform: skewY(2.8deg);
-    z-index: 4;
+    //z-index: 4;
 }
 #insideHeroWrapper:after {
     content: '';
@@ -1499,7 +1500,8 @@ main {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -30px;
+    //bottom: -30px;
+    bottom: -230px;
     width: 100%;
     height: 480px;
     background-color: $lightGray;
@@ -1635,7 +1637,7 @@ video {
     width: 100%;
     height: 30px;
     margin-bottom: -15px;
-    z-index: 3;
+    z-index: 5;
     
     #footerBorder, #SPSBorder{
         position: absolute;
@@ -2298,6 +2300,14 @@ h1.entry-title { color: #1f1f1f; }
 // =============== BACKGROUND LINES ===============
 // ================================================
 // ================================================
+
+#contentRise { 
+    // This pushes the content above the lines in certain places
+    position: relative;
+    z-index: 10;
+}
+
+
 #heroGreenLines, #heroGreenLinesInside {
     position: absolute;
     bottom: 0;
@@ -2358,7 +2368,8 @@ h1.entry-title { color: #1f1f1f; }
 
 #HPVideoLine, #callOutBoxesLines, #callOutBoxesLines2,
 #callOutBoxesLines3, #callOutBoxesLines4,
-#productLine1, #productLine2, #productLine3 {
+#productLine1, #productLine2, #productLine3,
+#productsLine {
     position: absolute;
 }
 
@@ -2419,23 +2430,16 @@ h1.entry-title { color: #1f1f1f; }
 .border-right{ border-right: 1px solid $secondary !important; }
 .border-bottom { border-bottom: 1px solid $secondary !important; }
     
-#productLine1, #productLine2, #productLine3 { 
-    top: 0;
+
+
+#productLine1, #productsLine {
+    top: 410px; // height of the hero area.
     right: 0;
     width: 100px;
+    height: 100%;
     border-left: 1px solid $secondary !important;
 }
-#productLine1 { 
-    top: -65px;
-    height: 238px;
-    z-index: 4; 
-}
-#productLine2 { 
-    height: 1000px; 
-    z-index: 3;
-}
-#productLine3 { 
-    height: 600px; 
-    z-index: 3;
-}
+#productLine1 { z-index: 4; }
+
+#productsLine { z-index: 5 !important; }
 

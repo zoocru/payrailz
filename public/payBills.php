@@ -54,38 +54,37 @@
     </div>
     
     <main>
-        <section id="productDetailPage">
-            <div class="container-fluid">
-                <div class="row no-gutter">
-                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
-                        <div id="manPA">
-                            <img src="images/woman3.png" class="img-fluid shadow2" alt="Pay Bills">
+        <div id="contentRise">
+            <section id="productDetailPage">
+                <div class="container-fluid">
+                    <div class="row no-gutter">
+                        <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
+                            <div id="manPA">
+                                <img src="images/woman3.png" class="img-fluid shadow2" alt="Pay Bills">
+                            </div>
+                        </div>    
+                        <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
+                            <h1>Introducing an innovative new way to view, manage and pay&nbsp;bills.</h1>
+                            <p>By leveraging our AI-driven capabilities to deliver actionable insights, users will have better oversight and control of their bills and payment accounts. <span class="bold">Pay A Bill</span> also enables users to easily view their billing information and pay anyone via their own personal choice of delivery options, including immediate, same day, next day, future date, recurring or automatic.</p>
+                            <h3>Benefits</h3>
+                            <ul class="mb-4">
+                                <li>Secure, convenient, fast. Providing a better way to send payments directly to billers and&nbsp;creditors.</li>
+                                <li>Records and receipts are stored online to provide proof of&nbsp;payment.</li>
+                                <li>View historical and scheduled payments to easily manage all bill&nbsp;payments.</li>
+                                <li>Action Insights<sup>®</sup> provides personalized, actionable recommendations and reminders, helping users manage bills and&nbsp;budgets.</li>
+                            </ul>
+                            <p class="mb-1">Want to learn more about our <span class="bold">Pay A Bill</span> feature?</p>
+                            <a id="button1" href="contact.php?id=payBills">
+                                <button type="button" class="btn">Contact Us</button>  
+                            </a>
                         </div>
-                    </div>    
-                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
-                        <h1>Introducing an innovative new way to view, manage and pay&nbsp;bills.</h1>
-                        <p>By leveraging our AI-driven capabilities to deliver actionable insights, users will have better oversight and control of their bills and payment accounts. <span class="bold">Pay A Bill</span> also enables users to easily view their billing information and pay anyone via their own personal choice of delivery options, including immediate, same day, next day, future date, recurring or automatic.</p>
-                        <h3>Benefits</h3>
-                        <ul class="mb-4">
-                            <li>Secure, convenient, fast. Providing a better way to send payments directly to billers and&nbsp;creditors.</li>
-                            <li>Records and receipts are stored online to provide proof of&nbsp;payment.</li>
-                            <li>View historical and scheduled payments to easily manage all bill&nbsp;payments.</li>
-                            <li>Action Insights<sup>®</sup> provides personalized, actionable recommendations and reminders, helping users manage bills and&nbsp;budgets.</li>
-                        </ul>
-                        <p class="mb-1">Want to learn more about our <span class="bold">Pay A Bill</span> feature?</p>
-                        <a id="button1" href="contact.php?id=payBills">
-                            <button type="button" class="btn">Contact Us</button>  
-                        </a>
                     </div>
+                    
                 </div>
-                <div id="manBottomPA"></div>
-            </div>
-        </section>
-
-
-        <!-- Smarter Payment Solutions -->
-        <?php //include("inc/smarter-payment-solutions.php"); ?>
-        
+            </section>
+        </div>
+        <div id="manBottomPA"></div>
+        <div id="productsLine"></div>
     </main>
 
     <!--FOOTER-->

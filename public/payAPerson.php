@@ -54,38 +54,36 @@
     </div>
     
     <main>
-        <section id="productDetailPage">
-            <div class="container-fluid">
-                <div class="row no-gutter">
-                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
-                        <div id="manPA">
-                            <img src="images/man1.png" class="img-fluid shadow2" alt="Pay A Person">
+        <div id="contentRise">
+            <section id="productDetailPage">
+                <div class="container-fluid">
+                    <div class="row no-gutter">
+                        <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
+                            <div id="manPA">
+                                <img src="images/man1.png" class="img-fluid shadow2" alt="Pay A Person">
+                            </div>
+                        </div>    
+                        <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
+                            <h1>Any time, any place, any&nbsp;person.</h1>
+                            <p>With <span class="bold">Pay A Person (P2P)</span>, users no longer need to carry cash, download compatible payment apps, or write checks to make person to person payments. <span class="bold">Pay A Person</span> works in real time via debit card and/or next business day via ACH. While both users and recipients must have an active checking account to use this service, Pay A Person works automatically across all financial institutions.</p>
+                            <h3>Benefits</h3>
+                            <ul class="mb-4">
+                                <li>Easy, seamless experience helps users quickly move their money&nbsp;electronically.</li>
+                                <li>Contacts are securely authenticated, ensuring the payment goes to the correct&nbsp;person.</li>
+                                <li>Next day ACH payments allow for streamlined processing and provide full transparency into the exchange&nbsp;of&nbsp;funds</li>
+                                <li>Real time payments make funds instantly available to the&nbsp;Recipient.</li>
+                            </ul>
+                            <p class="mb-1">Want more details on <span class="bold">Pay A Person</span>?</p>
+                            <a id="button1" href="contact.php?id=payAPerson">
+                                <button type="button" class="btn">Contact Us</button>  
+                            </a>
                         </div>
-                    </div>    
-                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
-                        <h1>Any time, any place, any&nbsp;person.</h1>
-                        <p>With <span class="bold">Pay A Person (P2P)</span>, users no longer need to carry cash, download compatible payment apps, or write checks to make person to person payments. <span class="bold">Pay A Person</span> works in real time via debit card and/or next business day via ACH. While both users and recipients must have an active checking account to use this service, Pay A Person works automatically across all financial institutions.</p>
-                        <h3>Benefits</h3>
-                        <ul class="mb-4">
-                            <li>Easy, seamless experience helps users quickly move their money&nbsp;electronically.</li>
-                            <li>Contacts are securely authenticated, ensuring the payment goes to the correct&nbsp;person.</li>
-                            <li>Next day ACH payments allow for streamlined processing and provide full transparency into the exchange&nbsp;of&nbsp;funds</li>
-                            <li>Real time payments make funds instantly available to the&nbsp;Recipient.</li>
-                        </ul>
-                        <p class="mb-1">Want more details on <span class="bold">Pay A Person</span>?</p>
-                        <a id="button1" href="contact.php?id=payAPerson">
-                            <button type="button" class="btn">Contact Us</button>  
-                        </a>
                     </div>
                 </div>
-                <div id="manBottomPA"></div>
-            </div>
-        </section>
-
-
-        <!-- Smarter Payment Solutions -->
-        <?php //include("inc/smarter-payment-solutions.php"); ?>
-        
+            </section>
+        </div>
+        <div id="manBottomPA"></div>
+        <div id="productsLine"></div>
     </main>
 
     <!--FOOTER-->

@@ -55,38 +55,36 @@
     </div>
     
     <main>
-        <section id="productDetailPage">
-            <div class="container-fluid">
-                <div class="row no-gutter">
-                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
-                        <div id="manPA">
-                            <img src="images/woman-laptop.png" class="img-fluid shadow2" alt="Transfer Money">
+        <div id="contentRise">
+            <section id="productDetailPage">
+                <div class="container-fluid">
+                    <div class="row no-gutter">
+                        <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
+                            <div id="manPA">
+                                <img src="images/woman-laptop.png" class="img-fluid shadow2" alt="Transfer Money">
+                            </div>
+                        </div>    
+                        <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
+                            <h1>Transfering funds just got a whole lot&nbsp;smarter.</h1>
+                            <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is available for both personal and business users through online and mobile banking and provides an easy, seamless experience that helps users quickly transfer funds to and from accounts at different financial&nbsp;institutions.</p>
+                            <h3>Benefits</h3>
+                            <ul class="mb-4">
+                                <li>Account Authentication of external accounts can happen in real-time or through a micro-deposit&nbsp;process.</li>
+                                <li>Next day ACH allows for streamlined processing and provides full transparency into the exchange&nbsp;of&nbsp;funds</li>
+                                <li>As the ODFI, you can work directly with the RDFI on returns and exception&nbsp;processing.</li>
+                            </ul>
+                            
+                            <p class="mb-1">Ready to talk more about our <span class="bold">Transfer Money</span> tool?</p>
+                            <a id="button1" href="contact.php?id=transferMoney">
+                                <button type="button" class="btn">Contact Us</button>  
+                            </a>
                         </div>
-                    </div>    
-                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
-                        <h1>Transfering funds just got a whole lot&nbsp;smarter.</h1>
-                        <p><span class="bold">Transfer Money</span> (A2A, Account to Account Transfers) is available for both personal and business users through online and mobile banking and provides an easy, seamless experience that helps users quickly transfer funds to and from accounts at different financial&nbsp;institutions.</p>
-                        <h3>Benefits</h3>
-                        <ul class="mb-4">
-                            <li>Account Authentication of external accounts can happen in real-time or through a micro-deposit&nbsp;process.</li>
-                            <li>Next day ACH allows for streamlined processing and provides full transparency into the exchange&nbsp;of&nbsp;funds</li>
-                            <li>As the ODFI, you can work directly with the RDFI on returns and exception&nbsp;processing.</li>
-                        </ul>
-                        
-                        <p class="mb-1">Ready to talk more about our <span class="bold">Transfer Money</span> tool?</p>
-                        <a id="button1" href="contact.php?id=transferMoney">
-                            <button type="button" class="btn">Contact Us</button>  
-                        </a>
                     </div>
                 </div>
-                <div id="manBottomPA"></div>
-            </div>
-        </section>
-
-
-        <!-- Smarter Payment Solutions -->
-        <?php //include("inc/smarter-payment-solutions.php"); ?>
-        
+            </section>
+        </div>
+        <div id="manBottomPA"></div>
+        <div id="productsLine"></div>        
     </main>
 
     <!--FOOTER-->

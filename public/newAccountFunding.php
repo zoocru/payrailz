@@ -54,32 +54,30 @@
     </div>
     
     <main>
-        <section id="productDetailPage">
-            <div class="container-fluid">
-                <div class="row no-gutter">
-                    <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
-                        <div id="manPA">
-                            <img src="images/woman-computer4.jpg" class="img-fluid shadow2" alt="Credit Pay Pro">
-                        </div>
-                    </div>  
-                    <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
-                        <h1>Introducing a better way to onboard new&nbsp;businesses.</h1>
-                        <p class="mb-5"><span class="bold">New Account Funding </span> makes it easy for businesses to onboard with your financial institution by giving them the ability to fund newly opened deposit accounts from checking and savings accounts they hold at other financial institutions in the United States. With our advanced authentication solutions, both you and your business customers can rest assured that transfers will be delivered accurately and&nbsp;securely.</p>
+        <div id="contentRise">
+            <section id="productDetailPage">
+                <div class="container-fluid">
+                    <div class="row no-gutter">
+                        <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
+                            <div id="manPA">
+                                <img src="images/woman-computer4.jpg" class="img-fluid shadow2" alt="Credit Pay Pro">
+                            </div>
+                        </div>  
+                        <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
+                            <h1>Introducing a better way to onboard new&nbsp;businesses.</h1>
+                            <p class="mb-5"><span class="bold">New Account Funding </span> makes it easy for businesses to onboard with your financial institution by giving them the ability to fund newly opened deposit accounts from checking and savings accounts they hold at other financial institutions in the United States. With our advanced authentication solutions, both you and your business customers can rest assured that transfers will be delivered accurately and&nbsp;securely.</p>
 
-                        <p class="mb-1">Looking for more info on <span class="bold">New Account Funding </span>?</p>
-                        <a id="button1" href="contact.php?id=newAccountFunding">
-                            <button type="button" class="btn">Contact Us</button>  
-                        </a>
+                            <p class="mb-1">Looking for more info on <span class="bold">New Account Funding </span>?</p>
+                            <a id="button1" href="contact.php?id=newAccountFunding">
+                                <button type="button" class="btn">Contact Us</button>  
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div id="manBottomPA"></div>
-            </div>
-        </section>
-
-
-        <!-- Smarter Payment Solutions -->
-        <?php //include("inc/smarter-payment-solutions.php"); ?>
-        
+            </section>
+        </div>
+        <div id="manBottomPA"></div>
+        <div id="productsLine"></div>   
     </main>
 
     <!--FOOTER-->

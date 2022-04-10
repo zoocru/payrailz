@@ -10,7 +10,10 @@
 
       <title>Business Solutions | Payments Products for Modern Business</title>
 
-      <link rel="stylesheet" href="css/bootstrap.min.css">    
+      <link rel="stylesheet" href="css/bootstrap.min.css">   
+      <!-- <style>
+          #manBottomPA:after { bottom: -830px; }
+      </style>  -->
   </head>
 
   <body>
@@ -54,6 +57,7 @@
     </div>
     
     <main>
+    <div id="contentRise">
         <section id="productDetailPage">
             <div class="container-fluid">
                 <div class="row no-gutter">
@@ -81,14 +85,12 @@
                         </a>
                     </div>
                 </div>
-                <div id="manBottomPA"></div>
+                <!-- <div id="manBottomPA"></div> -->
             </div>
         </section>
-
-
-        <!-- Smarter Payment Solutions -->
-        <?php //include("inc/smarter-payment-solutions.php"); ?>
-        
+    </div>
+        <div id="manBottomPA"></div>
+        <div id="productsLine"></div> 
     </main>
 
     <!--FOOTER-->
