@@ -70,22 +70,6 @@
                 </div>
             </div>
         </section>
-        
-        <!-- <section id="aboutMid">
-            <div class="container-fluid">
-                <div class="row no-gutter">
-                    <div class="col-12 col-md-6 offset-md-2">
-                        <h1>Momentum is on our side.</h1>
-                        <p>The Payrailz platform is growing rapidly with some of the most respected financial institutions and industry leaders placing their trust&nbsp;in&nbsp;us.</p>
-                    </div>
-                    <div class="col-12 offset-md-1 col-md-3" style="padding-right: 0 !important;">
-                        <div id="womanPA">
-                            <img src="images/woman2.png" class="img-fluid shadow2" alt="About Payrailz">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <section id="teamBG" style="margin-top: 80px !important">
             <!-- About teaser -->
@@ -475,7 +459,7 @@
                     </div>
                 </div>
             </div>
-
+            <div id="smarterLine4"></div>
       </section>
 
         <!-- Careers -->

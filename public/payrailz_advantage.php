@@ -57,9 +57,11 @@
             <section id="expectations">
                 <div class="container-fluid">
                     <div class="row no-gutter">
-                        <div class="col-12 col-md-6 offset-md-1 col-lg-5 offset-lg-2">
-                            <h1>Changing Expectations</h1>
-                            <p>In today’s landscape, payment experiences must go beyond transactions to make emotional connections with consumers. This requires a keen understanding of how people think about money, and continuous innovation to over-deliver against their ever-changing expectations. Introducing Payrailz, a smarter payments&nbsp;experience.</p>
+                        <div class="col-12 col-md-6 offset-md-1 col-lg-5 offset-lg-2 d-flex">
+                            <div id="expectationsContent">
+                                <h1>Changing Expectations</h1>
+                                <p>In today's landscape, payment experiences must go beyond transactions to make emotional connections with consumers. This requires a keen understanding of how people think about money, and continuous innovation to over-deliver against their ever-changing expectations. Introducing Payrailz, a smarter payments&nbsp;experience.</p>
+                            </div>
                         </div>
                         <div class="col-12 col-md-4 offset-md-1 justify-content-sm-center d-none d-md-block" style="padding-right: 0 !important;">
                             <div id="womanPA">
@@ -89,37 +91,41 @@
         </section>
 
         <section class="adTeasers">
-            <div class="container-fluid removePadding">
-                <div class="row no-gutters">
-                    <div class="col-12 col-lg-6 order-last order-lg-first adImg">
-                        <img src="images/action-insights.png" class="img-fluid greenBorder" alt="Payrailz Action Insights">
-                    </div>
-                    <div class="col-12 col-lg-6 order-first order-lg-last d-flex justify-content-center flex-column">
-                        <div class="content">
-                            <h1><img class="shadow" src="images/ai-icon.png" alt="Action Insights®">Action Insights<sup>®</sup></h1>
-                            <p>Our machine learning and AI capability study each user to provide custom recommendations and notifications that help the consumer manage accounts, loan payments, bills and other financial decisions with a single click. All seamlessly integrated into one user-friendly&nbsp;space.</p>
-                            <a id="button1" href="action_insights.php">
-                                <button type="button" class="btn">Learn More</button>  
-                            </a>
+            <div id="actionInsightsAd">
+                <div class="container-fluid removePadding">
+                    <div class="row no-gutters">
+                        <div class="col-12 col-lg-6 order-last order-lg-first adImg">
+                            <img src="images/action-insights.png" class="img-fluid greenBorder" alt="Payrailz Action Insights">
+                        </div>
+                        <div class="col-12 col-lg-6 order-first order-lg-last d-flex justify-content-center flex-column">
+                            <div class="content">
+                                <h1><img class="shadow" src="images/ai-icon.png" alt="Action Insights®">Action Insights<sup>®</sup></h1>
+                                <p>Our machine learning and AI capability study each user to provide custom recommendations and notifications that help the consumer manage accounts, loan payments, bills and other financial decisions with a single click. All seamlessly integrated into one user-friendly&nbsp;space.</p>
+                                <a id="button1" href="action_insights.php">
+                                    <button type="button" class="btn">Learn More</button>  
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="container-fluid removePadding">
-                <div class="row no-gutters">
-                    <div class="col-12 col-lg-6 d-flex justify-content-center flex-column">
-                        <div class="content2">
-                            <h1><img class="shadow" src="images/aui-icon.png" alt="Action Insights®">Advanced User Experience</h1>
-                            <p>By combining powerful performance with a sleek and modern interface, Payrailz has created an experience that goes well beyond user&nbsp;expectations. </p>
-                            <a id="button1" href="advanced_user_experience.php">
-                                <button type="button" class="btn">Learn More</button>  
-                            </a>
+            <div id="advancedUX">
+                <div class="container-fluid removePadding">
+                    <div class="row no-gutters">
+                        <div class="col-12 col-lg-6 d-flex justify-content-center flex-column">
+                            <div class="content2">
+                                <h1><img class="shadow" src="images/aui-icon.png" alt="Action Insights®">Advanced User Experience</h1>
+                                <p>By combining powerful performance with a sleek and modern interface, Payrailz has created an experience that goes well beyond user&nbsp;expectations. </p>
+                                <a id="button1" href="advanced_user_experience.php">
+                                    <button type="button" class="btn">Learn More</button>  
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 adImg">
+                            <img src="images/phone-comp.png" class="img-fluid purpleBorder" alt="Payrailz Advanced User Experience">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 adImg">
-                        <img src="images/phone-comp.png" class="img-fluid purpleBorder" alt="Payrailz Advanced User Experience">
-                    </div>
+                    <div id="advancedUXLine"></div>
                 </div>
             </div>
         </section>
@@ -127,7 +133,7 @@
         <!-- Smarter Payment Solutions -->
         <?php include("inc/smarter-payment-solutions.php"); ?>
         
-        <div id="productsLine"></div>   
+        <div id="payAdvantageLine"></div>   
     </main>
 
     <!--FOOTER-->

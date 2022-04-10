@@ -129,7 +129,6 @@
     </div>
     
     <main>
-
         <section id="contact">
             <div id="contactContent" class="container">
                 <div class="row">
@@ -245,8 +244,8 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+            <div id="smarterLine3"></div>
         </section>
 
         <!-- Careers -->

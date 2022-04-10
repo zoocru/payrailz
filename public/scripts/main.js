@@ -12,6 +12,14 @@ $(document).ready(function(){
         var $contentHeight = $('#productDetailPage').height()
         $('#productsLine').height($contentHeight + 139)
 
+
+        // Payadvantage
+        var $expectationsHeight = $('#expectations').height()
+        var $paywayz = $('#paywayz').height()
+        var $actionInsightsAd = $('#actionInsightsAd').height()
+        var $totalPayadvantage1 = $expectationsHeight + $paywayz + $actionInsightsAd
+        $('#payAdvantageLine').height($totalPayadvantage1 + 233)
+
     })
 
     // BACK TO TOP FUNCTIONALITY ************************************************

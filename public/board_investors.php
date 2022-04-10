@@ -106,12 +106,8 @@
                     </div>
                 </div>
             </div>
-
-      </section>
-
-        <!-- Careers -->
-        <?php //include("inc/careers-module.php"); ?>
-        
+            <div id="smarterLine4"></div>
+        </section>
     </main>
 
     <!--FOOTER-->

@@ -13,4 +13,5 @@
                     </div>
                 </div>
             </div>
+            <div id="smarterLine"></div>
         </section>

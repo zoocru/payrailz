@@ -67,7 +67,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section id="aboutMid">
             <div class="container-fluid">
                 <div class="row no-gutter">
@@ -196,6 +196,7 @@
                     </div>
                 </div>
             </div>
+            <div id="smarterLine2"></div>
         </section>
 
         <section id="callOutBoxes" style="margin-top: 0 !important; ">
@@ -445,11 +446,12 @@
                 </div>
             </section>
         
-      </section>
+            <div id="smarterLine3"></div>
+        </section>
 
         <!-- Careers -->
         <?php include("inc/careers-module.php"); ?>
-        
+        <div id="productsLine2"></div>
     </main>
 
     <!--FOOTER-->

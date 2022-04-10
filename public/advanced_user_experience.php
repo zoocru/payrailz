@@ -10,7 +10,10 @@
 
       <title>Flex UX | An Advanced User Experience</title>
 
-      <link rel="stylesheet" href="css/bootstrap.min.css">    
+      <link rel="stylesheet" href="css/bootstrap.min.css">  
+      <style>
+          main { margin-top: 0;}
+      </style>
   </head>
 
   <body>
@@ -56,15 +59,22 @@
         <section id="actionInsights">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8 offset-md-2  col-lg-10 offset-lg-1 text-center">
-                        <h1>Built for today’s payment paths, and&nbsp;tomorrow’s.</h1>
-                        <p>Payrailz was built API first from day one, with the critical goal of achieving full integration and seamless navigation through every existing payment path. This means that it works with the technologies you already use, as well as the platforms that consumers rely upon every&nbsp;day.</p>
-
-                        <p class="mb-5">We designed the entire platform to be white labeled by banks and credit unions, with customizable design capabilities that allow you to add your brand colors, fonts and logos. To the end user, it’s business as usual. Except now, your business is a lot more robust and&nbsp;user-friendly.</p>
+                    <div class="col-12">
+                        <div id="miniLine"></div>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container border-top border-left">
+                <div class="row">
+                    <div class="col-12 col-md-8 offset-md-2  col-lg-10 offset-lg-1 text-center">
+                        <h1 class="pt-4">Built for today's payment paths, and&nbsp;tomorrow's.</h1>
+                        <p>Payrailz was built API first from day one, with the critical goal of achieving full integration and seamless navigation through every existing payment path. This means that it works with the technologies you already use, as well as the platforms that consumers rely upon every&nbsp;day.</p>
+
+                        <p class="mb-5">We designed the entire platform to be white labeled by banks and credit unions, with customizable design capabilities that allow you to add your brand colors, fonts and logos. To the end user, it's business as usual. Except now, your business is a lot more robust and&nbsp;user-friendly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container border-top border-right">
                 <div class="row">
                     <div class="col-12 col-sm-10 offset-sm-1 text-center">
                         <img id="AIImg" src="images/charts/FlexUI.svg" class="img-fluid" alt="">
@@ -77,8 +87,8 @@
             </div>
         </section>
 
-            <!-- Smarter Payment Solutions -->
-            <?php include("inc/smarter-payment-solutions.php"); ?>
+        <!-- Smarter Payment Solutions -->
+        <?php include("inc/smarter-payment-solutions.php"); ?>
 
     </main>
 

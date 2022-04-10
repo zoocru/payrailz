@@ -22,6 +22,11 @@
       <title>Testimonials | What our customers are saying</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
+      <style>
+          main { 
+            margin-top: -15px; 
+          }
+      </style>
   </head>
 
   <body>
@@ -139,10 +144,12 @@
                 </div>
 
             </div>
+            <div id="smarterLine3"></div>
         </section>
 
         <!-- Careers -->
         <?php include("inc/about-module.php"); ?>
+        <!-- <div id="productLine1"></div> -->
     </main>
 
     <!--FOOTER-->

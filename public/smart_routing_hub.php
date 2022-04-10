@@ -10,7 +10,10 @@
 
       <title>Paywayz | Smart Routing Hub</title>
 
-      <link rel="stylesheet" href="css/bootstrap.min.css">    
+      <link rel="stylesheet" href="css/bootstrap.min.css">   
+      <style>
+          main { margin-top: 0;}
+      </style>  
   </head>
 
   <body>
@@ -56,13 +59,20 @@
         <section id="actionInsights">
             <div class="container">
                 <div class="row">
+                    <div class="col-12">
+                        <div id="miniLine"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container  border-top border-left">
+                <div class="row">
                     <div class="col-12 col-md-10 offset-md-1 text-center">
-                        <h1>Your money goes where it’s supposed&nbsp;to&nbsp;go</h1>
+                        <h1 class="pt-4">Your money goes where it’s supposed&nbsp;to&nbsp;go</h1>
                         <p class="mb-5">The PayWayz Smart Payment Routing Hub simplifies the payment process at every step along the way. By seamlessly integrating with any and all funding sources, you no longer need to spend time managing those relationships. With PayWayz, it happens automatically. Pair that with our ability to deliver payments via every distribution rail, and the result is a smarter experience that enables you to better meet the payment expectations of today’s&nbsp;consumers.</p>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container border-top border-right">
                 <div class="row">
                     <div class="col-10 offset-1 text-center">
                         <img id="AIImg" src="images/charts/PayWayz.svg" class="img-fluid mb-5" alt="">

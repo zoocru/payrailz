@@ -21,6 +21,12 @@
       <title>Careers at Payrailz | Opportunities for success</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">    
+
+      <style>
+          main { 
+            margin-top: -15px; 
+          }
+      </style>
   </head>
 
   <body>
@@ -62,8 +68,8 @@
         </div>
     </div>
     
-    <main>
-        <section id="about">
+    <main style="position: relative;">
+        <section id="about" style="margin-top: 50px;">
             <div class="container">
                 <div class="row">
                     <div class="col-10 offset-1">
@@ -75,6 +81,7 @@
                     </div>
                 </div>
             </div>
+            
         </section>
         
         <section id="curailz">
@@ -116,11 +123,8 @@
                     </div>
                 </div>
             </div>
+            <div id="smarterLine2"></div>
         </section>
-
-        <!-- Careers -->
-        <?php //include("inc/careers-module.php"); ?>
-        
     </main>
 
     <!--FOOTER-->

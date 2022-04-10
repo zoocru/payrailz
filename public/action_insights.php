@@ -10,7 +10,10 @@
 
       <title>Action Insights | Artificial Intelligence = Smarter Payments</title>
 
-      <link rel="stylesheet" href="css/bootstrap.min.css">    
+      <link rel="stylesheet" href="css/bootstrap.min.css">   
+      <style>
+          main { margin-top: 0;}
+      </style> 
   </head>
 
   <body>
@@ -56,15 +59,22 @@
         <section id="actionInsights">
             <div class="container">
                 <div class="row">
+                    <div class="col-12">
+                        <div id="miniLine"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container border-top border-left">
+                <div class="row">
                     <div class="col-12 col-md-10 offset-md-1 text-center">
-                        <h1>Smart Makes the&nbsp;Difference</h1>
+                        <h1 class="pt-4">Smart Makes the&nbsp;Difference</h1>
                         <p>Payrailz Action Insights studies and overlays consumer data and behavior, to make personalized, actionable suggestions that simplify the payments process for&nbsp;consumers. Examples include Action Insights designed to negotiate rates on the consumer’s behalf, provide reminders about upcoming bills and late fees, offer suggestions on fund allocations and&nbsp;more. To further enhance this offering, our dedicated AI Team is relentlessly innovating in order to continually add new Action Insights to help consumers better manager their financial&nbsp;wellbeing.</p>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container  border-top border-right">
                 <div class="row">
-                    <div class="col-10 offset-1 text-center">
+                    <div class="col-12 col-md-10 offset-md-1 text-center">
                         <img id="AIImg" src="images/charts/ActionInsights.svg" class="img-fluid" alt="">
                         <h2 class="mt-5 mb-4"><span class="bold">All seamlessly integrated into one user-friendly platform to connect you to your customer in the digital&nbsp;space.</span></h2>
                         <p class="mb-1">Want to learn more?</p>
