@@ -1,44 +1,3 @@
-<?PHP  
-
-  // For Contact form
-  //$sendEmail ='MGoldwasser@payrailz.com';
-  $sendEmail ='acruz00766@gmail.com';
-  
-  $errors2 = '';
-  $subEmail2 = '';
-
-  if(isset($_POST['submit2'])){
-    $subEmail2 = isset($_POST['email2']) ? $_POST['email2'] : "";
-        
-    
-    if(empty($errors2)) {
-        //send the email
-        $to2 = $sendEmail2;
-        $subject2 = "Payrailz email subscription form submission";
-        //$from = $your_email;
-        $ip2 = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '';
-        
-        $body2 = "Email subscription form submission:\n".
-        "Email: $subEmail2 \n" .
-        "IP: $ip2\n";
-        
-        $headers2 = "From: $sendEmail2 \r\n";
-        $headers2 .= "Reply-To: $subEmail2 \r\n";
-        
-        mail($to2, $subject2, $body2, $headers2);
-
-        //session_start();
-        // $_SESSION['error_message'] = null;
-        // unset($_SESSION['error_message']);
-        //$_SESSION['contact_form'] = "Yes";
-      
-        
-        //header('Location: contact-thankyou.php');
-    }
-}
-
-?>
-
 <div id="footerTopBorder">
       <div id="footerBorder"></div>
     </div>
@@ -110,21 +69,18 @@
               </div>
             </div>
             <hr>
-
             
-            <form id="form2" name="contact_form" method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" >
+            <form id="form" name="contact_form" method="post" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" >
               <div class="row">
                 <div id="updates" class="col-12 align-items-center">
                   <p>Receive Updates, News & Information</p>
-                  <div class="form-group email2-group">
-                      <input type="text" name="email2" class="form-control" id="email2" placeholder="Email Address" value=''>
-                      <span class="help-block"></span>
+                  <div class="form-group email-group">
+                      <input type="text" name="email" class="form-control" id="email" placeholder="Email Address" value=''>
                   </div>
-                  <button type="submit" id="submit2" name="submit2" class="btn2 gBtn btn-sm">OK</button>
+                  <button type="submit" id="submit" name="submit" class="btn2 gBtn btn-sm">OK</button>
                 </div>
               </div>
             </form>
-
           </div>
         </div>
       </div>

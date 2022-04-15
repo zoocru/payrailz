@@ -4,7 +4,7 @@
 	
 	// there's only one user
 	$sql = "SELECT * FROM users
-			WHERE id = 1";
+			WHERE id = 2";
 	$result = mysqli_query( $con, $sql ); 
 	
 	$row = mysqli_fetch_array( $result );
@@ -29,7 +29,7 @@
 	
 		echo "<p>Password from db: <br>" . $row['password'] . "</p>";
 		//$pass = "tkd4eva!";
-		$pass = "zoocru123";
+		$pass = "P@y2016!";
 		$pass = hash('sha256', $pass);
         echo "<p>Entered password: <br>" . $pass . "</p>";
 		

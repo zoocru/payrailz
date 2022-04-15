@@ -9,6 +9,8 @@
 	mysqli_close( $con );
 ?>
 
+<?php include("inc/email.php"); ?>
+
 <!doctype html>
 
 <html lang="en">
@@ -154,7 +156,6 @@
 
     <!--FOOTER-->
     <?php include("inc/footer.php"); ?>
-    <script src="scripts/validation.js"></script>
 
   </body>
 

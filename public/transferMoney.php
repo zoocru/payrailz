@@ -1,3 +1,5 @@
+<?php include("inc/email.php"); ?>
+
 <!doctype html>
 
 <html lang="en">

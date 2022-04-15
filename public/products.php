@@ -1,3 +1,5 @@
+<?php include("inc/email.php"); ?>
+
 <!doctype html>
 
 <html lang="en">
@@ -13,8 +15,9 @@
       <link rel="stylesheet" href="css/bootstrap.min.css">    
   </head>
 
+  
   <body>
-    
+      
     <?php include("inc/header.php"); ?>
 
     <!-- The Hero -->

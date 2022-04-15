@@ -8,6 +8,8 @@
 	mysqli_close( $con );
 ?>
 
+<?php include("inc/email.php"); ?>
+
 <!doctype html>
 
 <html lang="en">
@@ -29,8 +31,8 @@
       </style>
   </head>
 
+
   <body>
-    
     <?php include("inc/header.php"); ?>
 
     <!-- The Hero -->

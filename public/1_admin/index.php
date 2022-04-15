@@ -1,11 +1,10 @@
 <?php
-	///require_once 'authorize.php';
+	require_once 'authorize.php';
 ?>
 
 <!doctype html>
 
 <html>
-
 	<head>
         <meta charset="UTF-8">
         <title>Payrailz Admin</title>
@@ -35,7 +34,7 @@
                     <h2 class="text-center">Admin</h2>
                     <hr class="pb-4">
                     <div class="row justify-content-center">
-                        <div class="col">
+                        <div class="col-3">
                             <div class="text-center adminLinks">
                                 <a href="testimonials.php">
                                     <img class="icons" src="../images/testimonials_icon.png">
@@ -51,7 +50,7 @@
                                 </a>
                             </div>
                         </div> -->
-                        <div class="col">
+                        <div class="col-3">
                             <div class="text-center adminLinks">
                                 <a href="careers.php">
                                     <img class="icons" src="../images/careers_icon.png">
