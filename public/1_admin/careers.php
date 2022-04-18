@@ -73,7 +73,7 @@
                                                 }
                                             ?>
                                         </p>
-                                        <form id="form1" method="post" action="delete-careers.php?id=<?=$row['id']?>" onSubmit="return confirm('Are you sure you want to delete?')">
+                                        <form id="form1" method="post" action="delete-career.php?id=<?=$row['id']?>" onSubmit="return confirm('Are you sure you want to delete?')">
                                             <a href="edit-career.php?id=<?=$row['id']?>">
                                                 <button type="button" class="btn2 btn-sm mr-2">Edit</button>
                                             </a>

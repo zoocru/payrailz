@@ -73,7 +73,7 @@
                     <div class="row justify-content-center">
                         <div class="form-group col-8">
                             <h4>Overview:</h4> 
-                            <textarea name="overview" cols="" rows="" class="form-control" placeholder="OVERVIEW"><?=$row['overview']?></textarea>
+                            <textarea name="overview" cols="" rows="20" class="form-control" placeholder="OVERVIEW"><?=$row['overview']?></textarea>
                         </div>
                     </div>
 

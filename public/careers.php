@@ -2,6 +2,7 @@
 	require('db.php');
 
 	$sql = "SELECT * FROM careers
+            Where active = 1
 			ORDER by dateModified ASC";
     $result = mysqli_query( $con, $sql );
 	

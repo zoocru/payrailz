@@ -1,8 +1,9 @@
     <section id="subFooter">
       <div class="container">
         <div class="row">
-          <div class="col-md-11 text-center">
-            <p>© <?php echo date("Y"); ?> Payrailz. All Rights Reserved. </p>
+          <div class="col-12 text-center">
+            <hr>
+            <p class="mt-3">© <?php echo date("Y"); ?> Payrailz. All Rights Reserved. </p>
           </div>
         </div>
       </div>

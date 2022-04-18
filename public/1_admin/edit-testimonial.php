@@ -137,7 +137,7 @@
                     <div class="row justify-content-center">
                         <div class="form-group col-8">
                             <h4>Testimonial:</h4> 
-                            <textarea name="testimonial" cols="" rows="" class="form-control" placeholder="testimonial"><?=$row['testimonial']?></textarea>
+                            <textarea name="testimonial" cols="" rows="20" class="form-control" placeholder="testimonial"><?=$row['testimonial']?></textarea>
                         </div>
                     </div>
                     <div class="row justify-content-center">
