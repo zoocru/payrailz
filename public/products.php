@@ -27,7 +27,7 @@
             <div class="row">
                 <!-- Main Copy -->
                 <div class="col-10 offset-1">
-                    <h1>Smarter Payments</h1>
+                    <h1>Smarter Products</h1>
                     <h2>Smarter digital payment solutions start&nbsp;here.</h2>
                 </div>
             </div>
@@ -61,8 +61,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-8 offset-md-2 text-center">
-                            <h1>In a “Do It For Me<sup>®</sup>”&nbsp;Society,<br>Smart Makes The&nbsp;Difference<sup>®</sup></h1>
-                            <p>From voice interactions to mobile functionality, Payrailz delivers intuitive, intelligent and elegant payment solutions for both consumers and&nbsp;businesses.</p>
+                            <h1>In a “Do It For Me<sup>®</sup>”&nbsp;World,<br>Smart Makes The&nbsp;Difference<sup>®</sup></h1>
+                            <p>Payrailz delivers intuitive, intelligent and personalized payment solutions for both consumers and&nbsp;businesses.</p>
                         </div>
                     </div>
                 </div>
@@ -83,17 +83,17 @@
                                 <div id="transferMoneyBtn" class="product">
                                     <h1><img src="images/product-icons/transferMoney-icon.png" class="shadowLil" alt="Transfer Money">Transfer Money</h1>
                                 </div>
-                                <div id="accountFundingBtn" class="product">
-                                    <h1><img src="images/product-icons/newAccountFunding_icon.png" class="shadowLil" alt="New Account Funding">New Account Funding</h1>
-                                </div>
-                                <div id="ccpBtn" class="product">
-                                    <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Credit Pay Pro">Credit Pay Pro</h1>
+                                <div id="payALoanBtn" class="product">
+                                    <h1><img src="images/product-icons/cpp-AC-icon.png" class="shadowLil" alt="Pay A Loan">Pay A Loan</h1>
                                 </div>
                                 <div id="bsolBtn" class="product">
                                     <h1><img src="images/product-icons/businessSolutions_icon.png" class="shadowLil" alt="Business Solutions">Business Solutions</h1>
                                 </div>
-                                <div id="bserBtn" class="product">
-                                    <h1><img src="images/product-icons/billerServices_icon.png" class="shadowLil" alt="Business Services">Biller Services</h1>
+                                <div id="fraudBtn" class="product">
+                                    <h1><img src="images/product-icons/fraudMonitor_icon.png" class="shadowLil" alt="Fraud Monitor">Fraud Monitor</h1>
+                                </div>
+                                <div id="actionInsightsBtn" class="product">
+                                    <h1><img src="images/product-icons/actionInsights_icon.png" class="shadowLil" alt="Action Insights">Action Insights</h1>
                                 </div>
                             </div>
                         </div>
@@ -102,61 +102,56 @@
                             <div id="payABill" class="productDetail shadow">
                                 <h1>Pay A Bill (Bill Pay)</h1>
                                 <h2>What is <span class="bold">Pay A Bill?</span></h2>
-                                <p>Pay A Bill is a proprietary digital service that delivers smart-enabled electronic bill presentment and payment capabilities. It comes with all the advanced features your users have come to expect from their traditional bill pay solutions, plus so much&nbsp;more. </p>
+                                <p>Pay A Bill delivers smart-enabled electronic bill presentment and payment capabilities. It comes with all the advanced features your users should expect from their traditional bill pay solutions, plus so much more. Consumer & Business on one platform, With AI-Driven Action Insights (Reduce My Bill; Did you miss a payment?), you can deliver highly personalized digital experiences and actionable insights to drive deep user&nbsp;engagement.</p>
                                 <a id="button1" href="payBills.php">
                                     <button type="button" class="btn">Learn More</button>  
                                 </a>
                             </div>
                             <div id="payAPerson" class="productDetail shadow">
                                 <h1>Pay A Person (P2P)</h1>
-                                <h2>What is <span class="bold">Pay A Person?</span></h2>
-                                <p>Pay A Person (Person to Person, Business to Consumer) is a modern, ultra-convenient P2P service that enables anyone to make electronic payments directly to anyone else via online and mobile&nbsp;banking.</p>
+                                <p>The only Open Loop P2P service and the engine behind “CHUCK”. Allows the user to pay anyone directly from their account, in real-time! The person sending the payment to a peer, or business, does not need to worry about whether the receiver is using the same payment channel. And the person receiving the payment can select where they want their money to&nbsp;go.</p>
                                 <a id="button1" href="payAPerson.php">
                                     <button type="button" class="btn">Learn More</button>  
                                 </a>
                             </div>
                             <div id="transferMoney" class="productDetail shadow">
                                 <h1>Transfer Money (A2A)</h1>
-                                <h2>What is <span class="bold">Transfer Money?</span></h2>
-                                <p><span class="bold">Transfer Money</span> (Account to Account) is an easy-to-use, easy-to-manage digital tool that provides users with a secure way to move money between accounts at different financial institutions across&nbsp;the&nbsp;US.</p>
+                                <p><span class="bold">Transfer Money</span> (Account to Account) allows the user to move money between any accounts they own at their FI, or another FI…from a single&nbsp;screen!</p>
+                                <p>Internal Book Transfers, External Account Transfers, New Account Funding, with Instant Account Verification and Multi-Factor Authentication.</p>
                                 <a id="button1" href="transferMoney.php">
                                     <button type="button" class="btn">Learn More</button>  
                                 </a>
                             </div>
-
-                            <div id="accountFunding" class="productDetail shadow">
-                                <h1>New Account Funding</h1>
-                                <h2>What is<span class="bold"> New Account Funding?</span></h2>
-                                <p><span class="bold">New Account Funding</span> gives businesses the ability to fund newly opened deposit accounts from other financial institutions in the United States, quickly and&nbsp;easily.</p>
-                                <a id="button1" href="newAccountFunding.php">
+                            <div id="payALoan" class="productDetail shadow">
+                                <h1>Pay A Loan</h1>
+                                <p><span class="bold">Pay A Loan</span> allows users to view and pay their loans, or credit cards, electronically, from their Financial Institution's website, as a registered user, or a guest. Payments can also be taken via a Call Center and&nbsp;IVR.</p>
+                                <a id="button1" href="payALoan.php">
                                     <button type="button" class="btn">Learn More</button>  
                                 </a>
                             </div>
 
                             <div id="businessSolutions" class="productDetail shadow">
-                                <h1>Business Solutions</h1>
-                                <h2>What Business Solutions do we&nbsp;offer?</h2>
-                                <p>Payrailz offers the next generation of electronic Billing, Invoice and Payment Solutions, including Business Bill Pay, Disbursements (B2C), External Transfers (A2A) and New Account Funding&nbsp;(A2A).</p>
+                                <h1>Payrailz Business Solutions</h1>
+                                <p>Payrailz supports a full array of solutions designed for businesses on the same platform. Allows for multiple users at the same business, with different access&nbsp;entitlements.</p>
                                 <a id="button1" href="businessSolutions.php">
                                     <button type="button" class="btn">Learn More</button>  
                                 </a>
                             </div>
-                            <div id="billerServices" class="productDetail shadow">
-                                <h1>Biller Services</h1>
-                                <h2>What Biller Services do we&nbsp;offer?</h2>
-                                <p>Payrailz Biller Services include Payment Consolidator, Pay a Loan and Credit Pay Pro for&nbsp;Billers.</p>
-                                <a id="button1" href="billerServices.php">
+                            <div id="fraudMonitor" class="productDetail shadow">
+                                <h1>Fraud Monitor</h1>
+                                <p>Fraud Monitor is an AI based real-time fraud detection service that mitigates payment fraud at the point of transaction through an actionable fraud&nbsp;score.</p>
+                                <a id="button1" href="fraudMonitor.php">
                                     <button type="button" class="btn">Learn More</button>  
                                 </a>
                             </div>
-                            <div id="creditPayPro" class="productDetail shadow">
-                                <h1>Credit Pay Pro&trade;</h1>
-                                <h2>What is Credit Pay Pro&trade;?</h2>
-                                <p><span class="bold">Credit Pay Pro&trade;</span> provides users with the ability to view loans, mortgage and credit card statement information and make payments via their Financial Institution's website, Call Center, and&nbsp;IVR.</p>
-                                <a id="button1" href="creditPayPro.php">
+                            <div id="actInsights" class="productDetail shadow">
+                                <h1>Action Insights</h1>
+                                <p>Action Insights is an integrated artificial intelligence-based product that serves personalized financial wellness recommendations to users based on their unique past payment&nbsp;patterns.</p>
+                                <a id="button1" href="actionInsights.php">
                                     <button type="button" class="btn">Learn More</button>  
                                 </a>
                             </div>
+                            
                         </div>
                     </div>
                 </div>

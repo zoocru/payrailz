@@ -148,6 +148,8 @@
                                             <option value="demo">Demo</option>
                                             <option value="digitalPayments">Digital Payments</option>
                                             <option value="cuRailz">CU Railz</option>
+                                            <option value="careers">Careers</option>
+                                            <option value="Other">Other</option>
                                         </select>
                                     </div>
                                     <!-- Name -->

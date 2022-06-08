@@ -77,8 +77,7 @@
             <div id="payRailzAdvantageContent" class="col-12 col-lg-6 offset-lg-1 d-flex justify-content-end flex-column align-items-end text-right">
               <div id="HPPayrailzAd"></div>
               <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
-              <p>Our all-in-one digital payments solution seamlessly navigates across existing payment paths and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
-              <p>In a society focused on “Do It For Me,<sup>®</sup>” smart makes&nbsp;the&nbsp;difference.</p>
+              <p>Our real-time Paywayz payment engine with Smart Transaction Routing, Single Open Platform and Multi-Rail distribution, means one solution provider for all your payments requirements and needs. It also provides easy, intelligent,&nbsp;end-user&nbsp;experiences.</p>
               <a href="payrailz_advantage.php">
                   <button type="button" class="btn">Learn More</button>  
               </a>
@@ -120,8 +119,8 @@
             <!-- Smarter Payments -->
             <div class="col-12 col-sm-6 col-lg-3 pb-T100">
               <div class="coBoxes shadow border">
-                <img class="shadow" src="images/sp-icon.png" alt="Smarter Payments">
-                <h1>Smarter Payments</h1>
+                <img class="shadow" src="images/sp-icon.png" alt="Smarter Products">
+                <h1>Smarter Products</h1>
                 <p>By offering every payment solution you need, all on one digital platform, we go well beyond basic services to deliver the type of experience consumers are demanding in today’s digitally focused&nbsp;world.</p>
                 <a href="products.php">
                   <button type="button" class="btn">Learn More</button>  
@@ -175,29 +174,29 @@
           </div>
         </div>
         
-        <section id="teamModule"> 
-          <div class="container">
+        <!-- <section id="teamModule">  -->
+          <!-- <div class="container">
             <div class="row">
               <div class="col-12 d-flex justify-content-center justify-content-lg-end">
                 <h1>Our Team</h1>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Team Carousel -->
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+          <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false"> -->
             <!-- Carousel Indicators -->
-            <ol class="carousel-indicators">
+            <!-- <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
+            </ol> -->
             <!-- Carousel items -->
-            <div class="container">
+            <!-- <div class="container">
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active"> -->
                   <!-- Fran Duggan -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=FranDuggan">
                       <div class="teamInfoContent">
                         <h2>Fran Duggan</h2>
@@ -205,9 +204,9 @@
                       </div>
                       <img src="images/team/FranDuggan.jpg" class="img-fluid" alt="Fran Duggan - CEO & Founder">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Paul Franko II -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=PaulFranko">
                       <div class="teamInfoContent">
                         <h2>Paul Franko II</h2>
@@ -215,9 +214,9 @@
                       </div>
                       <img src="images/team/PaulFrankoII.jpg" class="img-fluid" alt="Paul Franko II - COO & Founder">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Rich Pelikan -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=RichPelikan">
                       <div class="teamInfoContent">
                         <h2>Rich Pelikan</h2>
@@ -225,9 +224,9 @@
                       </div>
                       <img src="images/team/RichPelikan.jpg" class="img-fluid" alt="RichPelikan - CBDO & Founder">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Horng Tern -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=HorngTern">
                       <div class="teamInfoContent">
                         <h2>Horng Tern</h2>
@@ -236,11 +235,11 @@
                       <img src="images/team/Horng-Tern-2.jpg" class="img-fluid" alt="Horng Tern - CTO">
                     </a>
                   </div>
-                </div>
+                </div> -->
 
-                <div class="carousel-item">                  
+                <!-- <div class="carousel-item">                   -->
                   <!-- Jim Kern -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=JimKern">
                       <div class="teamInfoContent">
                         <h2>Jim Kern</h2>
@@ -248,9 +247,9 @@
                       </div>
                       <img src="images/team/Jim-Kern-web.jpg" class="img-fluid" alt="Jim Kern - VP, Chief Sales Officer">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Mickey Goldwasser -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=mickey">
                       <div class="teamInfoContent">
                         <h2>Mickey Goldwasser</h2>
@@ -258,9 +257,9 @@
                       </div>
                       <img src="images/team/mickeygoldwasser.jpg" class="img-fluid" alt="Mickey Goldwasser - VP, Marketing & Chief of Staff">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Gereen Langmeyer -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=GereenLangmeyer">
                       <div class="teamInfoContent">
                         <h2>Gereen Langmeyer</h2>
@@ -268,9 +267,9 @@
                       </div>
                       <img src="images/team/DaveFrench.jpg" class="img-fluid" alt="Gereen Langmeyer - VP, Payment Product Management">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Kavita Singh -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=Kavita">
                       <div class="teamInfoContent">
                         <h2>Kavita Singh</h2>
@@ -279,11 +278,11 @@
                       <img src="images/team/Kavita-Singh-II-e1594149412865.jpg" class="img-fluid" alt="Kavita Singh - VP, AI Product Management">
                     </a>
                   </div>
-                </div>
+                </div> -->
 
-                <div class="carousel-item">
+                <!-- <div class="carousel-item"> -->
                   <!-- Dave French -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=DaveFrench">
                       <div class="teamInfoContent">
                         <h2>Dave French</h2>
@@ -291,9 +290,9 @@
                       </div>
                       <img src="images/team/DaveFrench.jpg" class="img-fluid" alt="Dave French - VP, Finance">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Denise Delisle -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=DeniseDelisle">
                       <div class="teamInfoContent">
                         <h2>Denise Delisle</h2>
@@ -301,9 +300,9 @@
                       </div>
                       <img src="images/team/Denise-Delisle-2.jpg" class="img-fluid" alt="Denise Delisle - VP, Payment Operations">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Ted Chaney -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=TedChaney">
                       <div class="teamInfoContent">
                         <h2>Ted Chaney</h2>
@@ -311,9 +310,9 @@
                       </div>
                       <img src="images/team/TedChaney.jpg" class="img-fluid" alt="Ted Chaney - VP, Strategic Partnerships & Channels">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Song Nunnallee -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=Song">
                       <div class="teamInfoContent">
                         <h2>Song Nunnallee</h2>
@@ -324,9 +323,9 @@
                   </div>
                 </div>
 
-                <div class="carousel-item">
+                <div class="carousel-item"> -->
                   <!-- Lena Mitchell -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=LenaMitchell">
                       <div class="teamInfoContent">
                         <h2>Lena Mitchell</h2>
@@ -334,9 +333,9 @@
                       </div>
                       <img src="images/team/Lena-Mitchell-2.jpg" class="img-fluid" alt="Lena Mitchell - Director of Implementation">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Katie Stein -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=KatieStein">
                       <div class="teamInfoContent">
                         <h2>Katie Stein</h2>
@@ -344,9 +343,9 @@
                       </div>
                       <img src="images/team/Katie-Headshot-iii-e1619541707871.jpg" class="img-fluid" alt="Katie Stein - Director, Client Success">
                     </a>
-                  </div>
+                  </div> -->
                   <!-- Fran Chan -->
-                  <div class="teamInfo">
+                  <!-- <div class="teamInfo">
                     <a href="team.php?id=FranChan">
                       <div class="teamInfoContent">
                         <h2>Frank Chan</h2>
@@ -357,9 +356,9 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <!-- Prev / Next -->
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
@@ -368,7 +367,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-        </section>
+        </section> -->
 
         <section id="teamText">
           <div class="container">

@@ -53,51 +53,58 @@ $(document).ready(function(){
     // PRODUCTS
     $('#paybillsBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payAPerson, #transferMoney, #creditPayPro, #billerServices, #businessSolutions, #accountFunding').hide()
+        $('#payAPerson, #transferMoney, #payALoan, #billerServices, #businessSolutions, #fraudMonitor, #actInsights').hide()
         $('#paybillsBtn').addClass('active2')
         $('#payABill').fadeIn(200)
     })
 
     $('#payAPersonBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #creditPayPro, #transferMoney, #billerServices, #businessSolutions, #accountFunding').hide()
+        $('#payABill, #payALoan, #transferMoney, #billerServices, #businessSolutions, #fraudMonitor, #actInsights').hide()
         $('#payAPersonBtn').addClass('active2')
         $('#payAPerson').fadeIn(200)
     })
 
     $('#transferMoneyBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #creditPayPro, #billerServices, #businessSolutions, #accountFunding').hide()
+        $('#payABill, #payAPerson, #payALoan, #billerServices, #businessSolutions, #fraudMonitor, #actInsights').hide()
         $('#transferMoneyBtn').addClass('active2')
         $('#transferMoney').fadeIn(200)
     })
 
-    $('#ccpBtn').on('click', function(){
+    $('#payALoanBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #transferMoney, #billerServices, #businessSolutions, #accountFunding').hide()
-        $('#ccpBtn').addClass('active2')
-        $('#creditPayPro').fadeIn(200)
+        $('#payABill, #payAPerson, #transferMoney, #billerServices, #businessSolutions, #fraudMonitor, #actInsights').hide()
+        $('#payALoanBtn').addClass('active2')
+        $('#payALoan').fadeIn(200)
     })
 
     $('#bsolBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #billerServices, #accountFunding').hide()
+        $('#payABill, #payAPerson, #transferMoney, #payALoan, #billerServices, #fraudMonitor, #actInsights').hide()
         $('#bsolBtn').addClass('active2')
         $('#businessSolutions').fadeIn(200)
     })
 
     $('#bserBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #businessSolutions, #accountFunding').hide()
+        $('#payABill, #payAPerson, #transferMoney, #payALoan, #businessSolutions, #fraudMonitor, #actInsights').hide()
         $('#bserBtn').addClass('active2')
         $('#billerServices').fadeIn(200)
     })
 
-    $('#accountFundingBtn').on('click', function(){
+    $('#fraudBtn').on('click', function(){
         $('.product').removeClass('active2')
-        $('#payABill, #payAPerson, #transferMoney, #creditPayPro, #businessSolutions, #billerServices').hide()
-        $('#accountFundingBtn').addClass('active2')
-        $('#accountFunding').fadeIn(200)
+        $('#payABill, #payAPerson, #transferMoney, #payALoan, #businessSolutions, #billerServices, #actInsights').hide()
+        $('#fraudBtn').addClass('active2')
+        $('#fraudMonitor').fadeIn(200)
+    })
+
+    $('#actionInsightsBtn').on('click', function(){
+        $('.product').removeClass('active2')
+        $('#payABill, #payAPerson, #transferMoney, #payALoan, #businessSolutions, #billerServices, #fraudMonitor').hide()
+        $('#actionInsightsBtn').addClass('active2')
+        $('#actInsights').fadeIn(200)
     })
 
     

@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="Our team of financial-industry professionals and technologists is committed to a better, smarter  digital payments experience.">
 
-      <title>About Payrailz | The only digital payments platform you’ll ever need</title>
+      <title>About Payrailz | The only digital payments platform you'll ever need</title>
 
       <link rel="stylesheet" href="css/bootstrap.min.css">   
       
@@ -64,7 +64,8 @@
                 <div class="row">
                     <div class="col-10 offset-1">
                         <h1>We are Payrailz</h1>
-                        <p>Our company was built around the central mission of making the payments experience smarter and more engaging. With the financial backing and expertise of nearly two dozen FI investors, and a leadership team with a combined 300+ years in Financial Services and Fintech, we have both the resources and experience to develop our consumer-centric technology without being skewed by external&nbsp;forces. </p>
+                        <p>Our company was built around the central mission of making the payments experience smarter and more engaging. With the financial backing and expertise of nearly two dozen FI investors, and a leadership team with a combined 300+ years in Financial Services and Fintech, we have both the resources and experience to develop our consumer-centric technology without being skewed by external&nbsp;forces.</p>
+                        <p>Experienced professionals, focused on bringing the latest payment technology & USER EXPERIENCE innovation to Financial Institutions and their&nbsp;customers!</p>
                     </div>
                 </div>
             </div>
@@ -77,9 +78,36 @@
                         <h1>Momentum is on our side.</h1>
                         <p>The Payrailz platform is growing rapidly with some of the most respected financial industry clients and investors placing their trust&nbsp;in&nbsp;us.</p>
                         <div class="row">
-                            <div class="col-10 offset-1">
-                                <div class="row" id="assets">
-                                    <div class="col-4 col-xl-3">
+                            <div class="col-10 offset-1 col-sm-6 offset-sm-3">
+                                <div class="row" id="aboutNumbers">
+                                    <div class="col-12">
+                                        <h5>Company</h5>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>2016 <span>Founded</span></h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <h5>Live Date</h5>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>2019</h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <h5>Momentum</h5>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>101 Clients</h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>36 <span>MM Annual Transactions</span></h3>
+                                    </div>
+                                    <div class="col-12">
+                                        <h5>Investors</h5>
+                                    </div>
+                                    <div class="col-12 pb-1">
+                                        <h3>22 <span>Fl Investors</span></h3>
+                                    </div>
+                                    <!-- <div class="col-4 col-xl-3">
                                         <div class="purpleBG">
                                             <h1>
                                                 Current<br>
@@ -90,7 +118,7 @@
                                     <div class="col-8 col-xl-9 assets">
                                         <h1>$72.2 Billion Assets
                                         25.8 Million Annual&nbsp;Transactions</h1>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>

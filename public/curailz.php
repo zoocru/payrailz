@@ -59,7 +59,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-10 offset-1">
-                        <img src="images/CURailz-logo.png" id="cuRailzLogo" class="img-fluid" alt="CU Railz">
+                        <img src="images/CURailz-logo.svg" id="cuRailzLogo" class="img-fluid" alt="CU Railz">
                         <h1>Together, we're&nbsp;better.</h1>
                         <p>It's time for Credit Unions to collaborate on the payments experience and leapfrog the competition. Working together, we created CU Railz, a CUSO that enables credit unions to exceed members' expectations with all of the features and benefits of the Payrailz smarter payments&nbsp;experience</p>
                     </div>
@@ -75,10 +75,10 @@
                         <p>CU Railz helps credit unions take control of their future by partnering with Payrailz to collaborate on new, innovative payment technologies and services that will revolutionize the payments experience. The CUSO was specially created to provide credit unions with access to our solutions and&nbsp;advantages.</p>
 
                         <h2>Stay Competitive</h2>
-                        <p>Credit unions need next-generation products and services to better compete in an ever-changing banking landscape. To succeed in this environment, they must collaborate on a large scale on strategic technology investments and leverage their collective influence – through group buying and/or equity&nbsp;ownership.</p>
+                        <p>Credit unions need next-generation products and services to better compete in an ever-changing banking landscape. To succeed in this environment, they must collaborate on a large scale on strategic technology investments and leverage their collective influence - through group buying and/or equity&nbsp;ownership.</p>
 
                         <h2>Offer Better Technology</h2>
-                        <p>Payrailz’ payment services leverage an innovative, smart platform based on AI technology that enables credit unions to create unique digital payment experiences and build valuable digital relationships with both consumers and businesses. Payrailz’ PayWayz<sup>®</sup> smart routing technology and our Action Insight Generator<sup>®</sup> make proactive, intelligent and personalized recommendations, helping you to build stronger relationships with members and ensure they stay financially&nbsp;healthy.</p>
+                        <p>Payrailz' payment services leverage an innovative, smart platform based on AI technology that enables credit unions to create unique digital payment experiences and build valuable digital relationships with both consumers and businesses. Payrailz' PayWayz<sup>®</sup> smart routing technology and our Action Insight Generator<sup>®</sup> make proactive, intelligent and personalized recommendations, helping you to build stronger relationships with members and ensure they stay financially&nbsp;healthy.</p>
 
                         <p class="lastone">Want to learn more?</p>
                         <a id="button1" href="contact.php">

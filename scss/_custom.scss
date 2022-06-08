@@ -899,13 +899,14 @@ main {
     }
 
     #teamText { 
-        margin-top: 100px;
+        margin-top: 450px;
         text-align: center;
+        @include media-breakpoint-down(lg) { margin-top: 400px; }
+        @include media-breakpoint-only(sm) { margin-top: 525px; }
         
         h1 {
             color: $primary;
             font-weight: 700;
-            font-size: 20px;
         }
     }
 }
@@ -923,7 +924,7 @@ main {
     @include media-breakpoint-only(lg) {height: 920px;}
     @include media-breakpoint-only(md) {height: 1200px;}
     @include media-breakpoint-only(sm) {height: 1400px;}
-    @include media-breakpoint-only(xs) {height: 2650px;}
+    @include media-breakpoint-only(xs) {height: 1930px;}
 
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#50185b+1,330949+100 */
     background: $primary; /* Old browsers */
@@ -942,7 +943,13 @@ main {
         @include media-breakpoint-only(md) {height: 1150px;}
         @include media-breakpoint-only(sm) {height: 1400px;}
         @include media-breakpoint-only(xs) {height: 1200px;}
-    } 
+    }
+    #callOutBoxes {
+        #teamText {
+            margin-top: 100px;
+        }
+    }
+
 }
 
 // Inside Pages **********************************************
@@ -966,8 +973,6 @@ main {
     z-index: 3;
 
     h1 { 
-        margin-top: -100px;
-        // Jaime the margin above may have to be adjusted in responsive
         color: $primary;
         font-weight: 700;
         @include media-breakpoint-down(lg) { 
@@ -1135,7 +1140,7 @@ main {
        content: none;
     }
     #womanPA {
-        @include media-breakpoint-only(xl) { margin-top: 50px; margin-right: 50px; }
+        @include media-breakpoint-only(xl) { margin-top: 50px; }
 
         img {
             @include media-breakpoint-only(xl) { margin-top: -5px; }
@@ -1339,8 +1344,9 @@ main {
    } 
    
    #payAPerson, #transferMoney,
-   #creditPayPro, #businessSolutions,
-   #billerServices, #accountFunding { display: none; }
+   #payALoan, #businessSolutions,
+   #billerServices, #fraudMonitor, 
+   #actInsights { display: none; }
 }
 
 
@@ -1457,6 +1463,7 @@ main {
 
 #about { 
     text-align: center;
+    margin-bottom: 50px;
 
     h1 { 
         color: $primary; 
@@ -1543,6 +1550,26 @@ figcaption {
         color: #231f20 !important;
         font-weight: 400 !important;
     }
+}
+
+#aboutNumbers {
+    padding: 9px;
+    h5 {
+        text-transform: uppercase;
+        padding-top: 15px;
+    }
+    h3 {
+        display: block;
+        color: #231f20;
+        font-size: 1.7em;
+
+        span {
+            font-size: 60%;
+            font-weight: 400;
+        }
+
+    }
+    background-color: $white;
 }
 
 .purpleBG { 
@@ -2312,7 +2339,13 @@ h1.entry-title { color: #1f1f1f; }
     display: flex;
     justify-content: center;
     flex-direction: column;
-    // Jaime: needs media query
+    padding-bottom: 200px;
+    @include media-breakpoint-down(lg) { 
+        display: block; 
+    }
+    @include media-breakpoint-down(md) { 
+        padding-bottom: 60px; 
+    }
 }
 
 

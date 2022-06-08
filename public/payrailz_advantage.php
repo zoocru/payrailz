@@ -59,10 +59,21 @@
             <section id="expectations">
                 <div class="container-fluid">
                     <div class="row no-gutter">
-                        <div class="col-12 col-md-6 offset-md-1 col-lg-5 offset-lg-2 d-flex">
+                        <div class="col-12 col-md-7 col-lg-5 offset-lg-2 d-flex">
                             <div id="expectationsContent">
                                 <h1>Changing Expectations</h1>
-                                <p>In today's landscape, payment experiences must go beyond transactions to make emotional connections with consumers. This requires a keen understanding of how people think about money, and continuous innovation to over-deliver against their ever-changing expectations. Introducing Payrailz, a smarter payments&nbsp;experience.</p>
+                                <p>In today's landscape, digital experiences must go beyond transactions to make emotional connections with consumers. This requires a keen understanding of how people think about money, and continuous innovation to over-deliver against their ever-changing expectations. Introducing Payrailz, a smarter payments experience. Delivers your payment needs of today. Prepares you for the payment innovation needs 
+                                of&nbsp;tomorrow.</p>
+                                <h3>Payrailz delivers Smarter, Faster, Easier Payment Experiences</h3>
+                                <ul>
+                                    <li><span class="bold">Flex UX</span> - API First, Process Modules, Highly Customizable UI with less effort.</li>
+                                    <li><span class="bold">Action Insights</span> - Predictive & Proactive Recommendations to Build Digital Relationships.</li>
+                                    <li><span class="bold">PayWayz</span> - Dynamic Routing, Single Open Platform, Multi-Rail distribution.</li>
+                                    <li><span class="bold">Full Money Movement</span> - P2P, Bill Pay, A2A, Loan Payments, B2C, B2B… on a Single Platform.</li>
+                                    <li><span class="bold">Innovation</span> - Action Insights, Artificial Intelligence, PayWayz, Smart Banker…</li>
+                                    <li><span class="bold">Real Time as the Norm</span> - MasterCard BPX, Card Networks, PZNet, RTP, FedNow.</li>
+                                    <li><span class="bold">Client Funded</span> = Client Focused!</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-12 col-md-4 offset-md-1 justify-content-sm-center d-none d-md-block" style="padding-right: 0 !important;">

@@ -6653,12 +6653,17 @@ main {
       #callOutBoxes .carousel-control-prev-icon {
         margin-right: 20px; } }
   #callOutBoxes #teamText {
-    margin-top: 100px;
+    margin-top: 450px;
     text-align: center; }
+    @media (max-width: 1199.98px) {
+      #callOutBoxes #teamText {
+        margin-top: 400px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      #callOutBoxes #teamText {
+        margin-top: 525px; } }
     #callOutBoxes #teamText h1 {
       color: #732282;
-      font-weight: 700;
-      font-size: 20px; }
+      font-weight: 700; }
 
 .teamActive {
   opacity: 1 !important; }
@@ -6695,7 +6700,7 @@ main {
       height: 1400px; } }
   @media (max-width: 575.98px) {
     #callOutBoxes:before {
-      height: 2650px; } }
+      height: 1930px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   #aboutMain #callOutBoxes:before {
@@ -6708,6 +6713,9 @@ main {
 @media (max-width: 575.98px) {
   #aboutMain #callOutBoxes:before {
     height: 1200px; } }
+
+#aboutMain #callOutBoxes #teamText {
+  margin-top: 100px; }
 
 #breadcrumbs {
   position: relative;
@@ -6725,7 +6733,6 @@ main {
   position: relative;
   z-index: 3; }
   #expectations h1 {
-    margin-top: -100px;
     color: #732282;
     font-weight: 700; }
     @media (max-width: 1199.98px) {
@@ -6874,8 +6881,7 @@ main {
 
 @media (min-width: 1200px) {
   #expectations #womanPA {
-    margin-top: 50px;
-    margin-right: 50px; } }
+    margin-top: 50px; } }
 
 @media (min-width: 1200px) {
   #expectations #womanPA img {
@@ -7067,8 +7073,9 @@ main {
     transform: skewY(-2deg);
     z-index: -1; }
   #productsSection #payAPerson, #productsSection #transferMoney,
-  #productsSection #creditPayPro, #productsSection #businessSolutions,
-  #productsSection #billerServices, #productsSection #accountFunding {
+  #productsSection #payALoan, #productsSection #businessSolutions,
+  #productsSection #billerServices, #productsSection #fraudMonitor,
+  #productsSection #actInsights {
     display: none; }
 
 #contact, #testimonial {
@@ -7170,7 +7177,8 @@ main {
   background-color: rgba(115, 34, 130, 0.3); }
 
 #about {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 50px; }
   #about h1 {
     color: #732282;
     font-weight: bold; }
@@ -7255,6 +7263,20 @@ figcaption {
   padding-left: 35px;
   color: #231f20 !important;
   font-weight: 400 !important; }
+
+#aboutNumbers {
+  padding: 9px;
+  background-color: #fff; }
+  #aboutNumbers h5 {
+    text-transform: uppercase;
+    padding-top: 15px; }
+  #aboutNumbers h3 {
+    display: block;
+    color: #231f20;
+    font-size: 1.7em; }
+    #aboutNumbers h3 span {
+      font-size: 60%;
+      font-weight: 400; }
 
 .purpleBG {
   position: relative;
@@ -7895,7 +7917,14 @@ h1.entry-title {
 #expectationsContent {
   display: flex;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-bottom: 200px; }
+  @media (max-width: 1199.98px) {
+    #expectationsContent {
+      display: block; } }
+  @media (max-width: 991.98px) {
+    #expectationsContent {
+      padding-bottom: 60px; } }
 
 .border-top {
   border-top: 1px solid #B3FF3A !important; }
