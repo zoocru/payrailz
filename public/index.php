@@ -1,6 +1,8 @@
 <?php
 	require('db.php');
 
+  session_start();
+
   $sql = "SELECT * FROM testimonials
           WHERE active = 1 AND featured = 1
           ORDER by RAND()

@@ -3,7 +3,7 @@
     $to ='MGoldwasser@payrailz.com';
     $to2 ='JKern@payrailz.com';
     
-	session_start();
+	// session_start();
     
     if(isset($_POST['submit'])){
         $subject = "Payrailz newsletter form submission";
@@ -22,7 +22,7 @@
         mail($to, $subject, $body, $headers);
         mail($to2, $subject, $body, $headers);
 
-        session_start();
+        //session_start();
         $_SESSION['contact_form2'] = "Yes";
         
         header('Location: contact-thankyou2.php');

@@ -45,16 +45,17 @@
 			if ($_FILES["file"]["error"] > 0) {
 				echo "Return Code: " . $_FILES["file"]["error"] . "<br>";
 			} else {
-				if (file_exists("news/" . $_FILES["file"]["name"])) {
+				if (file_exists("upl/" . $_FILES["file"]["name"])) {
 					//$alreadyExists = " already exists. ";
 					echo $_FILES["file"]["name"] . $alreadyExists;
 				} else {
-					move_uploaded_file($_FILES["file"]["tmp_name"],
-                    "/Users/anibalcruz/Sites/Payrailz/public/uploads/" . $_FILES["file"]["name"]);
-                    // Above is local
-
+                    // Local
+					// move_uploaded_file($_FILES["file"]["tmp_name"],
+                    // "/Users/anibalcruz/Sites/Payrailz/public/uploads/" . $_FILES["file"]["name"]);
+                   
                     // Production
-					// "/home/crystal/public_html/uploads/news/" . $_FILES["file"]["name"]);
+                    move_uploaded_file($_FILES["file"]["tmp_name"],
+					"/home/payweb1/public_html/uploads/" . $_FILES["file"]["name"]);
                     
 					$uploaded = $_FILES["file"]["name"];
                     

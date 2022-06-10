@@ -58,9 +58,13 @@
 					//$alreadyExists = " already exists. ";
 					echo $_FILES["file"]["name"] . $alreadyExists;
 				} else {
-					move_uploaded_file($_FILES["file"]["tmp_name"],
-					"/Users/anibalcruz/Sites/Payrailz/public/uploads/" . $_FILES["file"]["name"]);
-                    // Above is local
+                    // Local
+					// move_uploaded_file($_FILES["file"]["tmp_name"],
+					// "/Users/anibalcruz/Sites/Payrailz/public/uploads/" . $_FILES["file"]["name"]);
+                    
+                    // Production
+                    move_uploaded_file($_FILES["file"]["tmp_name"],
+					"/home/payweb1/public_html/uploads/" . $_FILES["file"]["name"]);
 
 					$uploaded = $_FILES["file"]["name"];
                     
