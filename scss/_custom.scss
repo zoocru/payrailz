@@ -1472,21 +1472,21 @@ main {
     }
 }
 
-#manPA:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: -30px;
-    width: 100%;
-    height: 80px;
-    background-color: $white;
+// #manPA:before {
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     top: -30px;
+//     width: 100%;
+//     height: 80px;
+//     background-color: $white;
 
-    -webkit-transform: skewY(6deg);
-    transform: skewY(6deg);
-    z-index: 2;
-    @include media-breakpoint-only(xl) { height: 120px; }
+//     -webkit-transform: skewY(6deg);
+//     transform: skewY(6deg);
+//     z-index: 2;
+//     @include media-breakpoint-only(xl) { height: 120px; }
 
-}
+// }
 
 
 #productDetailPage { 
@@ -2183,7 +2183,7 @@ a#infoEmail {
         position: relative;
         height: 100%;
         margin: 10px;
-        padding: 20px;
+        padding: 20px 50px;
         padding-bottom: 10px;
         background-color: rgba($color: $lightGray, $alpha: 1);
         border-radius: 12px;
@@ -2201,6 +2201,25 @@ a#infoEmail {
         }
         h3, h4 { font-size: .825em; }
         h4 { padding-top: 0; }
+
+        .quotesTestimonialsBG {
+            img {
+                position: absolute;
+                width: 50px !important;
+                height: auto !important;
+                // z-index: 1;
+            }
+            .quoteTop {
+                top: 100px;
+                left: 10px;
+                opacity: 0.5;
+            }
+            .quoteBot {
+                bottom: 100px;
+                right: 10px;
+                opacity: 0.5;
+            }
+        }
     }
 }
 
@@ -2246,7 +2265,7 @@ header#adminHeader {
 
 #testimonials {
     .testimonial {
-        padding: 10px 10px 20px;
+        // padding: 10px 10px 20px;
         text-align: center;
 
         img {

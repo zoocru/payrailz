@@ -91,6 +91,10 @@
                                     <div class="col-12 col-md-6 col-xxl-4">
                                         <div class="testimonial shadow">
                                             <img src="../uploads/<?=$row['imageUrl']?>" alt="<?=$row['altTag']?> class="img-fluid">
+                                            <div class="quotesTestimonialsBG">
+                                                <img class="quoteTop" src="images/quotes1.svg">
+                                                <img class="quoteBot" src="images/quotes2.svg">
+                                            </div>
                                             <?=$row['testimonial']?>
                                             <h2><?=$row['author']?></h2>
                                             <h3><?=$row['authorTitle']?></h3>
@@ -104,7 +108,12 @@
 
                             <!-- <div class="col-12 col-md-6 col-xxl-4">
                                 <div class="testimonial shadow">
-                                    <p>“I selected Payrailz – twice – as a trusted partner with a best of breed digital payments platform. I believe in Payrailz and love the vision that I have seen come to fruition over the past few years. The Payrailz platform is so much more than just Bill Pay, A2A and P2P. It is evolving with new innovations using AI for a a superior member&nbsp;experience.”</p>
+                                    <img src="../uploads/liberty-bank.png" alt="Liberty Bank" class="img-fluid">
+                                    <div class="quotesTestimonialsBG">
+                                        <img class="quoteTop" src="images/quotes1.svg">
+                                        <img class="quoteBot" src="images/quotes2.svg">
+                                    </div>
+                                    <p>I selected Payrailz – twice – as a trusted partner with a best of breed digital payments platform. I believe in Payrailz and love the vision that I have seen come to fruition over the past few years. The Payrailz platform is so much more than just Bill Pay, A2A and P2P. It is evolving with new innovations using AI for a a superior member&nbsp;experience.</p>
                                     <h2>Ted Hassenfelt</h2>
                                     <h3>CIO</h3>
                                     <h4>Publix Employees Federal Credit&nbsp;Union</h4>
@@ -112,7 +121,12 @@
                             </div>
                             <div class="col-12 col-md-6 col-xxl-4">
                                 <div class="testimonial shadow">
-                                    <p>“Having gone live with Payrailz, I can easily say this was one of the best conversion processes I have been involved with over the last 30 years. The teams from both sides were very responsive and dealt with any issues. Directly and quickly. We made the right choice in partners from both a partner standpoint and as an&nbsp;investor.”</p>
+                                    <img src="../uploads/meritrust.png" alt="Liberty Bank" class="img-fluid">
+                                    <div class="quotesTestimonialsBG">
+                                        <img class="quoteTop" src="images/quotes1.svg">
+                                        <img class="quoteBot" src="images/quotes2.svg">
+                                    </div>
+                                    <p>Having gone live with Payrailz, I can easily say this was one of the best conversion processes I have been involved with over the last 30 years. The teams from both sides were very responsive and dealt with any issues. Directly and quickly. We made the right choice in partners from both a partner standpoint and as an&nbsp;investor.</p>
                                     <h2>Wade E. Bruendl</h2>
                                     <h3>SVP/Chief Digital Officer</h3>
                                     <h4>Meritrust Credit Union</h4>
@@ -120,14 +134,23 @@
                             </div>
                             <div class="col-12 col-md-6 col-xxl-4">
                                 <div class="testimonial shadow">
-                                    <p>“At Purdue Federal, we live out the credit union philosophy of ‘people helping people’ and to help our members, providing innovative payment capabilities is&nbsp;vital.</p>
-                                    <p>Purdue Federal and Payrailz have a shared vision to provide credit union members with payments solutions that meet their current and future needs to help set them up for financial&nbsp;success.”</p>
+                                    <img src="../uploads/publix.png" alt="Liberty Bank" class="img-fluid">
+                                    <div class="quotesTestimonialsBG">
+                                        <img class="quoteTop" src="images/quotes1.svg">
+                                        <img class="quoteBot" src="images/quotes2.svg">
+                                    </div>
+                                    <p>At Purdue Federal, we live out the credit union philosophy of ‘people helping people’ and to help our members, providing innovative payment capabilities is&nbsp;vital.</p>
+                                    <p>Purdue Federal and Payrailz have a shared vision to provide credit union members with payments solutions that meet their current and future needs to help set them up for financial&nbsp;success.</p>
                                     <h2>Purdue Federal Credit&nbsp;Union</h2>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-xxl-4">
                                 <div class="testimonial shadow">
-                                    <p>“At Liberty Bank we pride ourselves on our ability to drive continuous innovation in our digital engagement. Our goal isn’t just to keep pace with current trends; our goal is to offer a money movement experience that sets us apart from the abundance of competition, from large money center banks, to the new Fintech players. Payrailz’ revolutionary payments platform will be the foundation for Liberty to execute on our payments vision now and into the&nbsp;future.” </p>
+                                    <div class="quotesTestimonialsBG">
+                                        <img class="quoteTop" src="images/quotes1.svg">
+                                        <img class="quoteBot" src="images/quotes2.svg">
+                                    </div>
+                                    <p>At Liberty Bank we pride ourselves on our ability to drive continuous innovation in our digital engagement. Our goal isn’t just to keep pace with current trends; our goal is to offer a money movement experience that sets us apart from the abundance of competition, from large money center banks, to the new Fintech players. Payrailz’ revolutionary payments platform will be the foundation for Liberty to execute on our payments vision now and into the&nbsp;future.</p>
                                     <h2>David Mitchell</h2>
                                     <h3>EVP, GM, and Chief Digital&nbsp;Officer</h3>
                                     <h4>Liberty Bank</h4>
@@ -135,12 +158,18 @@
                             </div>
                             <div class="col-12 col-md-6 col-xxl-4">
                                 <div class="testimonial shadow">
-                                    <p>“We are excited to support such a forward-thinking company that is disrupting the payments industry. Payrailz goes beyond a typical payments company, offering advanced technology that sets it apart from the current payments solutions offered by the industry. Payrailz’s approach to payments will give consumers an unmatched and more engaging experience compared to what is available in the marketplace&nbsp;today.”</p>
+                                    <div class="quotesTestimonialsBG">
+                                        <img class="quoteTop" src="images/quotes1.svg">
+                                        <img class="quoteBot" src="images/quotes2.svg">
+                                    </div>
+                                    <p>We are excited to support such a forward-thinking company that is disrupting the payments industry. Payrailz goes beyond a typical payments company, offering advanced technology that sets it apart from the current payments solutions offered by the industry. Payrailz’s approach to payments will give consumers an unmatched and more engaging experience compared to what is available in the marketplace&nbsp;today.</p>
+                                    <p>We are excited to support such a forward-thinking company that is disrupting the payments industry. Payrailz goes beyond a typical payments company, offering advanced technology that sets it apart from the current payments solutions offered by the industry. Payrailz’s approach to payments will give consumers an unmatched and more engaging experience compared to what is available in the marketplace&nbsp;today.</p>
                                     <h2>James D. “Jay” Dreibelbis</h2>
                                     <h3>President and COO</h3>
                                     <h4>Woodforest National Bank</h4>
                                 </div>
                             </div> -->
+
                         </div>
                     </div>
                 </div>

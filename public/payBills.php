@@ -62,7 +62,7 @@
                     <div class="row no-gutter">
                         <div class="col-12 col-md-3 col-lg-4 d-none d-md-block" style="padding-left: 0 !important;">
                             <div id="manPA">
-                                <img src="images/paybill-laptop.png" class="img-fluid shadow2" alt="Pay Bills">
+                                <img src="images/paybill-laptop.png" class="img-fluid" alt="Pay Bills">
                             </div>
                         </div>    
                         <div class="col-12 col-md-8 col-lg-6 offset-lg-1">
