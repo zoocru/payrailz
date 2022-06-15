@@ -2203,20 +2203,21 @@ a#infoEmail {
         h4 { padding-top: 0; }
 
         .quotesTestimonialsBG {
+            position: relative;
             img {
                 position: absolute;
-                width: 50px !important;
+                width: 40px !important;
                 height: auto !important;
                 // z-index: 1;
             }
             .quoteTop {
-                top: 100px;
-                left: 10px;
+                top: -20px;
+                left: -25px;
                 opacity: 0.5;
             }
             .quoteBot {
-                bottom: 100px;
-                right: 10px;
+                bottom: 0;
+                right: -25px;
                 opacity: 0.5;
             }
         }

@@ -7812,18 +7812,20 @@ a#infoEmail {
     font-size: .825em; }
   #testimonial .testimonial h4 {
     padding-top: 0; }
-  #testimonial .testimonial .quotesTestimonialsBG img {
-    position: absolute;
-    width: 50px !important;
-    height: auto !important; }
-  #testimonial .testimonial .quotesTestimonialsBG .quoteTop {
-    top: 100px;
-    left: 10px;
-    opacity: 0.5; }
-  #testimonial .testimonial .quotesTestimonialsBG .quoteBot {
-    bottom: 100px;
-    right: 10px;
-    opacity: 0.5; }
+  #testimonial .testimonial .quotesTestimonialsBG {
+    position: relative; }
+    #testimonial .testimonial .quotesTestimonialsBG img {
+      position: absolute;
+      width: 40px !important;
+      height: auto !important; }
+    #testimonial .testimonial .quotesTestimonialsBG .quoteTop {
+      top: -20px;
+      left: -25px;
+      opacity: 0.5; }
+    #testimonial .testimonial .quotesTestimonialsBG .quoteBot {
+      bottom: 0;
+      right: -25px;
+      opacity: 0.5; }
 
 header#adminHeader {
   position: relative;
