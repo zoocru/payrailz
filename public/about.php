@@ -242,7 +242,7 @@
                     <div class="col-12 col-lg-9">
                         <div id="aboutTeaser">
                             <h1>Smart people. Smart solutions. Smart&nbsp;service.</h1>
-                            <p>At Payrailz, it’s not only about technology. We pride ourselves on personal service from real people with real-world experience, who know and understand your pain points. Our service team is always available with dedicated and personalized implementation assistance, ongoing project management, and whatever else you need to transform your payments&nbsp;experience.</p>
+                            <p>At Payrailz, it's not only about technology. We pride ourselves on personal service from real people with real-world experience, who know and understand your pain points. Our service team is always available with dedicated and personalized implementation assistance, ongoing project management, and whatever else you need to transform your payments&nbsp;experience.</p>
                             <p>We enable banks and credit unions to better meet the expectations of their customers or members by offering an innovative payment experience with a “Do It For Me” approach that keeps them well informed and in control of their financial&nbsp;wellness.</p>
                         </div>
                     </div>
@@ -257,7 +257,7 @@
                     </div>
                     <div class="col-12 col-md-4 pillar">
                         <h1>Backed</h1>
-                        <p>Backed by the country’s leading banks and credit&nbsp;unions.</p>
+                        <p>Backed by the country's leading banks and credit&nbsp;unions.</p>
                     </div>
                     <div class="col-12 col-md-4 pillar">
                         <h1>Trusted</h1>
@@ -307,29 +307,6 @@
                                     <img src="images/team/PaulFrankoII.jpg" class="img-fluid" alt="Paul Franko II - COO & Founder">
                                     </a>
                                 </div>
-                                <!-- Rich Pelikan -->
-                                <div class="teamInfo">
-                                    <a href="team.php?id=RichPelikan">
-                                    <div class="teamInfoContent">
-                                        <h2>Rich Pelikan</h2>
-                                        <h4>CBDO & Founder</h4>
-                                    </div>
-                                    <img src="images/team/RichPelikan.jpg" class="img-fluid" alt="RichPelikan - CBDO & Founder">
-                                    </a>
-                                </div>
-                                <!-- Horng Tern -->
-                                <div class="teamInfo">
-                                    <a href="team.php?id=HorngTern">
-                                    <div class="teamInfoContent">
-                                        <h2>Horng Tern</h2>
-                                        <h4>CTO</h4>
-                                    </div>
-                                    <img src="images/team/Horng-Tern-2.jpg" class="img-fluid" alt="Horng Tern - CTO">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">                  
                                 <!-- Jim Kern -->
                                 <div class="teamInfo">
                                     <a href="team.php?id=JimKern">
@@ -350,14 +327,27 @@
                                     <img src="images/team/mickeygoldwasser.jpg" class="img-fluid" alt="Mickey Goldwasser - VP, Marketing & Chief of Staff">
                                     </a>
                                 </div>
+                            </div>
+
+                            <div class="carousel-item">    
                                 <!-- Gereen Langmeyer -->
                                 <div class="teamInfo">
                                     <a href="team.php?id=GereenLangmeyer">
                                     <div class="teamInfoContent">
                                         <h2>Gereen Langmeyer</h2>
-                                        <h4>VP, Payment Product&nbsp;Management</h4>
+                                        <h4>VP, Client&nbsp;Experience</h4>
                                     </div>
-                                    <img src="images/team/DaveFrench.jpg" class="img-fluid" alt="Gereen Langmeyer - VP, Payment Product Management">
+                                    <img src="images/team/Gereen-Langmeyer-II-e1571954839543.jpg" class="img-fluid" alt="Gereen Langmeyer - VP, Payment Product Management">
+                                    </a>
+                                </div>
+                                <!-- Steve Dubner -->
+                                <div class="teamInfo">
+                                    <a href="team.php?id=SteveDubner">
+                                    <div class="teamInfoContent">
+                                        <h2>Steve Dubner</h2>
+                                        <h4>VP, Payment Products</h4>
+                                    </div>
+                                    <img src="images/team/S-Dubner-headshot_web-2.jpg" class="img-fluid" alt="Steve Dubner - VP, Payment Products">
                                     </a>
                                 </div>
                                 <!-- Kavita Singh -->
@@ -368,6 +358,16 @@
                                         <h4>VP, AI Product&nbsp;Management</h4>
                                     </div>
                                     <img src="images/team/Kavita-Singh-II-e1594149412865.jpg" class="img-fluid" alt="Kavita Singh - VP, AI Product Management">
+                                    </a>
+                                </div>
+                                <!-- Denise Delisle -->
+                                <div class="teamInfo">
+                                    <a href="team.php?id=DeniseDelisle">
+                                    <div class="teamInfoContent">
+                                        <h2>Denise Delisle</h2>
+                                        <h4>VP, Payment Operations</h4>
+                                    </div>
+                                    <img src="images/team/Denise-Delisle-2.jpg" class="img-fluid" alt="Denise Delisle - VP, Payment Operations">
                                     </a>
                                 </div>
                             </div>
@@ -383,14 +383,14 @@
                                     <img src="images/team/DaveFrench.jpg" class="img-fluid" alt="Dave French - VP, Finance">
                                     </a>
                                 </div>
-                                <!-- Denise Delisle -->
+                                <!-- Rich Pelikan -->
                                 <div class="teamInfo">
-                                    <a href="team.php?id=DeniseDelisle">
+                                    <a href="team.php?id=RichPelikan">
                                     <div class="teamInfoContent">
-                                        <h2>Denise Delisle</h2>
-                                        <h4>VP, Payment Operations</h4>
+                                        <h2>Rich Pelikan</h2>
+                                        <h4>CBDO & Founder</h4>
                                     </div>
-                                    <img src="images/team/Denise-Delisle-2.jpg" class="img-fluid" alt="Denise Delisle - VP, Payment Operations">
+                                    <img src="images/team/RichPelikan.jpg" class="img-fluid" alt="RichPelikan - CBDO & Founder">
                                     </a>
                                 </div>
                                 <!-- Ted Chaney -->
@@ -403,19 +403,6 @@
                                     <img src="images/team/TedChaney.jpg" class="img-fluid" alt="Ted Chaney - VP, Strategic Partnerships & Channels">
                                     </a>
                                 </div>
-                                <!-- Song Nunnallee -->
-                                <div class="teamInfo">
-                                    <a href="team.php?id=Song">
-                                    <div class="teamInfoContent">
-                                        <h2>Song Nunnallee</h2>
-                                        <h4>VP, Agile Project&nbsp;Management</h4>
-                                    </div>
-                                    <img src="images/team/Song-Nunnallee-2.jpg" class="img-fluid" alt="Song Nunnallee - VP, Agile Project Management">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
                                 <!-- Lena Mitchell -->
                                 <div class="teamInfo">
                                     <a href="team.php?id=LenaMitchell">
@@ -426,16 +413,9 @@
                                     <img src="images/team/Lena-Mitchell-2.jpg" class="img-fluid" alt="Lena Mitchell - Director of Implementation">
                                     </a>
                                 </div>
-                                <!-- Katie Stein -->
-                                <div class="teamInfo">
-                                    <a href="team.php?id=KatieStein">
-                                    <div class="teamInfoContent">
-                                        <h2>Katie Stein</h2>
-                                        <h4>Director, Client Success</h4>
-                                    </div>
-                                    <img src="images/team/Katie-Headshot-iii-e1619541707871.jpg" class="img-fluid" alt="Katie Stein - Director, Client Success">
-                                    </a>
-                                </div>
+                            </div>
+
+                            <div class="carousel-item">
                                 <!-- Fran Chan -->
                                 <div class="teamInfo">
                                     <a href="team.php?id=FranChan">
@@ -447,7 +427,6 @@
                                     </a>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <!-- Prev / Next -->
