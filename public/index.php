@@ -79,7 +79,9 @@
             <div id="payRailzAdvantageContent" class="col-12 col-lg-6 offset-lg-1 d-flex justify-content-end flex-column align-items-end text-right">
               <div id="HPPayrailzAd"></div>
               <h1><img class="img-fluid shadow" src="images/payrailz-advantage-icon.png" alt="Payrailz Advantage"> Payrailz Advantage</h1>
-              <p>Our real-time Paywayz payment engine with Smart Transaction Routing, Single Open Platform and Multi-Rail distribution, means one solution provider for all your payments requirements and needs. It also provides easy, intelligent,&nbsp;end-user&nbsp;experiences.</p>
+              <p>Our all-in-one digital payments solution seamlessly navigates across existing payment paths and rails, always keeping businesses and consumers ahead of the technology&nbsp;curve.</p>
+              <p>Our real-time Paywayz payment engine with Smart Transaction Routing, Single Open Platform and Multi-Rail distribution, means one solution provider for all your payments requirements and needs. It also provides easy, intelligent, end-user&nbsp;experiences.</p>
+              <p>In a society focused on “Do It For Me<sup>®</sup>”, smart makes the&nbsp;difference.</p>
               <a href="payrailz_advantage.php">
                   <button type="button" class="btn">Learn More</button>  
               </a>
@@ -98,7 +100,11 @@
               <div id="HPVideoLine"></div>
               <div class="row">
                 <div class="col-12 col-lg-6 offset-lg-3">
-                  <iframe class="greenBorder shadow" width="100%" height="315" src="https://www.youtube.com/embed/uBjzFMge6Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <video class="shadow" controls controlslist="nodownload" poster="images/video-poster.jpg" preload="none">
+                        <source src="videos/Payrailz-Explainer-Video.mp4" type="video/mp4">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                  <!-- <iframe class="greenBorder shadow" width="100%" height="315" src="https://www.youtube.com/embed/uBjzFMge6Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                 </div>
               </div>
             </div>

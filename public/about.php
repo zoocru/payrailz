@@ -128,9 +128,9 @@
                                 <div class="row no-gutters">
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
-                                            <img src="images/canapi-logo.png" class="img-fluid" alt="">
+                                            <img src="images/american-federal.jpg" class="img-fluid" alt="">
                                         </div>
-                                    </div> 
+                                    </div>
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/coastal-logo.png" class="img-fluid" alt="">
@@ -138,17 +138,22 @@
                                     </div> 
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
-                                            <img src="images/farmers-logo.png" class="img-fluid" alt="">
+                                            <img src="images/dcu.jpg" class="img-fluid" alt="">
                                         </div>
                                     </div> 
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
-                                            <img src="images/keybank-logo.png" class="img-fluid" alt="">
+                                            <img src="images/farmers-logo.png" class="img-fluid" alt="">
                                         </div>
-                                    </div>   
+                                    </div>  
                                 </div> 
                                 <!--Row 2-->
                                 <div class="row no-gutters">
+                                    <div class="col-6 col-lg-3">
+                                        <div class="clientLogos">
+                                            <img src="images/georgias-own.jpg" class="img-fluid" alt="">
+                                        </div>
+                                    </div> 
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/liberty-logo.png" class="img-fluid" alt="">
@@ -156,9 +161,17 @@
                                     </div> 
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
+                                            <img src="images/live-oak-bank.jpg" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-lg-3">
+                                        <div class="clientLogos">
                                             <img src="images/meritrust-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
+                                </div> 
+                                <!--Row 3-->
+                                <div class="row no-gutters">
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/nusenda-logo.png" class="img-fluid" alt="">
@@ -168,10 +181,7 @@
                                         <div class="clientLogos">
                                             <img src="images/penair-logo.png" class="img-fluid" alt="">
                                         </div>
-                                    </div>   
-                                </div> 
-                                <!--Row 3-->
-                                <div class="row no-gutters">
+                                    </div> 
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/purdue-logo.png" class="img-fluid" alt="">
@@ -181,20 +191,15 @@
                                         <div class="clientLogos">
                                             <img src="images/suncoast-logo.png" class="img-fluid" alt="">
                                         </div>
-                                    </div> 
-                                    <div class="col-6 col-lg-3">
-                                        <div class="clientLogos">
-                                            <img src="images/teachers-logo.png" class="img-fluid" alt="">
-                                        </div>
-                                    </div> 
-                                    <div class="col-6 col-lg-3">
-                                        <div class="clientLogos">
-                                            <img src="images/truist-logo.png" class="img-fluid" alt="">
-                                        </div>
                                     </div>   
                                 </div>
                                 <!--Row 4-->
                                 <div class="row no-gutters">
+                                 <div class="col-6 col-lg-3">
+                                        <div class="clientLogos">
+                                            <img src="images/teachers-logo.png" class="img-fluid" alt="">
+                                        </div>
+                                    </div> 
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/twinstar-logo.png" class="img-fluid" alt="">
@@ -203,11 +208,6 @@
                                     <div class="col-6 col-lg-3">
                                         <div class="clientLogos">
                                             <img src="images/unify-logo.png" class="img-fluid" alt="">
-                                        </div>
-                                    </div> 
-                                    <div class="col-6 col-lg-3">
-                                        <div class="clientLogos">
-                                            <img src="images/varady-logo.png" class="img-fluid" alt="">
                                         </div>
                                     </div> 
                                     <div class="col-6 col-lg-3">

@@ -133,6 +133,7 @@
                             <div id="businessSolutions" class="productDetail shadow">
                                 <h1>Payrailz Business Solutions</h1>
                                 <p>Payrailz supports a full array of solutions designed for businesses on the same platform. Allows for multiple users at the same business, with different access&nbsp;entitlements.</p>
+                                <p>Payrailz offers the next generation of electronic Billing, Invoice and Payment Solutions, including Business Bill Pay, Disbursements (B2C), External Transfer (A2A) and New Account Funding&nbsp;(A2A).</p>
                                 <a id="button1" href="businessSolutions.php">
                                     <button type="button" class="btn">Learn More</button>  
                                 </a>
